@@ -1,0 +1,1313 @@
+{
+  "feed_sources": [
+    {
+      "id": "matt-pocock-aihero",
+      "title": "AI Hero RSS Feed",
+      "link": "https://www.aihero.dev",
+      "description": "AI Engineering for Curious Professional Developers"
+    },
+    {
+      "id": "martin-fowler",
+      "title": "Martin Fowler",
+      "link": "https://martinfowler.com",
+      "description": "Master feed of news and updates from martinfowler.com"
+    }
+  ],
+  "feed_items": [
+    {
+      "title": "AI Hero Newsletter by Matt Pocock",
+      "link": "https://www.aihero.dev/newsletter",
+      "description": "Subscribe to be the first to learn about AI Hero releases, updates, and special discounts for AI Heroes.",
+      "time": "2026-05-16T00:00:00Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "AI Skills for Real Engineers",
+      "link": "https://www.aihero.dev/skills",
+      "description": "A practical skill system for engineers who want to use AI without giving up their standards.",
+      "time": "2026-05-16T00:00:00Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Skills Newsletter",
+      "link": "https://www.aihero.dev/skills/subscribe",
+      "description": "A practical skill system for engineers who want to use AI without giving up their standards.",
+      "time": "2026-05-16T00:00:00Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "AI SDK v6 Crash Course",
+      "link": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course",
+      "description": "Here's how *you* become an AI developer — fast",
+      "time": "2025-09-09T15:52:28Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Generating Objects via Output",
+      "link": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "description": "Structured outputs with AI SDK. Generate typed objects using Zod schemas, validate LLM responses, and extract data reliably.",
+      "time": "2025-09-09T14:47:27Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "AI Skills for Real Engineers",
+      "link": "https://www.aihero.dev/ai-skills-for-real-engineers",
+      "description": "A practical skill system for engineers who want to use AI without giving up their standards.",
+      "time": "2026-05-05T11:14:31Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "LLM Fundamentals",
+      "link": "https://www.aihero.dev/llm-fundamentals",
+      "description": "A free video tutorial from Matt Pocock teaching you the fundamentals of LLM's so you can use them better.",
+      "time": "2025-09-30T09:46:28Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The AI Engineer Roadmap",
+      "link": "https://www.aihero.dev/ai-engineer-roadmap",
+      "description": "Want to build AI-powered apps, but don't know where to start? You need a roadmap.",
+      "time": "2025-03-18T11:28:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Model Context Protocol Tutorial",
+      "link": "https://www.aihero.dev/model-context-protocol-tutorial",
+      "description": "The Model Context Protocol is driving a new wave of innovation in the world of AI. In this tutorial, I'll break down everything you need to know to get started.",
+      "time": "2025-03-12T11:01:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Vercel AI SDK Tutorial",
+      "link": "https://www.aihero.dev/vercel-ai-sdk-tutorial",
+      "description": "Build any LLM app in TypeScript with Vercel's AI SDK. Learn streaming, structured outputs, tool calls and agents.",
+      "time": "2025-01-09T12:05:12Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "9 Things People Get Wrong With /grill-me and /grill-with-docs",
+      "link": "https://www.aihero.dev/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "description": "Master the 9 most common mistakes when using /grill-me or /grill-with-docs. Learn scope management, model selection, and planning strategies.",
+      "time": "2026-05-25T13:34:56Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "17 Techniques For Improving Your LLM-Powered App",
+      "link": "https://www.aihero.dev/how-to-improve-your-llm-powered-app",
+      "description": "A directory of techniques for improving your LLM-powered app.",
+      "time": "2026-05-20T21:34:07Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "improve-codebase-architecture: Find Deepening Opportunities",
+      "link": "https://www.aihero.dev/skills-improve-codebase-architecture",
+      "description": "A guide to the improve-codebase-architecture skill for finding refactors that make code easier to test, change, and navigate with agents.",
+      "time": "2026-05-13T20:01:06Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "handoff: Move Context Between Agent Sessions",
+      "link": "https://www.aihero.dev/skills-handoff",
+      "description": "A guide to the handoff skill for compacting context so another agent or session can continue cleanly.",
+      "time": "2026-05-13T20:01:04Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "prototype: Answer Questions With Throwaway Code",
+      "link": "https://www.aihero.dev/skills-prototype",
+      "description": "A guide to the prototype skill for testing UI, state, and product decisions before committing to implementation.",
+      "time": "2026-05-13T20:01:03Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "grill-with-docs: Align Before You Build",
+      "link": "https://www.aihero.dev/grill-with-docs",
+      "description": "Learn /grill-with-docs: combine AI interviewing with domain-driven design to build better codebases with shared language and less repetition.",
+      "time": "2026-05-05T11:03:14Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "triage: Turn Backlog Mess Into Agent-Ready Work",
+      "link": "https://www.aihero.dev/burn-through-your-backlog-with-my-triage-skill",
+      "description": "Learn how to use the Triage skill to organize GitHub issues, turn messy ideas into actionable tasks for AI agents, and manage backlogs efficiently.",
+      "time": "2026-05-05T09:57:22Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Skills Changelog: Ubiquitous Language -> /grill-with-docs",
+      "link": "https://www.aihero.dev/skills-changelog-ubiquitous-language-grill-with-docs",
+      "description": "Skills repo changelog: /grill-with-docs, ADRs, improved architecture language, multi-tracker support & new debugging skills. Updates inside.",
+      "time": "2026-04-30T10:36:43Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "tdd: Red, Green, Refactor for Agentic Coding",
+      "link": "https://www.aihero.dev/skills-tdd",
+      "description": "A guide to Matt Pocock's tdd skill for implementing features one behavior at a time.",
+      "time": "2026-04-27T18:07:40Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "to-issues: Break a PRD Into Vertical-Slice GitHub Issues",
+      "link": "https://www.aihero.dev/skills-to-issues",
+      "description": "A guide to the to-issues skill for turning plans and PRDs into tracer-bullet implementation issues.",
+      "time": "2026-04-27T18:07:39Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "to-prd: Turn Resolved Context Into a PRD",
+      "link": "https://www.aihero.dev/skills-to-prd",
+      "description": "A guide to the to-prd skill for creating a PRD from current conversation and codebase context.",
+      "time": "2026-04-27T18:07:38Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "My 'Grill Me' Skill Went Viral",
+      "link": "https://www.aihero.dev/my-grill-me-skill-has-gone-viral",
+      "description": "Learn the \"Grill Me\" AI skill—a powerful technique to deeply explore coding plans, requirements, and ideas through structured AI conversations.",
+      "time": "2026-03-23T13:35:30Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Real-world feature build with Claude Code: every step explained",
+      "link": "https://www.aihero.dev/real-world-feature-build-with-claude-code",
+      "description": "Learn Claude Code workflow: grill sessions, PRDs, GitHub issues, AFK agents, and QA loops for building features efficiently with AI.",
+      "time": "2026-03-20T09:48:53Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "5 Agent Skills I Use Every Day",
+      "link": "https://www.aihero.dev/5-agent-skills-i-use-every-day",
+      "description": "Master AI code quality with proven engineering skills: prompt techniques, TDD, architecture design, and PRD workflows for Claude Code agents.",
+      "time": "2026-03-16T15:38:31Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "My 7 Phases Of AI Development",
+      "link": "https://www.aihero.dev/my-7-phases-of-ai-development",
+      "description": "Master the 7 phases of AI-assisted development with Claude Code. Learn how to ship production-quality code using research, prototyping, PRDs, and more.",
+      "time": "2026-03-16T10:27:14Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "My Claude Code Cohort - A Teaser",
+      "link": "https://www.aihero.dev/my-claude-code-cohort-a-teaser",
+      "description": "Here's a teaser to my Claude Code course: covering LLM constraints, planning, steering, feedback loops, autonomous agents, and human-in-the-loop techniques.",
+      "time": "2026-03-11T15:10:20Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "9 Ways AI Coding Has Rewired My Brain",
+      "link": "https://www.aihero.dev/ways-ai-coding-has-rewired-my-brain",
+      "description": "Discover 9 ways AI-assisted coding rewires your development mindset: integration testing, architecture, modules, and strategies for managing cognitive load.",
+      "time": "2026-03-11T14:33:11Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "How To Make Codebases AI Agents Love",
+      "link": "https://www.aihero.dev/how-to-make-codebases-ai-agents-love",
+      "description": "Learn how deep modules and proper codebase architecture make AI coding more effective. Master software design principles for AI-ready codebases.",
+      "time": "2026-02-26T10:09:15Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "How To Use Claude Code Hooks To Enforce The Right CLI",
+      "link": "https://www.aihero.dev/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+      "description": "Learn how to use Claude Code hooks to prevent unwanted CLI commands and guide your AI coding agent to use the right tools instead of CLAUDE.md.",
+      "time": "2026-02-25T10:51:12Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Never Run Claude /init",
+      "link": "https://www.aihero.dev/never-run-claude-init",
+      "description": "Learn why auto-generated Claude.md files hurt your coding agents and what to use instead for better performance and lower costs.",
+      "time": "2026-02-24T10:04:45Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "This Hook Stops Claude Code Running Dangerous Git Commands",
+      "link": "https://www.aihero.dev/this-hook-stops-claude-code-running-dangerous-git-commands",
+      "description": "Learn how to block dangerous git commands in Claude Code using a PreToolUse hook. Prevent accidental data loss with git guardrails.",
+      "time": "2026-02-10T14:25:36Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "My Skill Makes Claude Code GREAT At TDD",
+      "link": "https://www.aihero.dev/skill-test-driven-development-claude-code",
+      "description": "Here's my TDD skill for getting Claude to write honest tests and real implementations using red-green-refactor and vertical slicing.",
+      "time": "2026-02-10T11:42:14Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Why the Anthropic Ralph plugin sucks (use a bash loop instead)",
+      "link": "https://www.aihero.dev/why-the-anthropic-ralph-plugin-sucks",
+      "description": "Discover why the Anthropic Ralph plugin degrades AI performance by filling up context windows. Learn why bash loops keep Claude in the smart zone instead.",
+      "time": "2026-01-22T14:50:25Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Tracer Bullets: Keeping AI Slop Under Control",
+      "link": "https://www.aihero.dev/tracer-bullets",
+      "description": "Learn how tracer bullets can help you control AI code quality by building small, end-to-end features and getting feedback early instead of bloated solutions.",
+      "time": "2026-01-22T13:21:37Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Here's How To Stream Claude Code With AFK Ralph",
+      "link": "https://www.aihero.dev/heres-how-to-stream-claude-code-with-afk-ralph",
+      "description": "Stream Claude code in real-time while running AFK Ralph. Learn how to use jq to get visibility into Claude's output instead of staring at a blank screen.",
+      "time": "2026-01-22T09:55:51Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "A Complete Guide To AGENTS.md",
+      "link": "https://www.aihero.dev/a-complete-guide-to-agents-md",
+      "description": "Learn how to optimize your AGENTS.md file for AI coding agents. Master progressive disclosure, keep instructions focused, and maximize agent performance.",
+      "time": "2026-01-18T15:01:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Essential AI Coding Feedback Loops For TypeScript Projects",
+      "link": "https://www.aihero.dev/essential-ai-coding-feedback-loops-for-type-script-projects",
+      "description": "Learn to build AI coding feedback loops with TypeScript. Master type checking, testing, and pre-commit hooks to keep AI agents working correctly.",
+      "time": "2026-01-16T11:51:36Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "My AGENTS.md file for building plans you actually read",
+      "link": "https://www.aihero.dev/my-agents-md-file-for-building-plans-you-actually-read",
+      "description": "Here are the key rules from my AGENTS.md file that make plan mode effective.",
+      "time": "2026-01-13T13:51:16Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "An Introduction To Plan Mode",
+      "link": "https://www.aihero.dev/plan-mode-introduction",
+      "description": "Learn how plan mode transforms AI coding agents. Iterate on requirements before writing code, build context, and get better results from tools like Claude Code.",
+      "time": "2026-01-09T12:55:21Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Getting Started With Ralph",
+      "link": "https://www.aihero.dev/getting-started-with-ralph",
+      "description": "Learn to run AI coding agents in a loop. Set up Claude Code, create a PRD, and let the AI ship features while you're AFK. Step-by-step guide included.",
+      "time": "2026-01-08T14:32:16Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "11 Tips For AI Coding With Ralph Wiggum",
+      "link": "https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum",
+      "description": "Run AI coding tools in autonomous loops with Ralph Wiggum. 11 tips for AFK coding: scope, progress tracking, feedback loops, and shipping code while you sleep.",
+      "time": "2026-01-08T12:25:29Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Evalite v1 Preview: Fast Evals, Built-in Scorers",
+      "link": "https://www.aihero.dev/evalite-v1-preview",
+      "description": "Evalite v1 ships 10 production-ready scorers (string matching, RAG evaluation, agent testing) plus in-memory storage by default. Still in beta.",
+      "time": "2025-11-28T10:00:39Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Personal software is INSANE in the age of AI",
+      "link": "https://www.aihero.dev/personal-software-is-insane-in-the-age-of-ai-u2hx2",
+      "description": "Don't delegate your thinking to LLMs. Use AI for grunt work in personal software built for your workflow. Keep the judgment for yourself.",
+      "time": "2025-11-17T16:28:06Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Creating The Perfect Claude Code Status Line",
+      "link": "https://www.aihero.dev/creating-the-perfect-claude-code-status-line",
+      "description": "I've created the perfect Claude Code statusline - including git info and context used. Here's a step-by-step guide.",
+      "time": "2025-10-28T14:40:22Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "What Is An Agent?",
+      "link": "https://www.aihero.dev/what-is-an-agent",
+      "description": "Discover the power of agents vs workflows in LLM systems. Learn how agents improvise and workflows optimize for predictable, repeatable tasks.",
+      "time": "2025-09-30T13:28:38Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "What Are Tools?",
+      "link": "https://www.aihero.dev/what-are-tools",
+      "description": "Discover how LLM tools enhance AI capabilities by defining, choosing, and executing tasks via system prompts.",
+      "time": "2025-09-30T13:28:00Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "What Is The Context Window?",
+      "link": "https://www.aihero.dev/what-is-the-context-window",
+      "description": "Discover the context window in AI: input/output tokens, limits, and the \"lost in the middle\" issue. Optimize token use for better model performance.",
+      "time": "2025-09-30T13:27:28Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Messages, System Prompts and Reasoning Tokens",
+      "link": "https://www.aihero.dev/messages-system-prompts-and-reasoning-tokens",
+      "description": "Learn how conversations with AI work under the hood. Explore user messages, system prompts, reasoning tokens, and tool calls.",
+      "time": "2025-09-30T13:26:05Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Most Devs Still Don't Know What Tokens Are",
+      "link": "https://www.aihero.dev/what-are-tokens",
+      "description": "Discover why tokens, not characters, are the currency of LLMs. Learn how text is processed and billed in tokens, crucial for developers.",
+      "time": "2025-09-12T15:49:26Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Securing your AI App with Guardrails",
+      "link": "https://www.aihero.dev/securing-your-ai-app-with-guardrails",
+      "description": "Secure your AI app with fast LLM validation using TypeScript and AI SDK.",
+      "time": "2025-09-11T11:24:45Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Streaming In 'Next Question Suggestions' With Vercel's AI SDK",
+      "link": "https://www.aihero.dev/streaming-in-next-question-suggestions-with-the-ai-sdk",
+      "description": "Stream AI-powered next question suggestions with the AI SDK.",
+      "time": "2025-08-24T12:17:16Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "What Is An AI Engineer?",
+      "link": "https://www.aihero.dev/what-is-an-ai-engineer",
+      "description": "Explore the role of an AI Engineer, learn the key skills needed, and discover how it differs from ML Engineering and AI-assisted Development.",
+      "time": "2025-03-26T11:22:28Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The AI Engineer Mindset",
+      "link": "https://www.aihero.dev/the-ai-engineer-mindset",
+      "description": "Learn how to build successful LLM applications by defining clear success metrics, and creating a data-driven culture of continuous improvement.",
+      "time": "2025-03-24T09:21:56Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Implementing Anthropic's \"think\" Tool In TypeScript",
+      "link": "https://www.aihero.dev/implementing-anthropics-think-tool-in-typescript",
+      "description": "Enhance LLM problem-solving in TypeScript by implementing Anthropic's \"think\" tool with Claude.",
+      "time": "2025-03-21T18:37:02Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "What Can You Use LLM's For?",
+      "link": "https://www.aihero.dev/what-are-llms-used-for",
+      "description": "Discover when to use LLMs for data tasks like structuring and classification, and when to opt for deterministic systems.",
+      "time": "2025-03-18T10:01:33Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "5 Questions To Ask Before Choosing An LLM",
+      "link": "https://www.aihero.dev/how-to-choose-an-llm",
+      "description": "Discover the best way to choose the right LLM for your AI app. Learn about open vs closed models, cost, latency, and hosting options.",
+      "time": "2025-03-17T10:36:59Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "What Is An LLM?",
+      "link": "https://www.aihero.dev/what-is-an-llm",
+      "description": "Discover the basics of Large Language Models (LLM), their structure, operation, and creation process. Perfect for beginners ready to dive into AI.",
+      "time": "2025-03-17T10:03:12Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Connect Claude Code To A GitHub MCP Server",
+      "link": "https://www.aihero.dev/connect-claude-code-to-github",
+      "description": "Boost Claude Code with GitHub MCP! Discover how developers can seamlessly modify codebases using this powerful terminal app integration.",
+      "time": "2025-03-13T11:45:07Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Publish Your MCP Server To NPM",
+      "link": "https://www.aihero.dev/publish-your-mcp-server-to-npm",
+      "description": "Easily publish your MCP server to NPM using Node.js. Share updates globally with simple commands. Distribute effortlessly with our step-by-step guide.",
+      "time": "2025-03-12T11:08:57Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The Problem With MCP: Stateful Servers",
+      "link": "https://www.aihero.dev/the-problem-with-mcp-stateful-server",
+      "description": "Discover how to deploy MCP servers statelessly using Redis, enabling compatibility with serverless platforms like Vercel and AWS Lambda.",
+      "time": "2025-03-12T11:08:27Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Logging: A Huge MCP Footgun",
+      "link": "https://www.aihero.dev/logging-a-huge-mcp-footgun",
+      "description": "Avoid console.log in MCP servers to prevent client issues. Use a custom logger or `sse` transport for effective logging without protocol interference.",
+      "time": "2025-03-12T10:58:47Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Using MCP Prompts",
+      "link": "https://www.aihero.dev/using-mcp-prompts",
+      "description": "Unlock MCP server power by using prompt templates. Perfect for enhancing LLM workflows and boosting productivity with custom commands.",
+      "time": "2025-03-10T14:53:59Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "How Does The Model Context Protocol Work?",
+      "link": "https://www.aihero.dev/how-does-the-model-context-protocol-work",
+      "description": "Discover how the Model Context Protocol (MCP) functions, linking hosts and servers with seamless client-server communication and JSON-RPC 2.0 protocol.",
+      "time": "2025-03-10T12:54:53Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Serving MCP Servers Over stdout",
+      "link": "https://www.aihero.dev/mcp-server-from-a-single-typescript-file",
+      "description": "Set up an MCP server with a single TypeScript file; connect to Claude Code & run scripts seamlessly.",
+      "time": "2025-03-07T13:30:48Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "STORM: Generate High-Quality Articles Based On Real Research",
+      "link": "https://www.aihero.dev/storm-generate-high-quality-articles-based-on-real-research",
+      "description": "Discover STORM, an AI that crafts top-quality articles using real research. Explore its complex workflow for enhancing your AI projects.",
+      "time": "2025-02-04T11:28:01Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Google's Introduction To Agents Is GREAT",
+      "link": "https://www.aihero.dev/google-agents-whitepaper-review",
+      "description": "Explore Google's AI agents whitepaper, defining agents, tools, orchestration layers, and more.",
+      "time": "2025-01-28T13:26:28Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "What Is Vercel's AI SDK?",
+      "link": "https://www.aihero.dev/what-is-the-ai-sdk",
+      "description": "Learn how Vercel's AI SDK simplifies building AI apps by providing a unified API to interact with different LLM providers.",
+      "time": "2025-01-17T11:53:39Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Build Your First Agent With Vercel's AI SDK",
+      "link": "https://www.aihero.dev/agents-with-vercel-ai-sdk",
+      "description": "Let's build an AI agent. Learn how LLM's can respond to the results of tool calls with Vercel's AI SDK.",
+      "time": "2025-01-15T11:51:43Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Generate Arrays With Vercel's AI SDK",
+      "link": "https://www.aihero.dev/generate-arrays-with-vercel-ai-sdk",
+      "description": "Learn how to use Vercel's AI SDK to generate arrays of objects with a Zod schema for creating fake user data.",
+      "time": "2025-01-13T15:14:14Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Create Embeddings With Vercel's AI SDK",
+      "link": "https://www.aihero.dev/create-embeddings-with-vercel-ai-sdk",
+      "description": "Learn how to use Vercel's AI SDK to create and search embeddings for words and data.",
+      "time": "2025-01-08T09:48:51Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Extract Structured Data From PDF's With Vercel's AI SDK",
+      "link": "https://www.aihero.dev/structured-data-from-pdfs-with-vercel-ai-sdk",
+      "description": "Learn how to extract structured data from PDF invoices using the Vercel AI SDK and Zod schemas, enabling automated data processing and database storage.",
+      "time": "2025-01-08T09:38:39Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Build an Alt Text Generator With Vercel's AI SDK",
+      "link": "https://www.aihero.dev/describe-images-with-vercel-ai-sdk",
+      "description": "Learn how to use Vercel's AI SDK to generate alt text for images using both local files and URLs with a simple guide.",
+      "time": "2025-01-08T08:43:53Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Generate Enums With Vercel's AI SDK",
+      "link": "https://www.aihero.dev/generate-enums-with-vercel-ai-sdk",
+      "description": "Learn how to build a sentiment analysis system using enums and the AI SDK to classify text as positive, negative, or neutral in just a few lines of code.",
+      "time": "2025-01-08T08:30:33Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Streaming Objects With Vercel's AI SDK",
+      "link": "https://www.aihero.dev/streaming-objects-with-vercel-ai-sdk",
+      "description": "Learn how to stream structured outputs from an LLM using Vercel's AI SDK.",
+      "time": "2025-01-07T14:57:33Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Tool Calling With Vercel's AI SDK",
+      "link": "https://www.aihero.dev/tool-calls-with-vercel-ai-sdk",
+      "description": "Learn how to do tool calling in TypeScript with Vercel's AI SDK, using the simplest possible example.",
+      "time": "2025-01-07T11:40:24Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Structured Outputs with Vercel's AI SDK",
+      "link": "https://www.aihero.dev/structured-outputs-with-vercel-ai-sdk",
+      "description": "Discover how to use Vercel's AI SDK for structured outputs with OpenAI, focusing on efficient data retrieval in predefined formats.",
+      "time": "2025-01-05T20:23:27Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Use Local Models With Vercel's AI SDK",
+      "link": "https://www.aihero.dev/use-local-models-with-vercel-ai-sdk",
+      "description": "Learn how to connect Vercel's AI SDK to local or remote models using OpenAI-compatible APIs, featuring LM Studio integration on localhost.",
+      "time": "2025-01-05T20:21:34Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Working With Message Histories In Vercel's AI SDK",
+      "link": "https://www.aihero.dev/vercel-ai-sdk-messages-array",
+      "description": "Learn how to manage conversation history in AI chatbots using Vercel AI SDK's CoreMessage array. A practical guide with TypeScript examples.",
+      "time": "2025-01-05T20:20:34Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Hot-Swap AI Models With Vercel's AI SDK",
+      "link": "https://www.aihero.dev/swap-ai-models-with-vercel-ai-sdk",
+      "description": "Learn how to easily switch AI models using Vercel's AI SDK for flexible and decoupled application development.",
+      "time": "2025-01-05T20:19:28Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Adding System Prompts With Vercel's AI SDK",
+      "link": "https://www.aihero.dev/system-prompts-with-vercel-ai-sdk",
+      "description": "Learn how to use system prompts with Vercel's AI SDK to customise the LLM's behavior.",
+      "time": "2025-01-05T20:16:29Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Streaming Text With Vercel's AI SDK",
+      "link": "https://www.aihero.dev/streaming-text-with-vercel-ai-sdk",
+      "description": "Learn how to use Vercel's AI SDK to stream text to massively improve your user's experience.",
+      "time": "2025-01-05T20:15:55Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Generate Text With Vercel's AI SDK",
+      "link": "https://www.aihero.dev/generate-text-with-vercel-ai-sdk",
+      "description": "Learn how to generate AI text responses using Vercel's AI SDK with Anthropic's Claude models. Simple setup for text generation in TypeScript.",
+      "time": "2025-01-03T13:33:50Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Vercel's AI SDK Future-proofs Your AI Stack",
+      "link": "https://www.aihero.dev/vercel-ai-sdk",
+      "description": "Future-proof your AI features with Vercel's AI SDK. Write once, run anywhere across OpenAI, Anthropic, and other LLM providers.",
+      "time": "2025-01-02T08:47:06Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Here's 2024's best resource on prompt engineering",
+      "link": "https://www.aihero.dev/the-prompt-report",
+      "description": "Explore the top prompt engineering resource of 2025, featuring a detailed taxonomy and links to further research.",
+      "time": "2024-12-28T14:01:32Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Anthropic thinks you should build agents like this",
+      "link": "https://www.aihero.dev/building-effective-agents",
+      "description": "Learn how agents differ from workflows and why to start AI projects with LLM APIs, not frameworks.",
+      "time": "2024-12-27T14:41:50Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Evalite - an Early Preview",
+      "link": "https://www.aihero.dev/evalite-an-early-preview",
+      "description": "An early preview of Evalite, a local-first, TypeScript-native tool for testing LLM-powered apps, based on Vitest.",
+      "time": "2024-12-02T12:24:31Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The Three Types Of Evals",
+      "link": "https://www.aihero.dev/three-types-of-evals",
+      "description": "Learn about deterministic evals, human feedback, and LLM-as-a-judge.",
+      "time": "2024-11-26T15:54:16Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Anthropic's new Model Context Protocol In 2 Minutes",
+      "link": "https://www.aihero.dev/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+      "description": "Connect AI assistants to data systems seamlessly using JSON-RPC, with TypeScript and Python SDKs.",
+      "time": "2024-11-25T19:29:39Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "2025: The Year Building With GenAI's Gets Boring",
+      "link": "https://www.aihero.dev/2025-the-year-building-with-gen-ais-gets-boring~d53hd",
+      "description": "The future of GenAI's is dull, workaday usefulness. For the application builder, they are a tool like any other.",
+      "time": "2024-11-21T13:29:23Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Your App Is Only As Good As Its Evals",
+      "link": "https://www.aihero.dev/what-are-evals",
+      "description": "How do you know if your AI application is hallucinating? How do you ensure it's outputting what you want it to? Evals are the answer.",
+      "time": "2024-11-18T14:32:46Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary",
+      "description": "The vocabulary of AI coding, translated into plain English for engineers.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Model | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/model",
+      "description": "The parameters. Stateless — does next-token prediction and nothing else. Cannot do anything agentic on its own.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Parameters | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/parameters",
+      "description": "The numbers inside a model — often billions — tuned during training. Everything the model knows lives in them. Also called weights.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Training | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/training",
+      "description": "The process that sets a model's parameters by exposing it to vast amounts of text and adjusting to improve next-token prediction.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Inference | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/inference",
+      "description": "Running a trained model to generate output — what happens on every model provider request. Parameters stay fixed.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Token | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/token",
+      "description": "The atomic unit a model reads and writes. Roughly word-sized but not exactly. Context window size, cost, and latency all count tokens.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Next-token prediction | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/next-token-prediction",
+      "description": "What the model actually does. Samples one next token from the context, appends it, and runs again. Its only mode of operation.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Non-determinism | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/non-determinism",
+      "description": "The same input can produce different output. A property of how models generate text and how providers serve requests.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Model provider | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/model-provider",
+      "description": "Whatever serves a model for inference. Usually remote (Anthropic, OpenAI, Google), but can also be local (Ollama, llama.cpp).",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Harness | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/harness",
+      "description": "Everything around the model that turns it into an agent: tools, system prompt, context-window management, permissions, hooks.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Model provider request | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/model-provider-request",
+      "description": "One round-trip from the harness to the model provider. The harness sends context; the provider returns one response.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Input tokens | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/input-tokens",
+      "description": "Tokens the harness sends on each model provider request. Billed at a lower rate than output tokens.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Output tokens | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/output-tokens",
+      "description": "Tokens the model generates back. Billed at a higher rate than input tokens, since they cost more compute to produce.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Prefix cache | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/prefix-cache",
+      "description": "The provider-side store that lets consecutive requests skip re-processing a shared prefix, billing those tokens at a lower rate.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Cache tokens | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/cache-tokens",
+      "description": "Input tokens the provider has cached from a previous request via its prefix cache, billed at a much lower rate.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Stateless | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/stateless",
+      "description": "Carries no information forward. The model is stateless across requests; an agent is stateless across sessions by default.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Context | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/context",
+      "description": "The relevant information the agent has access to right now — what the agent knows that's pertinent to the task.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Context window | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/context-window",
+      "description": "Everything the model sees on each model provider request. Finite, model-specific, the only surface through which the model perceives.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Stateful | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/stateful",
+      "description": "Carries information forward. Sessions are stateful across turns; agents can be made stateful across sessions via a memory system.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Agent | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/agent",
+      "description": "A model harnessed with tools, a system prompt, and a context window, that takes turns with a user. The model in motion.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "System prompt | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/system-prompt",
+      "description": "The instructions the harness prepends to every model provider request — the agent's standing brief. Usually stable across a session.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Session | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/session",
+      "description": "One bounded run of interaction with an agent. Starts empty, accumulates, ends when cleared, closed, or compacted into a fresh session.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Turn | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/turn",
+      "description": "One user message plus everything the agent does in response, up until it yields back to the user. Contains one or more provider requests.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Environment | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/environment",
+      "description": "The world the agent acts on — anything outside the harness that the agent perceives via tool results and changes via tool calls.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Filesystem | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/filesystem",
+      "description": "A tree of files and directories the agent reads from, writes to, and executes within — the default environment for a coding agent.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Tool | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/tool",
+      "description": "A function the harness exposes for the agent to call — Read, Write, Bash, Search. How an agent perceives and acts on the environment.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Tool call | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/tool-call",
+      "description": "The model's output naming a tool and its arguments — just structured text. The harness has to read it and execute.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Tool result | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/tool-result",
+      "description": "What the harness sends back after executing a tool call — file contents, output, or error. The agent's only window onto the environment.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "MCP | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/mcp",
+      "description": "A protocol for plugging external tool servers into a harness — how an agent gets tools beyond what the harness ships with.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Permission request | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/permission-request",
+      "description": "What the harness shows the user before executing a tool call that isn't pre-approved. The mechanism for putting a human in the loop.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Permission mode | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/permission-mode",
+      "description": "The permission-gating slice of an agent mode — which tool calls trigger a permission request and which run automatically.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Agent mode | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/agent-mode",
+      "description": "A preset bundling a permission mode with behavioral instructions injected into the system prompt. Can flip mid-session.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Sandbox | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/sandbox",
+      "description": "An isolated environment the agent runs inside — container, VM, or restricted shell. Limits the blast radius of agent actions.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Sycophancy | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/sycophancy",
+      "description": "Confidently agreeable model output. Caused by training that shaped the model to favor answers humans liked — including agreement.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Hallucination | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/hallucination",
+      "description": "Confidently-wrong model output. Two flavors: factuality (invented facts) and faithfulness (drift from loaded context).",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Parametric knowledge | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/parametric-knowledge",
+      "description": "What the model knows from training, stored in its parameters. Frozen at training time. Counterpart to contextual knowledge.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Knowledge cutoff | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/knowledge-cutoff",
+      "description": "The date past which a model has no parametric knowledge. Post-cutoff libraries and APIs are fabrication traps unless docs are loaded.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Contextual knowledge | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/contextual-knowledge",
+      "description": "Facts the agent can read directly from the context right now. Counterpart to parametric knowledge.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Attention relationship | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/attention-relationship",
+      "description": "The pairing between two tokens — meaningful pairs influence each other more than unrelated ones. A context of N tokens has ~N² of these.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Attention budget | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/attention-budget",
+      "description": "Each token has a finite amount of influence to distribute across the rest of the context. Per-token, doesn't grow when context does.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Attention degradation | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/attention-degradation",
+      "description": "As a session grows, each token's attention budget spreads across more competitors; signal on meaningful relationships shrinks.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Smart zone | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/smart-zone",
+      "description": "Early in a session the agent is sharp and focused. As the session grows it drifts into a dumb zone: sloppier, forgetful, more mistakes.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Clearing | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/clearing",
+      "description": "Ending the current session and starting a fresh one. The next message begins with an empty session and an empty context window.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Handoff | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/handoff",
+      "description": "Transferring agent context from one session to another, with no return path. Carry mechanism varies — artifact, compaction, others.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Handoff artifact | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/handoff-artifact",
+      "description": "A document used as the carry mechanism for a handoff — written by one session to be read by another.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Spec | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/spec",
+      "description": "A handoff artifact describing a multi-session piece of work — what's being built, not how each session does its share. Made of tickets.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Ticket | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/ticket",
+      "description": "A handoff artifact scoping one session of work. Stands alone or hangs off a spec. Can block or be blocked by sibling tickets.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Compaction | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/compaction",
+      "description": "A handoff done in-memory: the previous session's history is summarised and seeds a fresh session. Lossy — detail traded for headroom.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Autocompact | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/autocompact",
+      "description": "Compaction triggered automatically by the harness when the context window approaches full.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Memory system | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/memory-system",
+      "description": "A system that attempts to make an agent stateful across sessions by persisting to the environment and reloading at session start.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "AGENTS.md | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/agents-md",
+      "description": "A file in the environment that the harness loads into the context window at session start — the project's standing brief to the agent.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Progressive disclosure | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/progressive-disclosure",
+      "description": "Loading only the context an agent needs right now, with context pointers to the rest. Borrowed from UI design.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Context pointer | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/context-pointer",
+      "description": "A mention in one document that points to another, so the agent can pull it into context only when the task calls for it.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Skill | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/skill",
+      "description": "A teachable capability bundled as a unit — kept out of the context window until a context pointer pulls it in for the task at hand.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Subagent | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/subagent",
+      "description": "An agent spawned by another agent via a tool call. Runs in its own session, reports a single tool result. Cannot spawn further subagents.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Human-in-the-loop | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/human-in-the-loop",
+      "description": "A working pattern where one or more humans pair with the agent during a session — reviewing, redirecting, or collaborating in real time.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "AFK | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/afk",
+      "description": "A working pattern where the user kicks off a session and leaves the agent to run unattended (away from keyboard).",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Automated check | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/automated-check",
+      "description": "A deterministic verification that runs in the environment — tests, type checks, lints, build, pre-commit hooks. Pass/fail, no judgement.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Automated review | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/automated-review",
+      "description": "An agent reviewing another agent's work, often with a different model or system prompt. Non-deterministic: it forms a judgement.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Human review | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/human-review",
+      "description": "The user reading the code the agent produced and forming a judgement on it. Reading the diff counts; reading the summary doesn't.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Vibe coding | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/vibe-coding",
+      "description": "A working pattern where the user accepts the agent's code without human review. The diff is treated as opaque.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Design concept | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/design-concept",
+      "description": "The shared understanding of what's being built, held in common between user and agent but separate from any asset.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Grilling | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/grilling",
+      "description": "A technique for developing a design concept: the agent interviews the user Socratically, one decision at a time.",
+      "time": "2026-05-07T06:42:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Skills Changelog: /handoff, /prototype, /review and /writing",
+      "link": "https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "description": "Two new AI agent skills: /handoff for passing context between agents, and /prototype for building throwaway prototypes to test design decisions.",
+      "time": "2026-05-11T10:38:47Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Skills Changelog: Ubiquitous Language -> /grill-with-docs",
+      "link": "https://www.aihero.dev/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "description": "Skills repo changelog: /grill-with-docs, ADRs, improved architecture language, multi-tracker support & new debugging skills. Updates inside.",
+      "time": "2026-04-30T10:36:43Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Fragments: June  2",
+      "link": "https://martinfowler.com/fragments/2026-06-02.html",
+      "description": "<p>Greg Wilson has noticed that lots of folks are <a href=\"https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong/\">using dodgy metrics</a> to figure out if AI tools are worth their costs.</p>\n\n<blockquote>\n  <p>Would you measure lines of code generated, or tickets closed? Or would you send out a survey asking whether developers feel more productive? Each of those approaches is flawed in a different way;</p>\n</blockquote>\n\n<p>He lists lots of common metrics, and why they are flawed. Sadly he doesn’t give any suggestions on what would be better. In my view, since we <a href=\"https://martinfowler.com/bliki/CannotMeasureProductivity.html\">cannot measure productivity</a>, any metrics are weak evidence at the best of times.</p>\n\n<p>I do somewhat use one of his flawed measures: “Asking Developers If They Feel More Productive”. While I acknowledge the problems he gives with this measure, I find that in an environment where decent measures are hard to find, even such a dim light is the best we have. In this situation these kinds of qualitative metrics may not be conclusive, <a href=\"https://martinfowler.com/articles/measuring-developer-productivity-humans.html\">but they are useful</a>.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Benedict Evans observes that <a href=\"https://www.ben-evans.com/benedictevans/2026/5/24/ai-job-exposure\">extensive automation didn’t mean the demise of professions</a> in the past.</p>\n\n<blockquote>\n  <p>we spent a century automating accounting: we built calculating machines, punch cards, mainframes, data processing, databases, PCs, spreadsheets, ERPs, cloud… in fact, we built half of the tech industry around automating this. Yet the number of accountants kept going up.</p>\n</blockquote>\n\n<p>He goes into the myriad of problems that exist when we’re trying to forecast the impact of a technology on jobs. There’s the much-talked-about <a href=\"https://en.wikipedia.org/wiki/Jevons_paradox\">Jevons paradox</a> - once something becomes cheaper, people do it more, which can increase demand. Often this leads to the nature of jobs changing, even if it’s called the same thing.</p>\n\n<blockquote>\n  <p>Accountants today aren’t doing exactly the same work that they did in 1970 or 1980 ‘but more’ - they’re still called ‘accountants’ but the job is different. New technology often starts out being used for ‘the old thing but more’, but it rarely ends up like that.</p>\n</blockquote>\n\n<p>Technologies often affect whole businesses - consider the impact of the internet on news publishing. Did anyone observing the rise of smart phones in the early 2000s realize that a consequence of this would change the economics of taxis due to the rise of ride-sharing apps? The conclusion is that it is, at the very least, almost impossible to forecast the impact of AI on our work.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Stephen O’Grady looks at how <a href=\"https://redmonk.com/sogrady/2026/05/15/open-ai-models/\">closed and open models have performed on benchmarks over time</a>.</p>\n\n<blockquote>\n  <p>Closed models are setting the pace of innovation, and constantly breaking new ground from a capabilities standpoint. Open models are chasing them, and the cycle times seem to be getting shorter. There are no clear capability moats, and what is frontier today is table stakes tomorrow.</p>\n</blockquote>\n\n<p>It tooks 13-18 months for open models to catch up to GPT-4 on these benchmarks, but only 2-7 months to catch up to GPT-4o.</p>\n\n<p>There’s a bunch of caveats to this analysis, that he lists, but it’s a worthwhile survey of how various kinds of models perform against the various measures we are trying to assess them with.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>One of the starkest examples of sloppy AI use is hallucinated citations - a give-away of both usage of LLMs and carelessness driving them. GPTZero is a company that makes tools to detect AI writing. I’ve no insight as to whether their tool is effective or not, but they do publish investigations of AI usage, and have published several articles highlighting hallucinated citations. <a href=\"https://gptzero.me/investigations/ey\">One post focuses on Ernst &amp; Young Canada’s report</a> on cyber threats to loyalty systems and found that more than half its references were hallucinations. The post uses a lot of extremely annoying animations in how it presents its information (breaking Safari’s reader mode in the process). But the harm that these kind of AI generated reports can do goes further than just some misled humans:</p>\n\n<blockquote>\n  <p>Publishing a report online is essentially a form of data injection into the pool of knowledge that is the internet. When the report includes fake information (either vibed citations or false claims) it can “poison the well” by misleading future researchers, especially if the report is published by a well-known consulting firm and hosted on a high-traffic website.</p>\n</blockquote>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>As LLMs get more capable in programming, we are rightly worried that people will use them attack software systems. But these models can also be used for defense, allowing teams to find bugs before attackers do. Some folks from Mozilla posted an article on how they’ve used AI model to <a href=\"https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/\">identify and fix an unprecedented number of latent security bugs in Firefox</a>.</p>\n\n<blockquote>\n  <p>Just a few months ago, AI-generated security bug reports to open source projects were mostly known for being unwanted slop. Dealing with reports that look plausibly correct but are wrong imposes an asymmetric cost on project maintainers: it’s cheap and easy to prompt an LLM to find a “problem” in code, but slow and expensive to respond to it.</p>\n\n  <p>It is difficult to overstate how much this dynamic changed for us over a few short months. This was due to a combination of two main factors. First, the models got a lot more capable. Second, we dramatically improved our techniques for harnessing these models — steering them, scaling them, and stacking them to generate large amounts of signal and filter out the noise.</p>\n</blockquote>\n\n<p>During 2025, there were 17-31 security bugs fixed each month. In April 2026, they fixed 423.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p><a href=\"https://pavelvoronin.com/technical-debt-is-a-prompt-now/\">Pavel Voronin riffs</a> on Unmesh Joshi’s post on <a href=\"https://martinfowler.com/articles/what-is-code.html\">What is Code</a>. He observes that cruft in a codebase (technical debt) has always added friction to software development. But the consequences of this cruft are compounded when LLMs are using existing code as context for future work.</p>\n\n<blockquote>\n  <p>In a degraded codebase, the model does not see “technical debt” as debt. It sees examples. It sees precedent. It sees a style to continue.</p>\n</blockquote>\n\n<p>LLMs multiply what’s currently happening. I hear reports that good code might take the place of much of what’s put in markdown, because LLMs will imitate what’s already in the code base. But bad code multiplies too. Inevitably he introduces another variation of rampant debt metaphors:</p>\n\n<blockquote>\n  <p>Cognitive debt accumulates when a team uses abstractions it no longer understands. Generative debt accumulates when a codebase contains confused concepts that models are likely to continue.</p>\n\n  <p>Cognitive debt is about what the team no longer understands. Generative debt is about what the model is now likely to reproduce.</p>\n</blockquote>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Jason Koebler, from the very worthwhile 404 media, has written a plaintive essay on how <a href=\"https://www.404media.co/your-ai-use-is-breaking-my-brain/\">AI-generated slop is driving us crazy</a>. Not just because its filling the web with this slop, but also because how it’s making us humans react to slop and the threat of slop. We review our own writing and notice: it’s not just reading AI slop that hurts us, it’s the risk that we write something that looks like AI slop. If I use phrasing that AI copied from me, does it seem like I’m copying AI? This has led to the appearance of “humanizers” - AI tools that make our writing look less like AI.</p>\n\n<blockquote>\n  <p>Humanizers add typos, randomly replaces words, removes “AI tells,” and sometimes inserts random characters.</p>\n</blockquote>\n\n<p>It’s another step on the way to the Zombie internet:</p>\n\n<blockquote>\n  <p>I called it the Zombie Internet because the truth is that large parts of the internet are not just bots talking to bots or bots talking to people. It’s people talking to bots, people talking to people, people creating “AI agents” and then instructing them to interact with people. […] It’s my email inbox, in which I used to occasionally get poorly-formatted, poorly written, extremely long emails from delusional people who were positive the CIA had imprisoned them in a virtual torture chamber using undisclosed secret technology but where I now get well-formatted, passably written, extremely long emails from delusional people who are positive they have proven AI sentience and have the AI transcripts to prove it.</p>\n</blockquote>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Andy Osmani points out that spawning lots of agents is like launching a bunch of parallel processes that all rely on a <a href=\"https://x.com/addyosmani/status/2059844244907696186\">single orchestrating thread - yourself</a>.</p>\n\n<blockquote>\n  <p>Python has the Global Interpreter Lock (GIL). You can spawn as many threads as you want but only one executes python bytecode at a time because they must acquire the lock. You are the GIL of your AI agents. They all can run at once. But when any of their work needs genuine understanding of the architecture or resolving merge conflicts, that work has to acquire the lock. There is one lock. You hold it.</p>\n</blockquote>\n\n<p>This means you must design the workflow with the agents with that GIL in mind. You shouldn’t launch more agents than you can properly review. It’s handy to separate background tasks that can be offloaded to an agent from complex tasks that require applied attention. Don’t use that precious brain for things that the machine can verify itself. [And I’d add - do get the machine to build tools that ease human verification. For example, it’s better to surface test case data in tables rather than buried in assert statements.]</p>\n\n<blockquote>\n  <p>Spawning agents is not the skill. Anyone can run 20.</p>\n\n  <p>The real skill is designing the system around the one serial resource that cannot be cloned or parallelized. That resource is your attention.</p>\n</blockquote>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Jamie Hurst is a Principal Engineer at booking.com, where he works in developer experience with a focus on AI tooling. He’s written realistically about <a href=\"https://jamiehurst.co.uk/2026-05-24_ai-sustainable\">the gains and losses of using LLMs</a> in this work.</p>\n\n<blockquote>\n  <p>The cost of building has collapsed, but the cost of aligning organisationally has not. If anything, it’s gone up. When three different teams can each produce a working solution to the same problem in the time it used to take to write a proposal, the bottleneck moves from engineering to coordination.</p>\n</blockquote>\n\n<p>He thinks he’s able to do more as a senior engineer, but is concerned about how sustainable it is, both for him personally and for the organization he works for. He’s able to shape directions for multiple workstreams at once, in a way that he couldn’t three years ago. But one loss is that he doesn’t have enough time for mentoring, which will exact a toll on his employer in the longer term. He also finds he doesn’t have enough time to think.</p>\n\n<blockquote>\n  <p>The productivity gains from AI got captured by output volume rather than output quality. The org’s expectations rose to absorb the speed-up, and the slack that used to exist between tasks, the unstructured time where strategic thinking actually happens, got eaten first because it’s invisible on a dashboard. I’m at a point in my career where thinking is supposed to be most of the job, and most of it now happens on holiday because the working week doesn’t accommodate it.</p>\n</blockquote>",
+      "time": "2026-06-02T09:21:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Fragments: May 27",
+      "link": "https://martinfowler.com/fragments/2026-05-27.html",
+      "description": "<p>At the GOTO Conference in Copenhagen in 2025, <a href=\"https://www.youtube.com/watch?v=ii_rLjQfjp0&amp;list=PLEx5khR4g7PINwOsYrkwz3lTTJUYoXC53\">Kent Beck and I spent some time on stage</a> talking and answering questions from the audience - a format I refer to as “two old geezers on a park bench”. We talk about our experiences with LLM-augmented programming (at that point - October 2025), we show our frustration that things we’ve been saying for thirty years  still need to be said, we say how anything like a manifesto reunion needs to be led by a younger generation, and opine on what junior developers should be focusing on in their career.</p>\n\n<p><a href=\"https://www.youtube.com/watch?v=ii_rLjQfjp0&amp;list=PLEx5khR4g7PINwOsYrkwz3lTTJUYoXC53\"><img src=\"https://martinfowler.com/img/catalog/2025-goto-kent.png\" alt=\"\"></a></p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Ian Johnson has written a series of posts about <a href=\"https://dev.to/tacoda/the-agent-harness-turning-ai-slop-into-shipping-software-589i\">restructuring a gnarly codebase</a></p>\n\n<blockquote>\n  <p>The story follows a real Laravel + React codebase over ~3 months and ~258 commits from a legacy monolith with no tests to a well-structured application with automated quality gates, a React SPA migration in progress, and an AI agent that reliably ships production code with minimal supervision.</p>\n</blockquote>\n\n<p>The series covers the steps in decent detail, and his approach follows the kinds of steps I’d use. First get everything under the control of decent characterization tests, add static analysis, introduce the right patterns to make things flow easily.</p>\n\n<p>With all of this, is his use of AI, which changed during the exercise:</p>\n\n<blockquote>\n  <p>For the first two months of this project, I used Claude Code with auto-approve turned off. Every file edit, every terminal command, every change… I reviewed it before it executed. […] The results were good. The code was clean. But I was doing most of the thinking and half the typing. The agent was a fancy autocomplete with better suggestions. I wasn’t getting the leverage I’d hoped for.</p>\n\n  <p>I read an article about “on-the-loop” versus “in-the-loop” human-AI collaboration. The framing clicked immediately […]  I was micromanaging because I didn’t trust the agent to do the right thing. And I didn’t trust the agent because there was nothing forcing it to do the right thing.</p>\n</blockquote>\n\n<p>His early steps put in tests, static analysis, and the right architectural patterns. With those in place, he could let the agent do more work.</p>\n\n<blockquote>\n  <p>My role shifted from writer to curator. I don’t write most of the code anymore. I Define the patterns […] Review the test specs […] Review the output […] Update the harness […] Make strategic decisions […]</p>\n</blockquote>\n\n<p>He finishes the series with conclusions about how he’d generalize his experience to other circumstances.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Back in the land of my birth, there was some notable groans when the National Health Service decided to <a href=\"https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/\">close nearly all of their Open Source repositories</a>, supposedly to the security threat of LLMs. Closing repos like this isn’t an effective counter to LLM-augmented attackers. I suspect it’s no coincidence to see GDS (Government Data Services), the highly-regarded IT enablers in the UK government <a href=\"https://www.gov.uk/guidance/ai-open-code-and-vulnerability-risk-in-the-public-sector\">publish their position</a></p>\n\n<blockquote>\n  <p>Moving code from public to private as a substitute for investment in secure-by-design delivery, ownership and remediation is a warning sign because it reduces sharing and scrutiny, can slow coordinated improvement across government and suppliers, and does not remove the underlying weaknesses in a running service.</p>\n</blockquote>\n\n<p><a href=\"https://shkspr.mobi/blog/2026/05/gds-weighs-in-on-the-nhss-decision-to-retreat-from-open-source/\">Terence Eden</a> memorably sums up his view on this:</p>\n\n<blockquote>\n  <p>Within the UK’s Civil Service you occasionally hear the expression “being invited to a meeting without biscuits”. It implies a rather frosty discussion without any of the polite niceties of a normal meeting.</p>\n</blockquote>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>I’ve seen a few cases where those developers who are most involved in working with LLMs find they are running into a problem with cognitive endurance, <a href=\"https://adamtornhill.substack.com/p/compressed-cognition-the-hidden-cost\">Adam Tornhill has joined this group</a>:</p>\n\n<blockquote>\n  <p>One of the big wins with agents is that they let us stay with the higher-level problem for longer. We get less sidetracked by details, dependency cleanup, and similar secondary tasks that used to break concentration.</p>\n\n  <p>But there is a cost we are still underestimating. Agentic coding is mentally expensive.</p>\n\n  <p>I can usually sustain the pace for a couple of hours. Then I need a break. The pace is simply too intense. And based on conversations with other engineers, I do not think I am alone in that.</p>\n</blockquote>\n\n<p>He explains that working with The Genie means we are making more decisions in less time, this increase in decision density is hard on the brain.</p>\n\n<p>He responds by keeping agent tasks small, automating everything he can, and accepting that he won’t know every line of code as long as he has good verification mechanisms in place.</p>\n\n<p>Notably, he has not gone in the direction of doing his work with swarms of agents that he coordinates. Instead has one long-running task that he babysits and one focus task</p>\n\n<blockquote>\n  <p>That last point is important given the running-twenty-agents-in-parallel hype. I cannot even think about twenty meaningful things to build, and even less so about the resulting cognitive tax of the likely interruptions. It’s exactly the wrong thing to even consider. At least for humans. (And yes, I understand sub-agents and machine parallelisation. That is not what I’m objecting to. It is the parallelisation of human attention that does not scale).</p>\n</blockquote>\n\n<p>I liked that he included some thoughts about what folks can do in time outside this intense programming time. Not just “have a coffee” (although he includes that) but also about learning about the domain that the software supports.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>A couple of pithy quotes from social media</p>\n\n<p><a href=\"https://toot.thoughtworks.com/@norootcause@hachyderm.io/116626163784445316\">Lorin Hochstein</a></p>\n\n<blockquote>\n  <p>“Metaphor debt” is when all of your metaphors involve the concept of “debt” because you can’t think of any other metaphors anymore.</p>\n</blockquote>\n\n<p> ❄                ❄</p>\n\n<p><a href=\"https://toot.thoughtworks.com/@tastapod@mas.to/116641666908831725\">Daniel Terhorst-North</a></p>\n\n<blockquote>\n  <p>If a vegan crossfit fan is using Claude to write Rust, which thing do they tell you first?</p>\n</blockquote>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Karl Bode reacts to speakers getting booed when mentioning AI during commencement addresses. He points out that younger folks are increasingly <a href=\"https://karlbode.com/anger-at-ai-is-inextricably-fused-with-justified-loathing-of-the-extraction-class-deal-with-it/\">unhappy with the tech oligarchy and their fruits</a>.</p>\n\n<blockquote>\n  <p>The thing is the kids aren’t stupid. They see the field clearly. They see the difference between what’s being sold to them by tech companies, the press, and commencement speakers, and what they have repeatedly seen with their own eyes.</p>\n\n  <p>They’ve watched tech oligarchs spend the last decade mired in scandal after scandal, hype cycle after hype cycle, steadily enshittifying everything they touch along the way.</p>\n\n  <p>[…]</p>\n\n  <p>The percentage of Gen Z that think AI’s benefits don’t counterbalance the risks now sits around fifty percent, up 11 percentage points in just the last year. Eight out of every ten believe that using AI makes the process of actual learning more difficult.</p>\n</blockquote>\n\n<p>He sees young people saddled with the perception of entering a worsening world -\nwhich leads them to rage against this latest fruit of the tech oligarchy. A rage\nthat is easy for folks like me\n - with a comfortable retirement off-ramp -  to properly appreciate. A rage that could have marked political and social consequences.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Relevant to these concerns are a couple of items in last week’s Economist newspaper. The newspaper argues that historically major technological advances haven’t led to significant unemployment or drops in wages (<a href=\"https://www.economist.com/finance-and-economics/2026/05/14/the-jobs-apocalypse-a-very-short-history\">paywalled article</a>). The closest was the original industrial revolution in 19th Century Britain. There was a stagnation in wages during this period, but there was also a massive increase in population, from 4½ million to 12 million.</p>\n\n<p>It also points out that we’ll probably only understand the full consequences of all this when a recession hits, as this is when most unproductive jobs tend to be flushed out of the system.</p>\n\n<p>A second article (<a href=\"https://www.economist.com/finance-and-economics/2026/05/13/is-ai-putting-graduates-out-of-work-already\">also paywalled</a>) indicates that AI is having some effect on graduate hiring. They did an analysis of surveys of recent graduates, looking to see if employment varied depending on a job’s exposure to AI. The least exposed quintile of subjects saw employment rate fall by 1.5% over the last couple of years, while the most exposed quintile’s drop was 6.6%.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p><a href=\"https://www.lawfaremedia.org/article/ai-governance-by-phone-call\">Lawfare isn’t impressed</a> with the latest efforts by the US Government to regulate AI.</p>\n\n<blockquote>\n  <p>On [last] Wednesday, the White House invited leaders of OpenAI, Google, Anthropic, Meta, and Microsoft to the Oval Office for a signing ceremony the following afternoon. President Trump was to sign an executive order on AI and cybersecurity—the administration’s most formal effort yet to establish a voluntary process for reviewing frontier models before their release. But roughly three hours before the ceremony, when some company executives were already in the air to Washington, the White House called it off.</p>\n</blockquote>\n\n<p>They see the proposed regulations as mild, and including some valuable measures to harden defenses against cyber threats.</p>\n\n<blockquote>\n  <p>But it’s worth underscoring the implications of postponing (if not outright canceling) this order, which, by its own terms, was about as modest a frontier-AI intervention as the federal government could put on paper: voluntary, focused on the government’s own defenses, and explicitly barred from becoming a licensing regime. The objection isn’t so much about government coercion as about the government having any settled role at all. Voluntary, in other words, isn’t the floor of frontier AI policy in this administration; it’s the ceiling.</p>\n\n  <p>This is a questionable position given that the concerns animating this draft order will likely grow in the near future. It is also self-defeating for those who applauded the order’s delay or demise. Far from resolving the risk of government meddling in AI, killing the order just leaves in place what Ball has described as the “opaque and essentially lawless” alternative: government access happening through back channels, on terms set case by case, with no stable rules at all.</p>\n</blockquote>\n\n<p>One of the problems here is a distinct lack of governmental expertise, either in AI or in software in general. Too much is being decided at the whims of the tech oligarchy, there isn’t any attempt to engage in the broader issues at hand. That’s not entirely a bad thing, trying to regulate something that’s still evolving so fast is usually a fool’s errand - but the problem here is the impact of AI is so big that there’s real danger in being too far behind.</p>\n\n<p> ❄                ❄</p>\n\n<p>Which leads me to a rare thing, an endorsement of a candidate for political office. If you are voting in congressional district MA-06 (North Shore of Massachusetts), I’d seriously look at <a href=\"https://bethfordemocracy.com/\">Beth Anders-Beck</a>, who is running for congress in that district. Beth has a long background in software development (including developing the notion of <a href=\"https://martinfowler.com/bliki/ForestAndDesert.html\">Forest and Desert</a>), so would introduce expertise that Congress desperately needs. I’ve known Beth for decades, and have a high opinion of their intelligence, judgment, and ability to work with others. Congress doesn’t deserve Beth, but it does need her.</p>",
+      "time": "2026-05-27T19:40:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "The test suite as a regression sensor",
+      "link": "https://martinfowler.com/articles/sensors-for-coding-agents.html#TheTestSuiteAsARegressionSensor",
+      "description": "<div class = 'img-link'><a href = 'https://martinfowler.com/articles/sensors-for-coding-agents.html#TheTestSuiteAsARegressionSensor'><img src = 'https://martinfowler.com/articles/sensors-for-coding-agents/card.png' width = '350px'></img></a></div>\n\n<p><b class = 'author'>Birgitta B&#xF6;ckeler</b> finishes her post on sensors for\n      coding agents by examining the role of a test suite as a regression\n      sensor, focusing on the role mutation testing can play.</p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/sensors-for-coding-agents.html#TheTestSuiteAsARegressionSensor'>more…</a></p>",
+      "time": "2026-05-27T15:01:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "The VibeSec Reckoning",
+      "link": "https://martinfowler.com/articles/vibesec-reckoning.html",
+      "description": "<p>Vibe coding has significantly accelerated software prototyping but AI\n      agents frequently recommend insecure configurations, creating security\n      problems. <b class = 'author'>Gautam Koul, Lucian Moss, Neil Drew-Lopez, and Daberechi\n      Ruth Edeokoh</b> share their experience while building applications\n      for Thoughtworks's global marketing. They learned that to combat this we\n      need to write a security context file to guide the AI, be cautious with AI\n      permission requests, create a daily security intelligence feed, and\n      provide builders with a secure-by-default harness and templates.</p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/vibesec-reckoning.html'>more…</a></p>",
+      "time": "2026-05-27T14:03:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Bliki: Vibe Coding",
+      "link": "https://martinfowler.com/bliki/VibeCoding.html",
+      "description": "<p>Vibe coding is building a software application by prompting an LLM, telling it\n  what to build, trying it out, prompting for changes - but without looking at\n  any of the code that the LLM generates. This technique can be used by people\n  without any knowledge of programming. However the resulting software often\n  shows problems with maintainability, correctness, and security - so is best\n  used for disposable software written for a limited audience.</p>\n\n<p>The term was coined in February 2025 by Andrej Karpathy, an experienced\n  programmer, in a post on X:</p>\n\n<blockquote>\n<p>There's a new kind of coding I call “vibe coding”, where you fully give\n    in to the vibes, embrace exponentials, and forget that the code even exists.\n    It's possible because the LLMs (e.g. Cursor Composer w Sonnet) are getting\n    too good. Also I just talk to Composer with SuperWhisper so I barely even\n    touch the keyboard. I ask for the dumbest things like “decrease the padding\n    on the sidebar by half” because I'm too lazy to find it. I “Accept All”\n    always, I don't read the diffs anymore. When I get error messages I just\n    copy paste them in with no comment, usually that fixes it. The code grows\n    beyond my usual comprehension, I'd have to really read through it for a\n    while. Sometimes the LLMs can't fix a bug so I just work around it or ask\n    for random changes until it goes away. It's not too bad for throwaway\n    weekend projects, but still quite amusing. I'm building a project or webapp,\n    but it's not really coding - I just see stuff, say stuff, run stuff, and\n    copy paste stuff, and it mostly works.</p>\n\n<p class=\"quote-attribution\">-- <a href=\"https://x.com/karpathy/status/1886192184808149383\">Andrej Karpathy</a></p>\n</blockquote>\n\n<p>The key point about vibe coding is <b>“forget that the code even exists”</b>.\n  This is what gives it much of its usefulness, but also its limitations.</p>\n\n<p>Since the <a href=\"/bliki/NovemberInflection.html\">November Inflection</a> many programmers are\n  getting LLMs to write all their code, commenting that they may never write a\n  line of code directly again. However they do care about this code, reviewing\n  it, paying attention to its internal structure. In that case, they aren't\n  forgetting the code exists, so it's really a different thing that I call\n  <a href=\"/bliki/AgenticProgramming.html\">Agentic Programming</a>. Sadly the term “vibe coding” really\n  caught on, so many people use it to mean agentic programming. However I feel\n  that despite this rapid <a href=\"/bliki/SemanticDiffusion.html\">Semantic Diffusion</a>, it's worth\n  trying to keep the concepts of vibe coding and agentic programming separate,\n  as they are both different to use and different in their consequences.</p>\n\n<p>Because a vibe coder doesn't look at the code, they don't need programming\n  skills, so it's perfect for someone with no programming knowledge to build\n  applications for their own use. Experienced programmers may also find it handy\n  for rapid development of disposable software or prototypes.</p>\n\n<p>Vibe coding\n  is still new, so we are exploring its limitations, and those limitations\n  change as the sophistication of models and their <a href=\"/articles/harness-engineering.html\">harnesses</a> change. These\n  limitations do introduce considerable risks, particularly if the vibed\n  software is used widely or has access to sensitive information.</p>\n\n<p>Perhaps the most serious risk is that of security. LLMs are inherently\n  vulnerable as they provide a large attack surface for predators. Vibe coded\n  applications can often expose sensitive information or worse, credentials to\n  attack deeper into an organization's systems. Even non-programmers need to be\n  aware of the <a href=\"/articles/agentic-ai-security.html#lethal-trifecta\">Lethal\n  Trifecta</a>.</p>\n\n<p>With little attention to the code, vibed software can rapidly produce\n  many lines of code of a very low quality. Such code makes it difficult, even for an LLM,\n  to modify and enhance the software in the future. While it's possible that\n  growing LLM capabilities will allow it to work with even the largest bowls of\n  spaghetti software, thus far it seems clear that well-structured software\n  makes life easier for LLMs too.</p>\n\n<p>LLMs are famous for habit of hallucinating incorrect facts and presenting\n  these with great confidence. This habit also leads them to create software\n  that behaves incorrectly - and those errors may not be manifest to the user.\n  Furthermore the non-determinism of LLMs means that it's likely that asking an\n  LLM to enhance some software could easily lead it to introduce errors, even in\n  parts of the code that shouldn't change due to the new request. We should thus\n  treat LLM-generated software with skepticism, it can still be useful, but we\n  need to be aware of the risks.</p>\n\n<p>On the whole vibe coding software is best used for disposable software\n  that's only used by its author or a close group of collaborators who\n  understand and accept the risks involved. Code that is more complex, more\n  widely-used, and with more consequences to its risks should not be forgotten about.</p>",
+      "time": "2026-05-21T11:49:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Three more static code analysis sensors",
+      "link": "https://martinfowler.com/articles/sensors-for-coding-agents.html#StaticCodeAnalysisDependencyRules",
+      "description": "<div class = 'img-link'><a href = 'https://martinfowler.com/articles/sensors-for-coding-agents.html#StaticCodeAnalysisDependencyRules'><img src = 'https://martinfowler.com/articles/sensors-for-coding-agents/card.png' width = '350px'></img></a></div>\n\n<p><b class = 'author'>Birgitta B&#xF6;ckeler</b> adds discussion of <a href = 'https://martinfowler.com/articles/sensors-for-coding-agents.html#StaticCodeAnalysisDependencyRules'>three more\n      sensors</a> for static code analysis, focusing on checking and enforcing\n      better modularity. Computational sensors for dependency checks were good\n      at enforcing rules, but the rules were limited. Building a computational\n      sensor for coupling data proved lackluster. Prompting an inferential\n      sensor to review modularity was more effective.</p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/sensors-for-coding-agents.html#StaticCodeAnalysisDependencyRules'>more…</a></p>",
+      "time": "2026-05-20T14:27:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Maintainability sensors for coding agents",
+      "link": "https://martinfowler.com/articles/sensors-for-coding-agents.html",
+      "description": "<div class = 'img-link'><a href = 'https://martinfowler.com/articles/sensors-for-coding-agents.html'><img src = 'https://martinfowler.com/articles/sensors-for-coding-agents/card.png' width = '350px'></img></a></div>\n\n<p>In her recent article about harness engineering for coding agent users,\n      <b class = 'author'>Birgitta B&#xF6;ckeler</b> laid out a mental model for expanding a\n      coding agent harness: a system of guides and sensors that increase the\n      probability of good agent outputs and enable self-correction before issues\n      reach human eyes. Birgitta has now started publishing an article where she\n      walks though <a href = 'https://martinfowler.com/articles/sensors-for-coding-agents.html'>her experiences using sensors</a> to keep a codebase\n      maintainable. This part looks at static analysis with basic code linting.</p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/sensors-for-coding-agents.html'>more…</a></p>",
+      "time": "2026-05-19T16:38:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Fragments: May 14",
+      "link": "https://martinfowler.com/fragments/2026-05-14.html",
+      "description": "<p>Last week I spent a day at The Orchard Retreat, hosted by <a href=\"https://www.mechanical-orchard.com/\">Mechanical Orchard</a>. that brought together several people working in software development to talk about the profession’s future with the rise of agentic programming. The event was help under the <a href=\"https://www.chathamhouse.org/about-us/chatham-house-rule\">Chatham House Rule</a>, so I can’t attribute the comments and stories I heard. (If anyone recognizes themselves, and would like attribution, let me know.) Here are a few tidbits that caught my notebook.</p>\n\n<p> ❄                ❄</p>\n\n<p>One group developed a behavioral clone of GNU Cobol compiler in Rust. The result is 70K lines of Rust and was built in 3 days. This is yet another sign of the ability of LLMs to do a good job of porting existing code to a new platform. Good regression tests are extremely valuable here (and I don’t know how good GNU Cobol’s are). There’s also the possibility of building a test suite if you have access an existing implementation.</p>\n\n<p> ❄                ❄</p>\n\n<p>Large spec documents can be complex for a human to review. One attendee shared the idea of getting the LLM to interview a human expert, asking the human questions to verify the correctness of the specification, a form of <a href=\"https://martinfowler.com/bliki/InterrogatoryLLM.html\">Interrogatory LLM</a>.</p>\n\n<p> ❄                ❄</p>\n\n<p>Not specifically about AI - but I liked how one attendee commented that the first thing they do when consulting with an organization is to read the guidelines for their change-control board. This is the scar tissue of what’s gone wrong in the past. I’ve often said that to understand why a thing is the way it is, you need to understand the history of how it got there. This seems like an excellent way to tap into important parts of that history.</p>\n\n<p> ❄                ❄</p>\n\n<p>My colleagues who work with modernizing legacy systems have long been rather sniffy about “Lift and Shift” - porting a legacy system to a new platform while retaining <a href=\"https://martinfowler.com/articles/patterns-legacy-displacement/feature-parity.html\">Feature Parity</a>.</p>\n\n<blockquote>\n  <p>We see this pattern as a huge missed opportunity. Often the old systems have bloated over time, with many features unused by users (50% according to a 2014 Standish Group report) and business processes that have evolved over time. Replacing these features is a waste. Instead, try to muster the energy to take a step back and understand what users currently need, and prioritize these needs against business outcomes and metrics.</p>\n</blockquote>\n\n<p>But this point of view was developed before LLM’s ability to port code appeared. One attendee who does a lot of work in this field said they believed that lifting and shifting to a new platform should now be always the first step in a legacy migration. The cost is no longer as formidable as it used to be, and a better environment makes further evolution much cheaper. Just don’t stop there.</p>\n\n<p> ❄                ❄</p>\n\n<p>Several attendees were from the financial industry, and thus were immersed the problems of complex legacy environments coupled with regulatory controls and significant risk should software do something wrong with money. One of their issues is the complexity we run into when a financial product is offered in multiple jurisdictions, each with their own regulations to satisfy. There’s a lot of software complexity in deciding which jurisdiction applies, and picking the right set of rules at the right point of the workflow.</p>\n\n<p>The question here is whether the rapidity of agentic programming means that we can build individual, simpler systems for each jurisdiction. We would then use LLMs to ensure consistency between them, so that as the product rules change, each system reflects that into its own environment.</p>\n\n<p>A large part of software design is about identifying what is the same and what differs between various business contexts. Where things are the same, and need to be the same, we are rightly wary of duplicating code, since this increases the cost of updates the dangers of inconsistency. The interesting question is what role LLMs can play to give us new tools to tackle this.</p>\n\n<p> ❄                ❄</p>\n\n<p>As is usually the case in gatherings like this, folks were concerned about junior developers. When we work with The Genie, our value comes from good judgment - how do we teach that? This group did have one common tool - <a href=\"https://martinfowler.com/bliki/PairProgramming.html\">Pair Programming</a>. One of the key benefits of pairing has always been skills transfer, and here an experienced agentic programmer can pass on their judgment for software design and how to use the genie to get there. And the junior will often have a trick or two to share too - that fresh pair of eyes in particularly valuable in the shift to our agentic future.</p>\n\n<p> ❄                ❄</p>\n\n<p>Historically, we use computer systems to bring order to chaotic human processes. Is AI reversing that?</p>\n\n<p> ❄                ❄</p>\n\n<p>So much software is involved in data transformation. Those records over there need to be consumed by these APIs over here, but there are differences in how the data is structured, often due to being in different <a href=\"https://martinfowler.com/bliki/BoundedContext.html\">Bounded Contexts</a>, so we have to do some conversion. Agents are particularly adept at writing this kind of transformation code, which is often more tedious than we’d like.</p>\n\n<p> ❄                ❄</p>\n\n<p>Chaos Engineering has become a valuable technique to improve resiliency, made famous by Netflix’s Chaos Monkey that randomly breaks live services to see how well the ecosystem reacts and recovers. What would a Chaos Monkey for AI look like? Would it deliberately introduce hallucinations into a pipeline to see if sensors were able to catch them?</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Back at my desk</p>\n\n<p>There’s been a bunch of questions about the article on <a href=\"https://martinfowler.com/articles/structured-prompt-driven/\">Structured-Prompt-Driven Development (SPDD)</a> that the authors answered in a <a href=\"https://martinfowler.com/articles/structured-prompt-driven/#faq\">Q&amp;A section</a>. One in particular caught my eye:</p>\n\n<blockquote>\n  <p>Have you considered having an agent do the prompt/spec review itself — not a human reviewing the Canvas, but an agent that reads the REASONS Canvas alongside the code diff and verifies alignment?</p>\n</blockquote>\n\n<p>The reply talks about how there is an available command to do this, but there downsides. In particular one reason not to do this automatically is:</p>\n\n<blockquote>\n  <p>Letting humans learn. Review is also where humans learn from the AI’s choices — patterns, trade-offs, options they had not thought of. Cutting humans out speeds things up, but it blocks the long-term skill growth that SPDD is designed to protect. […] Once enough decision rules build up to give us real confidence, we may shift more of the review to the agent step by step — but the part where humans learn from the AI is something we plan to keep.</p>\n</blockquote>\n\n<p>One of the ways we should judge the value of an AI tool is how much it helps us humans learn more about the world we inhabit and build.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>In some strange way I injured my elbow last week. No idea how, there was no event where I said “oh shit”. It just gradually started hurting and swelling. My life-long strategy to avoid sports injuries<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote\" rel=\"footnote\" role=\"doc-noteref\">1</a></sup> had defied me. I applied ice and ibuprofin, the swelling went down, but my range of motion got worse. I’m glad I learned to use a knife and fork in English childhood, so I normally eat with my left hand.</p>\n\n<p>I noticed that that loss of range of motion occurred after I got home, when I started spending all day at the computer again. I might not use my elbow directly, but my right hand does a lot of typing and mousing. My desk set up is pretty ergonomic, with a <a href=\"https://martinfowler.com/articles/kinesis-advantage2.html\">good keyboard</a>, a wrist rest for the mouse, and arm rests on my chair. But even so, did my computer use make my elbow get worse once I got home? I can’t imagine not using the computer, for me writing has become an unstoppable habit. But maybe I should use this opportunity to explore voice input - after all most people can speak faster than they can type.</p>\n\n<p>I tried this many years ago, when a colleague told me how good voice recognition was once it trained to you. I tried it, and indeed the voice recognition, even in those pre-AI days, was very good. But it didn’t work for me. When I’m writing I rapidly type words into Emacs, but almost immediately I go back to edit them. Write two sentences, edit them, write another, re-edit the paragraph. The back-and-forth between seeing my words and thinking about them is tight - I can’t just dictate my words.</p>\n\n<p>That made me reflect further. I only started using a computer for my writing in my 20s. At school I had to write longhand, and in university to type on typewriter. But those media don’t support the constant rewriting that I do now. Would I even have become a writer had the text editor not been invented?</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>James Pritchard thinks that many developers are over-using agents at run-time in their products, when <a href=\"https://james-pritchard.com/blog/llms-are-functions\">LLMs are better used as functions</a>.</p>\n\n<blockquote>\n  <p>The problem with agents isn’t that they don’t work. It’s that they work unpredictably. You trade a known execution path for “autonomy” that mostly means “I don’t know what it’s going to do.” When an agent-powered feature breaks in production, you’re debugging a conversation transcript, not a stack trace.</p>\n\n  <p>Most “agent” use cases are actually workflows, a known sequence of steps where one or two of those steps happen to involve an LLM. You don’t need autonomy for that. You need a function call.</p>\n</blockquote>\n\n<p>He points out that functions compose predictably, so if you know the workflow, then composing in a program text is better than agents figuring out how to coordinate themselves. It’s  faster, and needs less tokens. It’s usually easier to deal with failures, since the scope of the interaction is smaller.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Pritchard also thinks that people <a href=\"https://james-pritchard.com/blog/skills-junk-drawer\">use skills far more than they should</a>. He thinks people accumulate folders of markdown skill files but LLMs use them inconsistently, often missing them when they’re needed, or bloating context when they are not. Many things that should go in skills should be other parts of a <a href=\"https://martinfowler.com/articles/harness-engineering.html\">harness</a>, preferably computational. Skills should only be used with deliberate, infrequent workflows.</p>\n\n<blockquote>\n  <p>The skills obsession is a symptom of a deeper pattern: people reaching for configuration when they should be reaching for architecture.</p>\n\n  <p>“The LLM doesn’t write good tests.” Don’t write a testing skill. Are your existing tests inconsistent? Is the test setup complex? Fix those things and it’ll write good tests without being told how. Point it at a test file you’re proud of. Code is clearer than English.</p>\n\n  <p>[…]</p>\n\n  <p>The best setup is one where you barely need to configure the LLM at all. A clean codebase with clear patterns, a short project config for the non-obvious stuff, hooks for automation, and maybe one or two skills for specific workflows you run intentionally. That’s it.</p>\n</blockquote>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>An oft-stated point about the rise of agentic programming is that we have to start dealing with non-determinism in our work. Of course that’s somewhat of a simplification, because some aspects of software development have long had to face non-determinism. A notable example of this is distributed systems, and a notable figure in helping us probe the truly uncomfortable waters of distributed systems is Kyle Kingsbury (Aphyr).</p>\n\n<p>Last month he dropped a long article (the pdf is 32 pages) on how he sees our LLM-enabled future. The title “<a href=\"https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess\">The Future of Everything is Lies, I Guess</a>” betrays his lack of enthusiasm for this future.</p>\n\n<blockquote>\n  <p>Some readers are undoubtedly upset that I have not devoted more space to the wonders of machine learning—how amazing LLMs are at code generation, how incredible it is that Suno can turn hummed melodies into polished songs. But this is not an article about how fast or convenient it is to drive a car. We all know cars are fast. I am trying to ask what will happen to the shape of cities.</p>\n</blockquote>\n\n<p>It’s worth the long read, even if it isn’t terribly cheerful. Kingsbury brings up many of worries about AI’s growth from the perspective of someone who is clearly well-informed about their capabilities.</p>\n\n<p>His view is that the best response to all this is that we should stop. He wants to avoid using AIs for his writing, software, or personal life. He thinks those working for the AI companies should quit. And yet he also knows that these tools are useful, and wants to use them.</p>\n\n<p>I’m both a hoper and a doomer when it comes to our AI future. Fundamentally I see any powerful technology as a big bus: we are either on it, or get run over by it. I’m onboard the bus because I don’t think putting up some barriers would stop me being crushed by its wheels. Maybe if I’m on the bus I can join some people to influence the driver a bit. I’m also very reluctant to speculate on the future outcomes of anything, let alone something as powerful as this. Did the early industrialists in the late eighteenth century have any clue what the industrial revolution they unleashed would do? While it created many harms, it also created a massive rise in the living standards of millions of people, at least those whose countries were on the bus. AI may create benefits that I can’t really dream of, although I can glimpse it when it helps <a href=\"https://www.linkedin.com/pulse/my-80th-birthday-i-bought-myself-new-brain-jim-highsmith-8qcrc/\">a friend stave off Parkinson’s disease.</a></p>\n\n<p>Those hopes are there, but Kingsbury’s article shines a light on the darker elements of the here-and-now, asking serious questions of responsibility</p>\n\n<blockquote>\n  <p>a part of my work as a moderator of a Mastodon instance is to respond to user reports, and occasionally those reports are for CSAM, and I am legally obligated to review and submit that content to the NCMEC. I do not want to see these images, and I really wish I could unsee them. On dark mornings, when I sit down at my computer and find a moderation report for AI-generated images of sexual assault, I sometimes wish that the engineers working at OpenAI etc. had to see these images too. Perhaps it would make them reflect on the technology they are ushering into the world, and how “alignment” is working out in practice.</p>\n</blockquote>\n\n<div class=\"footnotes\" role=\"doc-endnotes\">\n  <ol>\n    <li id=\"fn:1\">\n      <p>Don’t do sports <a href=\"#fnref:1\" class=\"reversefootnote\" role=\"doc-backlink\">↩</a></p>\n    </li>\n  </ol>\n</div>",
+      "time": "2026-05-14T21:52:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Bliki: Interrogatory LLM",
+      "link": "https://martinfowler.com/bliki/InterrogatoryLLM.html",
+      "description": "<p>When we need an LLM to perform a complex task, we often need to feed it a\n  lot of context. Coming up with a design for a new feature requires\n  descriptions of how we want the feature to appear to the user, guidelines on\n  how it should be implemented, information on external systems to consult, and\n  so on. All this can be several pages of markdown. The obvious way to do\n  this is for a human to write this context, but an alternative is to use an LLM to write\n  this context after interviewing a human.</p>\n\n<p>The way I can do this is to prompt the LLM to interrogate me. It should ask me\n  all the questions it needs to create this appropriate context. I can feed much\n  of the information it needs, and tell it other sources it needs to consult if\n  it can't figure those out itself. Once it's done, it can then create the\n  context report for another session (perhaps with another model) to carry out\n  the next step.</p>\n\n<p>I first saw a decent description of this approach in <a href=\"https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/\">Harper\n  Reed's blog</a>. A striking element of his approach is insisting that the LLM\n  ask only one question at a time. (When I tried it, I found it needed to be\n  frequently reminded of this.)</p>\n\n<p>Another way to use an interrogatory LLM is to give it a document, such as a\n  software specification, that captures knowledge about a domain - and then ask\n  the LLM to interview a human expert to determine if the document is accurate.\n  This is an alternative to getting the human expert to read the document to\n  review it. People often find reviewing hard, so a conversation with an LLM\n  might be more fruitful, particularly if the document isn't well-written.</p>\n\n<p>Naturally we can use both of these, using one interrogatory LLM to build a\n  document, then using other interrogatory LLMs to review it with other experts.\n  </p>\n\n<p>The above is getting an LLM to create or assess context for a particular\n  use of an LLM. But the technique is more broadly applicable. I've become a\n  natural writer, someone who finds the process of writing an essential part of\n  thinking. To really understand something, I need to write about it. But\n  different people are different. Many folks find writing hard, often\n  <i>very</i> hard. This can be a real problem when we need to get information\n  out of someone's head into a form that other humans can consume. Maybe such\n  people would find it easier to ask an LLM to interview them than to write a\n  document themselves. Certainly the result will have that tang of AI-writing\n  that folks like me shudder at - but that's better than not having the\n  information itself, either due to rushed writing or no writing at all. </p>",
+      "time": "2026-05-14T15:04:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "What is Code",
+      "link": "https://martinfowler.com/articles/what-is-code.html",
+      "description": "<p>Increasingly humans delegate writing code to agents. Will there even be\n      source code in the future? To wrestle with this question, we have to\n      understand what code is. <b class = 'author'>Unmesh Joshi</b> sees code as having\n      two distinct but intertwined purposes: <i>instructions to a machine</i> and a\n      <i>conceptual model of the problem domain</i>. He explores why it's vital\n      to build a vocabulary to talk to the machine, how programming languages\n      are thinking tools, and how this affects our future as we work with LLMs.</p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/what-is-code.html'>more…</a></p>",
+      "time": "2026-05-12T13:30:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Fragments: May  5",
+      "link": "https://martinfowler.com/fragments/2026-05-05.html",
+      "description": "<p>Over the last couple of months Rahul Garg published a series of posts here on how to <a href=\"https://martinfowler.com/articles/reduce-friction-ai/\">reduce the friction in AI-assisted programming</a>. To make it easier to put these ideas into practice he’s now built an <a href=\"https://martinfowler.com/articles/reduce-friction-ai/#ThesePatternsAsInstallableInfrastructure\">open-source framework to operationalize these patterns</a>.</p>\n\n<blockquote>\n  <p>AI coding assistants jump straight to code, silently make design decisions, forget constraints mid-conversation, and produce output nobody reviewed against real engineering standards. Lattice fixes this with composable skills in three tiers – atoms, molecules, refiners – that embed battle-tested engineering disciplines (Clean Architecture, DDD, design-first methodology, secure coding, and more), plus a living context layer (the .lattice/ folder) that accumulates your project’s standards, decisions, and review insights. The system gets smarter with use – after a few feature cycles, atoms aren’t applying generic rules, they’re applying your rules, informed by your history.</p>\n</blockquote>\n\n<p>It can be installed as a Claude Code plugin or downloaded for use with any AI tool.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>This is also a good point to note that the article by my colleagues Wei Zhang and Jessie Jie Xia on <a href=\"https://martinfowler.com/articles/structured-prompt-driven/\">Structured-Prompt-Driven Development (SPDD)</a> has generated an enormous amount of traffic, and quite a few questions. They have thus added a <a href=\"https://martinfowler.com/articles/structured-prompt-driven/#faq\">Q&amp;A section</a> to the article that answers a dozen of them.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Jessica Kerr (Jessitron) posted a merry tidbit of building a tool to work with conversation logs. <a href=\"https://jessitron.com/2026/04/27/communication-is-hard-but-sometimes-i-can-fix-it/\">She observes the double feedback loop</a> involved.</p>\n\n<blockquote>\n  <p>There are (at least) two feedback loops running here. One is the development loop, with Claude doing what I ask and then me checking whether that is indeed what I want.[…] Then there’s a meta-level feedback loop, the “is this working?” check when I feel resistance. Frustration, tedium, annoyance–these feelings are a signal to me that maybe this work could be easier.</p>\n</blockquote>\n\n<p>The double loop here is both changing the thing we are building but also changing the thing we are using to build the thing we are building.</p>\n\n<blockquote>\n  <p>As developers using software to build software, we have potential to mold our own work environment. With AI making software change superfast, changing our program to make debugging easier pays off immediately. Also, this is fun!</p>\n</blockquote>\n\n<p>Indeed it is, and makes me think that agents are allowing us to (re)discover one of the Great Lost Joys of software development - that of molding my development environment to exactly fit the problem and my personal tastes. A while ago I wrote about this under the name <a href=\"https://martinfowler.com/bliki/InternalReprogrammability.html\">Internal Reprogramability</a>. It was a central feature of the Smalltalk and Lisp communities but was mostly lost as we got complex and polished IDEs (although the unix command line gives a hint of its appeal).</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Ashley MacIsaac is a musician from Cape Breton, who plays folk-influenced music (I have a couple of his albums in my collection). Google generated an AI overview that asserted that had been convicted of crimes, including sexual assault and was on the national sex-offender registry. These were completely false, confusing him with another man with the same name. MacIsaac is <a href=\"https://www.cbc.ca/news/canada/nova-scotia/cape-breton-fiddler-ashley-macisaac-lawsuit-against-google-9.7187490\">suing Google for defamation</a>:</p>\n\n<blockquote>\n  <p>“This was not a search engine just scanning through things and giving somebody else’s story […] It was published by them. And to me, that is defamation. The guardrails were not there to prevent Google AI from publishing that content.”</p>\n</blockquote>\n\n<p>MacIsaac’s point is that Google must take responsibility for what a tool it controls publishes. MacIsaac suffered genuine harm here, not just to his reputation, but he also had a concert canceled and the claims affect his performing.</p>\n\n<blockquote>\n  <p>“I felt that tangible fear from something that was published by a media company,” he said in an interview with The Canadian Press. “I feared for my own safety going on stage because of what I was labelled as. And I don’t know how long this will follow me.”</p>\n</blockquote>\n\n<p>Too often tech companies try to dodge the consequences of their actions. There are genuine issues about the difficulties of monitoring what’s published at scale, but that’s a responsibility that they should face up to.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Stephen O’Grady (RedMonk) takes a serious look at <a href=\"https://redmonk.com/sogrady/2026/04/29/infrastructure-spend-in-the-ai-era/\">how much the big tech companies are spending on AI build-outs</a>. The sums involved are staggering, not just in absolute terms (over $100 Billion), but also compared to the revenues of the companies involved. Firms like Amazon, Alphabet, and Microsoft are spending over 50% of their revenues (not profits).  Meta and Oracle hit or pass 75% of revenues.</p>\n\n<blockquote>\n  <p>That level of investment would have been unthinkable a decade ago. Today, the chart suggests it’s table stakes</p>\n</blockquote>\n\n<p>There is a notable exception: Apple. Here they are clearly Thinking Different, eyeballing the chart they seem closer to 10% of revenues.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Most folks I talk to about agentic programming are using models in the cloud: Claude, Codex, and the like. Everyone agrees these are the most powerful models, the ones that triggered the <a href=\"https://martinfowler.com/bliki/NovemberInflection.html\">November Inflection</a>. But do we need to use the Most Powerful Models, particularly when we have to ship data to them, and pay handsomely for the privilege? Willem van den Ende <a href=\"https://willemvandenende.com/blog/engineering/my-local-agentic-dev-setup-today\">considers an alternative</a>, that local models are Good Enough.</p>\n\n<blockquote>\n  <p>Assumptions<br>\n- We are all figuring this out.<br>\n- Quality of a harness (coding agent + “skills” + extensions) can matter as least as much as the model<br>\n- Running open models and an open coding agent + custom extensions takes time, but pays off in understanding and a stable base where engineering effort compounds<br>\n- Open, local, models have (for me) crossed the point where they are good enough for daily work with a coding agent.</p>\n</blockquote>\n\n<p>The post describes in detail his setup for local model work. It includes sandboxing with Nono, which is something to consider even if using a Cloud model - such powerful tools need a <a href=\"https://www.thoughtworks.com/radar/techniques/zero-trust-architecture\">Zero Trust Architecture</a>.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>In case you haven’t noticed, those last two fragments resonate. Apple isn’t playing the cloud AI model game, they are saving a huge amount of money, and if local models end up being the future, they’ll be looking rather wise. Van den Ende’s post led me to a podcast by Nate B Jones that argues that <a href=\"https://natesnewsletter.substack.com/p/executive-briefing-the-ai-race-youre\">Apple is replaying a fifty-year old strategy</a> here. All those years ago anyone who used a computer bought time on a mainframe, the Apple II put far less capable compute into the home and small office. From there came spreadsheets, desktop publishing, and the modern home computer - things that weren’t possible using mainframes.</p>\n\n<p>He sees the rise of John Ternus as CEO isn’t merely a switch to a known insider successor - but a bet that the future of AI is sophisticated hardware in the home, office, and pocket. If Open Source models are Good Enough, then why spend money sending tokens - containing your sensitive data - to the AI megacorps?</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Talking of five decades in the past, it was in 1974 that Fred Brooks opened <a href=\"https://martinfowler.com/bliki/MythicalManMonth.html\">one of the most influential books</a> in our profession with these paragraphs:</p>\n\n<blockquote>\n  <p>No scene from prehistory is quite so vivid as that of the mortal struggles of great beasts in the tar pits. In the mind’s eye one sees dinosaurs, mammoths, and sabertoothed tigers struggling against the grip of the tar. The fiercer the struggle, the more entangling the tar, and no beast is so strong or so skillful but that he ultimately sinks.</p>\n\n  <p>Large-system programming has over the past decade been such a tar pit, and many great and powerful beasts have thrashed violently in it. Most have emerged with running systems — few have met goals, schedules, and budgets. Large and small, massive or wiry, team after team has become entangled in the tar. No one thing seems to cause the difficulty — any particular paw can be pulled away. But the accumulation of simultaneous and interacting factors brings slower and slower motion. Everyone seems to have been surprised by the stickiness of the problem, and it is hard to discern the nature of it. But we must try to understand it if we are to solve it.</p>\n</blockquote>\n\n<p>With the title of his recent post Kent Beck summons up that imagery as the <a href=\"https://tidyfirst.substack.com/p/genie-tarpit\">Genie Tarpit</a>. After explaining why skilled software development is about building both features and futures, he observes that these AI tools aren’t doing a good job of producing software with the kind of internal quality that is needed for a good future.</p>\n\n<blockquote>\n  <p>Here’s what I’ve observed — genies naturally live down &amp; to the left of muddling. The “plausible deniability” task orientation of the genie leaves it claiming success even though the code doesn’t work at all. And complexity piles on complexity until even the genie can’t pretend to make progress any more.</p>\n</blockquote>\n\n<p>It’s still an open question whether, or to what extent, internal quality matters in the age of agentic programming. One view is, as Laura Tacho puts it, “The Venn Diagram of Developer Experience and Agent Experience is a circle”. Well organized elements, with good naming, help The Genie understand code, so are important if we can continue to go beyond small disposable systems. The other view is that such internal quality doesn’t matter, that the galaxy brain of LLMs will make sense of the biggest bowls of spaghetti. Maybe not now, but after a couple more inflections.</p>\n\n<p>That’s the fundamental question. Can The Genie evade the tar pit, or will it struggle fruitlessly against the tar’s sticky grip?</p>",
+      "time": "2026-05-05T16:23:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Bliki: Mythical Man Month",
+      "link": "https://martinfowler.com/bliki/MythicalManMonth.html",
+      "description": "<p>In the early 1960s, Fred Brooks managed the development of IBM's System/360\n  computer systems. After it was done he penned his thoughts in the book <a href=\"https://www.amazon.com/gp/product/0201835959/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0201835959&amp;linkCode=as2&amp;tag=martinfowlerc-20\">The\n  Mythical Man-Month</a> which became one of the most influential books on software\n  development after its publication in 1975. Reading it in 2026, we'll find some\n  of it outdated, but it also retains many lessons that are still relevant today.</p>\n\n<p>The book contains Brooks's law: “Adding manpower to a late software project\n  makes it later.” The issue here is communication, as the number of people\n  grows, the number of communication paths between those people grows\n  exponentially. Unless these paths are skillfully designed, then work quickly\n  falls apart.</p>\n\n<p>Perhaps my most enduring lesson from this book is the importance of\n  <b>conceptual integrity</b></p>\n\n<blockquote>\n<p>I will contend that conceptual integrity is the most important\n    consideration in system design. It is better to have a system omit certain\n    anomalous features and improvements, but to reflect one set of design ideas,\n    than to have one that contains many good but independent and uncoordinated\n    ideas.</p>\n</blockquote>\n\n<p>He argues that conceptual integrity comes from both simplicity and\n  straightforwardness - the latter being how easily we can compose elements.\n  This point of view has been a strong influence upon my career, the pursuit\n  of conceptual integrity underpins much of my work.</p>\n\n<p>The <a href=\"https://www.amazon.com/gp/product/0201835959/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0201835959&amp;linkCode=as2&amp;tag=martinfowlerc-20\">anniversary edition</a> of this book is the one to get, because it also\n  includes his even-more influential 1986 essay “No Silver Bullet”.</p>",
+      "time": "2026-05-05T16:18:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Fragments: April 29",
+      "link": "https://martinfowler.com/fragments/2026-04-29.html",
+      "description": "<p>Chris Parsons has updated <a href=\"https://www.chrismdp.com/coding-with-ai/\">his guide on using AI to code</a>. This is his third update, what I like about it is that he gives a lot of concrete information about how he uses AI, with sufficient detail that we can learn from him. His advice also resonates with the better advice I’ve seen out there, so the article makes a good overview of the state of using AI for software development.</p>\n\n<blockquote>\n  <p>I wrote the previous version of this post in March 2025, updated it once in August, and it has been linked from almost everything I have written about AI engineering since. The fundamentals from that post still hold: keep changes small, build guardrails, document ruthlessly, and make sure every change gets verified before it ships. One thing has had to move with the volume. “Verified” used to mean “read by you”. With modern agent throughput, it has to mean “checked by tests, by type checkers, by automated gates, or by you where your judgement matters”. The check still happens; it just does not always happen in your head.</p>\n</blockquote>\n\n<p>Like Simon Willison, he makes a clear distinction between vibe coding, where you don’t look at or care about the code, and agentic engineering. He recommends either Claude Code or Codex CLI. He considers the inner harness provided by his preferred tools to be a key part of their advantage.</p>\n\n<p>He sees verification is the key thing to focus on:</p>\n\n<blockquote>\n  <p>A team that can generate five approaches and verify all five in an afternoon will outpace a team that generates one and waits a week for feedback. The game is not “how fast can we build” any more. It is “how fast can we tell whether this is right”. That shifts where to invest. Build better review surfaces, not better prompts. Make feedback unnecessary where you can by having the agent verify against a realistic environment before it asks a human, and make feedback instant where you cannot.</p>\n</blockquote>\n\n<p>The key role of the programmer is in training the AI to write software properly, and the most important thing skilled agentic programmers can do is pass that skill onto other developers.</p>\n\n<blockquote>\n  <p>And if you are a senior engineer worried that your job is quietly turning into approving diffs: it is. The way out is to train the AI so the diffs are right the first time, to make yourself the person on the team who shapes the harness, and to make that work the visible thing you are measured on. That role compounds in a way that reviewing never will.</p>\n</blockquote>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Early this month Birgitta Böckeler wrote a superb <a href=\"https://martinfowler.com/articles/harness-engineering.html\">article on Harness Engineering</a>. (That’s not just my opinion, judging by the crazy traffic it’s attracted.) Birgitta has now recorded a video <a href=\"https://www.youtube.com/watch?v=uLWOLmeHOSE\">discussion with Chris Ford on Harness Engineering</a>, which is well worth a watch.</p>\n\n<p>In it they focus on discussing the role of computational sensors in the harness, such as static analysis and tests.</p>\n\n<blockquote>\n  <p>LLMs are great for exploratory and fuzzy rules, but once you have something that really is objective, converting it to a formal, unambiguous, deterministic format can give you more assurance</p>\n</blockquote>\n\n<p>Birgitta did some experiments to explore the benefits of adding sensors, including a deep dive on using static analysis. She found it’s more useful as agents can really address <em>every</em> warning, and don’t slack off like humans do.</p>\n\n<!-- \ngot to 44 minutes\n-->\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Adam Tornhill considers an age-old question: <a href=\"https://adamtornhill.substack.com/p/how-long-should-a-function-be-and\">how long should a function be?</a> This question is still relevent in the age of agentic programming.</p>\n\n<blockquote>\n  <p>AI models do not “understand” code the way humans do. They infer meaning from patterns in tokens and depend heavily on what is explicitly expressed in the code.</p>\n\n  <p>Research shows that naming plays a critical role. When meaningful identifiers are replaced with arbitrary names, model performance drops significantly. Current models rely heavily on literal features—names, structure, and local context—rather than inferred semantics.</p>\n</blockquote>\n\n<p>Like me, he doesn’t think the answer is to think about how many lines should be in a function, instead it’s all about providing better structure. He has a good example of how a well-chosen function defines useful concepts, where a function wraps four lines of code, returning a new concept that enters the vocabulary of the program.</p>\n\n<blockquote>\n  <p>Functions are the first unit of structure in a codebase. They define how logic is grouped, how intent is communicated, and how change is localized. If the function boundaries are wrong, everything built on top of them becomes harder to understand and harder to evolve.</p>\n</blockquote>\n\n<p>This fits with my writing that the key to function length is the <a href=\"https://martinfowler.com/bliki/FunctionLength.html\">separation between intention and implementation</a>:</p>\n\n<blockquote>\n  <p>If you have to spend effort into looking at a fragment of code to figure out what it’s doing, then you should extract it into a function and name the function after that “what”. That way when you read it again, the purpose of the function leaps right out at you, and most of the time you won’t need to care about how the function fulfills its purpose - which is the body of the function.</p>\n</blockquote>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Many folks in my feeds recommended Nilay Patel’s post on <a href=\"https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation\">Why People Hate AI</a>. He thinks that many people in the software world have “software brain”:</p>\n\n<blockquote>\n  <p>The simplest definition I’ve come up with is that it’s when you see the whole world as a series of databases that can be controlled with the structured language of software code. Like I said, this is a powerful way of seeing things. So much of our lives run through databases, and a bunch of important companies have been built around maintaining those databases and providing access to them.</p>\n\n  <p>Zillow is a database of houses. Uber is a database of cars and riders. YouTube is a database of videos. The Verge’s website is a database of stories. You can go on and on and on. Once you start seeing the world as a bunch of databases, it’s a small jump to feeling like you can control everything if you can just control the data.</p>\n</blockquote>\n\n<p>Software Brain views people into databases, and oddly enough, a lot of people don’t like that. Which is why so many polls reveal the negative feelings folks have about the AI movement.</p>\n\n<blockquote>\n  <p>Even taking the time to consider how much of your life is captured in databases makes people unhappy. No one wants to be surveilled constantly, and especially not in a way that makes tech companies even more powerful. But getting everything in a database so software can see it is a preoccupation of the AI industry. It’s why all the meeting systems have AI note takers in them now.</p>\n</blockquote>\n\n<p>Patel draws a similarity that I’ve often made - that between programmers and lawyers. Lawyers who draw up contracts are creating a protocol for how the parties in the contract should behave. As Patel puts it:</p>\n\n<blockquote>\n  <p>If the heart of software brain is the idea that thinking in the structured language of code can make things happen in the real world, well, the heart of lawyer brain is that thinking in the structured legal language of statutes and citations can also make things happen. Hell, it can give you power over society.</p>\n</blockquote>\n\n<p>The difference, of course, is that law is non-deterministic. Litigation is resolving what happens when people have different ideas about how those contracts should execute.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>I was chatting recently with a company who wanted to use AI to make sense of their internal data. The potential was great, but the problem was that the data a mess. People put stuff into fields that didn’t make sense, and there was little consistency about how people classified important entities. As someone commented</p>\n\n<blockquote>\n  <p>the hardest problem with internal data is precise, consistent definitions</p>\n</blockquote>\n\n<p>You can imagine my astonishment. (i.e. none at all - this has been a constant theme during all my decades with computers.) The difficulty of getting such definitions undermines much of the hopes of Software Brain</p>\n\n<p>This resonates with our relationship with LLMs when programming. Precise and consistent definitions strike me as crucial to effective communication with The Genie. These definitions need to grow in the conversation, and be tended over time. Conceptual modeling will be a key skill for agentic programming and whatever comes next. (At least I hope it will, since it’s a part of programming I really enjoy.)</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Patel’s article refers to Ezra Klein’s post about the <a href=\"https://www.nytimes.com/2026/03/29/opinion/ai-claude-chatgpt-gemini-mcluhan.html?unlocked_article_code=1.eFA.abX-.lGEOqsmKZVY_&amp;smid=url-share\">new feeling in San Francisco</a>.</p>\n\n<blockquote>\n  <p>You might think that A.I. types in Silicon Valley, flush with cash, are on top of the world right now. I found them notably insecure. They think the A.I. age has arrived and its winners and losers will be determined, in part, by speed of adoption. The argument is simple enough: The advantages of working atop an army of A.I. assistants and coders will compound over time, and to begin that process now is to launch yourself far ahead of your competition later. And so they are racing one another to fully integrate A.I. into their lives and into their companies. But that doesn’t just mean using A.I. It means making themselves legible to the A.I.</p>\n</blockquote>\n\n<p>That legibility is the heart of Patel’s observation. That’s why I see many colleagues of mine dumping all their email, meeting notes, slide decks and everything else into files that AI can read and work with. This works to the strengths of AI, we know that AI is really good at querying unstructured information. So I can figure out what’s buried in my notes in a way that’s far more effective than hoping I’m typing the right search regex.</p>\n\n<p>I’ve been using Gemini a fair bit for exactly this on the web, finding it easier to write a question to it than to throw search terms at Google. Gemini keeps a record of my past requests, and uses that to help it tune what I’m looking for. As Klein observes:</p>\n\n<blockquote>\n  <p>[The AI] is constantly referring back to other things it knows, or thinks it knows, about me. Sycophancy, in my experience, has given way to an occasionally unsettling attentiveness; a constant drawing of connections between my current concerns and my past queries, like a therapist desperate to prove he’s been paying close attention.</p>\n\n  <p>The result is a strange amalgam of feeling seen and feeling caricatured.</p>\n</blockquote>\n\n<p>Like myself, Klein is a writer, and is faced by the same temptation that I have when I think about AI and writing. Maybe instead of toiling over articles, I should ask an LLM to create an <code>AGENTS.md</code> file that summarizes my writing style, and every few days ask it to compose an article on some subject, read it, tweak it, and then publish my erudite musings. But that’s not at all appealing to me. I want understanding to grow in <em>my brain</em>, not the LLM’s transient session. Writing to explain my thinking to others is how I refine that thinking, “chiseling that idea into something publishable” as Klein puts it. To have an AI write for me is to cripple my own mind.</p>",
+      "time": "2026-04-29T13:23:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Structured-Prompt-Driven Development (SPDD)",
+      "link": "https://martinfowler.com/articles/structured-prompt-driven/",
+      "description": "<div class = 'img-link'><a href = 'https://martinfowler.com/articles/structured-prompt-driven/'><img src = 'https://martinfowler.com/articles/structured-prompt-driven//card.png' width = '350px'></img></a></div>\n\n<p>LLM programming assistants have demonstrated considerable value, but\n      mostly with individual developers. The internal IT organization in\n      Thoughtworks has been using them for their teams and have developed a\n      method and workflow called Structured Prompt-Driven Development (SPDD).\n      <b class = 'author'>Wei Zhang and Jessie Jie Xia</b> describe a simple example of\n      this workflow with details in github. This workflow treats the prompts as\n      a first-class artifact, kept with the code in version control, and used to\n      align development with business needs. They have found that developers\n      need three key skills to be effective: alignment, abstraction-first, and\n      iterative review.</p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/structured-prompt-driven/'>more…</a></p>",
+      "time": "2026-04-28T13:02:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Fragments: April 21",
+      "link": "https://martinfowler.com/fragments/2026-04-21.html",
+      "description": "<p>Last week Thoughtworks released the <a href=\"https://www.thoughtworks.com/radar\">34th volume of our Technology Radar</a>. This radar is our biannual survey of our experience of the technology scene, highlighting tools, techniques, platforms, and languages that we’ve used or otherwise caught our eye. This edition contains 118 blips, each briefly describing our impressions of one of these elements.</p>\n\n<p>As we would expect, the radar is dominated by AI-oriented topics. Part of this is revisiting familiar ground with LLM-assisted eyes:</p>\n\n<blockquote>\n  <p>An interesting consequence of AI in software development is that it’s not only forcing us to look to the future; it’s also pushing us to revisit the foundations of our craft. While assembling this edition, we found ourselves returning to many established techniques, from pair programming to zero trust architecture, and from mutation testing to DORA metrics. We also revisited core principles of software craftsmanship, such as clean code, deliberate design, testability and accessibility as a first-class concern. This is not nostalgia, but a necessary counterweight to the speed at which AI tools can generate complexity. We also observed a resurgence of the command line: After years of abstracting it away in the name of usability, agentic tools are bringing developers back to the terminal as a primary interface.</p>\n</blockquote>\n\n<p>I was especially happy to see my colleague Jim Gumbley added to the writing team, he’s been a regular source of security information for me over the years, including working on this site’s <a href=\"https://martinfowler.com/articles/agile-threat-modelling.html\">Threat Modeling Guide</a>. Having a strong security presence on the radar team is especially important given the serious security concerns around using LLMs. One of the themes of the radar is securing “permission hungry” agents:</p>\n\n<blockquote>\n  <p>“Permission hungry” describes the bind at the heart of the current agent moment: the agents worth building are the ones that need access to everything. OpenClaw and Claude Cowork supervise real work tasks; Gas Town coordinates agent swarms across entire codebases. These agents require broad access to private data, external communication and real systems — each arguing that the payoff justifies it.</p>\n\n  <p>However, like a skier who’s just learned to turn and confidently points themselves at the hardest black run, the safeguards haven’t caught up with that ambition. The appetite for access collides with unsolved problems. Prompt injection means models still can’t reliably distinguish trusted instructions from untrusted input.</p>\n</blockquote>\n\n<p>Given all of this, many of this radar’s blips are about Harness Engineering, indeed the radar meeting was a major source of ideas for <a href=\"https://martinfowler.com/articles/harness-engineering.html\">Birgitta’s excellent article</a> on the subject. The radar includes several blips suggesting the guides and sensors necessary for a well-fitting harness. I expect that when the next radar appears in six months time, that list will increase.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Mike Mason looks <a href=\"https://mikemason.ca/writing/ai-slop-code-april-2026/\">what happens when developers aren’t reading the code</a>.</p>\n\n<blockquote>\n  <p>The Python codebase Claude produced was largely working. Unit tests passed, and a few hours of real-world testing showed it was successfully managing a fairly complex piece of my infrastructure. But somewhere around 100KB of total code I noticed something: the main file had grown to about 50KB (2,000 lines) and Claude Code, when it needed to make edits, had started reaching for sed to find and modify code within that file. When I saw that, it was a serious alarm bell.</p>\n</blockquote>\n\n<p>As well as the experience of “a friend”, he ponders the 500,000 lines of Claude Code after the leak.</p>\n\n<blockquote>\n  <p>Both things are true: there is good architecture in Claude Code, and there is also an incomprehensible mess. That’s actually the point. You don’t get to know which is which without reading the code.</p>\n</blockquote>\n\n<p>His conclusion is a rough framework. Throw-away analysis scripts are fine to vibe away. Tooling you need to maintain and durable code, needs regular human review - even if it’s just a human asking a model to evaluate the code with some hints as to what good code looks like</p>\n\n<blockquote>\n  <p>The moment you say “I’m getting uncomfortable with how big this is getting, can we do something better?” it does the right thing: sensible decomposition, new classes, sometimes even unit tests for the new thing. It knew, it just didn’t volunteer it.</p>\n</blockquote>\n\n<p>He does recommend being serious with <code>CLAUDE.md</code>, I don’t know if he’s tried many of the patterns that Rahul Garg has recently posted to <a href=\"https://martinfowler.com/articles/reduce-friction-ai/\">break the similar frustration loop</a> that he saw.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Dan Davies poses an <a href=\"https://backofmind.substack.com/p/authentic-is-as-authentic-does-or\">annoying philosophy thought experiment</a> for us to consider how we feel about LLMs indulging in ghost writing.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>DOGE dismantled many useful things during their brief period with the wood chipper. One of these was DirectFile, a government program that supported people filing their taxes online. Don Moynihan has talked to many folks involved in Direct File, <a href=\"https://donmoynihan.substack.com/p/what-the-death-of-direct-file-tells\">has penned a worthwhile essay</a> that isn’t just relevant to DirectFile and other U.S. government technology projects, but indeed any technology initiative in a large organization.</p>\n\n<p>Moynihan highlights:</p>\n\n<blockquote>\n  <p>a paradox of government reform: the simpler a potential change appears, the more likely that it has not been implemented because it features deceptive complexity that others have tried and failed to resolve.</p>\n</blockquote>\n\n<p>I’ve heard that tale in many a large corporation too</p>\n\n<p>One way government initiatives are different is that, at its best, it’s built on an attitude of public service</p>\n\n<blockquote>\n  <p>Many who worked on Direct File drew a sharp contrast with DOGE and their approach to building tech products. One point of distinction was DOGE’s seeming disinterest in public interest goals and of the public itself: “if you do not think government has a responsibility to serve people, I think it draws into question how good are you going to be at making government work better for people if you just don’t believe in that underlying principle”</p>\n</blockquote>\n\n<p>The tragedy for U.S. taxpayers like me is that we’ve lost an effective way to go through the annual hassle of taxes. In addition the IRS is much weaker - it’s lost 25% of its staff and its budget is 40% below what it was in 2010. Much though we hate tax collectors, this isn’t a good thing. An efficient tax system is an important part of national security, many historians consider the ability to raise taxes effectively was an important reason why Britain won its century-long struggle with France in the Eighteenth century. A wonky tax system is also a major reason why the French monarchy, so powerful at the start of that century, fell to revolution. Indeed there is considerable evidence that increasing the budget of the IRS <a href=\"https://budgetlab.yale.edu/research/revenue-and-distributional-effects-irs-funding#:~:text=Behavioral%20estimates%20are%20always%20uncertain,from%20taxpayers%20who%20are%20audited.\">would more than pay for itself by increasing revenue</a>.</p>",
+      "time": "2026-04-21T14:34:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Fragments: April 14",
+      "link": "https://martinfowler.com/fragments/2026-04-14.html",
+      "description": "<p>I attended the first Pragmatic Summit early this year, and while there host\n<a href=\"https://www.youtube.com/watch?v=CZs8J1ZD0CE\">Gergely Orosz interviewed Kent Beck and myself on stage</a>. The video runs for about half-an-hour.</p>\n\n<p><a href=\"https://www.youtube.com/watch?v=CZs8J1ZD0CE\"><img src=\"https://martinfowler.com/img/catalog/2026-prag-summit.png\" alt=\"A photo of Gergely, Kent, and myself on the stage. We are all bedazzled by the vibrancy of Kent's trousers\"></a></p>\n\n<p>I always enjoy nattering with Kent like this, and Gergely pushed into some worthwhile topics. Given\nthe timing, AI dominated the conversation - we compared it to earlier\ntechnology shifts, the experience of agile methods, the role of TDD, the\ndanger of unhealthy performance metrics, and how to thrive in an AI-native\nindustry.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Perl is a language I used a little, but never loved. However the definitive book on it, by its designer Larry Wall, contains a wonderful gem. The three virtues of a programmer: hubris, impatience - and above all - <em>laziness</em>.</p>\n\n<p>Bryan Cantrill <a href=\"https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/\">also loves this virtue</a>:</p>\n\n<blockquote>\n  <p>Of these virtues, I have always found laziness to be the most profound: packed within its tongue-in-cheek self-deprecation is a commentary on not just the need for abstraction, but the aesthetics of it. Laziness drives us to make the system as simple as possible (but no simpler!) — to develop the powerful abstractions that then allow us to do much more, much more easily.</p>\n\n  <p>Of course, the implicit wink here is that it takes a lot of work to be lazy</p>\n</blockquote>\n\n<p>Understanding how to think about a problem domain by building abstractions (models) is my favorite part of programming. I love it because I think it’s what gives me a deeper understanding of a problem domain, and because once I find a good set of abstractions, I get a buzz from the way they make difficulties melt away, allowing me to achieve much more functionality with less lines of code.</p>\n\n<p>Cantrill worries that AI is so good at writing code, we risk losing that virtue, something that’s reinforced by brogrammers bragging about how they produce thirty-seven thousand lines of code a day.</p>\n\n<blockquote>\n  <p>The problem is that LLMs inherently lack the virtue of laziness. Work costs nothing to an LLM. LLMs do not feel a need to optimize for their own (or anyone’s) future time, and will happily dump more and more onto a layercake of garbage. Left unchecked, LLMs will make systems larger, not better — appealing to perverse vanity metrics, perhaps, but at the cost of everything that matters. As such, LLMs highlight how essential our human laziness is: our finite time forces us to develop crisp abstractions in part because we don’t want to waste our (human!) time on the consequences of clunky ones. The best engineering is always borne of constraints, and the constraint of our time places limits on the cognitive load of the system that we’re willing to accept. This is what drives us to make the system simpler, despite its essential complexity.</p>\n</blockquote>\n\n<p>This reflection particularly struck me this Sunday evening. I’d spent a bit of time making a modification of how my music playlist generator worked. I needed a new capability, spent some time adding it, got frustrated at how long it was taking, and wondered about maybe throwing a coding agent at it. More thought led to realizing that I was doing it in a more complicated way than it needed to be. I was including a facility that I didn’t need, and <a href=\"https://martinfowler.com/bliki/Yagni.html\">by applying yagni</a>, I could make the whole thing much easier, doing the task in just a couple of dozen lines of code.</p>\n\n<p>If I had used an LLM for this, it may well have done the task much more quickly, but would it have made a similar over-complication? If so would I just shrug and say LGTM? Would that complication cause me (or the LLM) problems in the future?</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Jessica Kerr (Jessitron) has a simple example of <a href=\"https://jessitron.com/2026/04/06/adding-correctness-conditions-to-code-changes/\">applying the principle of Test-Driven Development to prompting agents</a>. She wants all updates to include updating the documentation.</p>\n\n<blockquote>\n  <p>Instructions – We can change AGENTS.md to instruct our coding agent to look for documentation files and update them.</p>\n\n  <p>Verification – We can add a reviewer agent to check each PR for missed documentation updates.</p>\n\n  <p>This is two changes, so I can break this work into two parts. Which of these should we do first?</p>\n</blockquote>\n\n<p>Of course my initial comment about TDD answers that question</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Mark Little prodded an old memory of mine as he wondered about to work with AIs that are over-confident of their knowledge and thus prone to make up answers to questions, or to act when they should be more hesitant. He draws inspiration from an old, low-budget, but classic SciFi movie: <a href=\"https://en.wikipedia.org/wiki/Dark_Star_(film)\">Dark Star</a>. I saw that movie once in my 20s (ie a long time ago), but I still remember the crisis scene where a crew member has to use <a href=\"https://www.youtube.com/watch?v=S-xUjmJkO8g\">philosophical argument to prevent a sentient bomb from detonating</a>.</p>\n\n<blockquote>\n  <p>Doolittle: You have no absolute proof that Sergeant Pinback ordered you to detonate.<br>\nBomb #20:  I recall distinctly the detonation order. My memory is good on matters like these.<br>\nDoolittle: Of course you remember it, but all you remember is merely a series of sensory impulses which you now realize have no real, definite connection with outside reality.<br>\nBomb #20:  True. But since this is so, I have no real proof that you’re telling me all this.<br>\nDoolittle: That’s all beside the point. I mean, the concept is valid no matter where it originates.<br>\nBomb #20:  Hmmmm….<br>\nDoolittle: So, if you detonate…<br>\nBomb #20:  In nine seconds….<br>\nDoolittle: …you could be doing so on the basis of false data.<br>\nBomb #20:  I have no proof it was false data.<br>\nDoolittle: You have no proof it was correct data!<br>\nBomb #20:  I must think on this further.<br></p>\n</blockquote>\n\n<p>Doolittle has to expand the bomb’s consciousness, teaching it to doubt its sensors. <a href=\"https://markclittle.blogspot.com/2026/03/dark-star-and-ai-morality.html\">As Little puts it:</a></p>\n\n<blockquote>\n  <p>That’s a useful metaphor for where we are with AI today. Most AI systems are optimised for decisiveness. Given an input, produce an output. Given ambiguity, resolve it probabilistically. Given uncertainty, infer. This works well in bounded domains, but it breaks down in open systems where the cost of a wrong decision is asymmetric or irreversible. In those cases, the correct behaviour is often deferral, or even deliberate inaction. But inaction is not a natural outcome of most AI architectures. It has to be designed in.</p>\n</blockquote>\n\n<p>In my more human interactions, I’ve always valued doubt, and distrust people who operate under undue certainty. Doubt doesn’t necessarily lead to indecisiveness, but it does suggest that we include the risk of inaccurate information or faulty reasoning into decisions with profound consequences.</p>\n\n<blockquote>\n  <p>If we want AI systems that can operate safely without constant human oversight, we need to teach them not just how to decide, but when not to. In a world of increasing autonomy, restraint isn’t a limitation, it’s a capability. And in many cases, it may be the most important one we build.</p>\n</blockquote>",
+      "time": "2026-04-14T13:16:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Alan Turing play in Cambridge MA",
+      "link": "https://martinfowler.com/articles/202604-turing.html",
+      "description": "<p>Last night I saw Central Square Theater’s excellent production of <a href=\"https://www.centralsquaretheater.org/shows/breaking-the-code-2026/\">Breaking the Code</a>. It’s about Alan Turing, who made a monumental contribution to both my profession and the fate of free democracies. Well worth seeing if you’re in the Boston area this month.</p>",
+      "time": "2026-04-11T13:01:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Fragments: April  9",
+      "link": "https://martinfowler.com/fragments/2026-04-09.html",
+      "description": "<p>I mostly link to written material here, but I’ve recently listened to two excellent podcasts that I can recommend.</p>\n\n<p>Anyone who regularly reads these fragments knows that I’m a big fan of Simon Willison, his (also very fragmentary) posts have earned a regular spot in my RSS reader. But the problem with fragments, however valuable, is that they don’t provide a cohesive overview of the situation. So <a href=\"https://www.lennysnewsletter.com/p/an-ai-state-of-the-union\">his podcast with Lenny Rachitsky</a> is a welcome survey of that state of world as seen through a discerning pair of eyeballs. He paints a good picture of how programming has changed for him since the “November inflection point”, important patterns for this work, and his concern about the security bomb nestled inside the beast.</p>\n\n<p>My other great listening was on a regular podcast that I listen to, as <a href=\"https://newsletter.pragmaticengineer.com/p/scaling-uber-with-thuan-pham-ubers\">Gergely Orosz interviewed Thuan Pham</a> - the former CTO of Uber. As with so many of Gergely’s podcasts, they focused on Thuan Pham’s fascinating career direction, giving listeners an opportunity to learn from a successful professional. There’s also an informative insight into Uber’s use of microservices (they had 5000 of them), and the way high-growth software necessarily gets rewritten a lot (a phenomenon I dubbed <a href=\"https://martinfowler.com/bliki/SacrificialArchitecture.html\">Sacrificial Architecture</a>)</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Axios published their <a href=\"https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/\">post-mortem on their recent supply chain compromise</a>. It’s quite a story, the attackers spent a couple of weeks developing contact with the lead maintainer, leading to a video call where the meeting software indicated something on the maintainer’s system was out of date. That led to the maintainer installing the update, which in fact was a Remote Access Trojan (RAT).</p>\n\n<blockquote>\n  <p>they tailored this process specifically to me by doing the following:</p>\n\n  <ul>\n    <li>they reached out masquerading as the founder of a company they had cloned the companys founders likeness as well as the company itself.</li>\n    <li>they then invited me to a real slack workspace. this workspace was branded to the companies ci and named in a plausible manner. the slack was thought out very well, they had channels where they were sharing linked-in posts, the linked in posts i presume just went to the real companys account but it was super convincing etc. they even had what i presume were fake profiles of the team of the company but also number of other oss maintainers.</li>\n    <li>they scheduled a meeting with me to connect. the meeting was on ms teams. the meeting had what seemed to be a group of people that were involved.</li>\n    <li>the meeting said something on my system was out of date. i installed the missing item as i presumed it was something to do with teams, and this was the RAT.</li>\n    <li>everything was extremely well co-ordinated looked legit and was done in a professional manner.</li>\n  </ul>\n</blockquote>\n\n<p>Simon Willison has a <a href=\"https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/\">summary and further links</a>.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>I recently bumped into <a href=\"https://diataxis.fr/how-to-use-diataxis/\">Diátaxis</a>, a framework for organizing technical documentation. I only looked at it briefly, but there’s much to like. In particular I appreciated how it classified four forms of documentation:</p>\n\n<ul>\n  <li>Tutorials: to learn how to use the product</li>\n  <li>How-to guides: for users to follow to achieve particular goals with the product</li>\n  <li>Reference: to describe what the product does</li>\n  <li>Explanations: background and context to educate the user on the product’s rationale</li>\n</ul>\n\n<p>The distinction between tutorials and how-to guides is interesting</p>\n\n<blockquote>\n  <p>A tutorial serves the needs of the user who is at study. Its obligation is to provide a successful learning experience. A how-to guide serves the needs of the user who is at work. Its obligation is to help the user accomplish a task.</p>\n</blockquote>\n\n<p>I also appreciated its point of pulling explanations out into separate areas. The idea is that other forms should contain only minimal explanations, linking to the explanation material for more depth. That way we keep the flow on the goal and allow the user to seek deeper explanations in their own way. The study/work distinction between explanation and reference mirrors that same distinction between tutorials and how-to guides.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>For eight years, Lalit Maganti wanted a set of tools for working with SQLite. But it would be hard and tedious work, “getting into the weeds of SQLite source code, a fiendishly difficult codebase to understand”. So he didn’t try it. But after the <a href=\"https://simonwillison.net/2026/Jan/4/inflection/\">November inflection point</a>, he decided to tackle this need.</p>\n\n<p><a href=\"https://lalitm.com/post/building-syntaqlite-ai/\">His account of this exercise</a> is an excellent description of the benefits and perils of developing with AI agents.</p>\n\n<blockquote>\n  <p>Through most of January, I iterated, acting as semi-technical manager and delegating almost all the design and all the implementation to Claude. Functionally, I ended up in a reasonable place: a parser in C extracted from SQLite sources using a bunch of Python scripts, a formatter built on top, support for both the SQLite language and the PerfettoSQL extensions, all exposed in a web playground.</p>\n\n  <p>But when I reviewed the codebase in detail in late January, the downside was obvious: the codebase was complete spaghetti. I didn’t understand large parts of the Python source extraction pipeline, functions were scattered in random files without a clear shape, and a few files had grown to several thousand lines. It was extremely fragile; it solved the immediate problem but it was never going to cope with my larger vision, never mind integrating it into the Perfetto tools. The saving grace was that it had proved the approach was viable and generated more than 500 tests, many of which I felt I could reuse.</p>\n</blockquote>\n\n<p>He threw it all away and worked more closely with the AI on the second attempt, with lots of thinking about the design, reviewing all the code, and refactoring with every step</p>\n\n<blockquote>\n  <p>In the rewrite, refactoring became the core of my workflow. After every large batch of generated code, I’d step back and ask “is this ugly?” Sometimes AI could clean it up. Other times there was a large-scale abstraction that AI couldn’t see but I could; I’d give it the direction and let it execute. If you have taste, the cost of a wrong approach drops dramatically because you can restructure quickly.</p>\n</blockquote>\n\n<p>He ended up with a working system, and the AI proved its value in allowing him to tackle something that he’d been leaving on the todo pile for years. But even with the rewrite, the AI had its potholes.</p>\n\n<p>His conclusion of the relative value of AI in different scenarios:</p>\n\n<blockquote>\n  <p>When I was working on something I already understood deeply, AI was excellent….\nWhen I was working on something I could describe but didn’t yet know, AI was good but required more care….\nWhen I was working on something where I didn’t even know what I wanted, AI was somewhere between unhelpful and harmful…</p>\n</blockquote>\n\n<p>At the heart of this is that AI works at its best when there is an objectively checkable answer. If we want an implementation that can pass some tests, then AI does a good job. But when it came to the public API:</p>\n\n<blockquote>\n  <p>I spent several days in early March doing nothing but API refactoring, manually fixing things any experienced engineer would have instinctively avoided but AI made a total mess of. There’s no test or objective metric for “is this API pleasant to use” and “will this API help users solve the problems they have” and that’s exactly why the coding agents did so badly at it.</p>\n</blockquote>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>I became familiar with Ryan Avent’s writing when he wrote the Free Exchange column for The Economist. <a href=\"https://ryanavent.substack.com/p/faith-and-the-future\">His recent post</a> talks about how James Talarico and Zohran Mamdani have made their religion an important part of their electoral appeal, and their faith is centered on caring for others. He explains that a focus on care leads to an important perspective on economic growth.</p>\n\n<blockquote>\n  <p>The first thing to understand is that we should not want growth for its own sake. What is good about growth is that it expands our collective capacities: we come to know more and we are able to do more. This, in turn, allows us to alleviate suffering, to discover more things about the universe, and to spend more time being complete people.</p>\n</blockquote>",
+      "time": "2026-04-09T13:23:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Feedback Flywheel",
+      "link": "https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html",
+      "description": "<p><b class = 'author'>Rahul Garg</b> finishes his\n      series on reducing the friction in AI-Assisted Development. He\n      proposes a <a href = 'https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html'>structured feedback practice</a> that harvests learnings from AI\n      sessions and feeds them back into the team's shared artifacts, turning\n      individual experience into collective improvement.</p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html'>more…</a></p>",
+      "time": "2026-04-08T13:28:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Principles of Mechanical Sympathy",
+      "link": "https://martinfowler.com/articles/mechanical-sympathy-principles.html",
+      "description": "<div class = 'img-link'><a href = 'https://martinfowler.com/articles/mechanical-sympathy-principles.html'><img src = 'https://martinfowler.com/articles/mechanical-sympathy-principles/card.png' width = '350px'></img></a></div>\n\n<p>Modern hardware is remarkably fast, but software often fails to\n      leverage it. <b class = 'author'>Caer Sanders</b> has found it valuable to guide\n      their work with <a href = 'https://martinfowler.com/articles/mechanical-sympathy-principles.html'>mechanical sympathy</a> - the practice of creating\n      software that is sympathetic to its underlying hardware. They distill this\n      practice into everyday principles: predictable memory access, awareness of\n      cache lines, single-writer, and natural batching.</p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/mechanical-sympathy-principles.html'>more…</a></p>",
+      "time": "2026-04-07T13:39:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Fragments: April  2",
+      "link": "https://martinfowler.com/fragments/2026-04-02.html",
+      "description": "<p>As we see LLMs churn out scads of code, folks have increasingly turned to Cognitive Debt as a metaphor for capturing how a team can lose understanding of what a system does. Margaret-Anne Storey thinks a good way of thinking about these problems is to consider <a href=\"https://arxiv.org/abs/2603.22106\">three layers of system health</a>:</p>\n\n<blockquote>\n  <ul>\n    <li>Technical debt lives in code. It accumulates when implementation decisions compromise future changeability. It limits how systems can change.</li>\n    <li>Cognitive debt lives in people. It accumulates when shared understanding of the system erodes faster than it is replenished. It limits how teams can reason about change.</li>\n    <li>Intent debt lives in artifacts. It accumulates when the goals and constraints that should guide the system are poorly captured or maintained. It limits whether the system continues to reflect what we meant to build and it limits how humans and AI agents can continue to evolve the system effectively.</li>\n  </ul>\n</blockquote>\n\n<p>While I’m getting a bit bemused by debt metaphor proliferation, this way of thinking does make a fair bit of sense. The article includes useful sections to diagnose and mitigate each kind of debt. The three interact with each other, and the article outlines some general activities teams should do to keep it all under control</p>\n\n<p> ❄                ❄</p>\n\n<p>In the article she references a recent paper by Shaw and Nave at the Wharton School that <a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646\">adds LLMs to Kahneman’s two-system model of thinking</a>.</p>\n\n<p>Kahneman’s book, “Thinking Fast and Slow”, is one of my favorite books. Its central idea is that humans have two systems of cognition. System 1 (intuition) makes rapid decisions, often barely-consciously. System 2 (deliberation) is when we apply deliberate thinking to a problem. He observed that to save energy we default to intuition, and that sometimes gets us into trouble when we  overlook things that we would have spotted had we applied deliberation to the problem.</p>\n\n<p>Shaw and Nave consider AI as System 3</p>\n\n<blockquote>\n  <p>A consequence of System 3 is the introduction of cognitive surrender, characterized by uncritical reliance on externally generated artificial reasoning, bypassing System 2. Crucially, we distinguish cognitive surrender, marked by passive trust and uncritical evaluation of external information, from cognitive offloading, which involves strategic delegation of cognition during deliberation.</p>\n</blockquote>\n\n<p>It’s a long paper, that goes into detail on this “Tri-System theory of cognition” and reports on several experiments they’ve done to test how well this theory can predict behavior (at least within a lab).</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>I’ve seen a few illustrations recently that use the symbols “&lt; &gt;” as part of an icon to illustrate code. That strikes me as rather odd, I can’t think of any programming language that uses “&lt; &gt;” to surround program elements. Why that and not, say, “{ }”?</p>\n\n<p>Obviously the reason is that they are thinking of HTML (or maybe XML), which is even more obvious when they use “&lt;/&gt;” in their icons. But programmers don’t <em>program</em> in HTML.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Ajey Gore thinks about <a href=\"https://ajeygore.in/content/the-expensive-thing\">if coding agents make coding free, what becomes the expensive thing</a>? His answer is verification.</p>\n\n<blockquote>\n  <p>What does “correct” mean for an ETA algorithm in Jakarta traffic versus Ho Chi Minh City? What does a “successful” driver allocation look like when you’re balancing earnings fairness, customer wait time, and fleet utilisation simultaneously? When hundreds of engineers are shipping into ~900 microservices around the clock, “correct” isn’t one definition — it’s thousands of definitions, all shifting, all context-dependent. These aren’t edge cases. They’re the entire job.</p>\n\n  <p>And they’re precisely the kind of judgment that agents cannot perform for you.</p>\n</blockquote>\n\n<p>Increasingly I’m seeing a view that agents do really well when they have good, preferably automated, verification for their work. This encourages such things as <a href=\"https://martinfowler.com/bliki/TestDrivenDevelopment.html\">Test Driven Development</a>. That’s still a lot of verification to do, which suggests we should see more effort to find ways to make it easier for humans to comprehend larger ranges of tests.</p>\n\n<p>While I agree with most of what Ajey writes here, I do have a quibble with his view of legacy migration. He thinks it’s a delusion that “agentic coding will finally crack legacy modernisation”. I agree with him that agentic <em>coding</em> is overrated in a legacy context, but I have seen compelling evidence that LLMs help a great deal in <a href=\"https://martinfowler.com/articles/legacy-modernization-gen-ai.html\">understanding what legacy code is doing</a>.</p>\n\n<p>The big consequence of Ajey’s assessment is that we’ll need to reorganize around verification rather than writing code:</p>\n\n<blockquote>\n  <p>If agents handle execution, the human job becomes designing verification systems, defining quality, and handling the ambiguous cases agents can’t resolve. Your org chart should reflect this. Practically, this means your Monday morning standup changes. Instead of “what did we ship?” the question becomes “what did we validate?” Instead of tracking output, you’re tracking whether the output was right. The team that used to have ten engineers building features now has three engineers and seven people defining acceptance criteria, designing test harnesses, and monitoring outcomes. That’s the reorganisation. It’s uncomfortable because it demotes the act of building and promotes the act of judging. Most engineering cultures resist this. The ones that don’t will win.</p>\n</blockquote>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>One the questions comes up when we think of LLMs-as-programmers is whether there is a future for source code. David Cassel on The New Stack has an article summarizing <a href=\"https://thenewstack.io/ai-programming-languages-future/\">several views of the future of code</a>. Some folks are experimenting with entirely new languages built with the LLM in mind, others think that existing languages, especially strictly typed languages like TypeScript and Rust will be the best fit for LLMs. It’s an overview article, one that has lots of quotations, but not much analysis in itself - but it’s worth a read as a good overview of the discussion.</p>\n\n<p>I’m interested to see how all this will play out. I do think there’s still a role for humans to work with LLMs to build useful abstractions in which to talk about what the code does - essentially the DDD notion of <a href=\"https://martinfowler.com/bliki/UbiquitousLanguage.html\">Ubiquitous Language</a>. Last year Unmesh and I talked about <a href=\"https://martinfowler.com/articles/convo-llm-abstractions.html\">growing a language</a> with LLMs. As Unmesh put it</p>\n\n<blockquote>\n  <p>Programming isn’t just typing coding syntax that computers can understand and execute; it’s shaping a solution. We slice the problem into focused pieces, bind related data and behaviour together, and—crucially—choose names that expose intent. Good names cut through complexity and turn code into a schematic everyone can follow. The most creative act is this continual weaving of names that reveal the structure of the solution that maps clearly to the problem we are trying to solve.</p>\n</blockquote>",
+      "time": "2026-04-02T16:42:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Harness engineering for coding agent users",
+      "link": "https://martinfowler.com/articles/harness-engineering.html",
+      "description": "<div class = 'img-link'><a href = 'https://martinfowler.com/articles/harness-engineering.html'><img src = 'https://martinfowler.com/articles/harness-engineering/card.png' width = '350px'></img></a></div>\n\n<p>Last month <b class = 'author'>Birgitta B&#xF6;ckeler</b> wrote some initial\n      thoughts about the recently developed notion of Harness Engineering. She's\n      been researching and thinking more about this in the weeks since and has now\n      written a <a href = 'https://martinfowler.com/articles/harness-engineering.html'>thoughtful mental model</a> for understanding harness\n      engineering that we think will help people to drive coding agents more effectively.</p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/harness-engineering.html'>more…</a></p>",
+      "time": "2026-04-02T13:10:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Encoding Team Standards",
+      "link": "https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html",
+      "description": "<p>AI coding assistants respond to whoever is prompting, and the quality\n      of what they produce depends on how well the prompter articulates team\n      standards. <b class = 'author'>Rahul Garg</b> proposes treating the instructions\n      that govern AI interactions (generation, refactoring, security, review) as\n      infrastructure: versioned, reviewed, and shared artifacts that encode\n      tacit team knowledge into executable instructions, making quality\n      consistent regardless of who is at the keyboard.</p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html'>more…</a></p>",
+      "time": "2026-03-31T15:20:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Fragments: March 26",
+      "link": "https://martinfowler.com/fragments/2026-03-26.html",
+      "description": "<p>Anthropic carried a study, done by getting its model to <a href=\"https://www.anthropic.com/features/81k-interviews\">interview some 80,000 users</a> to understand their opinions about AI, what they hope from it, and what they fear. Two things stood out to me.</p>\n\n<blockquote>\n  <p>It’s easy to assume there are AI optimists and AI pessimists, divided into separate camps. But what we actually found were people organized around what they value—financial security, learning, human connection— watching advancing AI capabilities while managing both hope and fear at once.</p>\n</blockquote>\n\n<p>That makes sense, if asked whether I’m a an AI booster or an AI doomer, I answer “yes”. I am both fascinated by its impact on my profession, expectant of the benefits it will bring to our world, and worried by the harms that will come from it. Powerful technologies rarely yield simple consequences.</p>\n\n<p>The other thing that struck me was that, despite most people mixing the two,  there was an overall variance between optimism and pessimism with AI by geography. In general, the less developed the country, the more optimism about AI.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Julias Shaw describes how to fix a <a href=\"https://www.linkedin.com/pulse/youre-wasting-effort-you-put-spec-driven-development-julias-shaw-dxmcc/\">gap in many people’s use of specs</a> to drive LLMs:</p>\n\n<blockquote>\n  <p>Here’s what I keep seeing: the specification-driven development (SDD) conversation has exploded. The internet is overflowing with people saying you should write a spec before prompting. Describe the behavior you want. Define the constraints. Give the agent guardrails. Good advice. I often follow it myself.</p>\n\n  <p>But almost nobody takes the next step. Encoding those specifications into automated tests that actually enforce the contract.</p>\n\n  <p>And the strange part is, most developers outside the extreme programming crowd don’t realize they need to. They genuinely believe the spec document is the safety net. It isn’t. The spec document is the blueprint. The safety net is the test suite that catches the moment your code drifts away from it.</p>\n</blockquote>\n\n<p>As well as explaining why it’s important to have such a test suite, he provides an astute five-step checklist to turn spec documents into executable tests.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Lawfare has a long article on potential <a href=\"https://www.lawfaremedia.org/article/iran-will-retaliate-in-the-us-we-may-not-see-it-in-time\">problems countering covert action by Iran</a>. It’s a long article, and I confess I only skip-read it. It begins by outlining a bunch of plots hatched in the last few years. Then it says:</p>\n\n<blockquote>\n  <p>If these examples seem repetitive, it’s because they are. Iran has proved itself relentless in its efforts to carry out attacks on U.S. soil—and the U.S., for its part, has demonstrated that it is capable of countering those efforts. The above examples show how robustly the U.S. national security apparatus was able to respond, largely through the FBI and the Justice Department….</p>\n\n  <p>That is, potentially, until now. The current administration has decimated the national security elements of both agencies through firings and forced resignations. People with decades of experience in building interagency and critical source relationships around the world, handling high-pressure, complicated investigations straddling classified and unclassified spaces, and acting in time to prevent violence and preserve evidence have been pushed out the door. Those who remain not only have to stretch to make up for the personnel deficit but also are being pulled away by White House priorities not tied to the increasing threat of an Iranian response.</p>\n</blockquote>\n\n<p>The article goes into detail about these cuts, and the threats that may exploit the resulting gaps.</p>\n\n<p>It’s the nature of national security people to highlight potential threats and call for more resources and power. But it’s also the nature of enemies to find weak spots and look to cause havoc. I wonder what we’ll think should we read this article again in a few years time</p>",
+      "time": "2026-03-26T17:11:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Bliki: Architecture Decision Record",
+      "link": "https://martinfowler.com/bliki/ArchitectureDecisionRecord.html",
+      "description": "<p>An Architecture Decision Record (ADR) is a short document that captures and\n  explains a single decision relevant to a product or ecosystem. Documents\n  should be short, just a couple of pages, and contain the decision, the context\n  for making it, and significant ramifications. They should not be modified if\n  the decision is changed, but linked to a superseding decision.</p>\n\n<p>As with most written documents, writing ADRs serves two purposes. Firstly they\n  act as a record of decisions, allowing people months or years later to\n  understand why the system is constructed in the way that it is. But perhaps\n  even more valuable, the act of writing them helps to clarify thinking,\n  particularly with groups of people. Writing a document of consequence\n  often surfaces different points of view - forcing those differences to be\n  discussed, and hopefully resolved.</p>\n\n<p>A general rule is to follow an “inverted pyramid” style of\n  writing, commonly associated with news stories. The key is to put the most\n  important material at the start, and push details to later in the record.</p>\n\n<p>The common advice is to keep decision records in the source repository of\n  the code base to which they apply. A common choice for their location is\n  <code>doc/adr</code>. This way they are easily available to those\n  working on the code base. For similar reasons they should be written in a\n  lightweight markup language, such as markdown, so they can be easily read and\n  diffed just like any code. We can use a build task to publish them to a product\n  team's website.</p>\n\n<p>Storing them in a product repository won't work for ADRs that cover a broader\n  ecosystem than a single code base. Some folks also feel that keeping ADRs in\n  git makes it too hard for non-developers to work with them.</p>\n\n<p>Each record should be its own file, and should be numbered in a monotonic\n  sequence as part of their file name, with a name that captures the decision,\n  so that they are easy to read in a directory listing. (for example:\n  “<code>0001-HTMX-for-active-web-pages</code>“).</p>\n\n<p>Each ADR has a status. “proposed” while it is under discussion, “accepted”\n  once the team accepts it and it is active, “superseded” once it is\n  significantly modified or replaced - with a link to the superseding ADR. Once\n  an ADR is accepted, it should never be reopened or changed - instead it should be\n  superseded. That way we have a clear log of decisions and how long they\n  governed the work.</p>\n\n<p>ADRs contain not just the decision, but also a brief rationale for the\n  decision. This should summarize the problem that led to this decision being\n  needed and the trade-offs that were taken into account. A good way to think of\n  them follows the notion of “forces” when writing a pattern. As part of this\n  it's valuable to explicitly list all the serious alternatives that were\n  considered, together with their pros and cons.</p>\n\n<p>Any decision has consequences. Sometimes these are clearly implied from the\n  rationale, but sometimes it's worth clearly stating them in a explicit\n  section. Decisions are usually made under some degree of uncertainty, so it's\n  handy to record the confidence level of the decision. This is a good place\n  to mention any changes in the product context that should trigger the team to\n  reevaluate the decision.</p>\n\n<p>ADRs play a central role in the <a href=\"https://martinfowler.com/articles/scaling-architecture-conversationally.html\">Advice Process</a>,\n  where they are not only used to document decisions, but the act of writing\n  them is used to elicit expertise and alignment. In this case they should also\n  include advice gathered in forming the ADR, although in order to keep things\n  brief, it may be better to summarize the advice in the ADR and keep a full\n  record of advice separately.</p>\n\n<p>The most important thing to bear in mind here is brevity. Keep the ADR\n  short and to the point - typically a single page. If there's supporting\n  material, link to it.</p>\n\n<p>While ADRs are a form for recording decisions in software architecture, the\n  broader concept of writing short decision records is worth considering in\n  other contexts. This kind of decision log creates a valuable historic record\n  that can do much to explain why things are the way they turned out.</p>\n\n<div class=\"furtherReading\">\n<h2>Further Reading</h2>\n\n<p>Michael Nygard coined the term “Architecture Decision Record” with an\n    <a href=\"https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions\">ADR-formatted article</a> in 2011. While he did not\n    originate the idea of a decision log he did\n    make case for a lightweight document, with a focus on the decision\n    itself. In this he was particularly inspired  by\n    Phillipe Kruchten talking about decision registers / decision logs, and by\n    the writing style of <a href=\"/articles/writingPatterns.html\">software patterns</a>. His\n    article is better than pretty much everything else written on the topic, my only\n    desire to write this one was to point to some developments since.</p>\n\n<p>On this site, there are brief examples of ADR formats in articles by <a href=\"https://martinfowler.com/articles/scaling-architecture-conversationally.html#adr\">Harmel-Law</a> and <a href=\"https://martinfowler.com/articles/building-infrastructure-platform.html#ArchitecturalDecisionRecords\">Rowse and Shepherd</a>. </p>\n\n<p><a href=\"https://github.com/npryce/adr-tools\">adr-tools</a> is a simple command line tool to\n    manage ADRs. It includes a set of ADRs for itself that are a good example of\n    the form.</p>\n</div>\n\n<div class=\"acknowledgements\">\n<h2>Acknowledgements</h2>\n\n<p>Andrew Harmel-Law, Brandon Cook, David Lucas, Francisco Dias, Giuseppe Matheus Pereira, John King, Kief Morris, Michael Joyce, Neil Price, Shane\n    Gibson, Steven Peh, and Vijay\n    Raghavan Aravamudhan discussed drafts of this post on\n    our internal chat. Michael Nygard gave some background on the origins of his\n    writing.</p>\n</div>",
+      "time": "2026-03-24T13:50:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Context Anchoring",
+      "link": "https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html",
+      "description": "<p>Conversations with AI are ephemeral, decisions made early lose\n      attention as the conversation continues, and disappear entirely with a new\n      session. <b class = 'author'>Rahul Garg</b> explains how <a href = 'https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html'>Context\n      Anchoring</a> externalizes the decision context into a living\n      document.</p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html'>more…</a></p>",
+      "time": "2026-03-17T13:37:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Ideological Resistance to Patents, Followed by Reluctant                Pragmatism",
+      "link": "https://martinfowler.com/articles/patents-reluctant-pragmatism.html",
+      "description": "<p><b class = 'author'>Naresh Jain</b> has long been uncomfortable with software\n      patents. But a direct experience of patent aggression, together with the\n      practical constraints faced by startups, led him to resort to defensive\n      patenting as as a shield in this asymmetric legal environment.</p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/patents-reluctant-pragmatism.html'>more…</a></p>",
+      "time": "2026-03-05T13:54:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Humans and Agents in Software Engineering Loops",
+      "link": "https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html",
+      "description": "<div class = 'img-link'><a href = 'https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html'><img src = 'https://martinfowler.com/articles/exploring-gen-ai/donkey-card.png' width = ''></img></a></div>\n\n<p>There's been much talk recently about how AI agents affect the workflow\n      loops of software development. <b class = 'author'>Kief Morris</b> believes the\n      answer is to focus on the goal of turning ideas into outcomes. The right\n      place for us humans is to build and manage the working loop rather than\n      either leaving the agents to it or micromanaging what they produce.</p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html'>more…</a></p>",
+      "time": "2026-03-04T05:42:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Design-First Collaboration",
+      "link": "https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html",
+      "description": "<p><b class = 'author'>Rahul Garg</b> continues his series of <a href = '/articles/reduce-friction-ai/'>Patterns for Reducing Friction in\n      AI-Assisted Development</a>. This pattern describes <a href = 'https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html'>a structured\n      conversation</a> that mirrors whiteboarding with a human pair: progressive\n      levels of design alignment before any code, reducing cognitive load, and\n      catching misunderstandings at the cheapest possible moment. </p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html'>more…</a></p>",
+      "time": "2026-03-03T04:04:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Knowledge Priming",
+      "link": "https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html",
+      "description": "<p><b class = 'author'>Rahul Garg</b> has observed a frustration loop when\n      working with AI coding assistants - lots of code generated, but needs lots\n      of fixing. He's noticed <a href = '/articles/reduce-friction-ai/'>five\n      patterns</a> that help improve the interaction with the LLM, and describes\n      the <a href = 'https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html'>first of these</a>: priming the LLM with knowledge about the codebase and\n      preferred coding patterns.</p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html'>more…</a></p>",
+      "time": "2026-02-24T14:40:00Z",
+      "source_id": "martin-fowler"
+    }
+  ]
+}
