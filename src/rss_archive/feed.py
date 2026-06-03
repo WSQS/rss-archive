@@ -1,6 +1,26 @@
 
+from datetime import UTC, datetime
 from dataclasses import dataclass
+from email.utils import parsedate_to_datetime
 from typing import Any
+
+
+def normalize_time(value: str) -> str:
+    if value == "":
+        return ""
+
+    try:
+        dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        try:
+            dt = parsedate_to_datetime(value)
+        except (TypeError, ValueError, IndexError):
+            return ""
+
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=UTC)
+
+    return dt.astimezone(UTC).isoformat(timespec="seconds").replace("+00:00", "Z")
 
 @dataclass
 class FeedSource:
@@ -35,7 +55,7 @@ class FeedItem:
             title=d.get("title", ""),
             link=d.get("link", ""),
             description=d.get("description", ""),
-            time=d.get("time", ""),
+            time=normalize_time(d.get("time", "")),
             source_id=d.get("source_id", ""),
         )
 

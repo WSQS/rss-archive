@@ -2,7 +2,7 @@ from typing import Tuple
 from xml.etree.ElementTree import Element
 
 from rss_archive.config import SourceConfig
-from rss_archive.feed import FeedSource, FeedItem
+from rss_archive.feed import FeedSource, FeedItem, normalize_time
 
 # See also https://www.rssboard.org/rss-specification
 
@@ -28,7 +28,7 @@ def handle_rss(
         title = item.findtext("title") or ""
         link = item.findtext("link") or ""
         description = item.findtext("description") or ""
-        time = item.findtext("pubDate") or ""
+        time = normalize_time(item.findtext("pubDate") or "")
 
         if title == "" and description == "":
             raise ValueError("Expected at least one of 'title' or 'description' in RSS item")

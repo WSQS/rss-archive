@@ -2,7 +2,7 @@ from typing import Tuple
 from xml.etree.ElementTree import Element
 
 from rss_archive.config import SourceConfig
-from rss_archive.feed import FeedItem, FeedSource
+from rss_archive.feed import FeedItem, FeedSource, normalize_time
 
 
 def handle_atom(
@@ -52,7 +52,9 @@ def handle_atom(
             summary = entry.find("{*}summary")
             if summary is not None:
                 description = "".join(summary.itertext()).strip()
-        time = entry.findtext("{*}published") or entry.findtext("{*}updated") or ""
+        time = normalize_time(
+            entry.findtext("{*}published") or entry.findtext("{*}updated") or ""
+        )
 
         if title == "" and description == "":
             raise ValueError("Expected at least one of 'title' or 'description' in Atom entry")
