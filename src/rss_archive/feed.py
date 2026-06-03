@@ -11,6 +11,7 @@ class FeedSource:
 
 @dataclass
 class FeedItem:
+    # Missing parsed fields use empty strings.
     # At least one of `title` or `description` must be non-empty.
     title: str
     link: str
