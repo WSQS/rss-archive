@@ -11,3 +11,13 @@ def handle_rss(
     if root.tag != "rss":
         raise ValueError(f"Expected root tag 'rss', got {root.tag!r}")
 
+    channel = root.find("channel")
+    if channel is None:
+        raise ValueError("Expected 'channel' element under 'rss'")
+
+    return FeedSource(
+        id=source.id,
+        title=channel.findtext("title") or "",
+        link=channel.findtext("link") or source.feed_url,
+        description=channel.findtext("description") or "",
+    ), []
