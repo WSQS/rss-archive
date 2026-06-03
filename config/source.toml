@@ -1,3 +1,7 @@
 [[source]]
 id = "matt-pocock-aihero"
 feed_url = "https://www.aihero.dev/rss.xml"
+
+[[source]]
+id = "martin-fowler"
+feed_url = "https://martinfowler.com/feed.atom"
