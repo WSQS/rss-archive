@@ -13,3 +13,14 @@ class SourceConfig:
             id=d["id"],
             feed_url=d["feed_url"],
         )
+
+
+@dataclass
+class DataConfig:
+    archive: str
+
+    @classmethod
+    def from_dict(cls, d: dict[str, Any]):
+        return cls(
+            archive=d["archive"],
+        )
