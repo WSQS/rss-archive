@@ -6,6 +6,7 @@ from typing import Any
 from urllib.request import urlopen
 from xml.etree import ElementTree
 
+from rss_archive.atom import handle_atom
 from rss_archive.config import DataConfig, SourceConfig
 from rss_archive.feed import FeedArchive
 from rss_archive.rss import handle_rss
@@ -33,6 +34,14 @@ def main():
         root = ElementTree.fromstring(xml)
         if root.tag == "rss":
             feed_source, feed_items = handle_rss(source, root)
+            feed_archive.upsert_source(feed_source)
+            feed_archive.merge_items(feed_items)
+
+            print(f"Feed Source: {feed_source.title}")
+            for item in feed_items:
+                print(f"  - {item.title}")
+        elif root.tag in ("feed", "{http://www.w3.org/2005/Atom}feed"):
+            feed_source, feed_items = handle_atom(source, root)
             feed_archive.upsert_source(feed_source)
             feed_archive.merge_items(feed_items)
 
