@@ -5,3 +5,7 @@ feed_url = "https://www.aihero.dev/rss.xml"
 [[source]]
 id = "martin-fowler"
 feed_url = "https://martinfowler.com/feed.atom"
+
+[[source]]
+id = "tsoding-daily"
+feed_url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCrqM0Ym_NbK1fqeQG2VIohg"
