@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 from pathlib import Path
+from urllib.request import urlopen
 import tomllib
 from typing import Any
 
@@ -24,7 +25,11 @@ def main():
     with Path("config/source.toml").open("rb") as f:
         raw_source: list[dict[str, Any]] = tomllib.load(f).get("source", [])
     sources = [SourceConfig.from_dict(source) for source in raw_source]
-    print(sources)
+    for source in sources:
+        print(f"Handle: {source.title}")
+        with urlopen(source.feed_url) as response:
+            xml = response.read().decode("utf-8")
+        print(xml)
 
 
 if __name__ == "__main__":
