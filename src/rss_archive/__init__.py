@@ -53,7 +53,136 @@ def main():
 
     print(f"Merged archive: {len(feed_archive.feed_sources)} sources, {len(feed_archive.feed_items)} items")
     archive_path.parent.mkdir(parents=True, exist_ok=True)
+    archive_json = json.dumps(asdict(feed_archive), ensure_ascii=False, indent=2)
     with archive_path.open("w", encoding="utf-8") as f:
-        json.dump(asdict(feed_archive), f, ensure_ascii=False, indent=2)
+        f.write(archive_json)
         f.write("\n")
     print(f"Wrote archive to: {archive_path}")
+
+    index_path = archive_path.with_name("index.html")
+    html_archive_json = (
+        archive_json.replace("&", "\\u0026")
+        .replace("<", "\\u003c")
+        .replace(">", "\\u003e")
+    )
+    index_html = f"""<!DOCTYPE html>
+<html lang=\"en\">
+  <head>
+    <meta charset=\"utf-8\" />
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
+    <title>Feed Archive</title>
+        <style>
+            body {{
+                font-family: sans-serif;
+                margin: 2rem;
+            }}
+
+            table {{
+                border-collapse: collapse;
+                margin-bottom: 2rem;
+                width: 100%;
+            }}
+
+            th,
+            td {{
+                border: 1px solid #ccc;
+                padding: 0.5rem;
+                text-align: left;
+                vertical-align: top;
+            }}
+
+            th {{
+                background: #f5f5f5;
+            }}
+
+            td.description {{
+                white-space: pre-wrap;
+            }}
+        </style>
+  </head>
+  <body>
+    <h1>Feed Archive</h1>
+    <p>Sources: {len(feed_archive.feed_sources)} / Items: {len(feed_archive.feed_items)}</p>
+
+        <h2>Feed Sources</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Link</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody id=\"feed-sources-body\"></tbody>
+        </table>
+
+        <h2>Feed Items</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Source ID</th>
+                    <th>Title</th>
+                    <th>Link</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody id=\"feed-items-body\"></tbody>
+        </table>
+
+    <script id=\"feed-archive-data\" type=\"application/json\">{html_archive_json}</script>
+    <script>
+      const feedArchive = JSON.parse(document.getElementById("feed-archive-data").textContent);
+
+            function appendTextCell(row, value, className) {{
+                const cell = document.createElement("td");
+                if (className) {{
+                    cell.className = className;
+                }}
+                cell.textContent = value ?? "";
+                row.appendChild(cell);
+            }}
+
+            function appendLinkCell(row, value) {{
+                const cell = document.createElement("td");
+                if (typeof value === "string" && (value.startsWith("https://") || value.startsWith("http://"))) {{
+                    const link = document.createElement("a");
+                    link.href = value;
+                    link.textContent = value;
+                    link.target = "_blank";
+                    link.rel = "noopener noreferrer";
+                    cell.appendChild(link);
+                }} else {{
+                    cell.textContent = value ?? "";
+                }}
+                row.appendChild(cell);
+            }}
+
+            const feedSourcesBody = document.getElementById("feed-sources-body");
+            for (const feedSource of feedArchive.feed_sources) {{
+                const row = document.createElement("tr");
+                appendTextCell(row, feedSource.id);
+                appendTextCell(row, feedSource.title);
+                appendLinkCell(row, feedSource.link);
+                appendTextCell(row, feedSource.description, "description");
+                feedSourcesBody.appendChild(row);
+            }}
+
+            const feedItemsBody = document.getElementById("feed-items-body");
+            for (const feedItem of feedArchive.feed_items) {{
+                const row = document.createElement("tr");
+                appendTextCell(row, feedItem.source_id);
+                appendTextCell(row, feedItem.title);
+                appendLinkCell(row, feedItem.link);
+                appendTextCell(row, feedItem.description, "description");
+                feedItemsBody.appendChild(row);
+            }}
+    </script>
+  </body>
+</html>
+"""
+    with index_path.open("w", encoding="utf-8") as f:
+        f.write(index_html)
+        f.write("\n")
+    print(f"Wrote index to: {index_path}")
+    
