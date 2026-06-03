@@ -52,6 +52,7 @@ def handle_atom(
             summary = entry.find("{*}summary")
             if summary is not None:
                 description = "".join(summary.itertext()).strip()
+        time = entry.findtext("{*}published") or entry.findtext("{*}updated") or ""
 
         if title == "" and description == "":
             raise ValueError("Expected at least one of 'title' or 'description' in Atom entry")
@@ -61,6 +62,7 @@ def handle_atom(
                 title=title,
                 link=entry_link,
                 description=description,
+                time=time,
                 source_id=source.id,
             )
         )

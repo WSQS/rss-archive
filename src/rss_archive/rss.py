@@ -28,6 +28,7 @@ def handle_rss(
         title = item.findtext("title") or ""
         link = item.findtext("link") or ""
         description = item.findtext("description") or ""
+        time = item.findtext("pubDate") or ""
 
         if title == "" and description == "":
             raise ValueError("Expected at least one of 'title' or 'description' in RSS item")
@@ -37,6 +38,7 @@ def handle_rss(
                 title=title,
                 link=link,
                 description=description,
+                time=time,
                 source_id=source.id,
             )
         )

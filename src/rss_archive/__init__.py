@@ -127,6 +127,7 @@ def main():
                     <th>Title</th>
                     <th>Link</th>
                     <th>Description</th>
+                    <th>Time</th>
                 </tr>
             </thead>
             <tbody id=\"feed-items-body\"></tbody>
@@ -177,6 +178,7 @@ def main():
                 appendTextCell(row, feedItem.title);
                 appendLinkCell(row, feedItem.link);
                 appendTextCell(row, feedItem.description, "description");
+                appendTextCell(row, feedItem.time);
                 feedItemsBody.appendChild(row);
             }}
     </script>

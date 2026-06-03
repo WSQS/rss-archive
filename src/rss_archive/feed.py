@@ -26,6 +26,7 @@ class FeedItem:
     title: str
     link: str
     description: str
+    time: str
     source_id: str
 
     @classmethod
@@ -34,6 +35,7 @@ class FeedItem:
             title=d.get("title", ""),
             link=d.get("link", ""),
             description=d.get("description", ""),
+            time=d.get("time", ""),
             source_id=d.get("source_id", ""),
         )
 
