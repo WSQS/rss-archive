@@ -1,1 +1,2 @@
 archive = "data/feed-archive.json"
+website_directory = "data/websites"
