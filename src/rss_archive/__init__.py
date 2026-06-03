@@ -9,14 +9,12 @@ from xml.etree import ElementTree
 @dataclass
 class SourceConfig:
     id: str
-    title: str
     feed_url: str
 
     @classmethod
     def from_dict(cls, d: dict[str, Any]):
         return cls(
             id=d["id"],
-            title=d["title"],
             feed_url=d["feed_url"],
         )
 
@@ -27,7 +25,7 @@ def main():
         raw_source: list[dict[str, Any]] = tomllib.load(f).get("source", [])
     sources = [SourceConfig.from_dict(source) for source in raw_source]
     for source in sources:
-        print(f"Handle: {source.title}")
+        print(f"Handle: {source.id}")
         with urlopen(source.feed_url) as response:
             xml = response.read().decode("utf-8")
         root = ElementTree.fromstring(xml)
