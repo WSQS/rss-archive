@@ -42,6 +42,33 @@ class FeedArchive:
     feed_sources: list[FeedSource]
     feed_items: list[FeedItem]
 
+    def upsert_source(self, feed_source: FeedSource):
+        for i, existing_feed_source in enumerate(self.feed_sources):
+            if existing_feed_source.id == feed_source.id:
+                self.feed_sources[i] = feed_source
+                return
+
+        self.feed_sources.append(feed_source)
+
+    def merge_items(self, feed_items: list[FeedItem]):
+        for feed_item in feed_items:
+            exists = False
+            for existing_feed_item in self.feed_items:
+                if existing_feed_item.source_id != feed_item.source_id:
+                    continue
+                if feed_item.link != "" and existing_feed_item.link == feed_item.link:
+                    exists = True
+                    break
+                if (
+                    feed_item.link == ""
+                    and existing_feed_item.title == feed_item.title
+                    and existing_feed_item.description == feed_item.description
+                ):
+                    exists = True
+                    break
+            if not exists:
+                self.feed_items.append(feed_item)
+
     @classmethod
     def from_dict(cls, d: dict[str, Any]):
         return cls(

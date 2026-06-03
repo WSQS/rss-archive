@@ -1,3 +1,4 @@
+from dataclasses import asdict
 import json
 import tomllib
 from pathlib import Path
@@ -32,6 +33,16 @@ def main():
         root = ElementTree.fromstring(xml)
         if root.tag == "rss":
             feed_source, feed_items = handle_rss(source, root)
+            feed_archive.upsert_source(feed_source)
+            feed_archive.merge_items(feed_items)
+
             print(f"Feed Source: {feed_source.title}")
             for item in feed_items:
                 print(f"  - {item.title}")
+
+    print(f"Merged archive: {len(feed_archive.feed_sources)} sources, {len(feed_archive.feed_items)} items")
+    archive_path.parent.mkdir(parents=True, exist_ok=True)
+    with archive_path.open("w", encoding="utf-8") as f:
+        json.dump(asdict(feed_archive), f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    print(f"Wrote archive to: {archive_path}")
