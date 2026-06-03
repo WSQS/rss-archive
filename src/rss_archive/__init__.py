@@ -98,7 +98,10 @@ def main():
             }}
 
             td.description {{
-                white-space: pre-wrap;
+                max-width: 32rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
             }}
         </style>
   </head>
