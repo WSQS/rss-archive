@@ -18,9 +18,11 @@ class SourceConfig:
 @dataclass
 class DataConfig:
     archive: str
+    website_directory: str
 
     @classmethod
     def from_dict(cls, d: dict[str, Any]):
         return cls(
             archive=d["archive"],
+            website_directory=d["website_directory"],
         )

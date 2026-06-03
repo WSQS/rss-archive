@@ -59,7 +59,9 @@ def main():
         f.write("\n")
     print(f"Wrote archive to: {archive_path}")
 
-    index_path = archive_path.with_name("index.html")
+    website_directory = Path(data_config.website_directory)
+    website_directory.mkdir(parents=True, exist_ok=True)
+    index_path = website_directory / "index.html"
     html_archive_json = (
         archive_json.replace("&", "\\u0026")
         .replace("<", "\\u003c")
