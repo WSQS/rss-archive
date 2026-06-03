@@ -39,6 +39,8 @@ def main():
             print(f"Feed Source: {feed_source.title}")
             for item in feed_items:
                 print(f"  - {item.title}")
+        else:
+            print(f"Unknown root tag: {root.tag!r}")
 
     print(f"Merged archive: {len(feed_archive.feed_sources)} sources, {len(feed_archive.feed_items)} items")
     archive_path.parent.mkdir(parents=True, exist_ok=True)
