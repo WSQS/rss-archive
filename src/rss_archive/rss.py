@@ -4,6 +4,7 @@ from xml.etree.ElementTree import Element
 from rss_archive.config import SourceConfig
 from rss_archive.feed import FeedSource, FeedItem
 
+# See also https://www.rssboard.org/rss-specification
 
 def handle_rss(
     source: SourceConfig, root: Element[str]
