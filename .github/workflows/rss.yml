@@ -28,12 +28,34 @@ jobs:
         steps:
             - uses: actions/checkout@v6
 
+            - name: Check archive branch
+              id: archive_branch
+              working-directory: config
+              shell: bash
+              run: |
+                  if git ls-remote --exit-code --heads origin "${ARCHIVE_BRANCH}" > /dev/null 2>&1; then
+                      echo "exists=true" >> "$GITHUB_OUTPUT"
+                  else
+                      echo "exists=false" >> "$GITHUB_OUTPUT"
+                  fi
+
             - name: Checkout archive branch
+              if: steps.archive_branch.outputs.exists == 'true'
               uses: actions/checkout@v6
               with:
                   ref: ${{ env.ARCHIVE_BRANCH }}
                   path: archive
                   fetch-depth: 0
+        
+            - name: Initialize archive branch
+              if: steps.archive_branch.outputs.exists != 'true'
+              shell: bash
+              run: |
+                mkdir archive
+                cd archive
+
+                git init -b "${ARCHIVE_BRANCH}"
+                git remote add origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
 
             - name: Install uv
               uses: astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b
