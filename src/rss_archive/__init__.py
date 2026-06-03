@@ -51,7 +51,3 @@ def main():
                                             pass
                             case _:
                                 print(f"Unknown Handle: {item.tag}")
-
-
-if __name__ == "__main__":
-    main()
