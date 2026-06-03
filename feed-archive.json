@@ -11,6 +11,12 @@
       "title": "Martin Fowler",
       "link": "https://martinfowler.com",
       "description": "Master feed of news and updates from martinfowler.com"
+    },
+    {
+      "id": "tsoding-daily",
+      "title": "Tsoding Daily",
+      "link": "https://www.youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg",
+      "description": ""
     }
   ],
   "feed_items": [
@@ -1308,6 +1314,111 @@
       "description": "<p><b class = 'author'>Rahul Garg</b> has observed a frustration loop when\n      working with AI coding assistants - lots of code generated, but needs lots\n      of fixing. He's noticed <a href = '/articles/reduce-friction-ai/'>five\n      patterns</a> that help improve the interaction with the LLM, and describes\n      the <a href = 'https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html'>first of these</a>: priming the LLM with knowledge about the codebase and\n      preferred coding patterns.</p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html'>more…</a></p>",
       "time": "2026-02-24T14:40:00Z",
       "source_id": "martin-fowler"
+    },
+    {
+      "title": "I rewrote my entire project in Jai",
+      "link": "https://www.youtube.com/watch?v=sFW7OSHOwiA",
+      "description": "",
+      "time": "2026-05-27T17:04:17Z",
+      "source_id": "tsoding-daily"
+    },
+    {
+      "title": "How do I zoom while programming",
+      "link": "https://www.youtube.com/watch?v=LT-1bp_ps68",
+      "description": "",
+      "time": "2026-05-23T21:26:29Z",
+      "source_id": "tsoding-daily"
+    },
+    {
+      "title": "How to Parse Python",
+      "link": "https://www.youtube.com/watch?v=9wAFshF7Pu4",
+      "description": "",
+      "time": "2026-05-18T16:37:31Z",
+      "source_id": "tsoding-daily"
+    },
+    {
+      "title": "Entity System in C",
+      "link": "https://www.youtube.com/watch?v=aMPu_Fy756M",
+      "description": "",
+      "time": "2026-05-09T17:25:53Z",
+      "source_id": "tsoding-daily"
+    },
+    {
+      "title": "Beatboxing for 10 hours",
+      "link": "https://www.youtube.com/watch?v=DWM59pDlUUs",
+      "description": "",
+      "time": "2026-05-05T18:40:28Z",
+      "source_id": "tsoding-daily"
+    },
+    {
+      "title": "Functional Programming of Balls",
+      "link": "https://www.youtube.com/watch?v=0ebreGjhEvo",
+      "description": "",
+      "time": "2026-05-05T13:23:37Z",
+      "source_id": "tsoding-daily"
+    },
+    {
+      "title": "Data is Stored in Tarballs",
+      "link": "https://www.youtube.com/watch?v=Selwqz5xI0M",
+      "description": "",
+      "time": "2026-05-01T14:19:11Z",
+      "source_id": "tsoding-daily"
+    },
+    {
+      "title": "Bindings Generator",
+      "link": "https://www.youtube.com/watch?v=1wkUyzUPo6Q",
+      "description": "",
+      "time": "2026-04-24T17:13:47Z",
+      "source_id": "tsoding-daily"
+    },
+    {
+      "title": "This is Better Than OCaml",
+      "link": "https://www.youtube.com/watch?v=rLM-9jrA70o",
+      "description": "",
+      "time": "2026-04-21T15:24:26Z",
+      "source_id": "tsoding-daily"
+    },
+    {
+      "title": "Reference Counting in C",
+      "link": "https://www.youtube.com/watch?v=iotrPxUnTdQ",
+      "description": "",
+      "time": "2026-04-16T14:36:27Z",
+      "source_id": "tsoding-daily"
+    },
+    {
+      "title": "Very Big Integers",
+      "link": "https://www.youtube.com/watch?v=tbPOFYwL7Ss",
+      "description": "",
+      "time": "2026-04-12T14:50:39Z",
+      "source_id": "tsoding-daily"
+    },
+    {
+      "title": "Collision Detection in C",
+      "link": "https://www.youtube.com/watch?v=HNX5AJGoOrU",
+      "description": "",
+      "time": "2026-04-09T15:12:37Z",
+      "source_id": "tsoding-daily"
+    },
+    {
+      "title": "Raylib from Jai",
+      "link": "https://www.youtube.com/watch?v=RtXQ5kHOpMo",
+      "description": "",
+      "time": "2026-04-04T14:08:50Z",
+      "source_id": "tsoding-daily"
+    },
+    {
+      "title": "A small C compiler",
+      "link": "https://www.youtube.com/watch?v=_dVchhnO_KI",
+      "description": "",
+      "time": "2026-03-15T15:19:14Z",
+      "source_id": "tsoding-daily"
+    },
+    {
+      "title": "Compiler for a Query Language",
+      "link": "https://www.youtube.com/watch?v=8NdRGmp70Go",
+      "description": "",
+      "time": "2026-03-12T15:57:55Z",
+      "source_id": "tsoding-daily"
     }
   ]
 }
