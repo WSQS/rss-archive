@@ -172,7 +172,19 @@ def main():
             }}
 
             const feedItemsBody = document.getElementById("feed-items-body");
-            for (const feedItem of feedArchive.feed_items) {{
+            const sortedFeedItems = [...feedArchive.feed_items].sort((a, b) => {{
+                if (a.time === b.time) {{
+                    return 0;
+                }}
+                if (a.time === "") {{
+                    return 1;
+                }}
+                if (b.time === "") {{
+                    return -1;
+                }}
+                return b.time.localeCompare(a.time);
+            }});
+            for (const feedItem of sortedFeedItems) {{
                 const row = document.createElement("tr");
                 appendTextCell(row, feedItem.source_id);
                 appendTextCell(row, feedItem.title);
