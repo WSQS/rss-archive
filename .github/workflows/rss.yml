@@ -3,6 +3,9 @@ name: RSS Archive
 on:
     schedule:
         - cron: "19 */6 * * *"
+    push:
+        branches:
+            - master
     workflow_dispatch:
 
 permissions:
