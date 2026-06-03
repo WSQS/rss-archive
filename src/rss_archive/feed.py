@@ -54,21 +54,23 @@ class FeedArchive:
 
     def merge_items(self, feed_items: list[FeedItem]):
         for feed_item in feed_items:
-            exists = False
-            for existing_feed_item in self.feed_items:
+            matched = False
+            for i, existing_feed_item in enumerate(self.feed_items):
                 if existing_feed_item.source_id != feed_item.source_id:
                     continue
                 if feed_item.link != "" and existing_feed_item.link == feed_item.link:
-                    exists = True
+                    self.feed_items[i] = feed_item
+                    matched = True
                     break
                 if (
                     feed_item.link == ""
                     and existing_feed_item.title == feed_item.title
                     and existing_feed_item.description == feed_item.description
                 ):
-                    exists = True
+                    self.feed_items[i] = feed_item
+                    matched = True
                     break
-            if not exists:
+            if not matched:
                 self.feed_items.append(feed_item)
 
     @classmethod
