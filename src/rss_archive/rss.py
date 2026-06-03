@@ -15,9 +15,29 @@ def handle_rss(
     if channel is None:
         raise ValueError("Expected 'channel' element under 'rss'")
 
-    return FeedSource(
+    feed_source = FeedSource(
         id=source.id,
         title=channel.findtext("title") or "",
         link=channel.findtext("link") or source.feed_url,
         description=channel.findtext("description") or "",
-    ), []
+    )
+
+    feed_items: list[FeedItem] = []
+    for item in channel.findall("item"):
+        title = item.findtext("title") or ""
+        link = item.findtext("link") or ""
+        description = item.findtext("description") or ""
+
+        if title == "" and description == "":
+            raise ValueError("Expected at least one of 'title' or 'description' in RSS item")
+
+        feed_items.append(
+            FeedItem(
+                title=title,
+                link=link,
+                description=description,
+                source_id=source.id,
+            )
+        )
+
+    return feed_source, feed_items
