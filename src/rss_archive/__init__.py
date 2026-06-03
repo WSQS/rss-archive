@@ -1,22 +1,10 @@
 import tomllib
-from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 from urllib.request import urlopen
 from xml.etree import ElementTree
 
-
-@dataclass
-class SourceConfig:
-    id: str
-    feed_url: str
-
-    @classmethod
-    def from_dict(cls, d: dict[str, Any]):
-        return cls(
-            id=d["id"],
-            feed_url=d["feed_url"],
-        )
+from rss_archive.config import SourceConfig
 
 
 def main():
