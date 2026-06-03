@@ -5,6 +5,7 @@ from urllib.request import urlopen
 from xml.etree import ElementTree
 
 from rss_archive.config import SourceConfig
+from rss_archive.rss import handle_rss
 
 
 def main():
@@ -18,22 +19,7 @@ def main():
             xml = response.read().decode("utf-8")
         root = ElementTree.fromstring(xml)
         if root.tag == "rss":
-            for item in root:
-                if item.tag == "channel":
-                    for item in item:
-                        match item.tag:
-                            case "title":
-                                print(f"Title: {item.text}")
-                            case "link":
-                                print(f"Link: {item.text}")
-                            case "description":
-                                print(f"Description: {item.text}")
-                            case "item":
-                                for item in item:
-                                    match item.tag:
-                                        case "title":
-                                            print(f"Title: {item.text}")
-                                        case _:
-                                            pass
-                            case _:
-                                print(f"Unknown Handle: {item.tag}")
+            feed_source, feed_items = handle_rss(source, root)
+            print(f"Feed Source: {feed_source.title}")
+            for item in feed_items:
+                print(f"  - {item.title}")
