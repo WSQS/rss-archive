@@ -1,3 +1,4 @@
+from datetime import UTC, datetime
 from dataclasses import asdict
 import json
 import tomllib
@@ -62,6 +63,7 @@ def main():
     website_directory = Path(data_config.website_directory)
     website_directory.mkdir(parents=True, exist_ok=True)
     index_path = website_directory / "index.html"
+    page_updated_time = datetime.now(UTC).isoformat(timespec="seconds").replace("+00:00", "Z")
     html_archive_json = (
         archive_json.replace("&", "\\u0026")
         .replace("<", "\\u003c")
@@ -108,6 +110,7 @@ def main():
   <body>
     <h1>Feed Archive</h1>
     <p>Sources: {len(feed_archive.feed_sources)} / Items: {len(feed_archive.feed_items)}</p>
+        <p>Page updated: <time datetime="{page_updated_time}">{page_updated_time}</time></p>
 
         <h2>Feed Sources</h2>
         <table>
