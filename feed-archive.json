@@ -1468,6 +1468,13 @@
       "description": "Agent experience: how well the environment is set up for an agent to do good work — checks, architecture, and free context.",
       "time": "2026-06-05T12:36:48Z",
       "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Glitch Shader Effect",
+      "link": "https://www.youtube.com/watch?v=Mwp-uGCUZE4",
+      "description": "",
+      "time": "2026-06-06T15:32:29Z",
+      "source_id": "tsoding-daily"
     }
   ]
 }
