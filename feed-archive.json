@@ -1482,6 +1482,13 @@
       "description": "Learn to use the /teach skill in Claude Code to create personalized AI-powered lessons on anything—languages, coding, skills—with interactive exercises.",
       "time": "2026-06-08T16:45:34Z",
       "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Stealing ideas from NixOS",
+      "link": "https://www.youtube.com/watch?v=JWIregr388Y",
+      "description": "",
+      "time": "2026-06-11T18:35:52Z",
+      "source_id": "tsoding-daily"
     }
   ]
 }
