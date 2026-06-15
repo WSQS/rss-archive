@@ -17,6 +17,12 @@
       "title": "Tsoding Daily",
       "link": "https://www.youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg",
       "description": ""
+    },
+    {
+      "id": "theo",
+      "title": "Theo - t3․gg",
+      "link": "https://www.youtube.com/channel/UCbRP3c757lWg9M-U7TyEkXA",
+      "description": ""
     }
   ],
   "feed_items": [
@@ -1496,6 +1502,111 @@
       "description": "",
       "time": "2026-06-13T14:35:27Z",
       "source_id": "tsoding-daily"
+    },
+    {
+      "title": "BREAKING NEWS: Fable & Mythos REMOVED Over National Security Concerns",
+      "link": "https://www.youtube.com/shorts/E7lntF7y3k0",
+      "description": "",
+      "time": "2026-06-13T06:03:37Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "BREAKING: Fable and Mythos have been taken down for security concerns.",
+      "link": "https://www.youtube.com/watch?v=W-kM56mf-Nw",
+      "description": "",
+      "time": "2026-06-13T02:16:41Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "Fable/Mythos Usage Is INSANE",
+      "link": "https://www.youtube.com/shorts/Hppa7QsijhA",
+      "description": "",
+      "time": "2026-06-12T22:00:11Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "Do You Remember Me Before AI?",
+      "link": "https://www.youtube.com/shorts/0Af8LDWJzjc",
+      "description": "",
+      "time": "2026-06-12T19:00:26Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "Mythos is here, it’s time to start tokenmaxxing",
+      "link": "https://www.youtube.com/watch?v=3sTu8sSLVfg",
+      "description": "",
+      "time": "2026-06-12T08:37:27Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "What Is Fable 5?",
+      "link": "https://www.youtube.com/shorts/hBsgJ61kY1k",
+      "description": "",
+      "time": "2026-06-12T01:33:19Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "The Three Virtues of Great Programmers",
+      "link": "https://www.youtube.com/shorts/q-4VuETIgxo",
+      "description": "",
+      "time": "2026-06-11T19:00:11Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "Fable is Mythos, and it is really good.",
+      "link": "https://www.youtube.com/watch?v=7IewbRdaBWI",
+      "description": "",
+      "time": "2026-06-11T04:06:46Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "Elon won after all",
+      "link": "https://www.youtube.com/watch?v=jB2iKoBSPyo",
+      "description": "",
+      "time": "2026-06-09T07:53:14Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "I didn’t expect this from Anthropic",
+      "link": "https://www.youtube.com/watch?v=xjucOlb_mFM",
+      "description": "",
+      "time": "2026-06-08T11:47:22Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "Cloudflare bought Vite to destroy Vercel",
+      "link": "https://www.youtube.com/watch?v=n2YtM-MecZk",
+      "description": "",
+      "time": "2026-06-06T20:21:44Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "I miss when programmers were lazy.",
+      "link": "https://www.youtube.com/watch?v=iN_9aH3VuzU",
+      "description": "",
+      "time": "2026-06-04T23:15:49Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "More Prompts = Worse Code?",
+      "link": "https://www.youtube.com/watch?v=WnBx1Vi7M6w",
+      "description": "",
+      "time": "2026-06-03T00:06:00Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "This might be a Hot Take",
+      "link": "https://www.youtube.com/watch?v=rTMRlqT8Q8c",
+      "description": "",
+      "time": "2026-06-01T08:38:00Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "SWE-Bench is getting replaced???",
+      "link": "https://www.youtube.com/watch?v=JpSHyEIZ_bo",
+      "description": "",
+      "time": "2026-05-31T08:31:09Z",
+      "source_id": "theo"
     }
   ]
 }
