@@ -4,7 +4,7 @@ import json
 import tomllib
 from pathlib import Path
 from typing import Any
-from urllib.request import urlopen
+from urllib.request import Request, urlopen
 from xml.etree import ElementTree
 
 from rss_archive.atom import handle_atom
@@ -30,7 +30,14 @@ def main():
 
     for source in sources:
         print(f"Handle: {source.id}")
-        with urlopen(source.feed_url) as response:
+        request = Request(
+            source.feed_url,
+            headers={
+                "User-Agent": "rss-archive/1.0 (+https://github.com/WSQS/rss-archive)",
+                "Accept": "application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.5",
+            },
+        )
+        with urlopen(request) as response:
             xml = response.read().decode("utf-8")
         root = ElementTree.fromstring(xml)
         if root.tag == "rss":
