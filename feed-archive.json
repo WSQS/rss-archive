@@ -23,6 +23,12 @@
       "title": "Theo - t3․gg",
       "link": "https://www.youtube.com/channel/UCbRP3c757lWg9M-U7TyEkXA",
       "description": ""
+    },
+    {
+      "id": "dave-thomas",
+      "title": "Pragdave",
+      "link": "https://articles.pragdave.me",
+      "description": "Opinions on software development, and how we can do it better, from the author of The Pragmatic Programmer and a creator of the Manifesto for Agile Software Development."
     }
   ],
   "feed_items": [
@@ -1635,6 +1641,146 @@
       "description": "",
       "time": "2026-06-15T21:28:41Z",
       "source_id": "theo"
+    },
+    {
+      "title": "Failing Faster",
+      "link": "https://articles.pragdave.me/p/failing-faster",
+      "description": "Every big computing disaster has come from taking too many ideas and putting them in one place.",
+      "time": "2026-06-06T14:47:48Z",
+      "source_id": "dave-thomas"
+    },
+    {
+      "title": "Castles In The Air",
+      "link": "https://articles.pragdave.me/p/castles-in-the-air",
+      "description": "It&#8217;s Still Just as Rewarding",
+      "time": "2026-06-02T18:58:35Z",
+      "source_id": "dave-thomas"
+    },
+    {
+      "title": "It Still Takes a Programmer",
+      "link": "https://articles.pragdave.me/p/it-still-takes-a-programmer",
+      "description": "AI Changes Nothing",
+      "time": "2026-05-30T12:49:06Z",
+      "source_id": "dave-thomas"
+    },
+    {
+      "title": "Premature Optimization",
+      "link": "https://articles.pragdave.me/p/premature-optimization",
+      "description": "&#8230;or why I should practice what I preach",
+      "time": "2025-10-14T14:57:07Z",
+      "source_id": "dave-thomas"
+    },
+    {
+      "title": "The Kindness of Strangers",
+      "link": "https://articles.pragdave.me/p/the-kindness-of-strangers",
+      "description": "Open source may not be open forever&#8230;",
+      "time": "2025-09-23T00:37:34Z",
+      "source_id": "dave-thomas"
+    },
+    {
+      "title": "On Being a Developer",
+      "link": "https://articles.pragdave.me/p/on-being-a-developer",
+      "description": "A small rant",
+      "time": "2025-09-16T22:34:54Z",
+      "source_id": "dave-thomas"
+    },
+    {
+      "title": "The Sorcerer's Apprentice",
+      "link": "https://articles.pragdave.me/p/the-sorcerers-apprentice",
+      "description": "or \"Don't Invoke a Spell You Can't Control\"",
+      "time": "2025-08-12T17:00:42Z",
+      "source_id": "dave-thomas"
+    },
+    {
+      "title": "An Employer's Guide To Hiring Developers",
+      "link": "https://articles.pragdave.me/p/an-employers-guide-to-hiring-developers",
+      "description": "hint: programming challenges are a dumb idea",
+      "time": "2025-08-03T03:43:23Z",
+      "source_id": "dave-thomas"
+    },
+    {
+      "title": "Should People Learning to Code Use AI?",
+      "link": "https://articles.pragdave.me/p/should-people-learning-to-code-use",
+      "description": "tldr; yes and no",
+      "time": "2025-07-17T18:50:07Z",
+      "source_id": "dave-thomas"
+    },
+    {
+      "title": "Job Titles Are Lazy Labels",
+      "link": "https://articles.pragdave.me/p/job-titles-are-lazy-labels",
+      "description": "It's time to stop using simplistic labels for complex individuals",
+      "time": "2025-07-06T21:18:58Z",
+      "source_id": "dave-thomas"
+    },
+    {
+      "title": "Simplicity, Agility, and Agency",
+      "link": "https://articles.pragdave.me/p/simplicity-agility-and-agency",
+      "description": "Development doesn't have to be this complicated",
+      "time": "2025-06-25T17:20:00Z",
+      "source_id": "dave-thomas"
+    },
+    {
+      "title": "Error Monads The Hard Way",
+      "link": "https://articles.pragdave.me/p/error-monads-the-hard-way",
+      "description": "I can't decide how to best express the equivalent of Haskell's Error monad and DO block in Ruby...",
+      "time": "2025-06-03T18:27:50Z",
+      "source_id": "dave-thomas"
+    },
+    {
+      "title": "Testing",
+      "link": "https://articles.pragdave.me/p/testing",
+      "description": "Might not mean what you think it means",
+      "time": "2025-05-26T19:42:49Z",
+      "source_id": "dave-thomas"
+    },
+    {
+      "title": "Module-based Polymorphism",
+      "link": "https://articles.pragdave.me/p/module-based-polymorphism",
+      "description": "A quickie",
+      "time": "2025-05-15T18:40:35Z",
+      "source_id": "dave-thomas"
+    },
+    {
+      "title": "Method Chaining vs Function Composition",
+      "link": "https://articles.pragdave.me/p/method-chaining-vs-function-composition",
+      "description": "Part of an occasional series on my move away from OO programming",
+      "time": "2025-05-14T21:13:45Z",
+      "source_id": "dave-thomas"
+    },
+    {
+      "title": "Design Patterns Are Not Design",
+      "link": "https://articles.pragdave.me/p/design-patterns-are-not-design",
+      "description": "Enough already with the factories and the decorators.",
+      "time": "2025-04-30T01:06:19Z",
+      "source_id": "dave-thomas"
+    },
+    {
+      "title": "Premature Design Is Not Design",
+      "link": "https://articles.pragdave.me/p/premature-design-is-not-design",
+      "description": "Resist the temptation to guess, and let the code tell you what it needs.",
+      "time": "2025-04-22T17:39:29Z",
+      "source_id": "dave-thomas"
+    },
+    {
+      "title": "Received Wisdom",
+      "link": "https://articles.pragdave.me/p/received-wisdom",
+      "description": "True wisdom can only come from within.",
+      "time": "2025-04-16T00:46:56Z",
+      "source_id": "dave-thomas"
+    },
+    {
+      "title": "Disagreements Are Not Zero-Sum Games",
+      "link": "https://articles.pragdave.me/p/disagreements-are-not-zero-sum-games",
+      "description": "Once you stop trying to be right, you'll start to understand more (and you'll be nicer to know).",
+      "time": "2025-04-09T03:02:28Z",
+      "source_id": "dave-thomas"
+    },
+    {
+      "title": "Fear, and When To Fear It",
+      "link": "https://articles.pragdave.me/p/fear-and-when-to-fear-it",
+      "description": "Fear is good, but letting it get in your way is just plain unnecessary. Here are some of the many tricks for pushing through.",
+      "time": "2025-04-01T23:51:17Z",
+      "source_id": "dave-thomas"
     }
   ]
 }
