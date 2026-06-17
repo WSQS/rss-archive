@@ -1788,6 +1788,13 @@
       "description": "<div class = 'img-link'><a href = 'https://martinfowler.com/articles/reliable-llm-bayer.html'><img src = 'https://martinfowler.com/articles/reliable-llm-bayer/card.png' width = '350px'></img></a></div>\n\n<p>One of the most interesting projects my colleagues have done with LLMs\n      has been building a system with Bayer to allow pharmaceutical researchers to query\n      decades of information about studies buried in PDF reports. <b class = 'author'>Sarang\n      Sanjay Kulkarni</b> describes its evolution from keyword-based search\n      to an intelligent research assistant capable of answering complex\n      questions and drafting regulatory documents.</p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/reliable-llm-bayer.html'>more…</a></p>",
       "time": "2026-06-16T12:11:00Z",
       "source_id": "martin-fowler"
+    },
+    {
+      "title": "I hated making this video...",
+      "link": "https://www.youtube.com/watch?v=FDxW2bfBOWE",
+      "description": "",
+      "time": "2026-06-17T10:47:38Z",
+      "source_id": "theo"
     }
   ]
 }
