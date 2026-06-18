@@ -1816,6 +1816,20 @@
       "description": "Skills v1.0 update: 63% token reduction, new routing skills, domain modeling & codebase design. Install with npx now.",
       "time": "2026-06-18T11:43:30Z",
       "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "I guess we're writing loops now?",
+      "link": "https://www.youtube.com/watch?v=iJVJwmCKW9o",
+      "description": "",
+      "time": "2026-06-18T19:21:20Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "Prompt Loops, Not Individual Instructions",
+      "link": "https://www.youtube.com/shorts/z1I9MUjUrVM",
+      "description": "",
+      "time": "2026-06-18T16:51:52Z",
+      "source_id": "theo"
     }
   ]
 }
