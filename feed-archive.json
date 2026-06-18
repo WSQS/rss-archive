@@ -1809,6 +1809,13 @@
       "description": "",
       "time": "2026-06-17T20:25:01Z",
       "source_id": "theo"
+    },
+    {
+      "title": "v1: 63% Token Reduction, /ask-matt, /writing-great-skills",
+      "link": "https://www.aihero.dev/skills/skills-changelog-v1-announcement",
+      "description": "Skills v1.0 update: 63% token reduction, new routing skills, domain modeling & codebase design. Install with npx now.",
+      "time": "2026-06-18T11:43:30Z",
+      "source_id": "matt-pocock-aihero"
     }
   ]
 }
