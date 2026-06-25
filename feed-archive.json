@@ -1893,6 +1893,20 @@
       "description": "",
       "time": "2026-06-24T08:31:56Z",
       "source_id": "theo"
+    },
+    {
+      "title": "AI Skills for Real Engineers",
+      "link": "https://www.aihero.dev/skills-catalog",
+      "description": "A practical skill system for engineers who want to use AI without giving up their standards.",
+      "time": "2026-05-05T11:14:31Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The next paradigm shift (according to Karpathy)",
+      "link": "https://www.youtube.com/watch?v=tOC2N0B9lio",
+      "description": "",
+      "time": "2026-06-25T07:55:16Z",
+      "source_id": "theo"
     }
   ]
 }
