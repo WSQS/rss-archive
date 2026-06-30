@@ -1942,6 +1942,20 @@
       "description": "A dial for how much reasoning the model does before it answers. More effort spends more output tokens for a better shot at hard problems.",
       "time": "2026-06-29T15:38:46Z",
       "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Why is OpenAI so much more efficient?",
+      "link": "https://www.youtube.com/watch?v=ypO0q_8zhWw",
+      "description": "",
+      "time": "2026-06-30T07:50:53Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "Github isn't a Multiplayer Solution",
+      "link": "https://www.youtube.com/shorts/vhNBcShnQek",
+      "description": "",
+      "time": "2026-06-30T00:39:02Z",
+      "source_id": "theo"
     }
   ]
 }
