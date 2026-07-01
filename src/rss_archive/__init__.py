@@ -4,8 +4,10 @@ import json
 import tomllib
 from pathlib import Path
 from typing import Any
+from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
-from xml.etree import ElementTree
+from xml.etree import ElementTree as ET
+from xml.etree.ElementTree import ParseError
 
 from rss_archive.atom import handle_atom
 from rss_archive.config import DataConfig, SourceConfig
@@ -28,18 +30,38 @@ def main():
         feed_archive = FeedArchive.from_dict({})
     print(f"Loaded archive: {len(feed_archive.feed_sources)} sources, {len(feed_archive.feed_items)} items")
 
+    errors: list[dict[str, str]] = []
+
     for source in sources:
         print(f"Handle: {source.id}")
-        request = Request(
-            source.feed_url,
-            headers={
-                "User-Agent": "rss-archive/1.0 (+https://github.com/WSQS/rss-archive)",
-                "Accept": "application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.5",
-            },
-        )
-        with urlopen(request) as response:
-            xml = response.read().decode("utf-8")
-        root = ElementTree.fromstring(xml)
+        try:
+            request = Request(
+                source.feed_url,
+                headers={
+                    "User-Agent": "rss-archive/1.0 (+https://github.com/WSQS/rss-archive)",
+                    "Accept": "application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.5",
+                },
+            )
+            with urlopen(request) as response:
+                xml = response.read().decode("utf-8")
+            root = ET.fromstring(xml)
+        except HTTPError as e:
+            print(f"  HTTP error {e.code} for {source.feed_url}: {e.reason}")
+            errors.append({"source_id": source.id, "feed_url": source.feed_url, "type": "HTTP", "message": f"HTTP {e.code}: {e.reason}"})
+            continue
+        except URLError as e:
+            print(f"  URL error for {source.feed_url}: {e.reason}")
+            errors.append({"source_id": source.id, "feed_url": source.feed_url, "type": "Network", "message": f"URL error: {e.reason}"})
+            continue
+        except ParseError as e:
+            print(f"  XML parse error for {source.feed_url}: {e}")
+            errors.append({"source_id": source.id, "feed_url": source.feed_url, "type": "XML Parse", "message": str(e)})
+            continue
+        except Exception as e:
+            print(f"  Unexpected error for {source.feed_url}: {e}")
+            errors.append({"source_id": source.id, "feed_url": source.feed_url, "type": "Unexpected", "message": str(e)})
+            continue
+
         if root.tag == "rss":
             feed_source, feed_items = handle_rss(source, root)
             feed_archive.upsert_source(feed_source)
@@ -73,6 +95,12 @@ def main():
     page_updated_time = datetime.now(UTC).isoformat(timespec="seconds").replace("+00:00", "Z")
     html_archive_json = (
         archive_json.replace("&", "\\u0026")
+        .replace("<", "\\u003c")
+        .replace(">", "\\u003e")
+    )
+    errors_json = json.dumps(errors, ensure_ascii=False, indent=2)
+    html_errors_json = (
+        errors_json.replace("&", "\\u0026")
         .replace("<", "\\u003c")
         .replace(">", "\\u003e")
     )
@@ -132,6 +160,19 @@ def main():
             <tbody id=\"feed-sources-body\"></tbody>
         </table>
 
+        <h2 id=\"errors-heading\">Errors</h2>
+        <table id=\"errors-table\">
+            <thead>
+                <tr>
+                    <th>Source ID</th>
+                    <th>Feed URL</th>
+                    <th>Type</th>
+                    <th>Message</th>
+                </tr>
+            </thead>
+            <tbody id=\"errors-body\"></tbody>
+        </table>
+
         <h2>Feed Items</h2>
         <table>
             <thead>
@@ -147,8 +188,10 @@ def main():
         </table>
 
     <script id=\"feed-archive-data\" type=\"application/json\">{html_archive_json}</script>
+    <script id=\"feed-errors-data\" type=\"application/json\">{html_errors_json}</script>
     <script>
       const feedArchive = JSON.parse(document.getElementById("feed-archive-data").textContent);
+      const feedErrors = JSON.parse(document.getElementById("feed-errors-data").textContent);
 
             function appendTextCell(row, value, className) {{
                 const cell = document.createElement("td");
@@ -182,6 +225,23 @@ def main():
                 appendLinkCell(row, feedSource.link);
                 appendTextCell(row, feedSource.description, "description");
                 feedSourcesBody.appendChild(row);
+            }}
+
+            const errorsBody = document.getElementById("errors-body");
+            const errorsTable = document.getElementById("errors-table");
+            const errorsHeading = document.getElementById("errors-heading");
+            if (feedErrors.length === 0) {{
+                errorsHeading.style.display = "none";
+                errorsTable.style.display = "none";
+            }} else {{
+                for (const err of feedErrors) {{
+                    const row = document.createElement("tr");
+                    appendTextCell(row, err.source_id);
+                    appendLinkCell(row, err.feed_url);
+                    appendTextCell(row, err.type);
+                    appendTextCell(row, err.message);
+                    errorsBody.appendChild(row);
+                }}
             }}
 
             const feedItemsBody = document.getElementById("feed-items-body");
