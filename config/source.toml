@@ -17,3 +17,7 @@ feed_url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCbRP3c757lWg9M-
 [[source]]
 id = "dave-thomas"
 feed_url = "https://articles.pragdave.me/feed"
+
+[[source]]
+id = "simon-willison"
+feed_url = "https://simonwillison.net/atom/everything/"
