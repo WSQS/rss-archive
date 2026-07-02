@@ -2186,6 +2186,13 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-acl/releases/tag/0.6a0\">datasette-acl 0.6a0</a></p>\n        <blockquote>\n<p>This release expands <code>datasette-acl</code> from table-only permissions toward a general resource-sharing system.</p>\n</blockquote>\n<p>Alex Garcia did most of the work for this release - we're fleshing out the plugin that will allow multi-user Datasette instances finely grained control over who can access which resources within Datasette.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/alex-garcia\">alex-garcia</a></p>",
       "time": "2026-06-18T19:03:13Z",
       "source_id": "simon-willison"
+    },
+    {
+      "title": "Breaking Down Sonnet 5's Release",
+      "link": "https://www.youtube.com/shorts/HaESxoC0t9c",
+      "description": "",
+      "time": "2026-07-01T21:55:55Z",
+      "source_id": "theo"
     }
   ]
 }
