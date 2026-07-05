@@ -685,7 +685,7 @@
     {
       "title": "Parameters | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/parameters",
-      "description": "The numbers inside a model — often billions of them — tuned during training. Everything the model \"knows\" lives in them. Training sets them; inference uses them unchanged. Also...",
+      "description": "The numbers inside a model — often billions — tuned during training. Everything the model knows lives in them. Also called weights.",
       "time": "2026-07-01T08:46:18Z",
       "source_id": "matt-pocock-aihero"
     },
