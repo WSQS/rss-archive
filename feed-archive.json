@@ -2438,6 +2438,111 @@
       "description": "<div class = 'img-link'><a href = 'https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-experiences.html'><img src = 'https://martinfowler.com/articles/exploring-gen-ai/donkey-card.png' width = ''></img></a></div>\n\n<p><b class = 'author'>Birgitta B&#xF6;ckeler</b> now reports on her recent experiences\n      trying local LLMs for coding. She compares them using two standard\n      tasks, and tries out the most promising model for day-to-day use.</p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-experiences.html'>more…</a></p>",
       "time": "2026-07-08T11:57:00Z",
       "source_id": "martin-fowler"
+    },
+    {
+      "title": "The /writing-great-skills Skill",
+      "link": "https://www.aihero.dev/skills-writing-great-skills",
+      "description": "",
+      "time": "2026-07-08T15:28:46Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The /teach Skill",
+      "link": "https://www.aihero.dev/skills-teach",
+      "description": "",
+      "time": "2026-07-08T15:28:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The /grilling Skill",
+      "link": "https://www.aihero.dev/skills-grilling",
+      "description": "",
+      "time": "2026-07-08T15:28:48Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The /wayfinder Skill",
+      "link": "https://www.aihero.dev/skills-wayfinder",
+      "description": "",
+      "time": "2026-07-08T15:28:41Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The /triage Skill",
+      "link": "https://www.aihero.dev/skills-triage",
+      "description": "",
+      "time": "2026-07-08T15:28:44Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The /setup-matt-pocock-skills Skill",
+      "link": "https://www.aihero.dev/skills-setup-matt-pocock-skills",
+      "description": "",
+      "time": "2026-07-08T15:20:02Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The /implement Skill",
+      "link": "https://www.aihero.dev/skills-implement",
+      "description": "",
+      "time": "2026-07-08T15:28:39Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The /grill-with-docs Skill",
+      "link": "https://www.aihero.dev/skills-grill-with-docs",
+      "description": "",
+      "time": "2026-07-08T15:15:52Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The /domain-modeling Skill",
+      "link": "https://www.aihero.dev/skills-domain-modeling",
+      "description": "",
+      "time": "2026-07-08T15:28:48Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The /diagnosing-bugs Skill",
+      "link": "https://www.aihero.dev/skills-diagnosing-bugs",
+      "description": "",
+      "time": "2026-07-08T15:28:43Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The /codebase-design Skill",
+      "link": "https://www.aihero.dev/skills-codebase-design",
+      "description": "",
+      "time": "2026-07-08T15:28:46Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The /code-review Skill",
+      "link": "https://www.aihero.dev/skills-code-review",
+      "description": "",
+      "time": "2026-07-08T15:28:40Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The /ask-matt Skill",
+      "link": "https://www.aihero.dev/skills-ask-matt",
+      "description": "",
+      "time": "2026-07-08T15:07:13Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The /research Skill",
+      "link": "https://www.aihero.dev/skills-research",
+      "description": "",
+      "time": "2026-07-08T15:28:42Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Stop Guilt Merging PRs",
+      "link": "https://www.youtube.com/shorts/v85waTtzdm0",
+      "description": "",
+      "time": "2026-07-08T18:30:14Z",
+      "source_id": "theo"
     }
   ]
 }
