@@ -2396,6 +2396,13 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.0rc4\">sqlite-utils 4.0rc4</a></p>\n        <p>The last RC before the 4.0 stable release. Mainly <a href=\"https://github.com/simonw/sqlite-utils/issues/769#issuecomment-4900034150\">implements feedback</a> from a detailed review by Claude Fable 5.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/sqlite-utils\">sqlite-utils</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
       "time": "2026-07-07T05:36:15Z",
       "source_id": "simon-willison"
+    },
+    {
+      "title": "I need to rant about local models",
+      "link": "https://www.youtube.com/watch?v=wnfxSxP8pGs",
+      "description": "",
+      "time": "2026-07-07T20:44:25Z",
+      "source_id": "theo"
     }
   ]
 }
