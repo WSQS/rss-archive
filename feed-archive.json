@@ -123,21 +123,21 @@
       "source_id": "matt-pocock-aihero"
     },
     {
-      "title": "improve-codebase-architecture: Find Deepening Opportunities",
+      "title": "The /improve-codebase-architecture Skill",
       "link": "https://www.aihero.dev/skills-improve-codebase-architecture",
       "description": "A guide to the improve-codebase-architecture skill for finding refactors that make code easier to test, change, and navigate with agents.",
       "time": "2026-07-06T15:19:14Z",
       "source_id": "matt-pocock-aihero"
     },
     {
-      "title": "handoff: Move Context Between Agent Sessions",
+      "title": "The /handoff Skill",
       "link": "https://www.aihero.dev/skills-handoff",
       "description": "A guide to the handoff skill for compacting context so another agent or session can continue cleanly.",
       "time": "2026-07-06T15:19:10Z",
       "source_id": "matt-pocock-aihero"
     },
     {
-      "title": "prototype: Answer Questions With Throwaway Code",
+      "title": "The /prototype Skill",
       "link": "https://www.aihero.dev/skills-prototype",
       "description": "A guide to the prototype skill for testing UI, state, and product decisions before committing to implementation.",
       "time": "2026-07-06T15:19:12Z",
@@ -165,7 +165,7 @@
       "source_id": "matt-pocock-aihero"
     },
     {
-      "title": "tdd: Red, Green, Refactor for Agentic Coding",
+      "title": "The /tdd Skill",
       "link": "https://www.aihero.dev/skills-tdd",
       "description": "A guide to Matt Pocock's tdd skill for implementing features one behavior at a time.",
       "time": "2026-07-06T15:19:07Z",
@@ -2403,6 +2403,41 @@
       "description": "",
       "time": "2026-07-07T20:44:25Z",
       "source_id": "theo"
+    },
+    {
+      "title": "The /to-tickets Skill",
+      "link": "https://www.aihero.dev/skills-to-tickets",
+      "description": "A guide to the to-issues skill for turning plans and PRDs into tracer-bullet implementation issues.",
+      "time": "2026-07-06T15:19:04Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The /to-spec Skill",
+      "link": "https://www.aihero.dev/skills-to-spec",
+      "description": "A guide to the to-prd skill for creating a PRD from current conversation and codebase context.",
+      "time": "2026-07-06T15:19:01Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The /grill-me Skill",
+      "link": "https://www.aihero.dev/skills-grill-me",
+      "description": "A guide to Matt Pocock's grill-me skill for resolving design decisions before implementation.",
+      "time": "2026-07-08T11:13:02Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "v1.1: /wayfinder, /to-spec, /to-tickets, /grilling improvements, and much more",
+      "link": "https://www.aihero.dev/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "description": "Skills v1.1 released: Learn new agent skills for AI coding including Wayfinder for planning, spec improvements, and TDD refactoring.",
+      "time": "2026-07-08T14:13:51Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Experiences with local models for coding",
+      "link": "https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-experiences.html",
+      "description": "<div class = 'img-link'><a href = 'https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-experiences.html'><img src = 'https://martinfowler.com/articles/exploring-gen-ai/donkey-card.png' width = ''></img></a></div>\n\n<p><b class = 'author'>Birgitta B&#xF6;ckeler</b> now reports on her recent experiences\n      trying local LLMs for coding. She compares them using two standard\n      tasks, and tries out the most promising model for day-to-day use.</p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-experiences.html'>more…</a></p>",
+      "time": "2026-07-08T11:57:00Z",
+      "source_id": "martin-fowler"
     }
   ]
 }
