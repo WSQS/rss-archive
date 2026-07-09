@@ -853,7 +853,7 @@
     {
       "title": "Tool call | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/tool-call",
-      "description": "The model's output naming a tool and its arguments — just structured text. It doesn't do anything on its own; the harness has to read it and execute. Produced by the model in on...",
+      "description": "The model's output naming a tool and its arguments — just structured text. The harness has to read it and execute.",
       "time": "2026-07-01T08:46:18Z",
       "source_id": "matt-pocock-aihero"
     },
