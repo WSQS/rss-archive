@@ -1014,7 +1014,7 @@
     {
       "title": "Memory system | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/memory-system",
-      "description": "A system that attempts to make an agent stateful across sessions by persisting to the environment and reloading at session start.",
+      "description": "A system that attempts to make an agent stateful across sessions. Persists information into the environment during a session and reloads it into the context window at the start...",
       "time": "2026-07-01T08:46:18Z",
       "source_id": "matt-pocock-aihero"
     },
