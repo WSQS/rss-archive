@@ -895,7 +895,7 @@
     {
       "title": "Sandbox | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/sandbox",
-      "description": "An isolated environment the agent runs inside — container, VM, or restricted shell. Limits the blast radius of agent actions.",
+      "description": "An isolated environment the agent runs inside — a container, VM, ephemeral filesystem, or restricted-permission shell. Limits the blast radius of agent actions: even if the agen...",
       "time": "2026-07-01T08:46:18Z",
       "source_id": "matt-pocock-aihero"
     },
