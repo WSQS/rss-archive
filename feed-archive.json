@@ -2706,7 +2706,7 @@
       "source_id": "martin-fowler"
     },
     {
-      "title": "We need to talk about \"ultra\" mode in Codex",
+      "title": "I can't believe they released this",
       "link": "https://www.youtube.com/watch?v=t8hfOyF4ehw",
       "description": "",
       "time": "2026-07-14T00:32:59Z",
@@ -2722,7 +2722,7 @@
     {
       "title": "Using uvx in GitHub Actions in a cache-friendly way",
       "link": "https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything",
-      "description": "<p><strong>TIL:</strong> <a href=\"https://til.simonwillison.net/github-actions/uvx-github-actions-cache\">Using uvx in GitHub Actions in a cache-friendly way</a></p>\n        <p>I finally found a cache-friendly recipe for using <code>uvx tool-name</code> in GitHub Actions workflows that I like.</p>\n<p>The trick is setting a <code>UV_EXCLUDE_NEWER: \"2026-07-12\"</code> environment variable at the start of the workflow and then using that as part of the GitHub Actions cache key. This means any <code>uvx tool-name</code> commands will resolve to the most recent version as-of that date, and you can bust the cache and upgrade the tools by bumping the date in the future.</p>\n<p>My goal here is to use Python tools in GitHub Actions without every run of the workflow hitting PyPI to download a fresh copy of the tool and its dependencies.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/packaging\">packaging</a>, <a href=\"https://simonwillison.net/tags/pypi\">pypi</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/github-actions\">github-actions</a>, <a href=\"https://simonwillison.net/tags/uv\">uv</a></p>",
+      "description": "<p><strong>TIL:</strong> <a href=\"https://til.simonwillison.net/github-actions/uvx-github-actions-cache\">Using uvx in GitHub Actions in a cache-friendly way</a></p>\n        <p>I finally found a cache-friendly recipe for using <code>uvx tool-name</code> in GitHub Actions workflows that I like.</p>\n<p>The trick is setting a <code>UV_EXCLUDE_NEWER: \"2026-07-12\"</code> environment variable at the start of the workflow and then using that as part of the GitHub Actions cache key. This means any <code>uvx tool-name</code> commands will resolve to the most recent version as-of that date, and you can bust the cache and upgrade the tools by bumping the date in the future.</p>\n<p>My goal here is to use Python tools in GitHub Actions without every run of the workflow hitting PyPI to download a fresh copy of the tool and its dependencies.</p>\n<p><strong>Update</strong>: Here's an existing <a href=\"https://github.com/astral-sh/setup-uv/issues/745\">issue</a> against the <code>astral-sh/setup-uv</code> repository requesting that they switch the default to cache rather than purge wheels from PyPI.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/packaging\">packaging</a>, <a href=\"https://simonwillison.net/tags/pypi\">pypi</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/github-actions\">github-actions</a>, <a href=\"https://simonwillison.net/tags/uv\">uv</a></p>",
       "time": "2026-07-14T00:56:20Z",
       "source_id": "simon-willison"
     },
