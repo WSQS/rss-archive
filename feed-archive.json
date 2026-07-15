@@ -2783,7 +2783,7 @@
       "source_id": "simon-willison"
     },
     {
-      "title": "We need to talk about the Bun Rust rewrite",
+      "title": "Well this really p*ssed me off",
       "link": "https://www.youtube.com/watch?v=kAjNWanR3n8",
       "description": "",
       "time": "2026-07-15T03:41:54Z",
@@ -2795,6 +2795,13 @@
       "description": "",
       "time": "2026-07-14T23:53:14Z",
       "source_id": "theo"
+    },
+    {
+      "title": "I switched to C and instantly grew my hair",
+      "link": "https://www.youtube.com/watch?v=i3WsCXjl1Gg",
+      "description": "",
+      "time": "2026-07-15T13:45:26Z",
+      "source_id": "tsoding-daily"
     }
   ]
 }
