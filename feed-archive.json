@@ -692,7 +692,7 @@
     {
       "title": "Training | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/training",
-      "description": "The process that sets a model's parameters, by exposing it to vast amounts of text and adjusting parameters to improve next-token prediction. A one-time, expensive process done...",
+      "description": "The process that sets a model's parameters by exposing it to vast amounts of text and adjusting to improve next-token prediction.",
       "time": "2026-07-01T08:46:18Z",
       "source_id": "matt-pocock-aihero"
     },
@@ -825,7 +825,7 @@
     {
       "title": "Turn | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/turn",
-      "description": "One user message plus everything the agent does in response, up until it yields back to the user. Contains one or more model provider requests — many, if the agent calls tools....",
+      "description": "One user message plus everything the agent does in response, up until it yields back to the user. Contains one or more provider requests.",
       "time": "2026-07-01T08:46:18Z",
       "source_id": "matt-pocock-aihero"
     },
@@ -846,7 +846,7 @@
     {
       "title": "Tool | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/tool",
-      "description": "A function the harness exposes for the agent to call — Read, Write, Bash, Search. Tools are how an agent perceives and acts on the environment: it can't see the environment exce...",
+      "description": "A function the harness exposes for the agent to call — Read, Write, Bash, Search. How an agent perceives and acts on the environment.",
       "time": "2026-07-01T08:46:18Z",
       "source_id": "matt-pocock-aihero"
     },
@@ -860,7 +860,7 @@
     {
       "title": "Tool result | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/tool-result",
-      "description": "What the harness sends back after executing a tool call — the file contents, the command output, the error. The agent's only view of the environment. Travels back to the model i...",
+      "description": "What the harness sends back after executing a tool call — file contents, output, or error. The agent's only view of the environment.",
       "time": "2026-07-01T08:46:18Z",
       "source_id": "matt-pocock-aihero"
     },
@@ -930,7 +930,7 @@
     {
       "title": "Contextual knowledge | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/contextual-knowledge",
-      "description": "Facts the agent can read directly from the context right now — the user's task, files the agent has read in, tool results, AGENTS.md content loaded at session start. Counterpart...",
+      "description": "Facts the agent can read directly from the context right now. Counterpart to parametric knowledge.",
       "time": "2026-07-01T08:46:18Z",
       "source_id": "matt-pocock-aihero"
     },
@@ -1091,7 +1091,7 @@
     {
       "title": "Vibe coding | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/vibe-coding",
-      "description": "A working pattern where the user accepts the agent's code without human review. The diff is treated as opaque — what matters is whether the program behaves, not what's inside. A...",
+      "description": "A working pattern where the user accepts the agent's code without human review. The diff is treated as opaque.",
       "time": "2026-07-01T08:46:18Z",
       "source_id": "matt-pocock-aihero"
     },
@@ -3012,6 +3012,13 @@
       "description": "Successful organizations know that developer experience is an essential factor when AIs write code, and structure their teams accordingly.",
       "time": "2026-07-21T15:48:07Z",
       "source_id": "dave-thomas"
+    },
+    {
+      "title": "Stop Reading Every Line of Code",
+      "link": "https://www.youtube.com/watch?v=434cG4g5KLE",
+      "description": "",
+      "time": "2026-07-22T13:32:25Z",
+      "source_id": "theo"
     }
   ]
 }
