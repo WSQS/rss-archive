@@ -3054,6 +3054,13 @@
       "description": "<p><img src=\"https://static.inaturalist.org/photos/702321069/large.jpg\" alt=\"California Sea Lion\"></p><p><img src=\"https://static.inaturalist.org/photos/702321114/large.jpg\" alt=\"California Sea Lion\"></p><p>California Sea Lion, in San Francisco County, US, CA</p><p>We took some visiting family to Pier 39 to see the sea lions. They're somehow always even fun than I remember them being last time.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/san-francisco\">san-francisco</a>, <a href=\"https://simonwillison.net/tags/wildlife\">wildlife</a></p>",
       "time": "2026-07-21T19:51:03Z",
       "source_id": "simon-willison"
+    },
+    {
+      "title": "Quoting Seth Larson",
+      "link": "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything",
+      "description": "<blockquote cite=\"https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/\"><p>The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was <a href=\"https://github.com/pypi/warehouse/pull/19727\">put in place</a> to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/\">Seth Larson</a>, PyPI blog</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/packaging\">packaging</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/supply-chain\">supply-chain</a>, <a href=\"https://simonwillison.net/tags/pypi\">pypi</a>, <a href=\"https://simonwillison.net/tags/seth-michael-larson\">seth-michael-larson</a></p>",
+      "time": "2026-07-23T04:50:36Z",
+      "source_id": "simon-willison"
     }
   ]
 }
