@@ -3194,6 +3194,13 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/3.39.1\">sqlite-utils 3.39.1</a></p>\n        <p>I back-ported <a href=\"https://github.com/simonw/sqlite-utils/issues/815\">a fix</a> for <code>table.delete_where()</code> that shipped in version 4.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/sqlite-utils\">sqlite-utils</a></p>",
       "time": "2026-07-26T04:38:46Z",
       "source_id": "simon-willison"
+    },
+    {
+      "title": "Codeberg, are you serious?!?",
+      "link": "https://www.youtube.com/watch?v=Y8cY1DEURtE",
+      "description": "",
+      "time": "2026-07-28T21:03:16Z",
+      "source_id": "theo"
     }
   ]
 }
