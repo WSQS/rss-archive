@@ -3222,6 +3222,13 @@
       "description": "<p><strong>TIL:</strong> <a href=\"https://til.simonwillison.net/llms/mcp-in-claude-and-chatgpt\">Adding a custom MCP server to Claude and ChatGPT</a></p>\n        <p>Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a></p>",
       "time": "2026-07-29T00:13:18Z",
       "source_id": "simon-willison"
+    },
+    {
+      "title": "Quoting D. Richard Hipp",
+      "link": "https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything",
+      "description": "<blockquote cite=\"https://www.youtube.com/watch?v=R57nUGzo7CA&amp;t=848s\"><p>Years ago, we didn’t have SQL. There were people whose job was to generate software that would query large data sets. Their job title was COBOL programmer.</p>\n<p>Then SQL comes along—I’m simplifying this only a little bit—and it gives you this convenient way so people could just specify. With a very simple specification, you can generate all of that code that you had to pay the expensive COBOL programmer to do before.</p>\n<p>That didn’t mean programmers went away. It just meant the job changed a little bit.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.youtube.com/watch?v=R57nUGzo7CA&amp;t=848s\">D. Richard Hipp</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/d-richard-hipp\">d-richard-hipp</a>, <a href=\"https://simonwillison.net/tags/sql\">sql</a>, <a href=\"https://simonwillison.net/tags/careers\">careers</a></p>",
+      "time": "2026-07-29T21:15:21Z",
+      "source_id": "simon-willison"
     }
   ]
 }
