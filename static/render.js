@@ -24,10 +24,14 @@ function appendTextCell(row, value, className) {
 
 /**
  * Append a <span> to `row`. If `value` is an http(s) URL it becomes an <a>
- * (opened in a new tab); otherwise it is rendered as plain text.
+ * (opened in a new tab); otherwise it is rendered as plain text. An optional
+ * className is applied when given.
  */
-function appendLinkCell(row, value) {
+function appendLinkCell(row, value, className) {
     const cell = document.createElement("span");
+    if (className) {
+        cell.className = className;
+    }
     if (typeof value === "string" && (value.startsWith("https://") || value.startsWith("http://"))) {
         const link = document.createElement("a");
         link.href = value;
