@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Downloaded font files (fetched at build time by ensure_inter_fonts)
+static/fonts/
