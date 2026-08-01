@@ -1,8 +1,8 @@
-from datetime import UTC, datetime
-from dataclasses import asdict
 import json
 import shutil
 import tomllib
+from dataclasses import asdict
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
@@ -18,21 +18,21 @@ from rss_archive.rss import handle_rss
 # Cell-level DOM helpers shared by every page. Copied verbatim into the
 # website directory at build time; each generated page references it and owns
 # its own inline orchestration logic.
-RENDER_JS_SOURCE = Path(__file__).resolve().parent.parent.parent / "static" / "render.js"
+RENDER_JS_SOURCE = (
+    Path(__file__).resolve().parent.parent.parent / "static" / "render.js"
+)
 
 # Shared stylesheet. Copied verbatim into the website directory at build time;
 # every generated page references it via a <link> element.
-STYLE_CSS_SOURCE = Path(__file__).resolve().parent.parent.parent / "static" / "style.css"
+STYLE_CSS_SOURCE = (
+    Path(__file__).resolve().parent.parent.parent / "static" / "style.css"
+)
 
 
 def escape_for_html(text: str) -> str:
     """Escape `&`, `<`, `>` as JSON-style \\uXXXX so a JSON blob is safe to
     inline inside an HTML <script type="application/json"> block."""
-    return (
-        text.replace("&", "\\u0026")
-        .replace("<", "\\u003c")
-        .replace(">", "\\u003e")
-    )
+    return text.replace("&", "\\u0026").replace("<", "\\u003c").replace(">", "\\u003e")
 
 
 def write_html_file(path: Path, html: str) -> None:
@@ -61,17 +61,17 @@ class Page:
         self._scripts: list[str] = []
         self._body_parts: list[str] = []
 
-    def stylesheet_append(self, href: str) -> "Page":
+    def stylesheet_append(self, href: str) -> Page:
         """Append a <link rel=stylesheet href=...> to <head>."""
         self._stylesheets.append(href)
         return self
 
-    def script_append(self, src: str) -> "Page":
+    def script_append(self, src: str) -> Page:
         """Append an external <script src=...>; rendered atop <body>."""
         self._scripts.append(src)
         return self
 
-    def body_append(self, html: str) -> "Page":
+    def body_append(self, html: str) -> Page:
         """Append an HTML fragment to <body>."""
         self._body_parts.append(html)
         return self
@@ -116,7 +116,9 @@ def main():
             feed_archive = FeedArchive.from_dict(json.load(f))
     else:
         feed_archive = FeedArchive.from_dict({})
-    print(f"Loaded archive: {len(feed_archive.feed_sources)} sources, {len(feed_archive.feed_items)} items")
+    print(
+        f"Loaded archive: {len(feed_archive.feed_sources)} sources, {len(feed_archive.feed_items)} items"
+    )
 
     errors: list[dict[str, str]] = []
 
@@ -135,19 +137,47 @@ def main():
             root = ET.fromstring(xml)
         except HTTPError as e:
             print(f"  HTTP error {e.code} for {source.feed_url}: {e.reason}")
-            errors.append({"source_id": source.id, "feed_url": source.feed_url, "type": "HTTP", "message": f"HTTP {e.code}: {e.reason}"})
+            errors.append(
+                {
+                    "source_id": source.id,
+                    "feed_url": source.feed_url,
+                    "type": "HTTP",
+                    "message": f"HTTP {e.code}: {e.reason}",
+                }
+            )
             continue
         except URLError as e:
             print(f"  URL error for {source.feed_url}: {e.reason}")
-            errors.append({"source_id": source.id, "feed_url": source.feed_url, "type": "Network", "message": f"URL error: {e.reason}"})
+            errors.append(
+                {
+                    "source_id": source.id,
+                    "feed_url": source.feed_url,
+                    "type": "Network",
+                    "message": f"URL error: {e.reason}",
+                }
+            )
             continue
         except ParseError as e:
             print(f"  XML parse error for {source.feed_url}: {e}")
-            errors.append({"source_id": source.id, "feed_url": source.feed_url, "type": "XML Parse", "message": str(e)})
+            errors.append(
+                {
+                    "source_id": source.id,
+                    "feed_url": source.feed_url,
+                    "type": "XML Parse",
+                    "message": str(e),
+                }
+            )
             continue
         except Exception as e:
             print(f"  Unexpected error for {source.feed_url}: {e}")
-            errors.append({"source_id": source.id, "feed_url": source.feed_url, "type": "Unexpected", "message": str(e)})
+            errors.append(
+                {
+                    "source_id": source.id,
+                    "feed_url": source.feed_url,
+                    "type": "Unexpected",
+                    "message": str(e),
+                }
+            )
             continue
 
         if root.tag == "rss":
@@ -169,7 +199,9 @@ def main():
         else:
             print(f"Unknown root tag: {root.tag!r}")
 
-    print(f"Merged archive: {len(feed_archive.feed_sources)} sources, {len(feed_archive.feed_items)} items")
+    print(
+        f"Merged archive: {len(feed_archive.feed_sources)} sources, {len(feed_archive.feed_items)} items"
+    )
     archive_path.parent.mkdir(parents=True, exist_ok=True)
     archive_json = json.dumps(asdict(feed_archive), ensure_ascii=False, indent=2)
     with archive_path.open("w", encoding="utf-8") as f:
@@ -180,7 +212,9 @@ def main():
     website_directory = Path(data_config.website_directory)
     website_directory.mkdir(parents=True, exist_ok=True)
     index_path = website_directory / "index.html"
-    page_updated_time = datetime.now(UTC).isoformat(timespec="seconds").replace("+00:00", "Z")
+    page_updated_time = (
+        datetime.now(UTC).isoformat(timespec="seconds").replace("+00:00", "Z")
+    )
     html_archive_json = escape_for_html(archive_json)
     errors_json = json.dumps(errors, ensure_ascii=False, indent=2)
     html_errors_json = escape_for_html(errors_json)
@@ -316,7 +350,9 @@ def main():
             item for item in feed_archive.feed_items if item.source_id == feed_source.id
         ]
         source_items_json = escape_for_html(
-            json.dumps([asdict(item) for item in source_items], ensure_ascii=False, indent=2)
+            json.dumps(
+                [asdict(item) for item in source_items], ensure_ascii=False, indent=2
+            )
         )
         source_meta_json = escape_for_html(
             json.dumps(asdict(feed_source), ensure_ascii=False, indent=2)
@@ -378,4 +414,3 @@ def main():
         source_path = source_directory / f"{feed_source.id}.html"
         write_html_file(source_path, source_html)
         print(f"Wrote source page to: {source_path}")
-    

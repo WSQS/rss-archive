@@ -1,6 +1,5 @@
-
-from datetime import UTC, datetime
 from dataclasses import dataclass
+from datetime import UTC, datetime
 from email.utils import parsedate_to_datetime
 from typing import Any
 
@@ -14,13 +13,14 @@ def normalize_time(value: str) -> str:
     except ValueError:
         try:
             dt = parsedate_to_datetime(value)
-        except (TypeError, ValueError, IndexError):
+        except TypeError, ValueError, IndexError:
             return ""
 
     if dt.tzinfo is None:
         dt = dt.replace(tzinfo=UTC)
 
     return dt.astimezone(UTC).isoformat(timespec="seconds").replace("+00:00", "Z")
+
 
 @dataclass
 class FeedSource:
@@ -38,6 +38,7 @@ class FeedSource:
             link=d.get("link", ""),
             description=d.get("description", ""),
         )
+
 
 @dataclass
 class FeedItem:
@@ -58,6 +59,7 @@ class FeedItem:
             time=normalize_time(d.get("time", "")),
             source_id=d.get("source_id", ""),
         )
+
 
 @dataclass
 class FeedArchive:
@@ -101,7 +103,6 @@ class FeedArchive:
                 for feed_source in d.get("feed_sources", [])
             ],
             feed_items=[
-                FeedItem.from_dict(feed_item)
-                for feed_item in d.get("feed_items", [])
+                FeedItem.from_dict(feed_item) for feed_item in d.get("feed_items", [])
             ],
         )
