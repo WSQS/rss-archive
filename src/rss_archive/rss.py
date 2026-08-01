@@ -1,14 +1,14 @@
-from typing import Tuple
 from xml.etree.ElementTree import Element
 
 from rss_archive.config import SourceConfig
-from rss_archive.feed import FeedSource, FeedItem, normalize_time
+from rss_archive.feed import FeedItem, FeedSource, normalize_time
 
 # See also https://www.rssboard.org/rss-specification
 
+
 def handle_rss(
     source: SourceConfig, root: Element[str]
-) -> Tuple[FeedSource, list[FeedItem]]:
+) -> tuple[FeedSource, list[FeedItem]]:
     if root.tag != "rss":
         raise ValueError(f"Expected root tag 'rss', got {root.tag!r}")
 
@@ -31,7 +31,9 @@ def handle_rss(
         time = normalize_time(item.findtext("pubDate") or "")
 
         if title == "" and description == "":
-            raise ValueError("Expected at least one of 'title' or 'description' in RSS item")
+            raise ValueError(
+                "Expected at least one of 'title' or 'description' in RSS item"
+            )
 
         feed_items.append(
             FeedItem(

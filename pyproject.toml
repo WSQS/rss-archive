@@ -9,9 +9,28 @@ authors = [
 requires-python = ">=3.14"
 dependencies = []
 
+[dependency-groups]
+dev = ["ruff>=0.16.1"]
+
 [project.scripts]
 rss-archive = "rss_archive:main"
 
 [build-system]
 requires = ["uv_build>=0.11.3,<0.12.0"]
 build-backend = "uv_build"
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+# A focused rule set: bugbear (B), pycodestyle errors (E), import sorting (I),
+# and modern type annotations (UP). Behavioral modernization rules like
+# FURB162 (which touch runtime semantics) are intentionally out of scope of
+# formatting.
+select = ["B", "E", "I", "UP"]
+# BLE001: the fetch loop intentionally catches a broad Exception as a
+# last-resort error collector; narrowing it would change behavior.
+# E501: line length — ruff format already wraps what it can; the remaining
+# long lines are content inside HTML/JS f-string templates that cannot be
+# wrapped without breaking the rendered output.
+ignore = ["BLE001", "E501"]

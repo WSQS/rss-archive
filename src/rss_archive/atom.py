@@ -1,4 +1,3 @@
-from typing import Tuple
 from xml.etree.ElementTree import Element
 
 from rss_archive.config import SourceConfig
@@ -7,7 +6,7 @@ from rss_archive.feed import FeedItem, FeedSource, normalize_time
 
 def handle_atom(
     source: SourceConfig, root: Element[str]
-) -> Tuple[FeedSource, list[FeedItem]]:
+) -> tuple[FeedSource, list[FeedItem]]:
     if root.tag not in ("feed", "{http://www.w3.org/2005/Atom}feed"):
         raise ValueError(f"Expected root tag 'feed', got {root.tag!r}")
 
@@ -57,7 +56,9 @@ def handle_atom(
         )
 
         if title == "" and description == "":
-            raise ValueError("Expected at least one of 'title' or 'description' in Atom entry")
+            raise ValueError(
+                "Expected at least one of 'title' or 'description' in Atom entry"
+            )
 
         feed_items.append(
             FeedItem(
