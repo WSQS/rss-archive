@@ -20,6 +20,27 @@ from rss_archive.rss import handle_rss
 # its own inline orchestration logic.
 RENDER_JS_SOURCE = Path(__file__).resolve().parent.parent.parent / "static" / "render.js"
 
+# Shared stylesheet. Copied verbatim into the website directory at build time;
+# every generated page references it via a <link> element.
+STYLE_CSS_SOURCE = Path(__file__).resolve().parent.parent.parent / "static" / "style.css"
+
+
+def escape_for_html(text: str) -> str:
+    """Escape `&`, `<`, `>` as JSON-style \\uXXXX so a JSON blob is safe to
+    inline inside an HTML <script type="application/json"> block."""
+    return (
+        text.replace("&", "\\u0026")
+        .replace("<", "\\u003c")
+        .replace(">", "\\u003e")
+    )
+
+
+def write_html_file(path: Path, html: str) -> None:
+    """Write `html` to `path`, followed by a trailing newline."""
+    with path.open("w", encoding="utf-8") as f:
+        f.write(html)
+        f.write("\n")
+
 
 def main():
     print("Hello from rss-archive!")
@@ -99,54 +120,16 @@ def main():
     website_directory.mkdir(parents=True, exist_ok=True)
     index_path = website_directory / "index.html"
     page_updated_time = datetime.now(UTC).isoformat(timespec="seconds").replace("+00:00", "Z")
-    html_archive_json = (
-        archive_json.replace("&", "\\u0026")
-        .replace("<", "\\u003c")
-        .replace(">", "\\u003e")
-    )
+    html_archive_json = escape_for_html(archive_json)
     errors_json = json.dumps(errors, ensure_ascii=False, indent=2)
-    html_errors_json = (
-        errors_json.replace("&", "\\u0026")
-        .replace("<", "\\u003c")
-        .replace(">", "\\u003e")
-    )
+    html_errors_json = escape_for_html(errors_json)
     index_html = f"""<!DOCTYPE html>
 <html lang=\"en\">
   <head>
     <meta charset=\"utf-8\" />
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
     <title>Feed Archive</title>
-        <style>
-            body {{
-                font-family: sans-serif;
-                margin: 2rem;
-            }}
-
-            table {{
-                border-collapse: collapse;
-                margin-bottom: 2rem;
-                width: 100%;
-            }}
-
-            th,
-            td {{
-                border: 1px solid #ccc;
-                padding: 0.5rem;
-                text-align: left;
-                vertical-align: top;
-            }}
-
-            th {{
-                background: #f5f5f5;
-            }}
-
-            td.description {{
-                max-width: 32rem;
-                overflow: hidden;
-                text-overflow: ellipsis;
-                white-space: nowrap;
-            }}
-        </style>
+    <link rel=\"stylesheet\" href=\"style.css\" />
   </head>
   <body>
     <h1>Feed Archive</h1>
@@ -260,13 +243,12 @@ def main():
   </body>
 </html>
 """
-    with index_path.open("w", encoding="utf-8") as f:
-        f.write(index_html)
-        f.write("\n")
+    write_html_file(index_path, index_html)
     print(f"Wrote index to: {index_path}")
 
-    # Shared cell-level render helpers — one copy for every page.
+    # Shared static assets — one copy of each for the whole site.
     shutil.copyfile(RENDER_JS_SOURCE, website_directory / "render.js")
+    shutil.copyfile(STYLE_CSS_SOURCE, website_directory / "style.css")
 
     # Per-source pages: one static .html per source in the archive, filtered to
     # that source's items. Sources are taken from the archive (what actually
@@ -277,17 +259,11 @@ def main():
         source_items = [
             item for item in feed_archive.feed_items if item.source_id == feed_source.id
         ]
-        source_items_json = (
+        source_items_json = escape_for_html(
             json.dumps([asdict(item) for item in source_items], ensure_ascii=False, indent=2)
-            .replace("&", "\\u0026")
-            .replace("<", "\\u003c")
-            .replace(">", "\\u003e")
         )
-        source_meta_json = (
+        source_meta_json = escape_for_html(
             json.dumps(asdict(feed_source), ensure_ascii=False, indent=2)
-            .replace("&", "\\u0026")
-            .replace("<", "\\u003c")
-            .replace(">", "\\u003e")
         )
         source_html = f"""<!DOCTYPE html>
 <html lang=\"en\">
@@ -295,37 +271,7 @@ def main():
     <meta charset=\"utf-8\" />
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
     <title>{feed_source.title} — Feed Archive</title>
-        <style>
-            body {{
-                font-family: sans-serif;
-                margin: 2rem;
-            }}
-
-            table {{
-                border-collapse: collapse;
-                margin-bottom: 2rem;
-                width: 100%;
-            }}
-
-            th,
-            td {{
-                border: 1px solid #ccc;
-                padding: 0.5rem;
-                text-align: left;
-                vertical-align: top;
-            }}
-
-            th {{
-                background: #f5f5f5;
-            }}
-
-            td.description {{
-                max-width: 32rem;
-                overflow: hidden;
-                text-overflow: ellipsis;
-                white-space: nowrap;
-            }}
-        </style>
+    <link rel=\"stylesheet\" href=\"../style.css\" />
   </head>
   <body>
     <p><a href=\"../index.html\">← All items</a></p>
@@ -379,8 +325,6 @@ def main():
 </html>
 """
         source_path = source_directory / f"{feed_source.id}.html"
-        with source_path.open("w", encoding="utf-8") as f:
-            f.write(source_html)
-            f.write("\n")
+        write_html_file(source_path, source_html)
         print(f"Wrote source page to: {source_path}")
     
