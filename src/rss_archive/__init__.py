@@ -1,6 +1,7 @@
 from datetime import UTC, datetime
 from dataclasses import asdict
 import json
+import shutil
 import tomllib
 from pathlib import Path
 from typing import Any
@@ -13,6 +14,11 @@ from rss_archive.atom import handle_atom
 from rss_archive.config import DataConfig, SourceConfig
 from rss_archive.feed import FeedArchive
 from rss_archive.rss import handle_rss
+
+# Cell-level DOM helpers shared by every page. Copied verbatim into the
+# website directory at build time; each generated page references it and owns
+# its own inline orchestration logic.
+RENDER_JS_SOURCE = Path(__file__).resolve().parent.parent.parent / "static" / "render.js"
 
 
 def main():
@@ -189,38 +195,22 @@ def main():
 
     <script id=\"feed-archive-data\" type=\"application/json\">{html_archive_json}</script>
     <script id=\"feed-errors-data\" type=\"application/json\">{html_errors_json}</script>
+    <script src=\"render.js\"></script>
     <script>
       const feedArchive = JSON.parse(document.getElementById("feed-archive-data").textContent);
       const feedErrors = JSON.parse(document.getElementById("feed-errors-data").textContent);
 
-            function appendTextCell(row, value, className) {{
-                const cell = document.createElement("td");
-                if (className) {{
-                    cell.className = className;
-                }}
-                cell.textContent = value ?? "";
-                row.appendChild(cell);
-            }}
-
-            function appendLinkCell(row, value) {{
-                const cell = document.createElement("td");
-                if (typeof value === "string" && (value.startsWith("https://") || value.startsWith("http://"))) {{
-                    const link = document.createElement("a");
-                    link.href = value;
-                    link.textContent = value;
-                    link.target = "_blank";
-                    link.rel = "noopener noreferrer";
-                    cell.appendChild(link);
-                }} else {{
-                    cell.textContent = value ?? "";
-                }}
-                row.appendChild(cell);
-            }}
-
             const feedSourcesBody = document.getElementById("feed-sources-body");
             for (const feedSource of feedArchive.feed_sources) {{
                 const row = document.createElement("tr");
-                appendTextCell(row, feedSource.id);
+                // ID cell links to the per-source page; text and href differ, so
+                // build it inline rather than via appendLinkCell.
+                const idCell = document.createElement("td");
+                const idLink = document.createElement("a");
+                idLink.href = `source/${{encodeURIComponent(feedSource.id)}}.html`;
+                idLink.textContent = feedSource.id;
+                idCell.appendChild(idLink);
+                row.appendChild(idCell);
                 appendTextCell(row, feedSource.title);
                 appendLinkCell(row, feedSource.link);
                 appendTextCell(row, feedSource.description, "description");
@@ -274,4 +264,123 @@ def main():
         f.write(index_html)
         f.write("\n")
     print(f"Wrote index to: {index_path}")
+
+    # Shared cell-level render helpers — one copy for every page.
+    shutil.copyfile(RENDER_JS_SOURCE, website_directory / "render.js")
+
+    # Per-source pages: one static .html per source in the archive, filtered to
+    # that source's items. Sources are taken from the archive (what actually
+    # fetched), not the config, so sources that never resolved get no page.
+    source_directory = website_directory / "source"
+    source_directory.mkdir(parents=True, exist_ok=True)
+    for feed_source in feed_archive.feed_sources:
+        source_items = [
+            item for item in feed_archive.feed_items if item.source_id == feed_source.id
+        ]
+        source_items_json = (
+            json.dumps([asdict(item) for item in source_items], ensure_ascii=False, indent=2)
+            .replace("&", "\\u0026")
+            .replace("<", "\\u003c")
+            .replace(">", "\\u003e")
+        )
+        source_meta_json = (
+            json.dumps(asdict(feed_source), ensure_ascii=False, indent=2)
+            .replace("&", "\\u0026")
+            .replace("<", "\\u003c")
+            .replace(">", "\\u003e")
+        )
+        source_html = f"""<!DOCTYPE html>
+<html lang=\"en\">
+  <head>
+    <meta charset=\"utf-8\" />
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
+    <title>{feed_source.title} — Feed Archive</title>
+        <style>
+            body {{
+                font-family: sans-serif;
+                margin: 2rem;
+            }}
+
+            table {{
+                border-collapse: collapse;
+                margin-bottom: 2rem;
+                width: 100%;
+            }}
+
+            th,
+            td {{
+                border: 1px solid #ccc;
+                padding: 0.5rem;
+                text-align: left;
+                vertical-align: top;
+            }}
+
+            th {{
+                background: #f5f5f5;
+            }}
+
+            td.description {{
+                max-width: 32rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }}
+        </style>
+  </head>
+  <body>
+    <p><a href=\"../index.html\">← All items</a></p>
+    <h1>{feed_source.title}</h1>
+    <p>Items: {len(source_items)}</p>
+        <p>Page updated: <time datetime=\"{page_updated_time}\">{page_updated_time}</time></p>
+
+        <h2>Feed Items</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Link</th>
+                    <th>Description</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody id=\"feed-items-body\"></tbody>
+        </table>
+
+    <script id=\"source-items-data\" type=\"application/json\">{source_items_json}</script>
+    <script id=\"source-meta-data\" type=\"application/json\">{source_meta_json}</script>
+    <script src=\"../render.js\"></script>
+    <script>
+      const sourceMeta = JSON.parse(document.getElementById("source-meta-data").textContent);
+      const sourceItems = JSON.parse(document.getElementById("source-items-data").textContent);
+
+            const feedItemsBody = document.getElementById("feed-items-body");
+            const sortedSourceItems = [...sourceItems].sort((a, b) => {{
+                if (a.time === b.time) {{
+                    return 0;
+                }}
+                if (a.time === "") {{
+                    return 1;
+                }}
+                if (b.time === "") {{
+                    return -1;
+                }}
+                return b.time.localeCompare(a.time);
+            }});
+            for (const feedItem of sortedSourceItems) {{
+                const row = document.createElement("tr");
+                appendTextCell(row, feedItem.title);
+                appendLinkCell(row, feedItem.link);
+                appendTextCell(row, feedItem.description, "description");
+                appendTextCell(row, feedItem.time);
+                feedItemsBody.appendChild(row);
+            }}
+    </script>
+  </body>
+</html>
+"""
+        source_path = source_directory / f"{feed_source.id}.html"
+        with source_path.open("w", encoding="utf-8") as f:
+            f.write(source_html)
+            f.write("\n")
+        print(f"Wrote source page to: {source_path}")
     
