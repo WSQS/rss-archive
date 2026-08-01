@@ -42,6 +42,67 @@ def write_html_file(path: Path, html: str) -> None:
         f.write("\n")
 
 
+class Page:
+    """A fluent builder for an HTML page.
+
+    Title is set at construction. Chain .stylesheet_append() (lands in
+    <head>), .script_append() and .body_append() (both land in <body>) to
+    describe the page, then .render() for the full HTML document string.
+
+    External scripts are rendered at the top of <body>, ahead of all body
+    content, so a page can load a library (e.g. render.js) before its
+    inline script runs — without the caller having to order .script_append
+    before the body fragment that uses it.
+    """
+
+    def __init__(self, title: str):
+        self._title = title
+        self._stylesheets: list[str] = []
+        self._scripts: list[str] = []
+        self._body_parts: list[str] = []
+
+    def stylesheet_append(self, href: str) -> "Page":
+        """Append a <link rel=stylesheet href=...> to <head>."""
+        self._stylesheets.append(href)
+        return self
+
+    def script_append(self, src: str) -> "Page":
+        """Append an external <script src=...>; rendered atop <body>."""
+        self._scripts.append(src)
+        return self
+
+    def body_append(self, html: str) -> "Page":
+        """Append an HTML fragment to <body>."""
+        self._body_parts.append(html)
+        return self
+
+    def render(self) -> str:
+        """Return the full HTML document as a string."""
+        links = "".join(
+            f'    <link rel="stylesheet" href="{href}" />\n'
+            for href in self._stylesheets
+        )
+        scripts = "".join(
+            f'    <script src="{src}"></script>\n' for src in self._scripts
+        )
+        body = "".join(self._body_parts)
+        return (
+            "<!DOCTYPE html>\n"
+            '<html lang="en">\n'
+            "  <head>\n"
+            '    <meta charset="utf-8" />\n'
+            '    <meta name="viewport" content="width=device-width, initial-scale=1" />\n'
+            f"    <title>{self._title}</title>\n"
+            f"{links}"
+            "  </head>\n"
+            "  <body>\n"
+            f"{scripts}"
+            f"{body}"
+            "  </body>\n"
+            "</html>\n"
+        )
+
+
 def main():
     print("Hello from rss-archive!")
     with Path("config/source.toml").open("rb") as f:
@@ -123,16 +184,11 @@ def main():
     html_archive_json = escape_for_html(archive_json)
     errors_json = json.dumps(errors, ensure_ascii=False, indent=2)
     html_errors_json = escape_for_html(errors_json)
-    index_html = f"""<!DOCTYPE html>
-<html lang=\"en\">
-  <head>
-    <meta charset=\"utf-8\" />
-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
-    <title>Feed Archive</title>
-    <link rel=\"stylesheet\" href=\"style.css\" />
-  </head>
-  <body>
-    <h1>Feed Archive</h1>
+    index_html = (
+        Page("Feed Archive")
+        .stylesheet_append("style.css")
+        .script_append("render.js")
+        .body_append(f"""    <h1>Feed Archive</h1>
     <p>Sources: {len(feed_archive.feed_sources)} / Items: {len(feed_archive.feed_items)}</p>
         <p>Page updated: <time datetime="{page_updated_time}">{page_updated_time}</time></p>
 
@@ -146,11 +202,11 @@ def main():
                     <th>Description</th>
                 </tr>
             </thead>
-            <tbody id=\"feed-sources-body\"></tbody>
+            <tbody id="feed-sources-body"></tbody>
         </table>
 
-        <h2 id=\"errors-heading\">Errors</h2>
-        <table id=\"errors-table\">
+        <h2 id="errors-heading">Errors</h2>
+        <table id="errors-table">
             <thead>
                 <tr>
                     <th>Source ID</th>
@@ -159,7 +215,7 @@ def main():
                     <th>Message</th>
                 </tr>
             </thead>
-            <tbody id=\"errors-body\"></tbody>
+            <tbody id="errors-body"></tbody>
         </table>
 
         <h2>Feed Items</h2>
@@ -173,13 +229,13 @@ def main():
                     <th>Time</th>
                 </tr>
             </thead>
-            <tbody id=\"feed-items-body\"></tbody>
+            <tbody id="feed-items-body"></tbody>
         </table>
-
-    <script id=\"feed-archive-data\" type=\"application/json\">{html_archive_json}</script>
-    <script id=\"feed-errors-data\" type=\"application/json\">{html_errors_json}</script>
-    <script src=\"render.js\"></script>
-    <script>
+""")
+        .body_append(f"""    <script id="feed-archive-data" type="application/json">{html_archive_json}</script>
+    <script id="feed-errors-data" type="application/json">{html_errors_json}</script>
+""")
+        .body_append(f"""    <script>
       const feedArchive = JSON.parse(document.getElementById("feed-archive-data").textContent);
       const feedErrors = JSON.parse(document.getElementById("feed-errors-data").textContent);
 
@@ -240,9 +296,9 @@ def main():
                 feedItemsBody.appendChild(row);
             }}
     </script>
-  </body>
-</html>
-"""
+""")
+        .render()
+    )
     write_html_file(index_path, index_html)
     print(f"Wrote index to: {index_path}")
 
@@ -265,19 +321,14 @@ def main():
         source_meta_json = escape_for_html(
             json.dumps(asdict(feed_source), ensure_ascii=False, indent=2)
         )
-        source_html = f"""<!DOCTYPE html>
-<html lang=\"en\">
-  <head>
-    <meta charset=\"utf-8\" />
-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />
-    <title>{feed_source.title} — Feed Archive</title>
-    <link rel=\"stylesheet\" href=\"../style.css\" />
-  </head>
-  <body>
-    <p><a href=\"../index.html\">← All items</a></p>
+        source_html = (
+            Page(f"{feed_source.title} — Feed Archive")
+            .stylesheet_append("../style.css")
+            .script_append("../render.js")
+            .body_append(f"""    <p><a href="../index.html">← All items</a></p>
     <h1>{feed_source.title}</h1>
     <p>Items: {len(source_items)}</p>
-        <p>Page updated: <time datetime=\"{page_updated_time}\">{page_updated_time}</time></p>
+        <p>Page updated: <time datetime="{page_updated_time}">{page_updated_time}</time></p>
 
         <h2>Feed Items</h2>
         <table>
@@ -289,13 +340,13 @@ def main():
                     <th>Time</th>
                 </tr>
             </thead>
-            <tbody id=\"feed-items-body\"></tbody>
+            <tbody id="feed-items-body"></tbody>
         </table>
-
-    <script id=\"source-items-data\" type=\"application/json\">{source_items_json}</script>
-    <script id=\"source-meta-data\" type=\"application/json\">{source_meta_json}</script>
-    <script src=\"../render.js\"></script>
-    <script>
+""")
+            .body_append(f"""    <script id="source-items-data" type="application/json">{source_items_json}</script>
+    <script id="source-meta-data" type="application/json">{source_meta_json}</script>
+""")
+            .body_append(f"""    <script>
       const sourceMeta = JSON.parse(document.getElementById("source-meta-data").textContent);
       const sourceItems = JSON.parse(document.getElementById("source-items-data").textContent);
 
@@ -321,9 +372,9 @@ def main():
                 feedItemsBody.appendChild(row);
             }}
     </script>
-  </body>
-</html>
-"""
+""")
+            .render()
+        )
         source_path = source_directory / f"{feed_source.id}.html"
         write_html_file(source_path, source_html)
         print(f"Wrote source page to: {source_path}")
