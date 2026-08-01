@@ -28,6 +28,41 @@ STYLE_CSS_SOURCE = (
     Path(__file__).resolve().parent.parent.parent / "static" / "style.css"
 )
 
+# Inter font files (latin subset, weights 400/500/600). Downloaded at build
+# time from the jsDelivr-served @fontsource/inter package (stable pinned URL,
+# no UA sniffing, OFL-1.1). Cached under static/fonts/ so repeat builds don't
+# re-fetch. If a download fails the build continues; the stylesheet's
+# font-family falls back to system-ui, so a font fetch failure never breaks
+# the site.
+FONTS_SOURCE = Path(__file__).resolve().parent.parent.parent / "static" / "fonts"
+INTER_WEIGHTS = (400, 500, 600)
+INTER_VERSION = "5.2.8"
+INTER_FONT_URL = (
+    "https://cdn.jsdelivr.net/npm/@fontsource/inter@"
+    + INTER_VERSION
+    + "/files/inter-latin-{weight}-normal.woff2"
+)
+
+
+def ensure_inter_fonts() -> None:
+    """Ensure Inter woff2 files are present under static/fonts/.
+
+    Downloads each missing weight from jsDelivr (cached on disk afterward).
+    Silently degrades on network failure — a missing file just means the
+    @font-face rule won't resolve and the system-font fallback is used.
+    """
+    FONTS_SOURCE.mkdir(parents=True, exist_ok=True)
+    for weight in INTER_WEIGHTS:
+        dest = FONTS_SOURCE / f"inter-latin-{weight}.woff2"
+        if dest.exists():
+            continue
+        try:
+            with urlopen(INTER_FONT_URL.format(weight=weight)) as response:
+                dest.write_bytes(response.read())
+            print(f"  fetched Inter {weight} -> {dest.name}")
+        except (HTTPError, URLError) as e:
+            print(f"  font fetch failed for Inter {weight}: {e} (will fall back)")
+
 
 def escape_for_html(text: str) -> str:
     """Escape `&`, `<`, `>` as JSON-style \\uXXXX so a JSON blob is safe to
@@ -105,6 +140,7 @@ class Page:
 
 def main():
     print("Hello from rss-archive!")
+    ensure_inter_fonts()
     with Path("config/source.toml").open("rb") as f:
         raw_source: list[dict[str, Any]] = tomllib.load(f).get("source", [])
     sources = [SourceConfig.from_dict(source) for source in raw_source]
@@ -222,49 +258,19 @@ def main():
         Page("Feed Archive")
         .stylesheet_append("style.css")
         .script_append("render.js")
-        .body_append(f"""    <h1>Feed Archive</h1>
-    <p>Sources: {len(feed_archive.feed_sources)} / Items: {len(feed_archive.feed_items)}</p>
-        <p>Page updated: <time datetime="{page_updated_time}">{page_updated_time}</time></p>
+        .body_append(f"""    <div class="wrap">
+    <h1>Feed Archive</h1>
+    <p class="meta">Sources: {len(feed_archive.feed_sources)} / Items: {len(feed_archive.feed_items)} · Page updated: <time datetime="{page_updated_time}">{page_updated_time}</time></p>
 
-        <h2>Feed Sources</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Title</th>
-                    <th>Link</th>
-                    <th>Description</th>
-                </tr>
-            </thead>
-            <tbody id="feed-sources-body"></tbody>
-        </table>
+    <h2>Feed Sources</h2>
+    <ul class="cards" id="feed-sources-body"></ul>
 
-        <h2 id="errors-heading">Errors</h2>
-        <table id="errors-table">
-            <thead>
-                <tr>
-                    <th>Source ID</th>
-                    <th>Feed URL</th>
-                    <th>Type</th>
-                    <th>Message</th>
-                </tr>
-            </thead>
-            <tbody id="errors-body"></tbody>
-        </table>
+    <h2 id="errors-heading">Errors</h2>
+    <ul class="cards" id="errors-body"></ul>
 
-        <h2>Feed Items</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Source ID</th>
-                    <th>Title</th>
-                    <th>Link</th>
-                    <th>Description</th>
-                    <th>Time</th>
-                </tr>
-            </thead>
-            <tbody id="feed-items-body"></tbody>
-        </table>
+    <h2>Feed Items</h2>
+    <ul class="cards" id="feed-items-body"></ul>
+</div>
 """)
         .body_append(f"""    <script id="feed-archive-data" type="application/json">{html_archive_json}</script>
     <script id="feed-errors-data" type="application/json">{html_errors_json}</script>
@@ -275,34 +281,34 @@ def main():
 
             const feedSourcesBody = document.getElementById("feed-sources-body");
             for (const feedSource of feedArchive.feed_sources) {{
-                const row = document.createElement("tr");
+                const row = document.createElement("li");
+                row.className = "card";
                 // ID cell links to the per-source page; text and href differ, so
                 // build it inline rather than via appendLinkCell.
-                const idCell = document.createElement("td");
+                const idCell = document.createElement("span");
+                idCell.className = "col-id";
                 const idLink = document.createElement("a");
                 idLink.href = `source/${{encodeURIComponent(feedSource.id)}}.html`;
                 idLink.textContent = feedSource.id;
                 idCell.appendChild(idLink);
                 row.appendChild(idCell);
-                appendTextCell(row, feedSource.title);
-                appendLinkCell(row, feedSource.link);
-                appendTextCell(row, feedSource.description, "description");
+                appendTextCell(row, feedSource.title, "col-dim");
                 feedSourcesBody.appendChild(row);
             }}
 
             const errorsBody = document.getElementById("errors-body");
-            const errorsTable = document.getElementById("errors-table");
             const errorsHeading = document.getElementById("errors-heading");
             if (feedErrors.length === 0) {{
-                errorsHeading.style.display = "none";
-                errorsTable.style.display = "none";
+                errorsHeading.classList.add("errors-empty");
+                errorsBody.classList.add("errors-empty");
             }} else {{
                 for (const err of feedErrors) {{
-                    const row = document.createElement("tr");
-                    appendTextCell(row, err.source_id);
-                    appendLinkCell(row, err.feed_url);
-                    appendTextCell(row, err.type);
-                    appendTextCell(row, err.message);
+                    const row = document.createElement("li");
+                    row.className = "card";
+                    appendTextCell(row, err.source_id, "col-tag");
+                    appendLinkCell(row, err.feed_url, "col-dim");
+                    appendTextCell(row, err.type, "col-tag");
+                    appendTextCell(row, err.message, "col-dim");
                     errorsBody.appendChild(row);
                 }}
             }}
@@ -321,12 +327,23 @@ def main():
                 return b.time.localeCompare(a.time);
             }});
             for (const feedItem of sortedFeedItems) {{
-                const row = document.createElement("tr");
-                appendTextCell(row, feedItem.source_id);
-                appendTextCell(row, feedItem.title);
-                appendLinkCell(row, feedItem.link);
-                appendTextCell(row, feedItem.description, "description");
-                appendTextCell(row, feedItem.time);
+                const row = document.createElement("li");
+                row.className = "card";
+                // Title is a link to the original item; text and href differ,
+                // so build it inline rather than via appendLinkCell.
+                const titleCell = document.createElement("span");
+                titleCell.className = "col-title";
+                if (feedItem.link) {{
+                    const a = document.createElement("a");
+                    a.href = feedItem.link;
+                    a.textContent = feedItem.title;
+                    titleCell.appendChild(a);
+                }} else {{
+                    titleCell.textContent = feedItem.title;
+                }}
+                row.appendChild(titleCell);
+                appendTextCell(row, feedItem.source_id, "col-tag");
+                appendTextCell(row, feedItem.time, "col-time");
                 feedItemsBody.appendChild(row);
             }}
     </script>
@@ -339,6 +356,12 @@ def main():
     # Shared static assets — one copy of each for the whole site.
     shutil.copyfile(RENDER_JS_SOURCE, website_directory / "render.js")
     shutil.copyfile(STYLE_CSS_SOURCE, website_directory / "style.css")
+    fonts_dest = website_directory / "fonts"
+    fonts_dest.mkdir(parents=True, exist_ok=True)
+    for weight in INTER_WEIGHTS:
+        src_font = FONTS_SOURCE / f"inter-latin-{weight}.woff2"
+        if src_font.exists():
+            shutil.copyfile(src_font, fonts_dest / src_font.name)
 
     # Per-source pages: one static .html per source in the archive, filtered to
     # that source's items. Sources are taken from the archive (what actually
@@ -361,23 +384,14 @@ def main():
             Page(f"{feed_source.title} — Feed Archive")
             .stylesheet_append("../style.css")
             .script_append("../render.js")
-            .body_append(f"""    <p><a href="../index.html">← All items</a></p>
+            .body_append(f"""    <div class="wrap">
+    <p class="meta"><a href="../index.html">← All items</a></p>
     <h1>{feed_source.title}</h1>
-    <p>Items: {len(source_items)}</p>
-        <p>Page updated: <time datetime="{page_updated_time}">{page_updated_time}</time></p>
+    <p class="meta">Items: {len(source_items)} · Page updated: <time datetime="{page_updated_time}">{page_updated_time}</time></p>
 
-        <h2>Feed Items</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Title</th>
-                    <th>Link</th>
-                    <th>Description</th>
-                    <th>Time</th>
-                </tr>
-            </thead>
-            <tbody id="feed-items-body"></tbody>
-        </table>
+    <h2>Feed Items</h2>
+    <ul class="cards" id="feed-items-body"></ul>
+</div>
 """)
             .body_append(f"""    <script id="source-items-data" type="application/json">{source_items_json}</script>
     <script id="source-meta-data" type="application/json">{source_meta_json}</script>
@@ -400,11 +414,22 @@ def main():
                 return b.time.localeCompare(a.time);
             }});
             for (const feedItem of sortedSourceItems) {{
-                const row = document.createElement("tr");
-                appendTextCell(row, feedItem.title);
-                appendLinkCell(row, feedItem.link);
-                appendTextCell(row, feedItem.description, "description");
-                appendTextCell(row, feedItem.time);
+                const row = document.createElement("li");
+                row.className = "card";
+                // Title is a link to the original item; text and href differ,
+                // so build it inline rather than via appendLinkCell.
+                const titleCell = document.createElement("span");
+                titleCell.className = "col-title";
+                if (feedItem.link) {{
+                    const a = document.createElement("a");
+                    a.href = feedItem.link;
+                    a.textContent = feedItem.title;
+                    titleCell.appendChild(a);
+                }} else {{
+                    titleCell.textContent = feedItem.title;
+                }}
+                row.appendChild(titleCell);
+                appendTextCell(row, feedItem.time, "col-time");
                 feedItemsBody.appendChild(row);
             }}
     </script>
