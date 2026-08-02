@@ -21,3 +21,27 @@ feed_url = "https://articles.pragdave.me/feed"
 [[source]]
 id = "simon-willison"
 feed_url = "https://simonwillison.net/atom/everything/"
+
+[[source]]
+id = "sebastian-raschka"
+feed_url = "https://magazine.sebastianraschka.com/feed/"
+
+[[source]]
+id = "dan-luu"
+feed_url = "https://danluu.com/atom.xml"
+
+[[source]]
+id = "julia-evans"
+feed_url = "https://jvns.ca/atom.xml"
+
+[[source]]
+id = "javidx9"
+feed_url = "https://www.youtube.com/feeds/videos.xml?channel_id=UC-yuWVUplUJZvieEligKBkA"
+
+[[source]]
+id = "theprimeagen"
+feed_url = "https://www.youtube.com/feeds/videos.xml?channel_id=UC8ENHE5xdFSwx71u3fDH5Xw"
+
+[[source]]
+id = "jonhoo"
+feed_url = "https://www.youtube.com/feeds/videos.xml?channel_id=UC_iD0xppBwwsrM9DegC5cQQ"
