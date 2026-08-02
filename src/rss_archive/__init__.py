@@ -233,7 +233,16 @@ def main():
             for item in feed_items:
                 print(f"  - {item.title}")
         else:
-            print(f"Unknown root tag: {root.tag!r}")
+            msg = f"Unknown root tag: {root.tag!r}"
+            print(f"  {msg} for {source.feed_url}")
+            errors.append(
+                {
+                    "source_id": source.id,
+                    "feed_url": source.feed_url,
+                    "type": "Unknown Format",
+                    "message": msg,
+                }
+            )
 
     print(
         f"Merged archive: {len(feed_archive.feed_sources)} sources, {len(feed_archive.feed_items)} items"
