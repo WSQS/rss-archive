@@ -31,7 +31,7 @@ class FeedSource:
     description: str
 
     @classmethod
-    def from_dict(cls, d: dict[str, Any]):
+    def from_dict(cls, d: dict[str, Any]) -> FeedSource:
         return cls(
             id=d.get("id", ""),
             title=d.get("title", ""),
@@ -51,7 +51,7 @@ class FeedItem:
     source_id: str
 
     @classmethod
-    def from_dict(cls, d: dict[str, Any]):
+    def from_dict(cls, d: dict[str, Any]) -> FeedItem:
         return cls(
             title=d.get("title", ""),
             link=d.get("link", ""),
@@ -66,7 +66,7 @@ class FeedArchive:
     feed_sources: list[FeedSource]
     feed_items: list[FeedItem]
 
-    def upsert_source(self, feed_source: FeedSource):
+    def upsert_source(self, feed_source: FeedSource) -> None:
         for i, existing_feed_source in enumerate(self.feed_sources):
             if existing_feed_source.id == feed_source.id:
                 self.feed_sources[i] = feed_source
@@ -74,7 +74,7 @@ class FeedArchive:
 
         self.feed_sources.append(feed_source)
 
-    def merge_items(self, feed_items: list[FeedItem]):
+    def merge_items(self, feed_items: list[FeedItem]) -> None:
         for feed_item in feed_items:
             matched = False
             for i, existing_feed_item in enumerate(self.feed_items):
@@ -96,7 +96,7 @@ class FeedArchive:
                 self.feed_items.append(feed_item)
 
     @classmethod
-    def from_dict(cls, d: dict[str, Any]):
+    def from_dict(cls, d: dict[str, Any]) -> FeedArchive:
         return cls(
             feed_sources=[
                 FeedSource.from_dict(feed_source)

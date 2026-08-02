@@ -8,7 +8,7 @@ class SourceConfig:
     feed_url: str
 
     @classmethod
-    def from_dict(cls, d: dict[str, Any]):
+    def from_dict(cls, d: dict[str, Any]) -> SourceConfig:
         return cls(
             id=d["id"],
             feed_url=d["feed_url"],
@@ -21,7 +21,7 @@ class DataConfig:
     website_directory: str
 
     @classmethod
-    def from_dict(cls, d: dict[str, Any]):
+    def from_dict(cls, d: dict[str, Any]) -> DataConfig:
         return cls(
             archive=d["archive"],
             website_directory=d["website_directory"],
