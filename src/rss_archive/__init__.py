@@ -337,6 +337,8 @@ def main():
                     const a = document.createElement("a");
                     a.href = feedItem.link;
                     a.textContent = feedItem.title;
+                    a.target = "_blank";
+                    a.rel = "noopener noreferrer";
                     titleCell.appendChild(a);
                 }} else {{
                     titleCell.textContent = feedItem.title;
@@ -424,6 +426,8 @@ def main():
                     const a = document.createElement("a");
                     a.href = feedItem.link;
                     a.textContent = feedItem.title;
+                    a.target = "_blank";
+                    a.rel = "noopener noreferrer";
                     titleCell.appendChild(a);
                 }} else {{
                     titleCell.textContent = feedItem.title;
