@@ -157,3 +157,32 @@ h2 {
 .errors-empty {
     display: none;
 }
+
+/* ---- Responsive: narrow screens stack each card vertically ----
+   On a phone the horizontal title+tag+time row crushes the title. Below
+   600px the title takes a full row (no truncation), and the meta cells
+   (source_id, time) wrap onto a second row. Sources similarly drop the
+   fixed id-column width so the description can breathe. */
+@media (max-width: 600px) {
+    .wrap {
+        padding: 20px 16px 64px;
+    }
+    .card {
+        flex-wrap: wrap;
+    }
+    .col-title {
+        flex-basis: 100%;
+        white-space: normal;
+        overflow: visible;
+        text-overflow: clip;
+    }
+    .col-title a {
+        white-space: normal;
+        overflow: visible;
+        text-overflow: clip;
+    }
+    .col-id {
+        width: auto;
+    }
+}
+
