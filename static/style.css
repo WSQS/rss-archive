@@ -104,13 +104,6 @@ h2 {
     flex-shrink: 0;
     width: 160px;
 }
-.col-text {
-    color: #e8e8ea;
-    flex: 1;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
 .col-dim {
     color: #9999a3;
     font-size: 13px;
