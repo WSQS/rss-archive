@@ -71,6 +71,12 @@
       "title": "Jon Gjengset",
       "link": "https://www.youtube.com/channel/UC_iD0xppBwwsrM9DegC5cQQ",
       "description": ""
+    },
+    {
+      "id": "the-primetime",
+      "title": "The PrimeTime",
+      "link": "https://www.youtube.com/channel/UCUyeluBRhGPCW4rPe_UvBZQ",
+      "description": ""
     }
   ],
   "feed_items": [
@@ -4980,6 +4986,111 @@
       "description": "<p><strong><a href=\"https://gruhn.me/blog/2026-08-03/\">Don&#x27;t be a meat proxy</a></strong></p>\nNiklas Gruhn coins an excellent new term - <strong>meat proxy</strong> - for people who blindly copy and paste the output of AI systems to their peers.</p>\n<blockquote>\n<p>By all means, prompt AI. But don't just relay the output. Read it, understand it, validate it, and then write a response in your own words (a decent certificate that you've done the prior steps). Making that effort is value you can add.</p>\n</blockquote>\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/hfbqr3/don_t_be_meat_proxy#c_svolls\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/definitions\">definitions</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a></p>",
       "time": "2026-08-03T23:45:04Z",
       "source_id": "simon-willison"
+    },
+    {
+      "title": "Simple SIMD",
+      "link": "https://www.youtube.com/shorts/m_yRnBcffAA",
+      "description": "",
+      "time": "2026-08-03T18:03:00Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "DougDoug Balatro Card",
+      "link": "https://www.youtube.com/shorts/7-jTFzKJPtk",
+      "description": "",
+      "time": "2026-08-03T13:02:54Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "People Are Mad They're Told to Learn",
+      "link": "https://www.youtube.com/watch?v=4nJ2tEPD4-k",
+      "description": "",
+      "time": "2026-08-03T13:00:08Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "Vibing is banned",
+      "link": "https://www.youtube.com/shorts/P6E2AOZAypU",
+      "description": "",
+      "time": "2026-08-02T13:02:49Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "The Codeberg Situation | TheStandup",
+      "link": "https://www.youtube.com/watch?v=h3DlwC1nex0",
+      "description": "",
+      "time": "2026-08-01T18:00:13Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "You dont have to follow silicon valley",
+      "link": "https://www.youtube.com/shorts/G_mIf38LArs",
+      "description": "",
+      "time": "2026-08-01T13:01:09Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "Stuck in an ad",
+      "link": "https://www.youtube.com/shorts/yQ_-FLa0C14",
+      "description": "",
+      "time": "2026-07-31T13:02:10Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "Stop Being Tricked",
+      "link": "https://www.youtube.com/watch?v=LmXU6SEH3Ks",
+      "description": "",
+      "time": "2026-07-31T13:00:13Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "Why I make content",
+      "link": "https://www.youtube.com/shorts/b3zeDfDjMTc",
+      "description": "",
+      "time": "2026-07-30T13:01:52Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "How not to market AI",
+      "link": "https://www.youtube.com/shorts/iPQfWwiNrUY",
+      "description": "",
+      "time": "2026-07-29T13:02:28Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "No Slop Allowed",
+      "link": "https://www.youtube.com/watch?v=RoHzXoolPTY",
+      "description": "",
+      "time": "2026-07-29T13:00:21Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "Dont Smile",
+      "link": "https://www.youtube.com/shorts/t35PdzVcoz8",
+      "description": "",
+      "time": "2026-07-28T18:01:47Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "How to manage scope",
+      "link": "https://www.youtube.com/shorts/BLSabQXmCb8",
+      "description": "",
+      "time": "2026-07-28T13:02:09Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "AI is bad for your health",
+      "link": "https://www.youtube.com/shorts/TjWnG1oIqeg",
+      "description": "",
+      "time": "2026-07-27T18:01:41Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "24 to 29",
+      "link": "https://www.youtube.com/shorts/N157A3BEIC0",
+      "description": "",
+      "time": "2026-07-27T13:02:23Z",
+      "source_id": "the-primetime"
     }
   ]
 }
