@@ -43,5 +43,9 @@ id = "theprimeagen"
 feed_url = "https://www.youtube.com/feeds/videos.xml?channel_id=UC8ENHE5xdFSwx71u3fDH5Xw"
 
 [[source]]
+id = "the-primetime"
+feed_url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCUyeluBRhGPCW4rPe_UvBZQ"
+
+[[source]]
 id = "jonhoo"
 feed_url = "https://www.youtube.com/feeds/videos.xml?channel_id=UC_iD0xppBwwsrM9DegC5cQQ"
