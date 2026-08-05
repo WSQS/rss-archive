@@ -167,21 +167,21 @@
     {
       "title": "The /improve-codebase-architecture Skill",
       "link": "https://www.aihero.dev/skills-improve-codebase-architecture",
-      "description": "A guide to the improve-codebase-architecture skill for finding refactors that make code easier to test, change, and navigate with agents.",
+      "description": "Find the modules worth refactoring, as a visual report.",
       "time": "2026-07-06T15:19:14Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "The /handoff Skill",
       "link": "https://www.aihero.dev/skills-handoff",
-      "description": "A guide to the handoff skill for compacting context so another agent or session can continue cleanly.",
+      "description": "Write up a long session so another agent can continue it.",
       "time": "2026-07-06T15:19:10Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "The /prototype Skill",
       "link": "https://www.aihero.dev/skills-prototype",
-      "description": "A guide to the prototype skill for testing UI, state, and product decisions before committing to implementation.",
+      "description": "Answer a design question with code you then delete.",
       "time": "2026-07-06T15:19:12Z",
       "source_id": "matt-pocock-aihero"
     },
@@ -209,7 +209,7 @@
     {
       "title": "The /tdd Skill",
       "link": "https://www.aihero.dev/skills-tdd",
-      "description": "A guide to Matt Pocock's tdd skill for implementing features one behavior at a time.",
+      "description": "Write the tests first, one behaviour at a time.",
       "time": "2026-07-06T15:19:07Z",
       "source_id": "matt-pocock-aihero"
     },
@@ -2449,21 +2449,21 @@
     {
       "title": "The /to-tickets Skill",
       "link": "https://www.aihero.dev/skills-to-tickets",
-      "description": "A guide to the to-issues skill for turning plans and PRDs into tracer-bullet implementation issues.",
+      "description": "Split a spec into small tickets an agent can build.",
       "time": "2026-07-06T15:19:04Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "The /to-spec Skill",
       "link": "https://www.aihero.dev/skills-to-spec",
-      "description": "A guide to the to-prd skill for creating a PRD from current conversation and codebase context.",
+      "description": "Turn an agreed conversation into a written spec.",
       "time": "2026-07-06T15:19:01Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "The /grill-me Skill",
       "link": "https://www.aihero.dev/skills-grill-me",
-      "description": "A guide to Matt Pocock's grill-me skill for resolving design decisions before implementation.",
+      "description": "Get interviewed about a loose idea until it holds decisions.",
       "time": "2026-07-08T11:13:02Z",
       "source_id": "matt-pocock-aihero"
     },
@@ -2491,91 +2491,91 @@
     {
       "title": "The /teach Skill",
       "link": "https://www.aihero.dev/skills-teach",
-      "description": "",
+      "description": "Learn a topic across many sessions that build on each other.",
       "time": "2026-07-08T15:28:44Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "The /grilling Skill",
       "link": "https://www.aihero.dev/skills-grilling",
-      "description": "",
+      "description": "The interview other skills run to stress-test a plan.",
       "time": "2026-07-08T15:28:48Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "The /wayfinder Skill",
       "link": "https://www.aihero.dev/skills-wayfinder",
-      "description": "",
+      "description": "Chart a large effort as a map of decisions, and settle them.",
       "time": "2026-07-08T15:28:41Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "The /triage Skill",
       "link": "https://www.aihero.dev/skills-triage",
-      "description": "",
+      "description": "Sort raw issues into work someone can pick up.",
       "time": "2026-07-08T15:28:44Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "The /setup-matt-pocock-skills Skill",
       "link": "https://www.aihero.dev/skills-setup-matt-pocock-skills",
-      "description": "",
+      "description": "Set up one repo so the other skills know how it works.",
       "time": "2026-07-08T15:20:02Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "The /implement Skill",
       "link": "https://www.aihero.dev/skills-implement",
-      "description": "",
+      "description": "Build a finished spec into code, test-first.",
       "time": "2026-07-08T15:28:39Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "The /grill-with-docs Skill",
       "link": "https://www.aihero.dev/skills-grill-with-docs",
-      "description": "",
+      "description": "Get interviewed about a plan, and record the decisions.",
       "time": "2026-07-08T15:15:52Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "The /domain-modeling Skill",
       "link": "https://www.aihero.dev/skills-domain-modeling",
-      "description": "",
+      "description": "Sharpen the words a project uses, and write them down.",
       "time": "2026-07-08T15:28:48Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "The /diagnosing-bugs Skill",
       "link": "https://www.aihero.dev/skills-diagnosing-bugs",
-      "description": "",
+      "description": "Diagnose a hard bug, starting from a repro that fails.",
       "time": "2026-07-08T15:28:43Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "The /codebase-design Skill",
       "link": "https://www.aihero.dev/skills-codebase-design",
-      "description": "",
+      "description": "The vocabulary for designing deep modules.",
       "time": "2026-07-08T15:28:46Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "The /code-review Skill",
       "link": "https://www.aihero.dev/skills-code-review",
-      "description": "",
+      "description": "Review a diff against your standards and against the spec.",
       "time": "2026-07-08T15:28:40Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "The /ask-matt Skill",
       "link": "https://www.aihero.dev/skills-ask-matt",
-      "description": "",
+      "description": "Find out which skill to use for the situation you are in.",
       "time": "2026-07-08T15:07:13Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "The /research Skill",
       "link": "https://www.aihero.dev/skills-research",
-      "description": "",
+      "description": "Get a cited answer, read from primary sources.",
       "time": "2026-07-08T15:28:42Z",
       "source_id": "matt-pocock-aihero"
     },
@@ -5154,6 +5154,55 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/condense-json/releases/tag/1.1\">condense-json 1.1</a></p>\n        <p>After shipping <a href=\"https://simonwillison.net/2026/Aug/2/condense-json/\">condense-json 1.0</a> I started integrating it into LLM, and found there were some desirable new features already:</p>\n<blockquote>\n<ul>\n<li>Replacements object can now include values other than strings. These will be identified and used as structural replacements by <code>condense_json()</code> and <code>uncondense_json()</code>. <a href=\"https://github.com/simonw/condense-json/pull/8\">#8</a></li>\n<li>Objects can be used as the basis for merge operations. <code>condense_json()</code> will identify if there are objects that are a close match and will store instructions for keys to update or delete. <code>uncondense_json()</code> can then apply these merges.</li>\n</ul>\n</blockquote>\n<p>I also added <a href=\"https://github.com/simonw/condense-json/blob/1.1/tests/test_properties.py\">some round-trip tests</a> using the <a href=\"https://hypothesis.readthedocs.io/\">Hypothesis</a> property-based Python testing library.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/json\">json</a></p>",
       "time": "2026-08-03T04:56:26Z",
       "source_id": "simon-willison"
+    },
+    {
+      "title": "The /wizard Skill",
+      "link": "https://www.aihero.dev/skills-wizard",
+      "description": "Generate a script that walks a human through setup.",
+      "time": "2026-08-05T11:23:17Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The /to-questionnaire Skill",
+      "link": "https://www.aihero.dev/skills-to-questionnaire",
+      "description": "Turn open questions into a doc someone else fills in.",
+      "time": "2026-08-05T11:22:51Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The /wait-what Skill",
+      "link": "https://www.aihero.dev/skills-wait-what",
+      "description": "Ask the agent to say that again, in plain English.",
+      "time": "2026-08-05T10:17:46Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The /writing-for-agents Skill",
+      "link": "https://www.aihero.dev/skills-writing-for-agents",
+      "description": "How to write skills and other documents agents read.",
+      "time": "2026-07-08T15:28:46Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "The /resolving-merge-conflicts Skill",
+      "link": "https://www.aihero.dev/skills-resolving-merge-conflicts",
+      "description": "Finish a merge or rebase conflict, hunk by hunk.",
+      "time": "2026-07-07T13:56:09Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Making games is still accessable",
+      "link": "https://www.youtube.com/shorts/axmoHtDmWpg",
+      "description": "",
+      "time": "2026-08-05T13:02:45Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "”We also got hacked” - Dario",
+      "link": "https://www.youtube.com/watch?v=bKOYgbgACVo",
+      "description": "",
+      "time": "2026-08-05T13:00:37Z",
+      "source_id": "the-primetime"
     }
   ]
 }
