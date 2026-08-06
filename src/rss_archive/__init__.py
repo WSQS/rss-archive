@@ -77,6 +77,26 @@ def write_html_file(path: Path, html: str) -> None:
         f.write("\n")
 
 
+def archive_json_for_index(feed_archive: FeedArchive) -> str:
+    """Homepage JSON: list fields only (no descriptions)."""
+    payload = {
+        "feed_sources": [
+            {"id": source.id, "title": source.title}
+            for source in feed_archive.feed_sources
+        ],
+        "feed_items": [
+            {
+                "title": item.title,
+                "link": item.link,
+                "time": item.time,
+                "source_id": item.source_id,
+            }
+            for item in feed_archive.feed_items
+        ],
+    }
+    return json.dumps(payload, ensure_ascii=False, indent=2)
+
+
 class Page:
     """A fluent builder for an HTML page.
 
@@ -260,7 +280,7 @@ def main():
     page_updated_time = (
         datetime.now(UTC).isoformat(timespec="seconds").replace("+00:00", "Z")
     )
-    html_archive_json = escape_for_html(archive_json)
+    html_archive_json = escape_for_html(archive_json_for_index(feed_archive))
     errors_json = json.dumps(errors, ensure_ascii=False, indent=2)
     html_errors_json = escape_for_html(errors_json)
     index_html = (
