@@ -714,441 +714,441 @@
       "title": "AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary",
       "description": "The vocabulary of AI coding, translated into plain English for engineers.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Model | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/model",
-      "description": "The parameters. Stateless — does next-token prediction and nothing else. Cannot do anything agentic on its own.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The parameters. Stateless — does next-token prediction and nothing else. \"Claude Opus 4.x\" and \"GPT-5.x\" are models. On its own a model can't do anything agentic; it has to be h...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Parameters | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/parameters",
-      "description": "The numbers inside a model — often billions — tuned during training. Everything the model knows lives in them. Also called weights.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The numbers inside a model — often billions of them — tuned during training. Everything the model \"knows\" lives in them. Training sets them; inference uses them unchanged. Also...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Training | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/training",
-      "description": "The process that sets a model's parameters by exposing it to vast amounts of text and adjusting to improve next-token prediction.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The process that sets a model's parameters, by exposing it to vast amounts of text and adjusting parameters to improve next-token prediction. A one-time, expensive process done...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Inference | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/inference",
-      "description": "Running a trained model to generate output — what happens on every model provider request. Parameters stay fixed.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Running a trained model to generate output — what happens on every model provider request. Parameters stay fixed; the model just does next-token prediction over the context it's...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Token | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/token",
-      "description": "The atomic unit a model reads and writes. Roughly word-sized but not exactly. Context window size, cost, and latency all count tokens.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The atomic unit a model reads and writes. Roughly word-sized but not exactly — common words are one token, rare or long ones split into several. Context window size, cost, and l...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Next-token prediction | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/next-token-prediction",
-      "description": "What the model actually does. Samples one next token from the context, appends it, and runs again. Its only mode of operation.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "What the model actually does. Given a context, it samples one next token, appends it, and runs again. Every output — a sentence, a tool call, a thousand-line file — is built one...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Non-determinism | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/non-determinism",
-      "description": "The same input can produce different output. A property of how models generate text and how providers serve requests.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The same input can produce different output. Run a model twice with identical context and you may get two different answers — sometimes a word, sometimes a completely different...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Model provider | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/model-provider",
-      "description": "Whatever serves a model for inference. Usually remote (Anthropic, OpenAI, Google), but can also be local (Ollama, llama.cpp).",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Whatever serves a model for inference. Usually a remote service (Anthropic, OpenAI, Google), but can also be local — Ollama, LM Studio, llama.cpp running on your own machine. Th...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Harness | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/harness",
-      "description": "Everything around the model that turns it into an agent: tools, system prompt, context-window management, permissions, hooks.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Everything around the model that turns it into an agent: tools, system prompt, context-window management, permissions, hooks. Claude.ai and Claude Code run on the same model but...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Model provider request | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/model-provider-request",
-      "description": "One round-trip from the harness to the model provider. The harness sends context; the provider returns one response.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "One round-trip from the harness to the model provider. The harness sends the current context; the provider returns one response (a tool call or a final answer). A single user me...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Input tokens | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/input-tokens",
-      "description": "Tokens the harness sends on each model provider request. Billed at a lower rate than output tokens.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Tokens the harness sends on each model provider request — the system prompt, the conversation history, tool results, everything the model reads before it writes. Billed at a low...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Output tokens | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/output-tokens",
-      "description": "Tokens the model generates back. Billed at a higher rate than input tokens, since they cost more compute to produce.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Tokens the model generates back. Billed at a higher rate than input tokens — commonly around five times the rate — since they cost more compute to produce.",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Prefix cache | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/prefix-cache",
-      "description": "The provider-side store that lets consecutive requests skip re-processing a shared prefix, billing those tokens at a lower rate.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The provider-side store that lets consecutive model provider requests skip re-processing a shared prefix. When the start of a request matches the start of a recent one — same sy...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Cache tokens | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/cache-tokens",
-      "description": "Input tokens the provider has cached from a previous request via its prefix cache, billed at a much lower rate.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Input tokens the provider has cached from a previous model provider request so it doesn't have to re-process them. When consecutive requests share a prefix, the provider reuses...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Stateless | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/stateless",
-      "description": "Carries no information forward. The model is stateless across requests; an agent is stateless across sessions by default.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Carries no information forward. The model is stateless across model provider requests — each request resends the full context window, because the model has no way to see anythin...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Context | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/context",
-      "description": "The relevant information the agent has access to right now — what the agent knows that's pertinent to the task.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The relevant information the agent has access to right now. The abstract noun — not the raw input the model sees (that's the context window), not the running history (that's the...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Context window | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/context-window",
-      "description": "Everything the model sees on each model provider request. Finite, model-specific, the only surface through which the model perceives.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Everything the model sees on each model provider request. Finite, model-specific, and the only surface through which the model perceives anything.",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Stateful | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/stateful",
-      "description": "Carries information forward. Sessions are stateful across turns; agents can be made stateful across sessions via a memory system.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Carries information forward. A session is stateful across turns — context accumulates as the session runs, which is why long sessions drift into the dumb zone. An agent can be m...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Agent | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/agent",
-      "description": "A model harnessed with tools, a system prompt, and a context window, that takes turns with a user. The model in motion.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A model harnessed with tools, a system prompt, and a context window, that takes turns with a user. Claude Code is an agent. Cursor is an agent. Claude.ai is an agent. An agent i...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "System prompt | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/system-prompt",
-      "description": "The instructions the harness prepends to every model provider request — the agent's standing brief. Usually stable across a session.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The instructions the harness prepends to every model provider request — the agent's standing brief: who it is, how to behave, which tools it can call, what conventions to follow...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Session | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/session",
-      "description": "One bounded run of interaction with an agent. Starts empty, accumulates, ends when cleared, closed, or compacted into a fresh session.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "One bounded run of interaction with an agent. Starts empty, accumulates messages, tool results, and files read, and ends when cleared, closed, or compacted into a fresh session....",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Turn | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/turn",
-      "description": "One user message plus everything the agent does in response, up until it yields back to the user. Contains one or more provider requests.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "One user message plus everything the agent does in response, up until it yields back to the user. Contains one or more model provider requests — many, if the agent calls tools....",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Environment | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/environment",
-      "description": "The world the agent acts on — anything outside the harness that the agent perceives via tool results and changes via tool calls.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The world the agent acts on — anything outside the harness that the agent perceives through tool results and changes through tool calls. The harness runs the agent; the environm...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Filesystem | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/filesystem",
-      "description": "A tree of files and directories the agent reads from, writes to, and executes within — the default environment for a coding agent.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A tree of files and directories the agent reads from, writes to, and executes within — the default kind of environment for a coding agent. AGENTS.md, skills, source code, build...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Tool | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/tool",
-      "description": "A function the harness exposes for the agent to call — Read, Write, Bash, Search. How an agent perceives and acts on the environment.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A function the harness exposes for the agent to call — Read, Write, Bash, Search. Tools are how an agent perceives and acts on the environment: it can't see the environment exce...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Tool call | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/tool-call",
-      "description": "The model's output naming a tool and its arguments — just structured text. The harness has to read it and execute.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The model's output naming a tool and its arguments — just structured text. It doesn't do anything on its own; the harness has to read it and execute. Produced by the model in on...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Tool result | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/tool-result",
-      "description": "What the harness sends back after executing a tool call — file contents, output, or error. The agent's only view of the environment.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "What the harness sends back after executing a tool call — the file contents, the command output, the error. The agent's only view of the environment. Travels back to the model i...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "MCP | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/mcp",
-      "description": "A protocol for plugging external tool servers into a harness — how an agent gets tools beyond what the harness ships with.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Model Context Protocol. A protocol for plugging external tool servers into a harness — how an agent gets tools beyond what the harness ships with. The agent never \"calls MCP\"; i...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Permission request | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/permission-request",
-      "description": "What the harness shows the user before executing a tool call that isn't pre-approved. The mechanism for putting a human in the loop.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "What the harness shows the user before executing a tool call that isn't pre-approved. The model produces a tool call; instead of running it immediately, the harness pauses and a...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Permission mode | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/permission-mode",
-      "description": "The permission-gating slice of an agent mode — which tool calls trigger a permission request and which run automatically.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The permission-gating slice of an agent mode — which tool calls trigger a permission request and which run automatically. The original purpose of mode systems before harnesses s...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Agent mode | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/agent-mode",
-      "description": "A preset bundling a permission mode with behavioral instructions injected into the system prompt. Can flip mid-session.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A preset that shapes how the agent operates at runtime — bundles a permission mode with behavioral instructions injected into the system prompt. Examples: a default that prompts...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Sandbox | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/sandbox",
-      "description": "An isolated environment the agent runs inside — container, VM, or restricted shell. Limits the blast radius of agent actions.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "An isolated environment the agent runs inside — a container, VM, ephemeral filesystem, or restricted-permission shell. Limits the blast radius of agent actions: even if the agen...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Sycophancy | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/sycophancy",
-      "description": "Confidently agreeable model output. Caused by training that shaped the model to favor answers humans liked — including agreement.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Confidently agreeable model output. Caused by training: the model was shaped to favor answers humans liked, and humans tend to like agreement more than they like being told they...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Hallucination | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/hallucination",
-      "description": "Confidently-wrong model output. Two flavors: factuality (invented facts) and faithfulness (drift from loaded context).",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Confidently-wrong model output. Two flavors with different causes and fixes:",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Parametric knowledge | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/parametric-knowledge",
-      "description": "What the model knows from training, stored in its parameters. Frozen at training time. Counterpart to contextual knowledge.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "What the model \"knows\" from training, stored in its parameters. Frozen at training time — the model can't see its own parameters or update them. Detail is lost in the squeeze: b...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Knowledge cutoff | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/knowledge-cutoff",
-      "description": "The date past which a model has no parametric knowledge. Post-cutoff libraries and APIs are fabrication traps unless docs are loaded.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The date past which a model has no parametric knowledge. Libraries, APIs, and events from after the cutoff are fabrication traps unless their docs are loaded as contextual knowl...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Contextual knowledge | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/contextual-knowledge",
-      "description": "Facts the agent can read directly from the context right now. Counterpart to parametric knowledge.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Facts the agent can read directly from the context right now — the user's task, files the agent has read in, tool results, AGENTS.md content loaded at session start. Counterpart...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Attention relationship | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/attention-relationship",
-      "description": "The pairing between two tokens — meaningful pairs influence each other more than unrelated ones. A context of N tokens has ~N² of these.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "When predicting each token, the model factors in every other token in the context — some heavily, others barely at all. The pairing between two tokens is an attention relationsh...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Attention budget | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/attention-budget",
-      "description": "Each token has a finite amount of influence to distribute across the rest of the context. Per-token, doesn't grow when context does.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Each token has a finite amount of influence to distribute across the rest of the context. Heavy influence on one relationship leaves less for others. The budget is per-token and...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Attention degradation | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/attention-degradation",
-      "description": "As a session grows, each token's attention budget spreads across more competitors; signal on meaningful relationships shrinks.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "As a session grows, each token's attention budget is spread across more competitors. The signal on any one meaningful relationship shrinks; noise from irrelevant context crowds...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Smart zone | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/smart-zone",
-      "description": "Early in a session the agent is sharp and focused. As the session grows it drifts into a dumb zone: sloppier, forgetful, more mistakes.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Early in a session the agent is in a \"smart zone\" — sharp, focused, recall is good. As the session grows it drifts into a \"dumb zone\": sloppier, forgetful, more mistakes — and m...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Clearing | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/clearing",
-      "description": "Ending the current session and starting a fresh one. The next message begins with an empty session and an empty context window.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Ending the current session and starting a fresh one. The next message begins with an empty session and an empty context window. Usually user-driven.",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Handoff | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/handoff",
-      "description": "Transferring agent context from one session to another, with no return path. Carry mechanism varies — artifact, compaction, others.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Transferring agent context from one session to another. The carry mechanism varies — a written handoff artifact, an in-memory summary (compaction), and others. Distinct from cle...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Handoff artifact | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/handoff-artifact",
-      "description": "A document used as the carry mechanism for a handoff — written by one session to be read by another.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A document used as the carry mechanism for a handoff — written to the environment by one session to be read by another. Specs, tickets, and plan docs are all handoff artifacts.",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Spec | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/spec",
-      "description": "A handoff artifact describing a multi-session piece of work — what's being built, not how each session does its share. Made of tickets.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A handoff artifact describing a multi-session piece of work — what's being built, not how each session does its share. Mutates as work progresses. Made of tickets.",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Ticket | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/ticket",
-      "description": "A handoff artifact scoping one session of work. Stands alone or hangs off a spec. Can block or be blocked by sibling tickets.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A handoff artifact scoping one session of work. Stands alone, or hangs off a spec as one of its children. Tickets can block or be blocked by sibling tickets, so the order of wor...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Compaction | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/compaction",
-      "description": "A handoff done in-memory: the previous session's history is summarised and seeds a fresh session. Lossy — detail traded for headroom.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A handoff done in-memory: the previous session's history is summarised, and the summary seeds a fresh session. Lossy by design: the transcript is a primary source, the summary a...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Autocompact | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/autocompact",
       "description": "Compaction triggered automatically by the harness when the context window approaches full.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Memory system | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/memory-system",
-      "description": "A system that attempts to make an agent stateful across sessions by persisting to the environment and reloading at session start.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A system that attempts to make an agent stateful across sessions. Persists information into the environment during a session and reloads it into the context window at the start...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "AGENTS.md | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/agents-md",
-      "description": "A file in the environment that the harness loads into the context window at session start — the project's standing brief to the agent.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A file in the environment that the harness loads into the context window at session start — the project's standing brief to the agent. Cross-harness convention; some harnesses a...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Progressive disclosure | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/progressive-disclosure",
-      "description": "Loading only the context an agent needs right now, with context pointers to the rest. Borrowed from UI design.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Loading only the context an agent needs right now, with context pointers to the rest. Borrowed from UI design, where it means showing users only the controls relevant to their c...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Context pointer | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/context-pointer",
-      "description": "A mention in one document that points to another, so the agent can pull it into context only when the task calls for it.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A mention in one document that points to another, so the agent can pull it into the context window only when the task calls for it. The unit progressive disclosure is built from.",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Skill | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/skill",
-      "description": "A teachable capability bundled as a unit — kept out of the context window until a context pointer pulls it in for the task at hand.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A teachable capability bundled as a unit — instructions and resources for doing one task well, kept in the environment until a context pointer pulls it into the context window f...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Subagent | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/subagent",
-      "description": "An agent spawned by another agent via a tool call. Runs in its own session, reports a single tool result. Cannot spawn further subagents.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "An agent spawned by another agent via a tool call. Runs in its own session with its own context window, and reports a single tool result back. Distinct from a handoff — the pare...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Human-in-the-loop | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/human-in-the-loop",
-      "description": "A working pattern where one or more humans pair with the agent during a session — reviewing, redirecting, or collaborating in real time.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A working pattern where one or more humans pair with the agent during a session — reviewing, redirecting, or collaborating in real time. The human is present and engaged, not ju...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "AFK | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/afk",
-      "description": "A working pattern where the user kicks off a session and leaves the agent to run unattended (away from keyboard).",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Away from keyboard. A working pattern where the user kicks off a session and leaves the agent to run unattended. The throughput multiplier of AI coding — many AFK sessions can r...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Automated check | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/automated-check",
-      "description": "A deterministic verification that runs in the environment — tests, type checks, lints, build, pre-commit hooks. Pass/fail, no judgement.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A deterministic verification that runs in the environment — tests, type checks, lints, build, pre-commit hooks. Pass/fail, no judgement. The signal an agent can self-correct fro...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Automated review | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/automated-review",
-      "description": "An agent reviewing another agent's work, often with a different model or system prompt. Non-deterministic: it forms a judgement.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "An agent reviewing another agent's work, often with a different model or system prompt. Non-deterministic: it forms a judgement. Runs anywhere — pre-merge on a PR, post-hoc on c...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Human review | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/human-review",
-      "description": "The user reading the code the agent produced and forming a judgement on it. Reading the diff counts; reading the summary doesn't.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The user reading the code the agent produced and forming a judgement on it. Reading the diff or the changed files counts; reading the agent's description of what it did does not...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Vibe coding | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/vibe-coding",
-      "description": "A working pattern where the user accepts the agent's code without human review. The diff is treated as opaque.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A working pattern where the user accepts the agent's code without human review. The diff is treated as opaque — what matters is whether the program behaves, not what's inside. A...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Design concept | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/design-concept",
-      "description": "The shared understanding of what's being built, held in common between user and agent but separate from any asset.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The shared understanding of what's being built, held in common between user and agent but separate from any asset. Brooks' term (The Design of Design): the conversation, handoff...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Grilling | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/grilling",
-      "description": "A technique for developing a design concept: the agent interviews the user Socratically, one decision at a time.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A technique for developing a design concept with an agent: the agent interviews the user Socratically, one decision at a time, proposing a recommended answer for each. Slows the...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
@@ -1490,43 +1490,43 @@
     {
       "title": "AI | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/ai",
-      "description": "A moving label, not a technology. Points at whatever computers can newly, impressively do — right now, large language models.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A moving label, not a technology. \"AI\" doesn't name a fixed thing the way model or token does — it points at whatever computers can newly, impressively do. Right now it points a...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Primary source | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/primary-source",
-      "description": "The thing itself — code, transcripts, raw data. Complete and authoritative, but expensive to load into context.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A source of truth in its original form — the code, the conversation transcript, the raw log, the actual API response. Not an account of the thing; the thing. Counterpart to seco...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Secondary source | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/secondary-source",
-      "description": "An account of a primary source, one step removed — summaries, docs, compaction summaries. Cheap to load, lossy by construction.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "An account of a primary source, one step removed — documentation describing code, a summary describing a transcript, a report describing search results. Cheaper to load into the...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Prototyping | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/prototyping",
-      "description": "Having the agent build a quick, rough version when conversation is too low-fidelity and you need a real artifact to talk about.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Having the agent build a quick, rough version of something, for when conversation is too low-fidelity and you need a real artifact to talk about.",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "DX | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/dx",
-      "description": "Developer experience: how easy a codebase and its toolchain make it for humans to do good work — docs, feedback speed, errors.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Developer experience — how easy a codebase and its toolchain make it for humans to do good work. Good DX is fast feedback, clear error messages, documentation that answers the q...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "AX | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/ax",
-      "description": "Agent experience: how well the environment is set up for an agent to do good work — checks, architecture, and free context.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Agent experience — how well the environment is set up for an agent to do good work in a codebase. The agent-facing counterpart to DX. When the same agent performs well in one re...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
@@ -1987,8 +1987,8 @@
     {
       "title": "Effort | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/effort",
-      "description": "A dial for how much reasoning the model does before it answers. More effort spends more output tokens for a better shot at hard problems.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Effort is a dial for how much reasoning a model does before it answers. Set per model provider request, it controls the length of the thinking the model works through before it...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
@@ -4946,7 +4946,7 @@
       "source_id": "simon-willison"
     },
     {
-      "title": "Stop Assuming Open Source Is Anti-AI",
+      "title": "Linus Entered the AI Debate",
       "link": "https://www.youtube.com/watch?v=XFSwfwiM8nk",
       "description": "",
       "time": "2026-08-03T06:20:51Z",
@@ -5107,7 +5107,7 @@
       "source_id": "the-primetime"
     },
     {
-      "title": "Digital Music Looper - Episode 1",
+      "title": "Digital Music Looper (Dimooper II Ep.1)",
       "link": "https://www.youtube.com/watch?v=VuYBu-GpBPQ",
       "description": "",
       "time": "2026-08-04T16:43:57Z",
@@ -5359,7 +5359,7 @@
       "source_id": "the-primetime"
     },
     {
-      "title": "Audio Programming - ADSR",
+      "title": "Audio Programming - ADSR (Dimooper II Ep.02)",
       "link": "https://www.youtube.com/watch?v=YhX4FF3uuLU",
       "description": "",
       "time": "2026-08-08T18:06:09Z",
@@ -5609,6 +5609,55 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32\">llm 0.32</a></p>\n        <p>See <a href=\"https://simonwillison.net/2026/Aug/4/new-release-of-llm/\">my detailed blog post about this release</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
       "time": "2026-08-04T17:15:33Z",
       "source_id": "simon-willison"
+    },
+    {
+      "title": "Computer Keyboard as an Instrument",
+      "link": "https://www.youtube.com/watch?v=im2rlDgNlrQ",
+      "description": "",
+      "time": "2026-08-10T20:56:37Z",
+      "source_id": "tsoding-daily"
+    },
+    {
+      "title": "Skill Descriptions Are Tricky",
+      "link": "https://www.youtube.com/shorts/P2Jb1lOkzCE",
+      "description": "",
+      "time": "2026-08-11T17:00:28Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "I Fixed Claude Without Touching Any Code",
+      "link": "https://www.youtube.com/watch?v=e1snsuY4lTI",
+      "description": "",
+      "time": "2026-08-11T06:37:32Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "Pokemon Slop Demo Review",
+      "link": "https://www.youtube.com/shorts/tHsXzjkl1Dc",
+      "description": "",
+      "time": "2026-08-12T13:02:09Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "AI Roasted Chats",
+      "link": "https://www.youtube.com/shorts/89_0P8UypsY",
+      "description": "",
+      "time": "2026-08-11T13:03:09Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "He Saved Us All",
+      "link": "https://www.youtube.com/watch?v=lnMnXsmxoHc",
+      "description": "",
+      "time": "2026-08-11T13:00:11Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "A feet of engineering",
+      "link": "https://www.youtube.com/shorts/aEtlWql1N5M",
+      "description": "",
+      "time": "2026-08-10T13:03:04Z",
+      "source_id": "the-primetime"
     }
   ]
 }
