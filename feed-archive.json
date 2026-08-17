@@ -714,441 +714,441 @@
       "title": "AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary",
       "description": "The vocabulary of AI coding, translated into plain English for engineers.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Model | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/model",
       "description": "The parameters. Stateless — does next-token prediction and nothing else. Cannot do anything agentic on its own.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Parameters | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/parameters",
       "description": "The numbers inside a model — often billions — tuned during training. Everything the model knows lives in them. Also called weights.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Training | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/training",
       "description": "The process that sets a model's parameters by exposing it to vast amounts of text and adjusting to improve next-token prediction.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Inference | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/inference",
       "description": "Running a trained model to generate output — what happens on every model provider request. Parameters stay fixed.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Token | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/token",
       "description": "The atomic unit a model reads and writes. Roughly word-sized but not exactly. Context window size, cost, and latency all count tokens.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Next-token prediction | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/next-token-prediction",
       "description": "What the model actually does. Samples one next token from the context, appends it, and runs again. Its only mode of operation.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Non-determinism | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/non-determinism",
       "description": "The same input can produce different output. A property of how models generate text and how providers serve requests.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Model provider | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/model-provider",
       "description": "Whatever serves a model for inference. Usually remote (Anthropic, OpenAI, Google), but can also be local (Ollama, llama.cpp).",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Harness | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/harness",
       "description": "Everything around the model that turns it into an agent: tools, system prompt, context-window management, permissions, hooks.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Model provider request | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/model-provider-request",
       "description": "One round-trip from the harness to the model provider. The harness sends context; the provider returns one response.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Input tokens | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/input-tokens",
       "description": "Tokens the harness sends on each model provider request. Billed at a lower rate than output tokens.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Output tokens | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/output-tokens",
       "description": "Tokens the model generates back. Billed at a higher rate than input tokens, since they cost more compute to produce.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Prefix cache | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/prefix-cache",
       "description": "The provider-side store that lets consecutive requests skip re-processing a shared prefix, billing those tokens at a lower rate.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Cache tokens | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/cache-tokens",
       "description": "Input tokens the provider has cached from a previous request via its prefix cache, billed at a much lower rate.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Stateless | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/stateless",
       "description": "Carries no information forward. The model is stateless across requests; an agent is stateless across sessions by default.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Context | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/context",
       "description": "The relevant information the agent has access to right now — what the agent knows that's pertinent to the task.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Context window | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/context-window",
       "description": "Everything the model sees on each model provider request. Finite, model-specific, the only surface through which the model perceives.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Stateful | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/stateful",
       "description": "Carries information forward. Sessions are stateful across turns; agents can be made stateful across sessions via a memory system.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Agent | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/agent",
       "description": "A model harnessed with tools, a system prompt, and a context window, that takes turns with a user. The model in motion.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "System prompt | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/system-prompt",
       "description": "The instructions the harness prepends to every model provider request — the agent's standing brief. Usually stable across a session.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Session | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/session",
       "description": "One bounded run of interaction with an agent. Starts empty, accumulates, ends when cleared, closed, or compacted into a fresh session.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Turn | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/turn",
       "description": "One user message plus everything the agent does in response, up until it yields back to the user. Contains one or more provider requests.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Environment | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/environment",
       "description": "The world the agent acts on — anything outside the harness that the agent perceives via tool results and changes via tool calls.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Filesystem | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/filesystem",
       "description": "A tree of files and directories the agent reads from, writes to, and executes within — the default environment for a coding agent.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Tool | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/tool",
       "description": "A function the harness exposes for the agent to call — Read, Write, Bash, Search. How an agent perceives and acts on the environment.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Tool call | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/tool-call",
       "description": "The model's output naming a tool and its arguments — just structured text. The harness has to read it and execute.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Tool result | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/tool-result",
       "description": "What the harness sends back after executing a tool call — file contents, output, or error. The agent's only view of the environment.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "MCP | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/mcp",
       "description": "A protocol for plugging external tool servers into a harness — how an agent gets tools beyond what the harness ships with.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Permission request | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/permission-request",
       "description": "What the harness shows the user before executing a tool call that isn't pre-approved. The mechanism for putting a human in the loop.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Permission mode | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/permission-mode",
       "description": "The permission-gating slice of an agent mode — which tool calls trigger a permission request and which run automatically.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Agent mode | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/agent-mode",
       "description": "A preset bundling a permission mode with behavioral instructions injected into the system prompt. Can flip mid-session.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Sandbox | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/sandbox",
       "description": "An isolated environment the agent runs inside — container, VM, or restricted shell. Limits the blast radius of agent actions.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Sycophancy | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/sycophancy",
       "description": "Confidently agreeable model output. Caused by training that shaped the model to favor answers humans liked — including agreement.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Hallucination | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/hallucination",
       "description": "Confidently-wrong model output. Two flavors: factuality (invented facts) and faithfulness (drift from loaded context).",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Parametric knowledge | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/parametric-knowledge",
       "description": "What the model knows from training, stored in its parameters. Frozen at training time. Counterpart to contextual knowledge.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Knowledge cutoff | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/knowledge-cutoff",
       "description": "The date past which a model has no parametric knowledge. Post-cutoff libraries and APIs are fabrication traps unless docs are loaded.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Contextual knowledge | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/contextual-knowledge",
       "description": "Facts the agent can read directly from the context right now. Counterpart to parametric knowledge.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Attention relationship | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/attention-relationship",
       "description": "The pairing between two tokens — meaningful pairs influence each other more than unrelated ones. A context of N tokens has ~N² of these.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Attention budget | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/attention-budget",
       "description": "Each token has a finite amount of influence to distribute across the rest of the context. Per-token, doesn't grow when context does.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Attention degradation | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/attention-degradation",
       "description": "As a session grows, each token's attention budget spreads across more competitors; signal on meaningful relationships shrinks.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Smart zone | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/smart-zone",
       "description": "Early in a session the agent is sharp and focused. As the session grows it drifts into a dumb zone: sloppier, forgetful, more mistakes.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Clearing | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/clearing",
       "description": "Ending the current session and starting a fresh one. The next message begins with an empty session and an empty context window.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Handoff | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/handoff",
       "description": "Transferring agent context from one session to another, with no return path. Carry mechanism varies — artifact, compaction, others.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Handoff artifact | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/handoff-artifact",
       "description": "A document used as the carry mechanism for a handoff — written by one session to be read by another.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Spec | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/spec",
       "description": "A handoff artifact describing a multi-session piece of work — what's being built, not how each session does its share. Made of tickets.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Ticket | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/ticket",
       "description": "A handoff artifact scoping one session of work. Stands alone or hangs off a spec. Can block or be blocked by sibling tickets.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Compaction | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/compaction",
       "description": "A handoff done in-memory: the previous session's history is summarised and seeds a fresh session. Lossy — detail traded for headroom.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Autocompact | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/autocompact",
       "description": "Compaction triggered automatically by the harness when the context window approaches full.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Memory system | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/memory-system",
       "description": "A system that attempts to make an agent stateful across sessions by persisting to the environment and reloading at session start.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "AGENTS.md | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/agents-md",
       "description": "A file in the environment that the harness loads into the context window at session start — the project's standing brief to the agent.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Progressive disclosure | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/progressive-disclosure",
       "description": "Loading only the context an agent needs right now, with context pointers to the rest. Borrowed from UI design.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Context pointer | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/context-pointer",
       "description": "A mention in one document that points to another, so the agent can pull it into context only when the task calls for it.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Skill | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/skill",
       "description": "A teachable capability bundled as a unit — kept out of the context window until a context pointer pulls it in for the task at hand.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Subagent | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/subagent",
       "description": "An agent spawned by another agent via a tool call. Runs in its own session, reports a single tool result. Cannot spawn further subagents.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Human-in-the-loop | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/human-in-the-loop",
       "description": "A working pattern where one or more humans pair with the agent during a session — reviewing, redirecting, or collaborating in real time.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "AFK | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/afk",
       "description": "A working pattern where the user kicks off a session and leaves the agent to run unattended (away from keyboard).",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Automated check | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/automated-check",
       "description": "A deterministic verification that runs in the environment — tests, type checks, lints, build, pre-commit hooks. Pass/fail, no judgement.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Automated review | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/automated-review",
       "description": "An agent reviewing another agent's work, often with a different model or system prompt. Non-deterministic: it forms a judgement.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Human review | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/human-review",
       "description": "The user reading the code the agent produced and forming a judgement on it. Reading the diff counts; reading the summary doesn't.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Vibe coding | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/vibe-coding",
       "description": "A working pattern where the user accepts the agent's code without human review. The diff is treated as opaque.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Design concept | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/design-concept",
       "description": "The shared understanding of what's being built, held in common between user and agent but separate from any asset.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Grilling | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/grilling",
       "description": "A technique for developing a design concept: the agent interviews the user Socratically, one decision at a time.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
@@ -1491,42 +1491,42 @@
       "title": "AI | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/ai",
       "description": "A moving label, not a technology. Points at whatever computers can newly, impressively do — right now, large language models.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Primary source | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/primary-source",
       "description": "The thing itself — code, transcripts, raw data. Complete and authoritative, but expensive to load into context.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Secondary source | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/secondary-source",
       "description": "An account of a primary source, one step removed — summaries, docs, compaction summaries. Cheap to load, lossy by construction.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Prototyping | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/prototyping",
       "description": "Having the agent build a quick, rough version when conversation is too low-fidelity and you need a real artifact to talk about.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "DX | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/dx",
       "description": "Developer experience: how easy a codebase and its toolchain make it for humans to do good work — docs, feedback speed, errors.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "AX | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/ax",
       "description": "Agent experience: how well the environment is set up for an agent to do good work — checks, architecture, and free context.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
@@ -1988,7 +1988,7 @@
       "title": "Effort | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/effort",
       "description": "A dial for how much reasoning the model does before it answers. More effort spends more output tokens for a better shot at hard problems.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
@@ -5515,7 +5515,7 @@
     {
       "title": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI",
       "link": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/",
-      "description": "<p><strong><a href=\"https://www.404media.co/the-tokenpocalypse-is-here-companies-are-scrambling-to-stop-spending-so-much-on-ai/\">The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI</a></strong></p>\nThere's a fun anecdote from Accenture (apparently via leaked meeting audio recordings) in this 404 Media piece from June 24th:</p>\n<blockquote>\n<p>“We’re seeing from some of the data internally at least that it’s actually not our engineers that are driving the token consumption. It’s a lot of the non-engineers that are doing some of those behaviors [...] you were talking about,” Justice Kwak, Accenture’s agentic AI strategy lead, said [...]</p>\n<p>Stuart Henderson, Accenture’s client group lead, interrupts. He jokes he hopes Kwak didn’t just convert a PDF into images and then into markdown files. “I’m learning that’s one of the big token chewers,” Henderson says. “Turning PDFs into markdown: is that right?”</p>\n<p>That’s when Kwak says that’s what Accenture’s own data shows.</p>\n</blockquote>\n<p>Maybe if Accenture figure out that PDFs are a <em>terrible medium for communicating information</em> they'll be able to push that message out to the rest of the business world too!\n\n    <p><small></small>Via <a href=\"https://www.tiktok.com/@404.media/video/7654962124053171470\">@404.media on TikTok</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/pdf\">pdf</a>, <a href=\"https://simonwillison.net/tags/markdown\">markdown</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a></p>",
+      "description": "<p><strong><a href=\"https://www.404media.co/the-tokenpocalypse-is-here-companies-are-scrambling-to-stop-spending-so-much-on-ai/\">The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI</a></strong></p>\nThere's a fun anecdote from Accenture (apparently via leaked meeting audio recordings) in this 404 Media piece from June 24th:</p>\n<blockquote>\n<p>“We’re seeing from some of the data internally at least that it’s actually not our engineers that are driving the token consumption. It’s a lot of the non-engineers that are doing some of those behaviors [...] you were talking about,” Justice Kwak, Accenture’s agentic AI strategy lead, said [...]</p>\n<p>Stuart Henderson, Accenture’s client group lead, interrupts. He jokes he hopes Kwak didn’t just convert a PDF into images and then into markdown files. “I’m learning that’s one of the big token chewers,” Henderson says. “Turning PDFs into markdown: is that right?”</p>\n<p>That’s when Kwak says that’s what Accenture’s own data shows.</p>\n</blockquote>\n<p>Maybe if Accenture figure out that PDFs are a <em>terrible medium for communicating information</em> they'll be able to push that message out to the rest of the business world too!\n\n    <p><small></small>Via <a href=\"https://www.tiktok.com/@404.media/video/7654962124053171470\">@404.media on TikTok</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/pdf\">pdf</a>, <a href=\"https://simonwillison.net/tags/markdown\">markdown</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a>, <a href=\"https://simonwillison.net/tags/404-media\">404-media</a></p>",
       "time": "2026-08-07T16:18:51Z",
       "source_id": "simon-willison"
     },
@@ -5798,6 +5798,27 @@
       "description": "<p>Friday's big release was <a href=\"https://huggingface.co/Qwen/Qwen3.8-27B\">Qwen 3.8 27B</a>, an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor <a href=\"https://simonwillison.net/2026/Apr/22/qwen36-27b/\">Qwen 3.6 27B</a> was impressive.</p>\n<p>Qwen's <a href=\"https://huggingface.co/Qwen/Qwen3.8-27B#benchmark-results\">self-reported benchmarks</a> for this model are eye-opening. They show a boost from both Qwen 3.6 27B <em>and</em> the closed-weight Qwen 3.7-Plus, which was one of Qwen's strongest models of any size as recently as <a href=\"https://qwen.ai/blog?id=qwen3.7-plus\">May this year</a>. It will be interesting to hear what independent benchmarks have to say about the model.</p>\n<p>I've been running the model on two different machines: my 128GB M5 Max MacBook Pro, and an <a href=\"https://simonwillison.net/2025/Oct/14/nvidia-dgx-spark/\">NVIDIA DGX Spark</a>. On both machines I'm running LM Studio and <a href=\"https://lmstudio.ai/models/qwen3.8\">their 17GB Q4_K_M quantized build</a>. I also tried  using <code>llama-server</code> directly on the Spark.</p>\n<h4 id=\"the-default-of-extra-high-results-in-spectacular-over-thinking\">The default of extra high results in spectacular over-thinking</h4>\n<p>Qwen's documentation describes the model as defaulting to <code>xhigh</code> for the reasoning effort, and the LM Studio GGUF I've been trying preserves that default:</p>\n<blockquote>\n<p>Qwen3.8 comes with official support for <code>reasoning_effort</code>, which can be used to adjust reasoning depth and control cost:</p>\n<ul>\n<li>\n<code>xhigh</code> (default): for complex tasks demanding thorough analysis</li>\n<li>\n<code>medium</code>: balancing accuracy and speed</li>\n<li>\n<code>low</code>: efficient reasoning optimizing for speed and cost</li>\n</ul>\n</blockquote>\n<p>This is a <em>hilarious</em> default. It's absolutely not a good way to run the model, especially on consumer hardware. I've been finding the results extremely entertaining.</p>\n<p>I quickly ran into problems with LM Studio's default context limit of 8,192 tokens - Qwen was using them all up thinking about even the most mundane of problems. I loaded the model with the full 262,144 maximum context length and that problem went away.</p>\n<p>Here's <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Ffc909bea4fecf752c7bf9bad0e9dbf2a\">the pelican riding a bicycle</a> SVG I got from my first attempt with that increased context length. It took <strong>21 minutes</strong> to generate, using 22,276 reasoning tokens to produce 3,223 tokens of output. You can read <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Ffc909bea4fecf752c7bf9bad0e9dbf2a\">the reasoning trace here</a>.</p>\n<p><img src=\"https://static.simonwillison.net/static/2026/qwen-thinking-bicycle-27b.jpg\" alt=\"A very pleasing image of a pelican riding a bicycle. The bicycle is red and has the correct frame shape. The pelican looks like a pelican and has its wing extended to the handlebars.\" style=\"max-width: 100%;\" /></p>\n<p>This is by far the best pelican SVG I've been able to generate with a model that runs on a local machine - and this Qwen is pretty small, just a 17GB file on disk. There's a lot to like about this:</p>\n<ol>\n<li>The bicycle frame is the right shape</li>\n<li>It has legs on each side of the bike - that's <em>very</em> rare</li>\n<li>Good, clear pelican pouch</li>\n<li>The wings extend to touch the handlebars!</li>\n<li>The motion lines are behind, not in front</li>\n<li>It has a tasteful background - nice sun, clouds, hill, flowers and grass.</li>\n</ol>\n<p>Was that worth waiting 21 minutes for? Absolutely not.</p>\n<p>Here's that same prompt run with reasoning turned off - <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F1265cfa8dce2f9ad5eb160792ff45a49\">transcript here</a>. This one produced <strong>3,715 tokens</strong> and took 137s - just over two minutes.</p>\n<p><img src=\"https://static.simonwillison.net/static/2026/qwen-3.8-27b-no-reasoning-pelican-2.png\" alt=\"The bicycle frame is a bad shape now. The pelican remains recognizable but has a less obvious pouch. The feet miss the pedal, there is no attempt to hold the handlebars.\" style=\"max-width: 100%;\" />\nAnd just for completeness, I used OpenRouter to run the same prompt through the much larger Qwen 3.8 2.4T-A95B (released <a href=\"https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B\">last week</a>) and got this snazzy <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F557016f0895b2abb4b9957caec781734\">animated SVG</a>:</p>\n<p><video\n    controls=\"controls\" loop=\"loop•\"\n    preload=\"none\"\n    poster=\"https://static.simonwillison.net/static/2026/qwen-animated-first-frame.jpg\"\n    width=\"720\"\n    height=\"548\"\n    style=\"display: block; width: 100%; height: auto;\"\n  >\n    <source src=\"https://static.simonwillison.net/static/2026/qwen-animated-small.mp4\" type=\"video/mp4\" />\n    Your browser does not support HTML5 video.\n  </video>\n</p>\n<p>I said Qwen at xhigh has a tendency to over-think things, but how bad really is it?</p>\n<p>I tried a much simpler prompt, again with that default extra high setting:</p>\n<blockquote>\n<p><code>draw an svg of a circle</code></p>\n</blockquote>\n<p>Qwen's reasoning trace started like this:</p>\n<blockquote>\n<p>The user is asking for an SVG drawing of a circle. Simple request — but I want it to be a carefully crafted piece. Let me make something that goes beyond just <code>&lt;circle&gt;</code>: a single self-contained SVG file with character — maybe a geometric \"circle study,\" with subtle animation, layered rings, and a distinctive palette.</p>\n<p>Keep the scope right: they asked for an SVG of a circle. So the core is a circle. But I can add craft: concentric guide circles (like a compass/geometry drawing), tick marks, a soft gradient fill on the main circle, restrained ambient motion (a slowly rotating dashed ring, pulsing glow). Respect prefers-reduced-motion? That's more for CSS; SVG SMIL or CSS inside SVG will do.</p>\n<p>Palette options: deep teal ink on warm paper? Or bold vermilion circle on off-white with navy construction lines — Bauhaus/compass-drawing vibe. Let me go with a \"geometric study\" look: cool slate background, or bright paper white? Paper white is fine if it's not the cream-and-terracotta combo. [...]</p>\n</blockquote>\n<p>Several minutes later it <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6f9e48293be5c916652d29f0dc0b0657\">produced</a> this <em>absolutely beautiful</em> animated circle, which was entirely not what I had asked for!</p>\n<p><video\n    controls=\"controls\" loop=\"loop\"\n    preload=\"none\"\n    poster=\"https://static.simonwillison.net/static/2026/circle-web-first-frame.jpg\"\n    width=\"1078\"\n    height=\"1080\"\n    style=\"display: block; width: 100%; height: auto;\"\n  >\n    <source src=\"https://static.simonwillison.net/static/2026/circle-web.mp4\" type=\"video/mp4\" />\n    Your browser does not support HTML5 video.\n  </video>\n</p>\nMy strong recommendation: ignore that default. Run Qwen 3.8 27B on low or even no reasoning levels at first. It's a great model, but wow that default setting is a bad place to start.\n<h4 id=\"it-s-very-good-at-bounding-boxes\">It's very good at bounding boxes</h4>\n<p>A fun way to test a vision model is to see how well it can return bounding boxes around items in a photograph. I've seen previous Qwen models deal well with this, so I decided to put it to the test drawing bounding boxes around some pelicans.</p>\n<p>I've seen asking for 0-1000 scale produce good results in the past. I tried this:</p>\n<div class=\"highlight highlight-source-shell\"><pre>llm -a https://static.inaturalist.org/photos/714731804/large.jpg \\\n  -m lmstudio/qwen/qwen3.8-27b \\\n  <span class=\"pl-s\"><span class=\"pl-pds\">'</span>Return JSON bounding boxes for the pelicans in this photo, 0-1000 scale for each dimension<span class=\"pl-pds\">'</span></span></pre></div>\n<p>Here's <a href=\"https://gist.github.com/simonw/a05cc78b2061555bd61d3bb9686e689f\">the reasoning trace</a>, which produced this:</p>\n<div class=\"highlight highlight-source-json\"><pre>[\n  {<span class=\"pl-ent\">\"bbox_2d\"</span>: [<span class=\"pl-c1\">195</span>, <span class=\"pl-c1\">290</span>, <span class=\"pl-c1\">370</span>, <span class=\"pl-c1\">780</span>], <span class=\"pl-ent\">\"label\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>pelicans<span class=\"pl-pds\">\"</span></span>},\n  {<span class=\"pl-ent\">\"bbox_2d\"</span>: [<span class=\"pl-c1\">445</span>, <span class=\"pl-c1\">320</span>, <span class=\"pl-c1\">675</span>, <span class=\"pl-c1\">850</span>], <span class=\"pl-ent\">\"label\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>pelicans<span class=\"pl-pds\">\"</span></span>}\n]</pre></div>\n<p>This is <em>such a good match</em>. Here are those boxes rendered on top of the photo:</p>\n<p><img src=\"https://static.simonwillison.net/static/2026/qwen-over-engineered-bbox.webp\" alt=\"A photograph of two pelicans on a rocky outcrop, with three other smaller birds. The pelicans both have bounding boxes exactly surrounding them, each with a label that says pelican.\" style=\"max-width: 100%;\" /></p>\n<h4 id=\"building-a-tool-to-label-bounding-boxes\">Building a tool to label bounding boxes</h4>\n<p>That visualization of the bounding boxes was taken using a new custom tool that I had Qwen 3.8 27B build for me, running offline on my laptop.</p>\n<p>I forgot to dial down the thinking effort so it was <em>massively over-engineered</em>, but it did manage to produce <a href=\"https://static.simonwillison.net/static/2026/qwen-over-thinking-bbox.html\">this full interface</a> from <a href=\"https://gist.github.com/simonw/121ad098860028b2fab603fa12da1fd9\">this single prompt</a>:</p>\n<blockquote>\n<pre><code>[\n   {\"bbox_2d\": [195, 290, 370, 780], \"label\": \"pelicans\"},\n   {\"bbox_2d\": [445, 320, 675, 850], \"label\": \"pelicans\"}\n]\n</code></pre>\n<p><code>Build an HTML page which has an input box for accepting the URL to an image and a textarea for accepting the above style of JSON.</code></p>\n<p><code>It appends the image to the page, measures its width and height, then treats the coords in the bbox_2d as scaled from 0-1000 and scales them against the actual width and height, then it renders labelled boxes over the image.</code></p>\n</blockquote>\n<p>This screenshot shows one of the features I did <em>not</em> ask for - a demo scene, for if you don't have a photograph to test the tool with:</p>\n<p><img src=\"https://static.simonwillison.net/static/2026/qwen-full-ui-with-pelicans.webp\" alt=\"Screenshot of bbox·lab, a dark-themed web tool that overlays object-detection bounding boxes on an image, with an input panel on the left and a stage on the right showing two labeled boxes around stylized pelicans in a sunset illustration. Header: bbox·lab — normalized 0–1000 coords → pixel overlay; status indicator: RENDERED · 2 BOXES. Panel 01 INPUT (URL + detections) contains an IMAGE URL field reading data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+, a DETECTIONS — JSON textarea reading  {&quot;bbox_2d&quot;: 195, 290, 370, 780, &quot;label&quot;: &quot;pelicans&quot;}, {&quot;bbox_2d&quot;: 445, 320, 675, 850, &quot;label&quot;: &quot;pelicans&quot;} , an orange RENDER BOXES button, and dashed boxes labeled DEMO SCENE and CLEAR. Panel 03 STAGE header: display 661 × 661 px · 1 unit = 0.661px x 0.661px · nat 1000×1000. The stage shows a flat-style illustration of two dark pelican silhouettes with orange beaks standing in calm water against an orange-to-purple sunset sky with a pale yellow sun and distant birds; an orange bounding box labeled 1 · pelicans surrounds the left pelican and a cyan bounding box labeled 2 · pelicans surrounds the right pelican. Footer: move the cursor over the image to read grid coords; boxes map 0–1000 → displayed px.\" style=\"max-width: 100%;\" /></p>\n<p>Here's the relevant segment of the thinking trace, where it decided to draw its own pelicans purely because I had used the label \"pelicans\" in the example JSON I gave it in the prompt:</p>\n<blockquote>\n<p>Also a \"load sample\" that uses a known image? Can't depend on external images, but… the image URL input is user-provided; I could add a \"try with sample\" button [...] Hmm, I can draw a simple scene on canvas, export it as a data URL, and load it into the image — that's self-contained and demo-able! [...] But the user's coords are for an actual pelican image; a generated placeholder can still demo the scaling. Generate a 1000x1000 placeholder: gradient water + two blob-like \"pelican\" silhouettes placed at the given bboxes (using the same scale — cute: silhouettes at the exact 0-1000 positions, showing the boxes align). This makes for a fun, self-contained demo. Keep it simple: sky gradient, sun, water, two pelican-ish shapes (ellipse body, circle head, beak). Place at bbox centers.</p>\n</blockquote>\n<p>(I'm slightly nervous that models around the world might have a bias towards drawing pelicans at any chance they can get, brought on by nearly two years of exposure to my own stupid benchmark.)</p>\n<p>Is all that over-thinking necessary? Maybe it is, at least a bit. I tried with reasoning turned off and got <a href=\"https://static.simonwillison.net/static/2026/qwen-no-thinking-bbox.html\">this version</a>, (<a href=\"https://gist.github.com/simonw/8e78b1c64d9a56d08eedb954aa9445ee\">transcript here</a>), which nearly works but shows the boxes in the wrong place:</p>\n<p><img src=\"https://static.simonwillison.net/static/2026/qwen-no-reasoning-bug.webp\" alt=\"BBox Studio screenshot - a solid UI but the yellow and green boxes do not cover the pelicans.\" style=\"max-width: 100%;\" /></p>\n<p>So without reasoning it didn't quite one-shot a working tool. I'm sure it could get there with some follow-up prompts, but this is a good example of how reasoning can make a difference.</p>\n<h4 id=\"yes-it-can-drive-coding-agents\">Yes, it can drive coding agents</h4>\n<p>One of the biggest questions around local models is whether or not they have enough horsepower to successfully run a coding agent loop. Coding agents require long context, strong code generation support and reliable tool-calling. On paper Qwen 3.8 27B has all three of these, so is it up to the task?</p>\n<p>My initial experiments with <a href=\"https://pi.dev/\">Pi</a> have been very promising. I chose Pi because it has a shorter system prompt than most other options, making it a better fit for trying out smaller models.</p>\n<p>I configured Pi to use Qwen 3.8 27B running in LM Studio on the Spark (shared via <code>tailscale serve</code>) by adding this to <code>~/.pi/agent/models.json</code>:</p>\n<div class=\"highlight highlight-source-json\"><pre>{\n  <span class=\"pl-ent\">\"providers\"</span>: {\n    <span class=\"pl-ent\">\"spark\"</span>: {\n      <span class=\"pl-ent\">\"baseUrl\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>https://spark-18b3.tail68a31.ts.net/v1<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-ent\">\"api\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>openai-responses<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-ent\">\"apiKey\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>dummy<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-ent\">\"models\"</span>: [\n        {\n          <span class=\"pl-ent\">\"id\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>qwen3.8-27b<span class=\"pl-pds\">\"</span></span>,\n          <span class=\"pl-ent\">\"reasoning\"</span>: <span class=\"pl-c1\">true</span>\n        }\n      ]\n    }\n  }\n}</pre></div>\n<p>Then ran <code>pi --provider spark --model qwen3.8-27b</code> in my <code>~/dev/datasette</code> folder and prompted:</p>\n<blockquote>\n<p><code>how does auth work?</code></p>\n</blockquote>\n<p>After a sequence of reasoning and tool calls that accessed a bunch of different files it produced <a href=\"https://gist.github.com/simonw/6693d74a6bd45f641d43ceb9961dd95f#core-idea-actors--plugins-no-built-in-user-accounts\">this reply</a>, which is very solid.</p>\n<p>Just one problem: I wanted to share that transcript. So I pointed Pi and Qwen 3.8 27B at the JSONL transcript file in <code>~/.pi/agent/sessions/--Users-simon-Dropbox-dev-datasette--</code> and prompted:</p>\n<blockquote>\n<p><code>Write Python code to convert this jsonl to markdown</code></p>\n</blockquote>\n<p>And it built and tested this <a href=\"https://github.com/simonw/tools/blob/main/python/pi_jsonl_to_md.py\">pi_jsonl_to_md.py</a>, which did exactly what I needed. Here's <a href=\"https://gist.github.com/simonw/491e55ac9d741202ea0af5d9d93775d4\">that session transcript</a>, published using the tool that it created.</p>\n<h4 id=\"the-quest-for-speed\">The quest for speed</h4>\n<p>So far this is all looking <em>very</em> promising. We have a 17GB model that runs on high-end consumer hardware and can write code, drive tools, annotate images and generally do everything that I need from an LLM for getting real work done.</p>\n<p>There's one very significant catch: it feels slow - especially when it starts over-thinking, but even without that it's not particularly sprightly.</p>\n<p>I've been getting around 15-30 tokens a second from LM Studio. That's not terrible, but it's slow enough that it's going to be hard to win me away from hosted API models, which can return results a whole lot faster. Artificial Analysis <a href=\"https://artificialanalysis.ai/models#speed\">track token speed</a> and show OpenAI 5.6 Sol at 74 tokens/second and 5.6 Luna at an impressive 184/second.</p>\n<p>The good news is that the community have been exploring ways to speed things up since the model was first released two days ago.</p>\n<p>One of the most promising optimizations is baked into the model itself. Qwen supports <a href=\"https://sebastianraschka.com/llm-architecture-gallery/mtp/\">Multi-Token Prediction</a>, an architecture trick where a cheaper mechanism guesses several tokens ahead and the main model can then quickly verify if the guesses were correct. This can have quite a dramatic effect on inference performance.</p>\n<p>Based on <a href=\"https://twitter.com/ggerganov/status/2088340681701925253\">this tweet</a> from <code>llama.cpp</code> creator Georgi Gerganov I tried running the model with MTP like this on the Spark:</p>\n<div class=\"highlight highlight-source-shell\"><pre>llama serve \\\n -hf  ggml-org/Qwen3.8-27B-GGUF:Q4_K_M \\\n -hfd ggml-org/Qwen3.8-27B-GGUF:Q4_0 \\\n --spec-default \\\n --spec-type draft-mtp \\\n --reasoning-preserve</pre></div>\n<p>And sure enough, this gave me a significant boost. I had GPT-5.6 in Codex run <a href=\"https://gist.github.com/simonw/b08c7eb9c126c806ba8987e269ea736b\">a comparative benchmark on the Spark</a> and the <code>--spec-type draft-mtp</code> server outperformed the LM Studio default GGUF by around 72%.</p>\n<p>I expect we'll see a whole lot more innovation around serving this model faster over the next few weeks. The MLX community likely have some tricks brewing as well.</p>\n<h4 id=\"some-observations\">Some observations</h4>\n<p>The fact that a 17GB file can do all of this stuff on my home machines is a <em>miracle</em>. Once again, I'm delighted and amazed at how much progress local models have made this year. A year ago this would have been competitive with the best and most expensive of the proprietary models - today it can run on a capable laptop.</p>\n<p>The only thing holding this back from being a daily driver is performance. It feels pretty slow on both the M5 Mac and the DGX Spark. That's the catch with these dense (non-Mixture-of-Experts) models - they require a whole lot of memory bandwidth to perform well, and neither of the machines I have access to are top performers in that regard.</p>\n<p>The most important thing about Qwen 3.8 27B is <strong>what it demonstrates</strong>. We can have an open weights general purpose model with a long context, effective tool calling, strong vision ability, and competent code generation, and we can fit the whole thing in just a 17GB file.</p>\n<p>The models at this size continue to get better at an impressive rate. We don't need to spend half a million dollars on datacenter-class hardware just to run a competent model.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/local-llms\">local-llms</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/qwen\">qwen</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-reasoning\">llm-reasoning</a>, <a href=\"https://simonwillison.net/tags/llama-cpp\">llama-cpp</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/lm-studio\">lm-studio</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a>, <a href=\"https://simonwillison.net/tags/nvidia-spark\">nvidia-spark</a>, <a href=\"https://simonwillison.net/tags/pi\">pi</a></p>",
       "time": "2026-08-16T22:00:39Z",
       "source_id": "simon-willison"
+    },
+    {
+      "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+      "link": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+      "description": "<p><strong><a href=\"https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/\">We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility</a></strong></p>\nExcellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see <a href=\"https://simonwillison.net/2025/Jun/24/anthropic-training/\">my previous coverage</a> of Anthropic's book scanning from June 2025.)</p>\n<p>404 Media investigated with an AirTag!</p>\n<blockquote>\n<p>In July, one bookseller told me they received a very large order of around 1,000 books on Biblio, one of these marketplaces. The seller agreed to put an Apple AirTag provided by 404 Media in one of the books included in this order so we could see where the book was going. And by extension, which company, AI or otherwise, was behind this massive order.</p>\n</blockquote>\n<p>The book ended up delivered to the VGT3 corner of the <a href=\"https://maps.app.goo.gl/2hMqbHrovTSZxh1U9\">LAS8 Amazon facility</a> in the north east of Las Vegas, where the entrance carried this on-the-nose logo of a dinosaur with a book!</p>\n<p><img alt=\"Photo of an office entrance. A logo in the window shows a red tyrannosaurus with a book, its claws clearly digging in and with a hint that it is more interested in destruction than reading.\" src=\"https://static.simonwillison.net/static/2026-08-17/IMG_7418.jpeg\" /></p>\n<p style=\"margin-top: -1em\"><small>Photo credit: 404 Media</small></p>\n\n<p>Online forum discussions between Amazon workers confirmed that VGT3 destructively scans large volumes of books.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/amazon\">amazon</a>, <a href=\"https://simonwillison.net/tags/journalism\">journalism</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/training-data\">training-data</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/404-media\">404-media</a></p>",
+      "time": "2026-08-17T15:21:29Z",
+      "source_id": "simon-willison"
+    },
+    {
+      "title": "Hacks Hiding in Meccha Chameleon",
+      "link": "https://www.youtube.com/watch?v=1DhZkZ_q4Qg",
+      "description": "",
+      "time": "2026-08-17T13:30:23Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "Hugging face hacked",
+      "link": "https://www.youtube.com/shorts/08HZYY5alio",
+      "description": "",
+      "time": "2026-08-17T13:03:01Z",
+      "source_id": "the-primetime"
     }
   ]
 }
