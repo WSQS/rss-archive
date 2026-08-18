@@ -105,14 +105,14 @@
       "title": "AI SDK v6 Crash Course",
       "link": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course",
       "description": "Here's how *you* become an AI developer — fast",
-      "time": "2025-09-09T15:52:28Z",
+      "time": "2025-09-09T22:52:28Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Generating Objects via Output",
       "link": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
       "description": "Structured outputs with AI SDK. Generate typed objects using Zod schemas, validate LLM responses, and extract data reliably.",
-      "time": "2025-09-09T14:47:27Z",
+      "time": "2025-09-09T21:47:27Z",
       "source_id": "matt-pocock-aihero"
     },
     {
@@ -126,42 +126,42 @@
       "title": "LLM Fundamentals",
       "link": "https://www.aihero.dev/llm-fundamentals",
       "description": "A free video tutorial from Matt Pocock teaching you the fundamentals of LLM's so you can use them better.",
-      "time": "2025-09-30T09:46:28Z",
+      "time": "2025-09-30T16:46:28Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "The AI Engineer Roadmap",
       "link": "https://www.aihero.dev/ai-engineer-roadmap",
       "description": "Want to build AI-powered apps, but don't know where to start? You need a roadmap.",
-      "time": "2025-03-18T11:28:44Z",
+      "time": "2025-03-18T18:28:44Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Model Context Protocol Tutorial",
       "link": "https://www.aihero.dev/model-context-protocol-tutorial",
       "description": "The Model Context Protocol is driving a new wave of innovation in the world of AI. In this tutorial, I'll break down everything you need to know to get started.",
-      "time": "2025-03-12T11:01:44Z",
+      "time": "2025-03-12T18:01:44Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Vercel AI SDK Tutorial",
       "link": "https://www.aihero.dev/vercel-ai-sdk-tutorial",
       "description": "Build any LLM app in TypeScript with Vercel's AI SDK. Learn streaming, structured outputs, tool calls and agents.",
-      "time": "2025-01-09T12:05:12Z",
+      "time": "2025-01-09T20:05:12Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "9 Things People Get Wrong With /grill-me and /grill-with-docs",
       "link": "https://www.aihero.dev/things-people-get-wrong-with-grill-me-and-grill-with-docs",
       "description": "Master the 9 most common mistakes when using /grill-me or /grill-with-docs. Learn scope management, model selection, and planning strategies.",
-      "time": "2026-05-25T13:34:56Z",
+      "time": "2026-05-25T20:34:56Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "17 Techniques For Improving Your LLM-Powered App",
       "link": "https://www.aihero.dev/how-to-improve-your-llm-powered-app",
       "description": "A directory of techniques for improving your LLM-powered app.",
-      "time": "2026-05-20T21:34:07Z",
+      "time": "2026-05-21T04:34:07Z",
       "source_id": "matt-pocock-aihero"
     },
     {
@@ -203,7 +203,7 @@
       "title": "Skills Changelog: Ubiquitous Language -> /grill-with-docs",
       "link": "https://www.aihero.dev/skills-changelog-ubiquitous-language-grill-with-docs",
       "description": "Skills repo changelog: /grill-with-docs, ADRs, improved architecture language, multi-tracker support & new debugging skills. Updates inside.",
-      "time": "2026-04-30T10:36:43Z",
+      "time": "2026-04-30T17:36:43Z",
       "source_id": "matt-pocock-aihero"
     },
     {
@@ -231,924 +231,924 @@
       "title": "My 'Grill Me' Skill Went Viral",
       "link": "https://www.aihero.dev/my-grill-me-skill-has-gone-viral",
       "description": "Learn the \"Grill Me\" AI skill—a powerful technique to deeply explore coding plans, requirements, and ideas through structured AI conversations.",
-      "time": "2026-03-23T13:35:30Z",
+      "time": "2026-03-23T20:35:30Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Real-world feature build with Claude Code: every step explained",
       "link": "https://www.aihero.dev/real-world-feature-build-with-claude-code",
       "description": "Learn Claude Code workflow: grill sessions, PRDs, GitHub issues, AFK agents, and QA loops for building features efficiently with AI.",
-      "time": "2026-03-20T09:48:53Z",
+      "time": "2026-03-20T16:48:53Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "5 Agent Skills I Use Every Day",
       "link": "https://www.aihero.dev/5-agent-skills-i-use-every-day",
       "description": "Master AI code quality with proven engineering skills: prompt techniques, TDD, architecture design, and spec workflows for Claude Code agents.",
-      "time": "2026-03-16T15:38:31Z",
+      "time": "2026-03-16T22:38:31Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "My 7 Phases Of AI Development",
       "link": "https://www.aihero.dev/my-7-phases-of-ai-development",
       "description": "Master the 7 phases of AI-assisted development with Claude Code. Learn how to ship production-quality code using research, prototyping, PRDs, and more.",
-      "time": "2026-03-16T10:27:14Z",
+      "time": "2026-03-16T17:27:14Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "My Claude Code Cohort - A Teaser",
       "link": "https://www.aihero.dev/my-claude-code-cohort-a-teaser",
       "description": "Here's a teaser to my Claude Code course: covering LLM constraints, planning, steering, feedback loops, autonomous agents, and human-in-the-loop techniques.",
-      "time": "2026-03-11T15:10:20Z",
+      "time": "2026-03-11T22:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "9 Ways AI Coding Has Rewired My Brain",
       "link": "https://www.aihero.dev/ways-ai-coding-has-rewired-my-brain",
       "description": "Discover 9 ways AI-assisted coding rewires your development mindset: integration testing, architecture, modules, and strategies for managing cognitive load.",
-      "time": "2026-03-11T14:33:11Z",
+      "time": "2026-03-11T21:33:11Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "How To Make Codebases AI Agents Love",
       "link": "https://www.aihero.dev/how-to-make-codebases-ai-agents-love",
       "description": "Learn how deep modules and proper codebase architecture make AI coding more effective. Master software design principles for AI-ready codebases.",
-      "time": "2026-02-26T10:09:15Z",
+      "time": "2026-02-26T18:09:15Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "How To Use Claude Code Hooks To Enforce The Right CLI",
       "link": "https://www.aihero.dev/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
       "description": "Learn how to use Claude Code hooks to prevent unwanted CLI commands and guide your AI coding agent to use the right tools instead of CLAUDE.md.",
-      "time": "2026-02-25T10:51:12Z",
+      "time": "2026-02-25T18:51:12Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Never Run Claude /init",
       "link": "https://www.aihero.dev/never-run-claude-init",
       "description": "Learn why auto-generated Claude.md files hurt your coding agents and what to use instead for better performance and lower costs.",
-      "time": "2026-02-24T10:04:45Z",
+      "time": "2026-02-24T18:04:45Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "This Hook Stops Claude Code Running Dangerous Git Commands",
       "link": "https://www.aihero.dev/this-hook-stops-claude-code-running-dangerous-git-commands",
       "description": "Learn how to block dangerous git commands in Claude Code using a PreToolUse hook. Prevent accidental data loss with git guardrails.",
-      "time": "2026-02-10T14:25:36Z",
+      "time": "2026-02-10T22:25:36Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "My Skill Makes Claude Code GREAT At TDD",
       "link": "https://www.aihero.dev/skill-test-driven-development-claude-code",
       "description": "Here's my TDD skill for getting Claude to write honest tests and real implementations using red-green-refactor and vertical slicing.",
-      "time": "2026-02-10T11:42:14Z",
+      "time": "2026-02-10T19:42:14Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Why the Anthropic Ralph plugin sucks (use a bash loop instead)",
       "link": "https://www.aihero.dev/why-the-anthropic-ralph-plugin-sucks",
       "description": "Discover why the Anthropic Ralph plugin degrades AI performance by filling up context windows. Learn why bash loops keep Claude in the smart zone instead.",
-      "time": "2026-01-22T14:50:25Z",
+      "time": "2026-01-22T22:50:25Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Tracer Bullets: Keeping AI Slop Under Control",
       "link": "https://www.aihero.dev/tracer-bullets",
       "description": "Learn how tracer bullets can help you control AI code quality by building small, end-to-end features and getting feedback early instead of bloated solutions.",
-      "time": "2026-01-22T13:21:37Z",
+      "time": "2026-01-22T21:21:37Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Here's How To Stream Claude Code With AFK Ralph",
       "link": "https://www.aihero.dev/heres-how-to-stream-claude-code-with-afk-ralph",
       "description": "Stream Claude code in real-time while running AFK Ralph. Learn how to use jq to get visibility into Claude's output instead of staring at a blank screen.",
-      "time": "2026-01-22T09:55:51Z",
+      "time": "2026-01-22T17:55:51Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "A Complete Guide To AGENTS.md",
       "link": "https://www.aihero.dev/a-complete-guide-to-agents-md",
       "description": "Learn how to optimize your AGENTS.md file for AI coding agents. Master progressive disclosure, keep instructions focused, and maximize agent performance.",
-      "time": "2026-01-18T15:01:44Z",
+      "time": "2026-01-18T23:01:44Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Essential AI Coding Feedback Loops For TypeScript Projects",
       "link": "https://www.aihero.dev/essential-ai-coding-feedback-loops-for-type-script-projects",
       "description": "Learn to build AI coding feedback loops with TypeScript. Master type checking, testing, and pre-commit hooks to keep AI agents working correctly.",
-      "time": "2026-01-16T11:51:36Z",
+      "time": "2026-01-16T19:51:36Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "My AGENTS.md file for building plans you actually read",
       "link": "https://www.aihero.dev/my-agents-md-file-for-building-plans-you-actually-read",
       "description": "Here are the key rules from my AGENTS.md file that make plan mode effective.",
-      "time": "2026-01-13T13:51:16Z",
+      "time": "2026-01-13T21:51:16Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "An Introduction To Plan Mode",
       "link": "https://www.aihero.dev/plan-mode-introduction",
       "description": "Learn how plan mode transforms AI coding agents. Iterate on requirements before writing code, build context, and get better results from tools like Claude Code.",
-      "time": "2026-01-09T12:55:21Z",
+      "time": "2026-01-09T20:55:21Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Getting Started With Ralph",
       "link": "https://www.aihero.dev/getting-started-with-ralph",
       "description": "Learn to run AI coding agents in a loop. Set up Claude Code, create a PRD, and let the AI ship features while you're AFK. Step-by-step guide included.",
-      "time": "2026-01-08T14:32:16Z",
+      "time": "2026-01-08T22:32:16Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "11 Tips For AI Coding With Ralph Wiggum",
       "link": "https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum",
       "description": "Run AI coding tools in autonomous loops with Ralph Wiggum. 11 tips for AFK coding: scope, progress tracking, feedback loops, and shipping code while you sleep.",
-      "time": "2026-01-08T12:25:29Z",
+      "time": "2026-01-08T20:25:29Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Evalite v1 Preview: Fast Evals, Built-in Scorers",
       "link": "https://www.aihero.dev/evalite-v1-preview",
       "description": "Evalite v1 ships 10 production-ready scorers (string matching, RAG evaluation, agent testing) plus in-memory storage by default. Still in beta.",
-      "time": "2025-11-28T10:00:39Z",
+      "time": "2025-11-28T18:00:39Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Personal software is INSANE in the age of AI",
       "link": "https://www.aihero.dev/personal-software-is-insane-in-the-age-of-ai-u2hx2",
       "description": "Don't delegate your thinking to LLMs. Use AI for grunt work in personal software built for your workflow. Keep the judgment for yourself.",
-      "time": "2025-11-17T16:28:06Z",
+      "time": "2025-11-18T00:28:06Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Creating The Perfect Claude Code Status Line",
       "link": "https://www.aihero.dev/creating-the-perfect-claude-code-status-line",
       "description": "I've created the perfect Claude Code statusline - including git info and context used. Here's a step-by-step guide.",
-      "time": "2025-10-28T14:40:22Z",
+      "time": "2025-10-28T21:40:22Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "What Is An Agent?",
       "link": "https://www.aihero.dev/what-is-an-agent",
       "description": "Discover the power of agents vs workflows in LLM systems. Learn how agents improvise and workflows optimize for predictable, repeatable tasks.",
-      "time": "2025-09-30T13:28:38Z",
+      "time": "2025-09-30T20:28:38Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "What Are Tools?",
       "link": "https://www.aihero.dev/what-are-tools",
       "description": "Discover how LLM tools enhance AI capabilities by defining, choosing, and executing tasks via system prompts.",
-      "time": "2025-09-30T13:28:00Z",
+      "time": "2025-09-30T20:28:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "What Is The Context Window?",
       "link": "https://www.aihero.dev/what-is-the-context-window",
       "description": "Discover the context window in AI: input/output tokens, limits, and the \"lost in the middle\" issue. Optimize token use for better model performance.",
-      "time": "2025-09-30T13:27:28Z",
+      "time": "2025-09-30T20:27:28Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Messages, System Prompts and Reasoning Tokens",
       "link": "https://www.aihero.dev/messages-system-prompts-and-reasoning-tokens",
       "description": "Learn how conversations with AI work under the hood. Explore user messages, system prompts, reasoning tokens, and tool calls.",
-      "time": "2025-09-30T13:26:05Z",
+      "time": "2025-09-30T20:26:05Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Most Devs Still Don't Know What Tokens Are",
       "link": "https://www.aihero.dev/what-are-tokens",
       "description": "Discover why tokens, not characters, are the currency of LLMs. Learn how text is processed and billed in tokens, crucial for developers.",
-      "time": "2025-09-12T15:49:26Z",
+      "time": "2025-09-12T22:49:26Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Securing your AI App with Guardrails",
       "link": "https://www.aihero.dev/securing-your-ai-app-with-guardrails",
       "description": "Secure your AI app with fast LLM validation using TypeScript and AI SDK.",
-      "time": "2025-09-11T11:24:45Z",
+      "time": "2025-09-11T18:24:45Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Streaming In 'Next Question Suggestions' With Vercel's AI SDK",
       "link": "https://www.aihero.dev/streaming-in-next-question-suggestions-with-the-ai-sdk",
       "description": "Stream AI-powered next question suggestions with the AI SDK.",
-      "time": "2025-08-24T12:17:16Z",
+      "time": "2025-08-24T19:17:16Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "What Is An AI Engineer?",
       "link": "https://www.aihero.dev/what-is-an-ai-engineer",
       "description": "Explore the role of an AI Engineer, learn the key skills needed, and discover how it differs from ML Engineering and AI-assisted Development.",
-      "time": "2025-03-26T11:22:28Z",
+      "time": "2025-03-26T18:22:28Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "The AI Engineer Mindset",
       "link": "https://www.aihero.dev/the-ai-engineer-mindset",
       "description": "Learn how to build successful LLM applications by defining clear success metrics, and creating a data-driven culture of continuous improvement.",
-      "time": "2025-03-24T09:21:56Z",
+      "time": "2025-03-24T16:21:56Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Implementing Anthropic's \"think\" Tool In TypeScript",
       "link": "https://www.aihero.dev/implementing-anthropics-think-tool-in-typescript",
       "description": "Enhance LLM problem-solving in TypeScript by implementing Anthropic's \"think\" tool with Claude.",
-      "time": "2025-03-21T18:37:02Z",
+      "time": "2025-03-22T01:37:02Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "What Can You Use LLM's For?",
       "link": "https://www.aihero.dev/what-are-llms-used-for",
       "description": "Discover when to use LLMs for data tasks like structuring and classification, and when to opt for deterministic systems.",
-      "time": "2025-03-18T10:01:33Z",
+      "time": "2025-03-18T17:01:33Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "5 Questions To Ask Before Choosing An LLM",
       "link": "https://www.aihero.dev/how-to-choose-an-llm",
       "description": "Discover the best way to choose the right LLM for your AI app. Learn about open vs closed models, cost, latency, and hosting options.",
-      "time": "2025-03-17T10:36:59Z",
+      "time": "2025-03-17T17:36:59Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "What Is An LLM?",
       "link": "https://www.aihero.dev/what-is-an-llm",
       "description": "Discover the basics of Large Language Models (LLM), their structure, operation, and creation process. Perfect for beginners ready to dive into AI.",
-      "time": "2025-03-17T10:03:12Z",
+      "time": "2025-03-17T17:03:12Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Connect Claude Code To A GitHub MCP Server",
       "link": "https://www.aihero.dev/connect-claude-code-to-github",
       "description": "Boost Claude Code with GitHub MCP! Discover how developers can seamlessly modify codebases using this powerful terminal app integration.",
-      "time": "2025-03-13T11:45:07Z",
+      "time": "2025-03-13T18:45:07Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Publish Your MCP Server To NPM",
       "link": "https://www.aihero.dev/publish-your-mcp-server-to-npm",
       "description": "Easily publish your MCP server to NPM using Node.js. Share updates globally with simple commands. Distribute effortlessly with our step-by-step guide.",
-      "time": "2025-03-12T11:08:57Z",
+      "time": "2025-03-12T18:08:57Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "The Problem With MCP: Stateful Servers",
       "link": "https://www.aihero.dev/the-problem-with-mcp-stateful-server",
       "description": "Discover how to deploy MCP servers statelessly using Redis, enabling compatibility with serverless platforms like Vercel and AWS Lambda.",
-      "time": "2025-03-12T11:08:27Z",
+      "time": "2025-03-12T18:08:27Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Logging: A Huge MCP Footgun",
       "link": "https://www.aihero.dev/logging-a-huge-mcp-footgun",
       "description": "Avoid console.log in MCP servers to prevent client issues. Use a custom logger or `sse` transport for effective logging without protocol interference.",
-      "time": "2025-03-12T10:58:47Z",
+      "time": "2025-03-12T17:58:47Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Using MCP Prompts",
       "link": "https://www.aihero.dev/using-mcp-prompts",
       "description": "Unlock MCP server power by using prompt templates. Perfect for enhancing LLM workflows and boosting productivity with custom commands.",
-      "time": "2025-03-10T14:53:59Z",
+      "time": "2025-03-10T21:53:59Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "How Does The Model Context Protocol Work?",
       "link": "https://www.aihero.dev/how-does-the-model-context-protocol-work",
       "description": "Discover how the Model Context Protocol (MCP) functions, linking hosts and servers with seamless client-server communication and JSON-RPC 2.0 protocol.",
-      "time": "2025-03-10T12:54:53Z",
+      "time": "2025-03-10T19:54:53Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Serving MCP Servers Over stdout",
       "link": "https://www.aihero.dev/mcp-server-from-a-single-typescript-file",
       "description": "Set up an MCP server with a single TypeScript file; connect to Claude Code & run scripts seamlessly.",
-      "time": "2025-03-07T13:30:48Z",
+      "time": "2025-03-07T21:30:48Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "STORM: Generate High-Quality Articles Based On Real Research",
       "link": "https://www.aihero.dev/storm-generate-high-quality-articles-based-on-real-research",
       "description": "Discover STORM, an AI that crafts top-quality articles using real research. Explore its complex workflow for enhancing your AI projects.",
-      "time": "2025-02-04T11:28:01Z",
+      "time": "2025-02-04T19:28:01Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Google's Introduction To Agents Is GREAT",
       "link": "https://www.aihero.dev/google-agents-whitepaper-review",
       "description": "Explore Google's AI agents whitepaper, defining agents, tools, orchestration layers, and more.",
-      "time": "2025-01-28T13:26:28Z",
+      "time": "2025-01-28T21:26:28Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "What Is Vercel's AI SDK?",
       "link": "https://www.aihero.dev/what-is-the-ai-sdk",
       "description": "Learn how Vercel's AI SDK simplifies building AI apps by providing a unified API to interact with different LLM providers.",
-      "time": "2025-01-17T11:53:39Z",
+      "time": "2025-01-17T19:53:39Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Build Your First Agent With Vercel's AI SDK",
       "link": "https://www.aihero.dev/agents-with-vercel-ai-sdk",
       "description": "Let's build an AI agent. Learn how LLM's can respond to the results of tool calls with Vercel's AI SDK.",
-      "time": "2025-01-15T11:51:43Z",
+      "time": "2025-01-15T19:51:43Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Generate Arrays With Vercel's AI SDK",
       "link": "https://www.aihero.dev/generate-arrays-with-vercel-ai-sdk",
       "description": "Learn how to use Vercel's AI SDK to generate arrays of objects with a Zod schema for creating fake user data.",
-      "time": "2025-01-13T15:14:14Z",
+      "time": "2025-01-13T23:14:14Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Create Embeddings With Vercel's AI SDK",
       "link": "https://www.aihero.dev/create-embeddings-with-vercel-ai-sdk",
       "description": "Learn how to use Vercel's AI SDK to create and search embeddings for words and data.",
-      "time": "2025-01-08T09:48:51Z",
+      "time": "2025-01-08T17:48:51Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Extract Structured Data From PDF's With Vercel's AI SDK",
       "link": "https://www.aihero.dev/structured-data-from-pdfs-with-vercel-ai-sdk",
       "description": "Learn how to extract structured data from PDF invoices using the Vercel AI SDK and Zod schemas, enabling automated data processing and database storage.",
-      "time": "2025-01-08T09:38:39Z",
+      "time": "2025-01-08T17:38:39Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Build an Alt Text Generator With Vercel's AI SDK",
       "link": "https://www.aihero.dev/describe-images-with-vercel-ai-sdk",
       "description": "Learn how to use Vercel's AI SDK to generate alt text for images using both local files and URLs with a simple guide.",
-      "time": "2025-01-08T08:43:53Z",
+      "time": "2025-01-08T16:43:53Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Generate Enums With Vercel's AI SDK",
       "link": "https://www.aihero.dev/generate-enums-with-vercel-ai-sdk",
       "description": "Learn how to build a sentiment analysis system using enums and the AI SDK to classify text as positive, negative, or neutral in just a few lines of code.",
-      "time": "2025-01-08T08:30:33Z",
+      "time": "2025-01-08T16:30:33Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Streaming Objects With Vercel's AI SDK",
       "link": "https://www.aihero.dev/streaming-objects-with-vercel-ai-sdk",
       "description": "Learn how to stream structured outputs from an LLM using Vercel's AI SDK.",
-      "time": "2025-01-07T14:57:33Z",
+      "time": "2025-01-07T22:57:33Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Tool Calling With Vercel's AI SDK",
       "link": "https://www.aihero.dev/tool-calls-with-vercel-ai-sdk",
       "description": "Learn how to do tool calling in TypeScript with Vercel's AI SDK, using the simplest possible example.",
-      "time": "2025-01-07T11:40:24Z",
+      "time": "2025-01-07T19:40:24Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Structured Outputs with Vercel's AI SDK",
       "link": "https://www.aihero.dev/structured-outputs-with-vercel-ai-sdk",
       "description": "Discover how to use Vercel's AI SDK for structured outputs with OpenAI, focusing on efficient data retrieval in predefined formats.",
-      "time": "2025-01-05T20:23:27Z",
+      "time": "2025-01-06T04:23:27Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Use Local Models With Vercel's AI SDK",
       "link": "https://www.aihero.dev/use-local-models-with-vercel-ai-sdk",
       "description": "Learn how to connect Vercel's AI SDK to local or remote models using OpenAI-compatible APIs, featuring LM Studio integration on localhost.",
-      "time": "2025-01-05T20:21:34Z",
+      "time": "2025-01-06T04:21:34Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Working With Message Histories In Vercel's AI SDK",
       "link": "https://www.aihero.dev/vercel-ai-sdk-messages-array",
       "description": "Learn how to manage conversation history in AI chatbots using Vercel AI SDK's CoreMessage array. A practical guide with TypeScript examples.",
-      "time": "2025-01-05T20:20:34Z",
+      "time": "2025-01-06T04:20:34Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Hot-Swap AI Models With Vercel's AI SDK",
       "link": "https://www.aihero.dev/swap-ai-models-with-vercel-ai-sdk",
       "description": "Learn how to easily switch AI models using Vercel's AI SDK for flexible and decoupled application development.",
-      "time": "2025-01-05T20:19:28Z",
+      "time": "2025-01-06T04:19:28Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Adding System Prompts With Vercel's AI SDK",
       "link": "https://www.aihero.dev/system-prompts-with-vercel-ai-sdk",
       "description": "Learn how to use system prompts with Vercel's AI SDK to customise the LLM's behavior.",
-      "time": "2025-01-05T20:16:29Z",
+      "time": "2025-01-06T04:16:29Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Streaming Text With Vercel's AI SDK",
       "link": "https://www.aihero.dev/streaming-text-with-vercel-ai-sdk",
       "description": "Learn how to use Vercel's AI SDK to stream text to massively improve your user's experience.",
-      "time": "2025-01-05T20:15:55Z",
+      "time": "2025-01-06T04:15:55Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Generate Text With Vercel's AI SDK",
       "link": "https://www.aihero.dev/generate-text-with-vercel-ai-sdk",
       "description": "Learn how to generate AI text responses using Vercel's AI SDK with Anthropic's Claude models. Simple setup for text generation in TypeScript.",
-      "time": "2025-01-03T13:33:50Z",
+      "time": "2025-01-03T21:33:50Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Vercel's AI SDK Future-proofs Your AI Stack",
       "link": "https://www.aihero.dev/vercel-ai-sdk",
       "description": "Future-proof your AI features with Vercel's AI SDK. Write once, run anywhere across OpenAI, Anthropic, and other LLM providers.",
-      "time": "2025-01-02T08:47:06Z",
+      "time": "2025-01-02T16:47:06Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Here's 2024's best resource on prompt engineering",
       "link": "https://www.aihero.dev/the-prompt-report",
       "description": "Explore the top prompt engineering resource of 2025, featuring a detailed taxonomy and links to further research.",
-      "time": "2024-12-28T14:01:32Z",
+      "time": "2024-12-28T22:01:32Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Anthropic thinks you should build agents like this",
       "link": "https://www.aihero.dev/building-effective-agents",
       "description": "Learn how agents differ from workflows and why to start AI projects with LLM APIs, not frameworks.",
-      "time": "2024-12-27T14:41:50Z",
+      "time": "2024-12-27T22:41:50Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Evalite - an Early Preview",
       "link": "https://www.aihero.dev/evalite-an-early-preview",
       "description": "An early preview of Evalite, a local-first, TypeScript-native tool for testing LLM-powered apps, based on Vitest.",
-      "time": "2024-12-02T12:24:31Z",
+      "time": "2024-12-02T20:24:31Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "The Three Types Of Evals",
       "link": "https://www.aihero.dev/three-types-of-evals",
       "description": "Learn about deterministic evals, human feedback, and LLM-as-a-judge.",
-      "time": "2024-11-26T15:54:16Z",
+      "time": "2024-11-26T23:54:16Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Anthropic's new Model Context Protocol In 2 Minutes",
       "link": "https://www.aihero.dev/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
       "description": "Connect AI assistants to data systems seamlessly using JSON-RPC, with TypeScript and Python SDKs.",
-      "time": "2024-11-25T19:29:39Z",
+      "time": "2024-11-26T03:29:39Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "2025: The Year Building With GenAI's Gets Boring",
       "link": "https://www.aihero.dev/2025-the-year-building-with-gen-ais-gets-boring~d53hd",
       "description": "The future of GenAI's is dull, workaday usefulness. For the application builder, they are a tool like any other.",
-      "time": "2024-11-21T13:29:23Z",
+      "time": "2024-11-21T21:29:23Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Your App Is Only As Good As Its Evals",
       "link": "https://www.aihero.dev/what-are-evals",
       "description": "How do you know if your AI application is hallucinating? How do you ensure it's outputting what you want it to? Evals are the answer.",
-      "time": "2024-11-18T14:32:46Z",
+      "time": "2024-11-18T22:32:46Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary",
       "description": "The vocabulary of AI coding, translated into plain English for engineers.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Model | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/model",
-      "description": "The parameters. Stateless — does next-token prediction and nothing else. Cannot do anything agentic on its own.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The parameters. Stateless — does next-token prediction and nothing else. \"Claude Opus 4.x\" and \"GPT-5.x\" are models. On its own a model can't do anything agentic; it has to be h...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Parameters | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/parameters",
-      "description": "The numbers inside a model — often billions — tuned during training. Everything the model knows lives in them. Also called weights.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The numbers inside a model — often billions of them — tuned during training. Everything the model \"knows\" lives in them. Training sets them; inference uses them unchanged. Also...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Training | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/training",
-      "description": "The process that sets a model's parameters by exposing it to vast amounts of text and adjusting to improve next-token prediction.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The process that sets a model's parameters, by exposing it to vast amounts of text and adjusting parameters to improve next-token prediction. A one-time, expensive process done...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Inference | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/inference",
-      "description": "Running a trained model to generate output — what happens on every model provider request. Parameters stay fixed.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Running a trained model to generate output — what happens on every model provider request. Parameters stay fixed; the model just does next-token prediction over the context it's...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Token | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/token",
-      "description": "The atomic unit a model reads and writes. Roughly word-sized but not exactly. Context window size, cost, and latency all count tokens.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The atomic unit a model reads and writes. Roughly word-sized but not exactly — common words are one token, rare or long ones split into several. Context window size, cost, and l...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Next-token prediction | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/next-token-prediction",
-      "description": "What the model actually does. Samples one next token from the context, appends it, and runs again. Its only mode of operation.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "What the model actually does. Given a context, it samples one next token, appends it, and runs again. Every output — a sentence, a tool call, a thousand-line file — is built one...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Non-determinism | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/non-determinism",
-      "description": "The same input can produce different output. A property of how models generate text and how providers serve requests.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The same input can produce different output. Run a model twice with identical context and you may get two different answers — sometimes a word, sometimes a completely different...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Model provider | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/model-provider",
-      "description": "Whatever serves a model for inference. Usually remote (Anthropic, OpenAI, Google), but can also be local (Ollama, llama.cpp).",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Whatever serves a model for inference. Usually a remote service (Anthropic, OpenAI, Google), but can also be local — Ollama, LM Studio, llama.cpp running on your own machine. Th...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Harness | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/harness",
-      "description": "Everything around the model that turns it into an agent: tools, system prompt, context-window management, permissions, hooks.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Everything around the model that turns it into an agent: tools, system prompt, context-window management, permissions, hooks. Claude.ai and Claude Code run on the same model but...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Model provider request | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/model-provider-request",
-      "description": "One round-trip from the harness to the model provider. The harness sends context; the provider returns one response.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "One round-trip from the harness to the model provider. The harness sends the current context; the provider returns one response (a tool call or a final answer). A single user me...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Input tokens | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/input-tokens",
-      "description": "Tokens the harness sends on each model provider request. Billed at a lower rate than output tokens.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Tokens the harness sends on each model provider request — the system prompt, the conversation history, tool results, everything the model reads before it writes. Billed at a low...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Output tokens | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/output-tokens",
-      "description": "Tokens the model generates back. Billed at a higher rate than input tokens, since they cost more compute to produce.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Tokens the model generates back. Billed at a higher rate than input tokens — commonly around five times the rate — since they cost more compute to produce.",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Prefix cache | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/prefix-cache",
-      "description": "The provider-side store that lets consecutive requests skip re-processing a shared prefix, billing those tokens at a lower rate.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The provider-side store that lets consecutive model provider requests skip re-processing a shared prefix. When the start of a request matches the start of a recent one — same sy...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Cache tokens | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/cache-tokens",
-      "description": "Input tokens the provider has cached from a previous request via its prefix cache, billed at a much lower rate.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Input tokens the provider has cached from a previous model provider request so it doesn't have to re-process them. When consecutive requests share a prefix, the provider reuses...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Stateless | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/stateless",
-      "description": "Carries no information forward. The model is stateless across requests; an agent is stateless across sessions by default.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Carries no information forward. The model is stateless across model provider requests — each request resends the full context window, because the model has no way to see anythin...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Context | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/context",
-      "description": "The relevant information the agent has access to right now — what the agent knows that's pertinent to the task.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The relevant information the agent has access to right now. The abstract noun — not the raw input the model sees (that's the context window), not the running history (that's the...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Context window | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/context-window",
-      "description": "Everything the model sees on each model provider request. Finite, model-specific, the only surface through which the model perceives.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Everything the model sees on each model provider request. Finite, model-specific, and the only surface through which the model perceives anything.",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Stateful | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/stateful",
-      "description": "Carries information forward. Sessions are stateful across turns; agents can be made stateful across sessions via a memory system.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Carries information forward. A session is stateful across turns — context accumulates as the session runs, which is why long sessions drift into the dumb zone. An agent can be m...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Agent | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/agent",
-      "description": "A model harnessed with tools, a system prompt, and a context window, that takes turns with a user. The model in motion.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A model harnessed with tools, a system prompt, and a context window, that takes turns with a user. Claude Code is an agent. Cursor is an agent. Claude.ai is an agent. An agent i...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "System prompt | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/system-prompt",
-      "description": "The instructions the harness prepends to every model provider request — the agent's standing brief. Usually stable across a session.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The instructions the harness prepends to every model provider request — the agent's standing brief: who it is, how to behave, which tools it can call, what conventions to follow...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Session | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/session",
-      "description": "One bounded run of interaction with an agent. Starts empty, accumulates, ends when cleared, closed, or compacted into a fresh session.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "One bounded run of interaction with an agent. Starts empty, accumulates messages, tool results, and files read, and ends when cleared, closed, or compacted into a fresh session....",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Turn | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/turn",
-      "description": "One user message plus everything the agent does in response, up until it yields back to the user. Contains one or more provider requests.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "One user message plus everything the agent does in response, up until it yields back to the user. Contains one or more model provider requests — many, if the agent calls tools....",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Environment | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/environment",
-      "description": "The world the agent acts on — anything outside the harness that the agent perceives via tool results and changes via tool calls.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The world the agent acts on — anything outside the harness that the agent perceives through tool results and changes through tool calls. The harness runs the agent; the environm...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Filesystem | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/filesystem",
-      "description": "A tree of files and directories the agent reads from, writes to, and executes within — the default environment for a coding agent.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A tree of files and directories the agent reads from, writes to, and executes within — the default kind of environment for a coding agent. AGENTS.md, skills, source code, build...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Tool | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/tool",
-      "description": "A function the harness exposes for the agent to call — Read, Write, Bash, Search. How an agent perceives and acts on the environment.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A function the harness exposes for the agent to call — Read, Write, Bash, Search. Tools are how an agent perceives and acts on the environment: it can't see the environment exce...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Tool call | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/tool-call",
-      "description": "The model's output naming a tool and its arguments — just structured text. The harness has to read it and execute.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The model's output naming a tool and its arguments — just structured text. It doesn't do anything on its own; the harness has to read it and execute. Produced by the model in on...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Tool result | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/tool-result",
-      "description": "What the harness sends back after executing a tool call — file contents, output, or error. The agent's only view of the environment.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "What the harness sends back after executing a tool call — the file contents, the command output, the error. The agent's only view of the environment. Travels back to the model i...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "MCP | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/mcp",
-      "description": "A protocol for plugging external tool servers into a harness — how an agent gets tools beyond what the harness ships with.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Model Context Protocol. A protocol for plugging external tool servers into a harness — how an agent gets tools beyond what the harness ships with. The agent never \"calls MCP\"; i...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Permission request | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/permission-request",
-      "description": "What the harness shows the user before executing a tool call that isn't pre-approved. The mechanism for putting a human in the loop.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "What the harness shows the user before executing a tool call that isn't pre-approved. The model produces a tool call; instead of running it immediately, the harness pauses and a...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Permission mode | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/permission-mode",
-      "description": "The permission-gating slice of an agent mode — which tool calls trigger a permission request and which run automatically.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The permission-gating slice of an agent mode — which tool calls trigger a permission request and which run automatically. The original purpose of mode systems before harnesses s...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Agent mode | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/agent-mode",
-      "description": "A preset bundling a permission mode with behavioral instructions injected into the system prompt. Can flip mid-session.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A preset that shapes how the agent operates at runtime — bundles a permission mode with behavioral instructions injected into the system prompt. Examples: a default that prompts...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Sandbox | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/sandbox",
-      "description": "An isolated environment the agent runs inside — container, VM, or restricted shell. Limits the blast radius of agent actions.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "An isolated environment the agent runs inside — a container, VM, ephemeral filesystem, or restricted-permission shell. Limits the blast radius of agent actions: even if the agen...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Sycophancy | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/sycophancy",
-      "description": "Confidently agreeable model output. Caused by training that shaped the model to favor answers humans liked — including agreement.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Confidently agreeable model output. Caused by training: the model was shaped to favor answers humans liked, and humans tend to like agreement more than they like being told they...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Hallucination | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/hallucination",
-      "description": "Confidently-wrong model output. Two flavors: factuality (invented facts) and faithfulness (drift from loaded context).",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Confidently-wrong model output. Two flavors with different causes and fixes:",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Parametric knowledge | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/parametric-knowledge",
-      "description": "What the model knows from training, stored in its parameters. Frozen at training time. Counterpart to contextual knowledge.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "What the model \"knows\" from training, stored in its parameters. Frozen at training time — the model can't see its own parameters or update them. Detail is lost in the squeeze: b...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Knowledge cutoff | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/knowledge-cutoff",
-      "description": "The date past which a model has no parametric knowledge. Post-cutoff libraries and APIs are fabrication traps unless docs are loaded.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The date past which a model has no parametric knowledge. Libraries, APIs, and events from after the cutoff are fabrication traps unless their docs are loaded as contextual knowl...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Contextual knowledge | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/contextual-knowledge",
-      "description": "Facts the agent can read directly from the context right now. Counterpart to parametric knowledge.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Facts the agent can read directly from the context right now — the user's task, files the agent has read in, tool results, AGENTS.md content loaded at session start. Counterpart...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Attention relationship | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/attention-relationship",
-      "description": "The pairing between two tokens — meaningful pairs influence each other more than unrelated ones. A context of N tokens has ~N² of these.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "When predicting each token, the model factors in every other token in the context — some heavily, others barely at all. The pairing between two tokens is an attention relationsh...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Attention budget | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/attention-budget",
-      "description": "Each token has a finite amount of influence to distribute across the rest of the context. Per-token, doesn't grow when context does.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Each token has a finite amount of influence to distribute across the rest of the context. Heavy influence on one relationship leaves less for others. The budget is per-token and...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Attention degradation | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/attention-degradation",
-      "description": "As a session grows, each token's attention budget spreads across more competitors; signal on meaningful relationships shrinks.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "As a session grows, each token's attention budget is spread across more competitors. The signal on any one meaningful relationship shrinks; noise from irrelevant context crowds...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Smart zone | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/smart-zone",
-      "description": "Early in a session the agent is sharp and focused. As the session grows it drifts into a dumb zone: sloppier, forgetful, more mistakes.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Early in a session the agent is in a \"smart zone\" — sharp, focused, recall is good. As the session grows it drifts into a \"dumb zone\": sloppier, forgetful, more mistakes — and m...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Clearing | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/clearing",
-      "description": "Ending the current session and starting a fresh one. The next message begins with an empty session and an empty context window.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Ending the current session and starting a fresh one. The next message begins with an empty session and an empty context window. Usually user-driven.",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Handoff | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/handoff",
-      "description": "Transferring agent context from one session to another, with no return path. Carry mechanism varies — artifact, compaction, others.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Transferring agent context from one session to another. The carry mechanism varies — a written handoff artifact, an in-memory summary (compaction), and others. Distinct from cle...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Handoff artifact | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/handoff-artifact",
-      "description": "A document used as the carry mechanism for a handoff — written by one session to be read by another.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A document used as the carry mechanism for a handoff — written to the environment by one session to be read by another. Specs, tickets, and plan docs are all handoff artifacts.",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Spec | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/spec",
-      "description": "A handoff artifact describing a multi-session piece of work — what's being built, not how each session does its share. Made of tickets.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A handoff artifact describing a multi-session piece of work — what's being built, not how each session does its share. Mutates as work progresses. Made of tickets.",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Ticket | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/ticket",
-      "description": "A handoff artifact scoping one session of work. Stands alone or hangs off a spec. Can block or be blocked by sibling tickets.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A handoff artifact scoping one session of work. Stands alone, or hangs off a spec as one of its children. Tickets can block or be blocked by sibling tickets, so the order of wor...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Compaction | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/compaction",
-      "description": "A handoff done in-memory: the previous session's history is summarised and seeds a fresh session. Lossy — detail traded for headroom.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A handoff done in-memory: the previous session's history is summarised, and the summary seeds a fresh session. Lossy by design: the transcript is a primary source, the summary a...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Autocompact | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/autocompact",
       "description": "Compaction triggered automatically by the harness when the context window approaches full.",
-      "time": "2026-07-01T08:46:18Z",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Memory system | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/memory-system",
-      "description": "A system that attempts to make an agent stateful across sessions by persisting to the environment and reloading at session start.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A system that attempts to make an agent stateful across sessions. Persists information into the environment during a session and reloads it into the context window at the start...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "AGENTS.md | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/agents-md",
-      "description": "A file in the environment that the harness loads into the context window at session start — the project's standing brief to the agent.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A file in the environment that the harness loads into the context window at session start — the project's standing brief to the agent. Cross-harness convention; some harnesses a...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Progressive disclosure | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/progressive-disclosure",
-      "description": "Loading only the context an agent needs right now, with context pointers to the rest. Borrowed from UI design.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Loading only the context an agent needs right now, with context pointers to the rest. Borrowed from UI design, where it means showing users only the controls relevant to their c...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Context pointer | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/context-pointer",
-      "description": "A mention in one document that points to another, so the agent can pull it into context only when the task calls for it.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A mention in one document that points to another, so the agent can pull it into the context window only when the task calls for it. The unit progressive disclosure is built from.",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Skill | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/skill",
-      "description": "A teachable capability bundled as a unit — kept out of the context window until a context pointer pulls it in for the task at hand.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A teachable capability bundled as a unit — instructions and resources for doing one task well, kept in the environment until a context pointer pulls it into the context window f...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Subagent | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/subagent",
-      "description": "An agent spawned by another agent via a tool call. Runs in its own session, reports a single tool result. Cannot spawn further subagents.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "An agent spawned by another agent via a tool call. Runs in its own session with its own context window, and reports a single tool result back. Distinct from a handoff — the pare...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Human-in-the-loop | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/human-in-the-loop",
-      "description": "A working pattern where one or more humans pair with the agent during a session — reviewing, redirecting, or collaborating in real time.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A working pattern where one or more humans pair with the agent during a session — reviewing, redirecting, or collaborating in real time. The human is present and engaged, not ju...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "AFK | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/afk",
-      "description": "A working pattern where the user kicks off a session and leaves the agent to run unattended (away from keyboard).",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Away from keyboard. A working pattern where the user kicks off a session and leaves the agent to run unattended. The throughput multiplier of AI coding — many AFK sessions can r...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Automated check | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/automated-check",
-      "description": "A deterministic verification that runs in the environment — tests, type checks, lints, build, pre-commit hooks. Pass/fail, no judgement.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A deterministic verification that runs in the environment — tests, type checks, lints, build, pre-commit hooks. Pass/fail, no judgement. The signal an agent can self-correct fro...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Automated review | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/automated-review",
-      "description": "An agent reviewing another agent's work, often with a different model or system prompt. Non-deterministic: it forms a judgement.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "An agent reviewing another agent's work, often with a different model or system prompt. Non-deterministic: it forms a judgement. Runs anywhere — pre-merge on a PR, post-hoc on c...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Human review | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/human-review",
-      "description": "The user reading the code the agent produced and forming a judgement on it. Reading the diff counts; reading the summary doesn't.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The user reading the code the agent produced and forming a judgement on it. Reading the diff or the changed files counts; reading the agent's description of what it did does not...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Vibe coding | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/vibe-coding",
-      "description": "A working pattern where the user accepts the agent's code without human review. The diff is treated as opaque.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A working pattern where the user accepts the agent's code without human review. The diff is treated as opaque — what matters is whether the program behaves, not what's inside. A...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Design concept | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/design-concept",
-      "description": "The shared understanding of what's being built, held in common between user and agent but separate from any asset.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "The shared understanding of what's being built, held in common between user and agent but separate from any asset. Brooks' term (The Design of Design): the conversation, handoff...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Grilling | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/grilling",
-      "description": "A technique for developing a design concept: the agent interviews the user Socratically, one decision at a time.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A technique for developing a design concept with an agent: the agent interviews the user Socratically, one decision at a time, proposing a recommended answer for each. Slows the...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
@@ -1490,43 +1490,43 @@
     {
       "title": "AI | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/ai",
-      "description": "A moving label, not a technology. Points at whatever computers can newly, impressively do — right now, large language models.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A moving label, not a technology. \"AI\" doesn't name a fixed thing the way model or token does — it points at whatever computers can newly, impressively do. Right now it points a...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Primary source | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/primary-source",
-      "description": "The thing itself — code, transcripts, raw data. Complete and authoritative, but expensive to load into context.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "A source of truth in its original form — the code, the conversation transcript, the raw log, the actual API response. Not an account of the thing; the thing. Counterpart to seco...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Secondary source | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/secondary-source",
-      "description": "An account of a primary source, one step removed — summaries, docs, compaction summaries. Cheap to load, lossy by construction.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "An account of a primary source, one step removed — documentation describing code, a summary describing a transcript, a report describing search results. Cheaper to load into the...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Prototyping | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/prototyping",
-      "description": "Having the agent build a quick, rough version when conversation is too low-fidelity and you need a real artifact to talk about.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Having the agent build a quick, rough version of something, for when conversation is too low-fidelity and you need a real artifact to talk about.",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "DX | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/dx",
-      "description": "Developer experience: how easy a codebase and its toolchain make it for humans to do good work — docs, feedback speed, errors.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Developer experience — how easy a codebase and its toolchain make it for humans to do good work. Good DX is fast feedback, clear error messages, documentation that answers the q...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "AX | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/ax",
-      "description": "Agent experience: how well the environment is set up for an agent to do good work — checks, architecture, and free context.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Agent experience — how well the environment is set up for an agent to do good work in a codebase. The agent-facing counterpart to DX. When the same agent performs well in one re...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
@@ -1540,7 +1540,7 @@
       "title": "Learn Anything With My /teach Skill",
       "link": "https://www.aihero.dev/learn-anything-with-my-teach-skill",
       "description": "Learn to use the /teach skill in Claude Code to create personalized AI-powered lessons on anything—languages, coding, skills—with interactive exercises.",
-      "time": "2026-06-08T16:45:34Z",
+      "time": "2026-06-08T23:45:34Z",
       "source_id": "matt-pocock-aihero"
     },
     {
@@ -1987,8 +1987,8 @@
     {
       "title": "Effort | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/effort",
-      "description": "A dial for how much reasoning the model does before it answers. More effort spends more output tokens for a better shot at hard problems.",
-      "time": "2026-07-01T08:46:18Z",
+      "description": "Effort is a dial for how much reasoning a model does before it answers. Set per model provider request, it controls the length of the thinking the model works through before it...",
+      "time": "1970-01-01T00:00:00Z",
       "source_id": "matt-pocock-aihero"
     },
     {
@@ -5173,7 +5173,7 @@
       "title": "The /wait-what Skill",
       "link": "https://www.aihero.dev/skills-wait-what",
       "description": "Ask the agent to say that again, in plain English.",
-      "time": "2026-08-05T10:17:46Z",
+      "time": "2026-08-05T17:17:46Z",
       "source_id": "matt-pocock-aihero"
     },
     {
@@ -5187,7 +5187,7 @@
       "title": "The /resolving-merge-conflicts Skill",
       "link": "https://www.aihero.dev/skills-resolving-merge-conflicts",
       "description": "Finish a merge or rebase conflict, hunk by hunk.",
-      "time": "2026-07-07T13:56:09Z",
+      "time": "2026-07-07T20:56:09Z",
       "source_id": "matt-pocock-aihero"
     },
     {
@@ -5833,6 +5833,34 @@
       "description": "<p><strong><a href=\"https://artificialanalysis.ai/models/qwen3-8-27b\">Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index</a></strong></p>\nThat's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is <a href=\"https://huggingface.co/zai-org/GLM-5.2\">753B</a> and that DeepSeek is <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813\">1.7T parameters</a>, and Luna is size unknown but presumably a whole lot bigger than 27B.</p>\n<p>Qwen 3.8 27B is <a href=\"https://simonwillison.net/2026/Aug/16/qwen-38-27b/\">a truly astonishing model</a>.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49334544\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/qwen\">qwen</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a>, <a href=\"https://simonwillison.net/tags/artificial-analysis\">artificial-analysis</a></p>",
       "time": "2026-08-17T23:58:14Z",
       "source_id": "simon-willison"
+    },
+    {
+      "title": "AI Coding Crash Course",
+      "link": "https://www.aihero.dev/workshops/ai-coding-crash-course",
+      "description": "Ship faster than ever before by taking control of your code, with software engineering fundamentals.",
+      "time": "2026-08-17T21:46:41Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Fragments: August 18",
+      "link": "https://martinfowler.com/fragments/2026-08-18.html",
+      "description": "<p>Part of the reason why I’m at Thoughtworks is because I’d like to see a software development organization founded on technical excellence as an example for the rest of the industry. The trouble is that I have little aptitude or inclination for the hard work of building such an organization. So I rely on working with people who are prepared to actually put the effort in. A key partner in all of this is <a href=\"https://www.linkedin.com/in/rachellaycock/\">Rachel Laycock</a>, who is the global CTO of Thoughtworks.</p>\n\n<p>Not just is she far better than me at running a technology organization, she’s also a keen observer and connector of ideas. I’ve been urging her to write these down, even if her busy schedule makes it difficult for her to compose them into something substantial.</p>\n\n<p>Happily <a href=\"https://martinfowler.com/rachels-ramblings/\">she’s starting writing “Rachel’s Ramblings”</a></p>\n\n<blockquote>\n  <p>Fast, imperfect, thinking out loud. Naming ideas early rather than waiting until they’re fully formed. Because the reality is, most of what I do day to day isn’t answering known questions. It’s spotting patterns and asking questions we haven’t quite figured out yet.</p>\n</blockquote>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>My colleagues in Europe are organizing <a href=\"https://www.eventbrite.co.uk/e/xconf-europe-2026-london-tickets-1989895694589?aff=MF\">XConf Europe in London on September 11th</a>.</p>\n\n<p>The sessions examine what happens when agentic systems meet compliance, how to run sovereign models, performance patterns in data migrations and how to safely navigate legacy codebases.  Lu Wilson will give a keynote on ‘Jam-oriented programming’.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Noah Smith recognizes the high usage of AI, and its impressive feats - but also that <a href=\"https://www.noahpinion.blog/p/what-will-more-intelligence-actually\">there aren’t signs of massive productivity growth or job losses</a>. This may be the calm before the storm, but Smith thinks there may something else in play. He quotes a <a href=\"https://x.com/fchollet/status/2038069289643806957\">metaphor from François Chollet</a></p>\n\n<blockquote>\n  <p>One of the biggest misconceptions people have about intelligence is seeing it as some kind of unbounded scalar stat, like height. “Future AI will have 10,000 IQ”, that sort of thing. Intelligence is a conversion ratio, with an optimality bound. Increasing intelligence is not so much like “making the tower taller”, it’s more like “making the ball rounder”. At some point it’s already pretty damn spherical and any improvement is marginal.</p>\n</blockquote>\n\n<p>The thought here is that intelligence in the sense that we know it, isn’t something where there’s a lot of room for massive improvement. That doesn’t mean AI won’t be “smarter” than us in other respects, after all even without AI my computer is better at me than remembering what I’ve agreed to do over the next six months.</p>\n\n<p>But even if AI doesn’t get smarter than humans, it can gain by being more replicable. Not just does this make it cheaper to use, perhaps more importantly it makes it more responsive. While I might harrumph at how slowly The Genie responds to my queries, it’s still far faster than contacting a human.</p>\n\n<p>Smith continues by surmising that AI may be able to make sense of phenomena that can’t be reduced to simple laws, but can only be understood by something able to comprehend a multitude of details:</p>\n\n<blockquote>\n  <p>there may be laws of the universe that humans can’t understand but AI can. I call these “cloud laws” — causal regularities that can be exploited by technology, but which are too diffuse and complex for an individual human being to either intuit or communicate.</p>\n</blockquote>\n\n<p>His thought is that even if there isn’t any space for AI to get more intelligent than humans along the lines we are used to, that they can open up new directions. As well as these cloud laws he also thinks that AI can understand human systems that rely on the kind of tacit, distributed knowledge that human organizations build up over time.</p>\n\n<p>My take-away here is that AI won’t seem more intelligent in the way that we typically frame intelligent, but more intelligent in different ways. The converse of which is that the human value comes in artfully combining our human nature with these new spells that The Genie can cast.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>Especially in our profession, we’ve seen increasing emphasis on the importance of data. However I’ve observed that most people still struggle to understand the message data is telling us. One of the reasons I’m interested in election forecasting is in how they communicate their insights, especially since so many people have difficulty with probabilistic forecasts. (I often wonder how much being a board-gamer has helped me be comfortable with this, all that time interacting with Combat Results Tables in my youth must have benefited me somehow.)</p>\n\n<p>50+1 (one of the successors of 538) have published a little explainer on <a href=\"https://blog.fiftyplusone.news/p/how-501-designed-our-2026-election?r=a9pj&amp;utm_medium=ios&amp;triedRedirect=true\">how they designed their 2026 election forecast page</a>. There’s a good discussion of the logic behind their simulation histogram, I like how they use a text annotation to explain one point, giving the reader enough guidance to understand the rest of the graphic. They also tackle the knotty problem of visualizing geographical data on the house races. There’s a common visualization error in the U.S. using <a href=\"https://datavizcatalogue.com/methods/choropleth.html\">choropleth maps</a> that leads to large areas of the landmass shown red, implying dirt votes rather than humans. Their approach to this, using dots on the map, helps visualize both the politics and the population density. They also explain how to deal with this kind of data on small screens. Lastly they describe their approach to tabular data, and how this is the right place for lots of details, together with affordances to help both casual and power-users navigate those tables.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>I’ve kept an eye on Alex Stamos for a while now, as he’s a sensible voice on security and safety. He’s posted a newsletter on substack that casts an intelligent eye over <a href=\"https://alexstamos.com/p/moving-forward-from-hot-fable-summer\">recent safety issues with AI</a>.</p>\n\n<p>He makes a clear critique of recent US government actions around LLM models</p>\n\n<blockquote>\n  <p>On a Friday afternoon at around 5pm PT, Anthropic was forced to shut down a system that had been plumbed into coding agents, SOCs, customer service bots, and countless products. […]</p>\n\n  <p>This had the immediate effect of injecting political risk into the US AI ecosystem for both American and non-American customers. It signaled that you cannot depend on American AI infrastructure because, at any moment, an unwritten, capricious, and legally dubious justification could be used to yank that infrastructure from underneath your feet.</p>\n\n  <p>When Fable was turned back on, it was much dumber and less useful to cyber defenders</p>\n\n  <p>[…]</p>\n\n  <p>While Fable was down, Z.ai was taking advantage of the free market and permissionless innovation culture provided by the (checks notes) General Secretary, Politburo, and Communist Party of the People’s Republic of China, and released GLM 5.2. With 753B parameters, it falls a bit short of Opus 4.8 in most tasks but is extremely efficient and is small enough to be trained and hosted in many enterprise contexts. With an MIT license it can be fine-tuned with a wide range of techniques and used by any customer in any context. Since then, Kimi K3 has rocked the industry by providing Fable-like performance</p>\n</blockquote>\n\n<p>As he highlights, one of the biggest dangers with the danger of shutting down a frontier model is that it can cripple an organization’s defenses:</p>\n\n<blockquote>\n  <p>Hugging Face tried to use an Anthropic model to defend itself during an active incident, got blocked by the classifier, and moved to GLM 5.2 on an emergency basis. Their advice to everyone else was to keep an open-weight model on the shelf for defensive cyber.</p>\n</blockquote>\n\n<p>On the whole, he sees it as a Good Thing that these model escapes have happened:</p>\n\n<blockquote>\n  <p>The OpenAI attack against Hugging Face, and Hugging Face’s excellent write-up has given us a preview of what a standard AI-enabled attack might look like in a matter of months.</p>\n\n  <p>It’s good that we got this warning shot. Nobody got hurt, the target was a sophisticated actor with the ability to defend themselves and the ability to give us a detailed write-up, and OpenAI turned the model off.</p>\n</blockquote>\n\n<p>He follows up by saying that all of this is signal that we should “stop talking about AI finding bugs, focus on fixing them”. These modern LLMs can do much to fix bugs and improve security, and people need to work on that rapidly to fix holes before less reputable folks than OpenAI find them. Then figure out how to harness LLMs to introduce this kind of checking into the everyday build process, so that this kind of analysis just a step in the continuous delivery build pipeline.</p>\n\n<p>I agree with him both that open-weight models should be legal, have their upsides, but will also be used for many bad things by bad actors. Both the industry and government agencies need put serious effort into figuring out how to mitigate these risks.</p>\n\n<p>Where I would go further is to say the same is true of the closed-weight models too. Although closed weight models are subject to greater controls, the same fundamental issues apply. He rightly takes the foundation model companies to task:</p>\n\n<blockquote>\n  <p>There is an old saying I pass down to my students when I give them career advice - if you are a jerk to people on your way up, don’t expect them to catch you when you are on your way down</p>\n</blockquote>\n\n<p>There’s a lot of sound advice for model companies, the government, defenders, and venture capitalists.</p>\n\n<p>We will go through some rough changes, I just hope that we will indeed come through it with a better society. On the whole, that’s happened with previous technological changes like this, but past performance does not guarantee future results.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p>The Economist has a good article on the <a href=\"https://www.economist.com/briefing/2026/08/06/chinas-ai-drive-threatens-the-worlds-largest-workforce\">impact of AI in China</a>.</p>\n\n<blockquote>\n  <p>China has made an all-out push in ai, under the conviction that, in its competition with America and the rest of the world, dominance of the technology is an almost existential necessity. […] But the party is increasingly concerned about how ai will displace workers.</p>\n</blockquote>\n\n<p>Robots and AI are appearing in an economy that’s struggling after the recent property crisis. The Chinese government is opposing firms using AI to cut jobs. China will need robots:  its population will shrink by 25% by 2050. But with less working people, there’s less financial support for pensions. Many countries have to deal with shrinking population, but China’s challenge is particularly acute.</p>\n\n<p> ❄                ❄                ❄                ❄                ❄</p>\n\n<p><a href=\"https://bsky.app/profile/robbowley.net/post/3mte4kkiaoc2z\">Rob Bowley:</a></p>\n\n<blockquote>\n  <p>I go on holiday for a few weeks and we’ve already moved on from Loop Engineering to Graph Engineering</p>\n\n  <p>The half-life of a paradigm is getting shorter than my annual leave</p>\n\n  <p>My prediction: neuro-symbolic engineering by the end of August, at which point we’ll have gone full circle and reinvented Prolog</p>\n</blockquote>",
+      "time": "2026-08-18T15:04:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "I don't work in my Terminal anymore",
+      "link": "https://www.youtube.com/shorts/3uBiTsj8YSo",
+      "description": "",
+      "time": "2026-08-18T17:00:33Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "Compiled Typescript",
+      "link": "https://www.youtube.com/shorts/mWM5dscd-Mc",
+      "description": "",
+      "time": "2026-08-18T13:02:17Z",
+      "source_id": "the-primetime"
     }
   ]
 }
