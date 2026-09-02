@@ -6475,8 +6475,15 @@
       "title": "🚨🚨 TheStandup: DONT LEARN PYTHON LEARN C 🚨🚨",
       "link": "https://www.youtube.com/watch?v=6JxajBbLceg",
       "description": "",
-      "time": "2026-09-02T14:13:31Z",
+      "time": "2026-09-02T18:14:57Z",
       "source_id": "the-primetime"
+    },
+    {
+      "title": "llm-gemini 0.34",
+      "link": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.34\">llm-gemini 0.34</a></p>\n        <blockquote>\n<ul>\n<li>New model <code>gemini-3.8-flash</code> for <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/\">Gemini 3.8 Flash</a>, with low, medium and high thinking levels. <a href=\"https://github.com/simonw/llm-gemini/issues/146\">#146</a></li>\n<li>Fixed async responses failing to record the resolved model version. Thanks, <a href=\"https://github.com/c-tonneslan\">Charlie Tonneslan</a>. <a href=\"https://github.com/simonw/llm-gemini/pull/137\">#137</a></li>\n</ul>\n</blockquote>\n<p>Here are <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Ff8820ce47db87490734117e9be4984c3\">the pelicans</a> for high, medium, and low. This is high:</p>\n<p><img alt=\"Description by Gemini 3.8 Flash: Digital illustration of a cartoon pelican wearing a red and white polka-dot scarf riding a teal cruiser bicycle along a wooden boardwalk by the beach, with a small blue fish in the front basket and a glowing sun over the ocean.\" src=\"https://static.simonwillison.net/static/2026-09-02/image.jpg\" /></p>\n<p>For comparison, here are the same pelicans <a href=\"https://tools.simonwillison.net/markdown-svg-renderer.html?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6779a22d5e7bb6bdf29936f1600a5259\">generated using Gemini 3.7 Flash</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/gemini\">gemini</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a></p>",
+      "time": "2026-09-02T16:39:38Z",
+      "source_id": "simon-willison"
     }
   ]
 }
