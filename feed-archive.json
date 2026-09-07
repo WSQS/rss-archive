@@ -6638,6 +6638,41 @@
       "description": "<p><strong><a href=\"https://openai.com/index/research-acceleration-view-inside-openai/\">Research acceleration: The view inside OpenAI</a></strong></p>\nApparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay <a href=\"https://openai.com/index/an-alien-mind/\">An Alien Mind</a> (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym.</p>\n<p>Included are details on how OpenAI's own research team are using coding agents. Like pretty much everyone else 2026 has been the year that agentic engineering really took off at OpenAI, best illustrated by this chart:</p>\n<p><img alt=\"Screenshot of a line chart from a report, headed &quot;1. Coding agents are reshaping daily work for OpenAI researchers&quot; with a partially visible chart title ending &quot;significantly—Median researcher&quot;. Y-axis: &quot;Daily $ / researcher&quot; from 0 to 700. X-axis labels: &quot;Feb 2026&quot;, &quot;Apr 2026&quot;, &quot;Jun 2026&quot;, &quot;Aug 2026&quot;. A blue line stays near 0 through February, rises slowly to about 50 by April and 150 by June, plateaus around 150–165 into July, then climbs steeply to roughly 600 by late August 2026.\" src=\"https://static.simonwillison.net/static/2026/openai-agent-usage.webp\" /></p>\n<p>I'm intrigued at what caused that significant acceleration in AI spend per researcher in late July - my best guess is that's when internal employees gained access to the model later released as GPT-6 Astra.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/november-2025-inflection\">november-2025-inflection</a>, <a href=\"https://simonwillison.net/tags/recursive-self-improvement\">recursive-self-improvement</a></p>",
       "time": "2026-09-06T23:57:40Z",
       "source_id": "simon-willison"
+    },
+    {
+      "title": "Parsing XML without Library - Tsoding",
+      "link": "https://www.youtube.com/watch?v=j6Zt6cyJSXc",
+      "description": "",
+      "time": "2026-09-07T12:41:18Z",
+      "source_id": "tsoding-daily"
+    },
+    {
+      "title": "Mercator ↔ Equal Earth",
+      "link": "https://simonwillison.net/2026/Sep/7/equal-earth/",
+      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/equal-earth\">Mercator ↔ Equal Earth</a></p>\n        <p>I got curious about the Equal Earth map projection that was recently <a href=\"https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa\">voted on at the UN</a> so I had GPT-6 Astra (medium) in ChatGPT Work <a href=\"https://chatgpt.com/share/6a9ee520-c82c-83ea-8111-2f7050c08638\">build me</a> this animated transition between Mercator and Equal Earth using D3.</p>\n<video controls playsinline preload=\"none\" width=\"360\" height=\"476\" poster=\"https://static.simonwillison.net/static/2026-09-07/equal-earth.jpg\">\n  <source src=\"https://static.simonwillison.net/static/2026-09-07/equal-earth-medium.mp4\" type=\"video/mp4\">\n</video>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/geospatial\">geospatial</a>, <a href=\"https://simonwillison.net/tags/d3\">d3</a>, <a href=\"https://simonwillison.net/tags/vibe-coding\">vibe-coding</a>, <a href=\"https://simonwillison.net/tags/gpt-6-astra\">gpt-6-astra</a></p>",
+      "time": "2026-09-07T16:24:16Z",
+      "source_id": "simon-willison"
+    },
+    {
+      "title": "🚨🚨 LEARNING EFFECTJS - Learning in the age of AI🚨🚨",
+      "link": "https://www.youtube.com/watch?v=O2__t8lceCg",
+      "description": "",
+      "time": "2026-09-07T19:45:59Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "Am I Alone",
+      "link": "https://www.youtube.com/watch?v=pVMM23kUVH8",
+      "description": "",
+      "time": "2026-09-07T19:38:56Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "Appreciate the Crocs!",
+      "link": "https://www.youtube.com/shorts/IPyCUovKzbA",
+      "description": "",
+      "time": "2026-09-07T13:02:07Z",
+      "source_id": "the-primetime"
     }
   ]
 }
