@@ -6649,7 +6649,7 @@
     {
       "title": "Mercator ↔ Equal Earth",
       "link": "https://simonwillison.net/2026/Sep/7/equal-earth/",
-      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/equal-earth\">Mercator ↔ Equal Earth</a></p>\n        <p>I got curious about the Equal Earth map projection that was recently <a href=\"https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa\">voted on at the UN</a> so I had GPT-6 Astra (medium) in ChatGPT Work <a href=\"https://chatgpt.com/share/6a9ee520-c82c-83ea-8111-2f7050c08638\">build me</a> this animated transition between Mercator and Equal Earth using D3.</p>\n<video controls playsinline preload=\"none\" width=\"360\" height=\"476\" poster=\"https://static.simonwillison.net/static/2026-09-07/equal-earth.jpg\">\n  <source src=\"https://static.simonwillison.net/static/2026-09-07/equal-earth-medium.mp4\" type=\"video/mp4\">\n</video>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/geospatial\">geospatial</a>, <a href=\"https://simonwillison.net/tags/d3\">d3</a>, <a href=\"https://simonwillison.net/tags/vibe-coding\">vibe-coding</a>, <a href=\"https://simonwillison.net/tags/gpt-6-astra\">gpt-6-astra</a></p>",
+      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/equal-earth\">Mercator ↔ Equal Earth</a></p>\n        <p>I got curious about the Equal Earth map projection that was recently <a href=\"https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa\">voted on at the UN</a> so I had GPT-6 Astra (medium) in ChatGPT Work <a href=\"https://chatgpt.com/share/6a9ee520-c82c-83ea-8111-2f7050c08638\">build me</a> this animated transition between Mercator and Equal Earth using D3.</p>\n<center><video controls playsinline preload=\"none\" width=\"360\" height=\"476\" poster=\"https://static.simonwillison.net/static/2026-09-07/equal-earth.jpg\">\n  <source src=\"https://static.simonwillison.net/static/2026-09-07/equal-earth-medium.mp4\" type=\"video/mp4\">\n</video></center>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/geospatial\">geospatial</a>, <a href=\"https://simonwillison.net/tags/d3\">d3</a>, <a href=\"https://simonwillison.net/tags/vibe-coding\">vibe-coding</a>, <a href=\"https://simonwillison.net/tags/gpt-6-astra\">gpt-6-astra</a></p>",
       "time": "2026-09-07T16:24:16Z",
       "source_id": "simon-willison"
     },
@@ -6673,6 +6673,55 @@
       "description": "",
       "time": "2026-09-07T13:02:07Z",
       "source_id": "the-primetime"
+    },
+    {
+      "title": "llm 0.35",
+      "link": "https://simonwillison.net/2026/Sep/7/llm/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.35\">llm 0.35</a></p>\n        <blockquote>\n<ul>\n<li>New OpenAI model: <code>gpt-6-astra</code> for <a href=\"https://openai.com/index/gpt-6-astra/\">GPT-6 Astra</a>.</li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/gpt-6-astra\">gpt-6-astra</a></p>",
+      "time": "2026-09-07T23:54:54Z",
+      "source_id": "simon-willison"
+    },
+    {
+      "title": "Creepy crawlies",
+      "link": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
+      "description": "<p><strong><a href=\"https://people.kernel.org/monsieuricon/creepy-crawlies\">Creepy crawlies</a></strong></p>\nKonstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of <a href=\"https://git.kernel.org/\">git.kernel.org</a>, the official Git repository for the Linux kernel:</p>\n<blockquote>\n<p>TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At any one time, across 5 geo-distributed nodes, there are 14 CPU cores doing nothing but rendering git commits as html.</p>\n</blockquote>\n<p>I worry about this a lot from the perspective of Datasette, which serves a huge number of crawlable web pages.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49491791\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/crawling\">crawling</a>, <a href=\"https://simonwillison.net/tags/git\">git</a>, <a href=\"https://simonwillison.net/tags/linux\">linux</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a></p>",
+      "time": "2026-09-07T23:08:58Z",
+      "source_id": "simon-willison"
+    },
+    {
+      "title": "Quoting Jakub Pachocki",
+      "link": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
+      "description": "<blockquote cite=\"https://openai.com/index/an-alien-mind/#scalable-defense\"><p>The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...]</p>\n<p>We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts.</p>\n<p>At the same time, even with the uncertainty that comes from anticipated broad AI progress and the need to build defensive systems, we must not let that become an excuse for recklessness. The idea of racing forward at all costs seems absurd once one internalizes the seriousness of the stakes.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://openai.com/index/an-alien-mind/#scalable-defense\">Jakub Pachocki</a>, Chief Scientist at OpenAI</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a></p>",
+      "time": "2026-09-07T22:26:25Z",
+      "source_id": "simon-willison"
+    },
+    {
+      "title": "Video compressor",
+      "link": "https://simonwillison.net/2026/Sep/7/video-compressor/",
+      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/video-compressor\">Video compressor</a></p>\n        <p>I recorded a short demo video of <a href=\"https://simonwillison.net/2026/Sep/7/equal-earth/\">my Equal Earth</a> animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web <a href=\"https://claude.ai/code/session_01QHTdJZ4xg6TZfDXCmuvAE9\">build me this tool</a> using the WebAssembly build of FFMPEG.</p>\n<p><img alt=\"Screenshot of a video compression web tool. Under &quot;Versions to generate&quot; is a table of five presets (Largest, Large, Medium, Small, Smallest) with output sizes of 854×370 or 640×276, CRF quality settings from 22 to 28, and audio bitrates from 128 to 64 kbps, plus options for encoder speed, H.264 profile, 30 fps limit, stripping metadata, dropping audio, and encoding only the first 10 seconds. A green &quot;Generate versions&quot; button reads &quot;Done: 5 versions in 11.8s.&quot; Below, &quot;Results, smallest first&quot; shows three video players: Smallest at 145 KB (48% of original), Medium at 241 KB (79%), and Small at 264 KB (87%), each with a Download .mp4 button and a collapsible ffmpeg command.\" src=\"https://static.simonwillison.net/static/2026-09-07/video-compressor.webp\" /></p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ffmpeg\">ffmpeg</a>, <a href=\"https://simonwillison.net/tags/video\">video</a>, <a href=\"https://simonwillison.net/tags/webassembly\">webassembly</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/claude-code\">claude-code</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
+      "time": "2026-09-07T18:29:07Z",
+      "source_id": "simon-willison"
+    },
+    {
+      "title": "llm-openrouter 0.7.1",
+      "link": "https://simonwillison.net/2026/Sep/2/llm-openrouter/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openrouter/releases/tag/0.7.1\">llm-openrouter 0.7.1</a></p>\n        <blockquote>\n<ul>\n<li>Performance fix for loading OpenRouter models. Thanks, <a href=\"https://github.com/waveplate\">waveplate</a>. <a href=\"https://github.com/simonw/llm-openrouter/issues/59\">#59</a></li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/openrouter\">openrouter</a></p>",
+      "time": "2026-09-02T20:23:26Z",
+      "source_id": "simon-willison"
+    },
+    {
+      "title": "llm 0.34",
+      "link": "https://simonwillison.net/2026/Sep/2/llm/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.34\">llm 0.34</a></p>\n        <p>One new feature:</p>\n<blockquote>\n<ul>\n<li><code>llm logs --usage</code> Markdown output now includes the response duration in milliseconds and as a human-readable duration. <code>llm logs --short</code> includes a new <code>duration_ms</code> field. <a href=\"https://github.com/simonw/llm/issues/1653\">#1653</a></li>\n</ul>\n</blockquote>\n<p>Plus several contributed bug fixes, and a significant performance improvement to <code>llm logs</code> thanks to <a href=\"https://github.com/waveplate\">waveplate</a> on GitHub, see also <a href=\"https://simonwillison.net/2026/Sep/2/llm-openrouter/\">llm-openrouter 0.7.1</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
+      "time": "2026-09-02T19:23:52Z",
+      "source_id": "simon-willison"
+    },
+    {
+      "title": "llm-anthropic 0.28",
+      "link": "https://simonwillison.net/2026/Sep/2/llm-anthropic/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.28\">llm-anthropic 0.28</a></p>\n        <p><a href=\"https://www.anthropic.com/claude/fable\">Claude Fable 5.1</a>, reasoning traces are now displayed by default for models that support them, plus a new <code>llm_anthropic.ClaudeRefusal</code> exception for when Claude throws a refusal.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
+      "time": "2026-09-02T17:59:32Z",
+      "source_id": "simon-willison"
     }
   ]
 }
