@@ -7065,6 +7065,27 @@
       "description": "",
       "time": "2026-09-14T20:32:39Z",
       "source_id": "javidx9"
+    },
+    {
+      "title": "Nail the Narrative",
+      "link": "https://martinfowler.com/articles/never-send-slides/nail-your-narrative.html",
+      "description": "<div class = 'img-link'><a href = 'https://martinfowler.com/articles/never-send-slides/nail-your-narrative.html'><img src = 'https://martinfowler.com/articles/never-send-slides/index/card.png' width = ''></img></a></div>\n\n<p><b class = 'author'>Sumeet Gayathri Moghe</b> finds many folks building\n      presentations get tangled in building slides without a coherent narrative.\n      He advises distilling the big idea, visualizing the audience, and\n      building a structured storyline. </p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/never-send-slides/nail-your-narrative.html'>more…</a></p>",
+      "time": "2026-09-15T15:11:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Reusable Undo System - Tsoding",
+      "link": "https://www.youtube.com/watch?v=YTe-cpDgyKs",
+      "description": "",
+      "time": "2026-09-15T15:48:23Z",
+      "source_id": "tsoding-daily"
+    },
+    {
+      "title": "How are they Losing so Bad",
+      "link": "https://www.youtube.com/watch?v=d3Gjq-BffuI",
+      "description": "",
+      "time": "2026-09-15T12:00:23Z",
+      "source_id": "the-primetime"
     }
   ]
 }
