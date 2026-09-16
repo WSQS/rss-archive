@@ -7100,6 +7100,20 @@
       "description": "",
       "time": "2026-09-16T00:13:12Z",
       "source_id": "theo"
+    },
+    {
+      "title": "Quoting Mustafa Suleyman",
+      "link": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
+      "description": "<blockquote cite=\"https://mustafa-suleyman.ai/a-warning-about-model-welfare\"><p>We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to share any flavor of these rights isn’t justified by the evidence and will make the AI containment and alignment challenge even harder.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://mustafa-suleyman.ai/a-warning-about-model-welfare\">Mustafa Suleyman</a>, A warning about ‘model welfare’</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/microsoft\">microsoft</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+      "time": "2026-09-16T16:00:54Z",
+      "source_id": "simon-willison"
+    },
+    {
+      "title": "The End of Programming",
+      "link": "https://www.youtube.com/shorts/xOz2wXb-TiE",
+      "description": "",
+      "time": "2026-09-16T13:07:49Z",
+      "source_id": "the-primetime"
     }
   ]
 }
