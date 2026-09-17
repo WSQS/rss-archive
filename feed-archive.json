@@ -7128,6 +7128,20 @@
       "description": "<p><strong><a href=\"https://claude.com/blog/cowork-is-now-claude\">Claude Cowork and chat are now one Claude</a></strong></p>\nIn hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code:</p>\n<blockquote>\n<p>Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. [...]</p>\n<p>This is rolling out to Pro and Max plans first, in the Claude app on web, desktop, and mobile over the coming weeks to existing and new users on these plans.</p>\n</blockquote>\n<p>I guess this means Claude is becoming a <strong>general agent</strong> in its own right. Echoes of OpenAI renaming their Codex desktop app to ChatGPT a few weeks ago.</p>\n<p>On the one hand, this saves me some work, in that I was planning to finally figure out the boundaries between Cowork and regular Claude and write a follow-up to my piece on <a href=\"https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/\">Understanding ChatGPT Work</a>.</p>\n<p>I have a hunch that figuring out what this actually means in terms of features and surfaces is still going to take quite a bit of work.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49729412\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/general-agents\">general-agents</a></p>",
       "time": "2026-09-16T18:09:49Z",
       "source_id": "simon-willison"
+    },
+    {
+      "title": "datasette 1.0a40",
+      "link": "https://simonwillison.net/2026/Sep/16/datasette/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a40\">datasette 1.0a40</a></p>\n        <p>Same security fix as <a href=\"https://simonwillison.net/2026/Sep/16/datasette-2/\">0.65.5</a>, plus some neat new features and bug fixes:</p>\n<ul>\n<li>Plugins can now launch and manage <strong>background tasks</strong> using the new <a href=\"https://docs.datasette.io/en/latest/internals.html#datasette-add-background-task\">datasette.add_background_task()</a> method. Thanks, <a href=\"https://alexgarcia.xyz/\">Alex Garcia</a>.</li>\n<li>I've migrated Datasette to <a href=\"https://github.com/pydantic/httpx2\">httpx2</a> for features like the internal <code>datasette.client.get()</code> method.</li>\n<li>A whole lot of <a href=\"https://docs.datasette.io/en/latest/changelog.html#a40-2026-09-16\">bug fixes</a>, many of them stemming from a recent effort to triage issues for a 1.0 stable release.</li>\n</ul>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
+      "time": "2026-09-16T23:51:43Z",
+      "source_id": "simon-willison"
+    },
+    {
+      "title": "datasette 0.65.5",
+      "link": "https://simonwillison.net/2026/Sep/16/datasette-2/",
+      "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/0.65.5\">datasette 0.65.5</a></p>\n        <p>Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by <a href=\"https://github.com/dpfkdlemtp\">dpfkdlemtp</a> in <a href=\"https://github.com/simonw/datasette/security/advisories/GHSA-h547-rmjf-5m2m\">GHSA-h547-rmjf-5m2m</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
+      "time": "2026-09-16T23:51:08Z",
+      "source_id": "simon-willison"
     }
   ]
 }
