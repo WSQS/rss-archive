@@ -7142,6 +7142,27 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/0.65.5\">datasette 0.65.5</a></p>\n        <p>Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by <a href=\"https://github.com/dpfkdlemtp\">dpfkdlemtp</a> in <a href=\"https://github.com/simonw/datasette/security/advisories/GHSA-h547-rmjf-5m2m\">GHSA-h547-rmjf-5m2m</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
       "time": "2026-09-16T23:51:08Z",
       "source_id": "simon-willison"
+    },
+    {
+      "title": "I don't like LLMs",
+      "link": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+      "description": "<p>I have a lot of mixed feelings about AI and LLM technology. I’m\nfascinated by its effect on our profession, excited by the potential gains\nin productivity - and thus the products we could rapidly build. On the other\nhand, I’m fearful of the damage AI might cause: agent swarms taking over our\nvirtual and physical infrastructure, designing bio weapons. But, back on my\nfirst hand, LLMs might also design miracle cures, and come up with clever\nways to raise our prosperity. Fundamentally I don’t think we have a choice\nabout riding on the AI technology train. It’s a wild ride and I just hope\nwe’ll get through it OK.</p>\n\n<p>But as I mull on this more, I realize that among this mix of contrasting\nfeelings, there is one emotion that dominates - one that comes from my\ndirect interactions with LLMs. I don’t <em>like</em> them. They talk to me in this\ngrating LLM-voice, an uncanny valley of talking to a real human. They\nconfidently bullshit me - often giving me useful, helpful answers. But\nalso just making stuff up with the same assurance - and with only a veneer\nof fake remorse when I call them out on it.</p>\n\n<p>That’s not enough to make me feel we should avoid them. As Jessica Kerr\n<a href=\"https://jessitron.com/2026/08/30/who-are-we-now/\">put it</a> “not\nonly are they useful, it is irresponsible not to use them…. They’re more\nthorough, as well as faster.” This contradictory reaction comes through in\n<a href='https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/\"'>polling</a>, where people say they find these models are\nuseful, but also that they think they will be bad for society.</p>\n\n<p>Much of this may be because LLMs are young - we haven’t trained them to\ngrow up yet. Maybe I’ll like them once they mature. (I hope we get to find\nout.) But I’m not encouraged when I think of the kinds of environments that\ncultivate them. I’m wary of the Silicon Valley brogrammer subculture, and these\nLLMs are their products, so naturally lean toward their world-view. When we\nthink of AI agents, we shouldn’t anthropomorphize, treating them as\nconscious beings with their own will. They are (software) machines,\ndeveloped by people working in corporations. While the agents’ behavior aren’t\nexplicitly programmed, they are nurtured with the values of their\ncreators.</p>\n\n<p>One of my most successful life-hacks is to avoid people I don’t like or\ndon’t trust. I decline to interact with them socially, and make a deliberate\neffort to avoid working with them too, even if they are doing much that is\nbeneficial. I feel that hanging out with pleasant, capable people, the people\nwith integrity, has made my life a far better one. Hence my visceral dislike\nof interacting with an LLM that’s not just making a pretense of being human,\nbut also posing as the kind of human I walk away from.</p>",
+      "time": "2026-09-17T13:50:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Another Great Day of Software Engineering #ad",
+      "link": "https://www.youtube.com/shorts/pGd3fcuC0AA",
+      "description": "",
+      "time": "2026-09-17T13:08:00Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "How to Get a Date",
+      "link": "https://www.youtube.com/watch?v=0UiMf5dV4_Y",
+      "description": "",
+      "time": "2026-09-17T12:00:15Z",
+      "source_id": "the-primetime"
     }
   ]
 }
