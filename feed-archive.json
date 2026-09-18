@@ -7181,7 +7181,7 @@
     {
       "title": "How To Write With An LLM",
       "link": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
-      "description": "<p><strong><a href=\"https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/\">How To Write With An LLM</a></strong></p>\nThomas Ptacek on using LLMs as copyeditors, not as writing assistants:</p>\n<blockquote>\n<p><strong>Rule Number One: You may not use a single word an LLM suggests to you.</strong></p>\n<p>[...] I think that as a form of intellectual personal protective equipment you should adopt the rule that any specific turn of phrase an LLM suggests is off limits. Be strict about the rule!</p>\n</blockquote>\n<p>I won't let LLMs write content for my blog, but I use them for fact-checking, spelling and grammar and as an occasional thesaurus (see <a href=\"https://simonwillison.net/guides/agentic-engineering-patterns/prompts/#proofreader\">my proofreading prompt</a>).</p>\n<p>The rule to never use a turn of phrase suggested by an LLM feels good to me. The text has that weird smell to it, and it's also a good principle to help stay disciplined.</p>\n<p>Later in this piece Thomas shows a screenshot of his personal LLM copyediting tool (see also <a href=\"https://x.com/tqbf/status/2100414465187475821\">this Twitter thread</a>), and provides a prompt to help kickstart building your own.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/thomas-ptacek\">thomas-ptacek</a>, <a href=\"https://simonwillison.net/tags/writing\">writing</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+      "description": "<p><strong><a href=\"https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/\">How To Write With An LLM</a></strong></p>\nThomas Ptacek on using LLMs as copyeditors, not as writing assistants:</p>\n<blockquote>\n<p><strong>Rule Number One: You may not use a single word an LLM suggests to you.</strong></p>\n<p>[...] I think that as a form of intellectual personal protective equipment you should adopt the rule that any specific turn of phrase an LLM suggests is off limits. Be strict about the rule!</p>\n</blockquote>\n<p>I won't let LLMs write content for my blog, but I use them for fact-checking, spelling and grammar and as an occasional thesaurus (see <a href=\"https://simonwillison.net/guides/agentic-engineering-patterns/prompts/#proofreader\">my proofreading prompt</a>).</p>\n<p>The rule to never use a turn of phrase suggested by an LLM feels good to me. The text has that weird smell to it, and it's also a good principle to help stay disciplined.</p>\n<p>Later in this piece Thomas shows a screenshot of his personal LLM copyediting tool (see also <a href=\"https://x.com/tqbf/status/2100414465187475821\">this Twitter thread</a>), and provides a prompt to help kickstart building your own.</p>\n<p><strong>Update</strong>: Thomas also <a href=\"https://news.ycombinator.com/item?id=49747070#49753616\">shared his system prompt</a> in a comment on Hacker News.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/thomas-ptacek\">thomas-ptacek</a>, <a href=\"https://simonwillison.net/tags/writing\">writing</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
       "time": "2026-09-17T23:37:27Z",
       "source_id": "simon-willison"
     },
@@ -7191,6 +7191,20 @@
       "description": "",
       "time": "2026-09-18T00:58:48Z",
       "source_id": "theo"
+    },
+    {
+      "title": "The Creative Spirit of Who Framed Roger Rabbit",
+      "link": "https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/",
+      "description": "<p><strong><a href=\"https://blog.cypressf.com/post/828067789747208192/the-creative-spirit-of-who-framed-roger-rabbit\">The Creative Spirit of Who Framed Roger Rabbit</a></strong></p>\nI love <a href=\"https://en.wikipedia.org/wiki/Who_Framed_Roger_Rabbit\">Who Framed Roger Rabbit</a>, the 1988 movie by Robert Zemeckis. I haven't watched it in quite a few years, and Cypress Frankenfeld just pointed out this sequence from early in the movie:</p>\n<p><video\n  src=\"https://static.simonwillison.net/static/2026-09-18/776f726b73706163652f796f75725f66696c65732f70656c6963616e2d62696379636c652d33732e6d7034.mp4\"\n  poster=\"https://static.simonwillison.net/static/2026-09-18/IMG_8118.jpeg\"\n  preload=\"none\"\n  loop controls\n  playsinline\n  width=\"886\"\n  height=\"480\"\n  style=\"display: block; width: 100%; height: auto;\"\n></video>\n</p>\n<p>It's a pelican riding a bicycle!</p>\n<p>Look closely and you'll note that the pelican is animated while the bicycle is a real bicycle. Apparently they filled the wheels with water to add stability, then set it running and guided it with a cable.</p>\n<p>Cypress <a href=\"https://blog.cypressf.com/post/828067789747208192/the-creative-spirit-of-who-framed-roger-rabbit\">gathered more details</a> on the scene. What a delight.\n\n    <p><small></small>Via <a href=\"https://bsky.app/profile/cypressf.bsky.social/post/3mvrf45utrs2z\">@cypressf.bsky.social</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/animation\">animation</a>, <a href=\"https://simonwillison.net/tags/movies\">movies</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a></p>",
+      "time": "2026-09-18T14:36:41Z",
+      "source_id": "simon-willison"
+    },
+    {
+      "title": "🚨🚨 TRYING JEV : The new STYLE of AI!!! 🚨🚨",
+      "link": "https://www.youtube.com/watch?v=FQNftquDDaI",
+      "description": "",
+      "time": "2026-09-18T13:49:35Z",
+      "source_id": "the-primetime"
     }
   ]
 }
