@@ -7209,7 +7209,7 @@
     {
       "title": "Note on 18th September 2026",
       "link": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
-      "description": "<p>Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a></p>",
+      "description": "<p>Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park.</p>\n<p>Skeptical geneticist: \"pfft, it's just frog DNA. And they deliberately let them eat people for the marketing.\"</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a></p>",
       "time": "2026-09-18T19:21:32Z",
       "source_id": "simon-willison"
     },
@@ -7242,7 +7242,7 @@
       "source_id": "theo"
     },
     {
-      "title": "I can’t believe this happening",
+      "title": "I can’t believe this is happening",
       "link": "https://www.youtube.com/watch?v=W8IVKMGbUZE",
       "description": "",
       "time": "2026-09-19T01:44:08Z",
@@ -7254,6 +7254,13 @@
       "description": "",
       "time": "2026-09-19T14:00:17Z",
       "source_id": "theo"
+    },
+    {
+      "title": "California Sea Lion, Brandt's Cormorant",
+      "link": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
+      "description": "<p><img src=\"https://static.inaturalist.org/photos/737061413/large.jpg\" alt=\"California Sea Lion\"></p><p><img src=\"https://static.inaturalist.org/photos/737061040/large.jpg\" alt=\"Brandt&#x27;s Cormorant\"></p><p>California Sea Lion, Brandt&#x27;s Cormorant, in Pillar Point Harbor, CA, US</p><p>I only noticed this after I had taken the photo: Morris <a href=\"https://simonwillison.net/2026/Aug/15/sighting-391300422/\">the Northern Gannet</a> is peeking out from behind the base of the sign.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/wildlife\">wildlife</a></p>",
+      "time": "2026-09-19T17:10:08Z",
+      "source_id": "simon-willison"
     }
   ]
 }
