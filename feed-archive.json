@@ -7352,6 +7352,20 @@
       "description": "",
       "time": "2026-09-22T15:45:45Z",
       "source_id": "the-primetime"
+    },
+    {
+      "title": "Elon promised this one would be good...",
+      "link": "https://www.youtube.com/watch?v=jLgpzgpsWPc",
+      "description": "",
+      "time": "2026-09-22T20:15:01Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "Quoting @therealcornpop",
+      "link": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
+      "description": "<blockquote cite=\"https://www.tiktok.com/@therealcornpop/video/7687243097801051422\"><p>Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not.</p>\n<p>It's the lack of <em>anything</em>. It's the lack of a definitive sort of spear of your voice. It's the fact I can tell you don't have opinions about the thing that you're talking about.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.tiktok.com/@therealcornpop/video/7687243097801051422\">@therealcornpop</a>, on TikTok</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/tiktok\">tiktok</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a></p>",
+      "time": "2026-09-22T18:03:21Z",
+      "source_id": "simon-willison"
     }
   ]
 }
