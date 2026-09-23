@@ -7394,6 +7394,27 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.29\">llm-anthropic 0.29</a></p>\n        <p>Adds support for <a href=\"https://www.anthropic.com/claude-opus-5-5\">Claude Opus 5.5</a>:</p>\n<pre><code>llm -m claude-opus-5.5 \"prompt goes here\"\n</code></pre>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a></p>",
       "time": "2026-09-22T17:14:55Z",
       "source_id": "simon-willison"
+    },
+    {
+      "title": "Anthropic Actually Fixed Opus",
+      "link": "https://www.youtube.com/watch?v=jgGyX7MPPVg",
+      "description": "",
+      "time": "2026-09-23T17:03:05Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "🚨🚨 TheStandup: Trash's Show And Tell and Casey Judges🚨🚨",
+      "link": "https://www.youtube.com/watch?v=y7CAI5IfCm8",
+      "description": "",
+      "time": "2026-09-23T14:39:18Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "They can’t take it anymore",
+      "link": "https://www.youtube.com/watch?v=iuccfEQgIeY",
+      "description": "",
+      "time": "2026-09-23T12:00:29Z",
+      "source_id": "the-primetime"
     }
   ]
 }
