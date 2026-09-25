@@ -7499,6 +7499,34 @@
       "description": "",
       "time": "2026-09-25T00:11:51Z",
       "source_id": "theo"
+    },
+    {
+      "title": "Made the Balls Detach on Pause",
+      "link": "https://www.youtube.com/watch?v=amgKXJObDTo",
+      "description": "",
+      "time": "2026-09-25T13:32:06Z",
+      "source_id": "tsoding-daily"
+    },
+    {
+      "title": "Northern Gannet, Great Blue Heron, California Brown Pelican",
+      "link": "https://simonwillison.net/2026/Sep/25/sighting-403293902/",
+      "description": "<p><img src=\"https://static.inaturalist.org/photos/740453177/large.jpg\" alt=\"Northern Gannet\"></p><p><img src=\"https://static.inaturalist.org/photos/740453341/large.jpg\" alt=\"Great Blue Heron\"></p><p><img src=\"https://static.inaturalist.org/photos/740454506/large.jpg\" alt=\"California Brown Pelican\"></p><p>Northern Gannet, Great Blue Heron, California Brown Pelican, in Monterey Bay National Marine Sanctuary, CA, US, CA</p><p>New 200-800mm Canon EF lens got me my best photo of <a href=\"https://simonwillison.net/2026/Aug/15/sighting-391300422/\">Morris</a> yet. They really like hanging out under that sign in the harbor!</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/photography\">photography</a>, <a href=\"https://simonwillison.net/tags/wildlife\">wildlife</a></p>",
+      "time": "2026-09-25T02:07:04Z",
+      "source_id": "simon-willison"
+    },
+    {
+      "title": "Note on 24th September 2026",
+      "link": "https://simonwillison.net/2026/Sep/24/harder/",
+      "description": "<p>The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder.</p>\n<p>We can do amazing things with them, but unlocking their full potential requires extraordinary discipline and knowledge.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+      "time": "2026-09-24T23:31:08Z",
+      "source_id": "simon-willison"
+    },
+    {
+      "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+      "link": "https://simonwillison.net/2026/Sep/17/hn-49747390/",
+      "description": "<p><a href=\"https://news.ycombinator.com/item?id=49746618#49747390\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49746618\">Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint</a> &mdash; Hacker News.</p><p>If you want to try out out the GGUFs from <a href=\"https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf#these-files-need-our-llamacpp-build\">https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf#th...</a> be aware that you need Prism's llama.cpp fork to get them to work, from <a href=\"https://github.com/PrismML-Eng/llama.cpp/releases/tag/prism-b10685-7dffb15\">https://github.com/PrismML-Eng/llama.cpp/releases/tag/prism-...</a></p>\n<p>This should work:</p>\n<pre><code>cd /tmp\n\n# Get the Prism macOS runtime\ncurl -fL https://github.com/PrismML-Eng/llama.cpp/releases/download/prism-b10685-7dffb15/llama-prism-b10685-7dffb15-bin-macos-arm64.tar.gz -o bonsai-runtime.tar.gz\ntar -xzf bonsai-runtime.tar.gz\n\n# Get the ~5.95 GB GGUF model:\ncurl -fL https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf/resolve/main/Ternary-Bonsai-2-27B-PTQ1_0.gguf -o Ternary-Bonsai-2-27B-PTQ1_0.gguf\n\n# Run the server, I used port 8331\n./llama-prism-b10685-7dffb15/llama-server \\\n  -m Ternary-Bonsai-2-27B-PTQ1_0.gguf \\\n  --port 8331 -ngl 99 -fa on -c 32768\n</code></pre>\n<p>Then open http://localhost:8331 for the (very good) baked in llama-server web UI... or run a prompt via the API like this:</p>\n<pre><code>uvx llm openai endpoint http://127.0.0.1:8331/v1 \\\n  --model bonsai-2-27b --responses hi\n</code></pre>\n<p>That's running at ~20 token/second for me on an M5 Pro (after a server restart I got 44 token/second, not sure why), but I'm pretty sure something isn't working right, on startup the server said \"<code>ggml_metal_device_init: - the tensor API is not supported in this environment - disabling</code>\".</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llama-cpp\">llama-cpp</a></p>",
+      "time": "2026-09-17T22:13:05Z",
+      "source_id": "simon-willison"
     }
   ]
 }
