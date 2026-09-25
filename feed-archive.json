@@ -7396,7 +7396,7 @@
       "source_id": "simon-willison"
     },
     {
-      "title": "Anthropic Actually Fixed Opus",
+      "title": "Wow.",
       "link": "https://www.youtube.com/watch?v=jgGyX7MPPVg",
       "description": "",
       "time": "2026-09-23T17:03:05Z",
@@ -7492,6 +7492,13 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a41\">datasette 1.0a41</a></p>\n        <p>Alec Garcia added <a href=\"https://docs.datasette.io/en/latest/internals.html#internals-telemetry\">support for OpenTelemetry</a> to Datasette in this release.</p>\n<p>I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now <a href=\"https://docs.datasette.io/en/latest/javascript_plugins.html#javascript-plugins-modals\">documented for other plugins to use</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/javascript\">javascript</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/web-components\">web-components</a>, <a href=\"https://simonwillison.net/tags/alex-garcia\">alex-garcia</a>, <a href=\"https://simonwillison.net/tags/opentelemetry\">opentelemetry</a></p>",
       "time": "2026-09-24T19:15:23Z",
       "source_id": "simon-willison"
+    },
+    {
+      "title": "Getting the most out of Opus 5.5",
+      "link": "https://www.youtube.com/watch?v=ejjBbaq9RmY",
+      "description": "",
+      "time": "2026-09-25T00:11:51Z",
+      "source_id": "theo"
     }
   ]
 }
