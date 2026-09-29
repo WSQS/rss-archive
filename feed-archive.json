@@ -7601,7 +7601,7 @@
     {
       "title": "Bluesky reply bot checker",
       "link": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/",
-      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/bluesky-bot-check\">Bluesky reply bot checker</a></p>\n        <p>Automated reply bots on Twitter are a <em>scourge</em> - as someone with a decent number of followers I attract a swarm of these, such that anything I post there attracts dozens of mindless automated replies.</p>\n<p>They've started manifesting on Bluesky as well.</p>\n<p>Unlike Twitter, Bluesky still has a freely available and useful API. The lack of such a thing doesn't slow down the bots, but it does make investigating them a lot more frustrating.</p>\n<p>So I had Opus 5.5 <a href=\"https://github.com/simonw/tools/pull/348\">vibe code this tool</a>, which examines any Bluesky profile for evidence of a likely reply bot.</p>\n<p>It looks for signals like replies posted within seconds of other posts from the same account, or accounts that never post their own content (or images or links) but instead consistently reply to messages from other, higher-follower users.</p>\n<p>It also looks for question marks, because I'm <em>extra</em> infuriated by reply bots that I no tie me to waste my time answering a question that no human ever posed.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/twitter\">twitter</a>, <a href=\"https://simonwillison.net/tags/bluesky\">bluesky</a>, <a href=\"https://simonwillison.net/tags/vibe-coding\">vibe-coding</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a></p>",
+      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/bluesky-bot-check\">Bluesky reply bot checker</a></p>\n        <p>Automated reply bots on Twitter are a <em>scourge</em> - as someone with a decent number of followers I attract a swarm of these, such that anything I post there attracts dozens of mindless automated replies.</p>\n<p>They've started manifesting on Bluesky as well.</p>\n<p>Unlike Twitter, Bluesky still has a freely available and useful API. The lack of such a thing doesn't slow down the bots, but it does make investigating them a lot more frustrating.</p>\n<p>So I had Opus 5.5 <a href=\"https://github.com/simonw/tools/pull/348\">vibe code this tool</a>, which examines any Bluesky profile for evidence of a likely reply bot.</p>\n<p>It looks for signals like replies posted within seconds of other posts from the same account, or accounts that never post their own content (or images or links) but instead consistently reply to messages from other, higher-follower users.</p>\n<p>It also looks for question marks, because I'm <em>extra</em> infuriated by reply bots that trick me into wasting my time answering a question that no human ever posed.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/twitter\">twitter</a>, <a href=\"https://simonwillison.net/tags/bluesky\">bluesky</a>, <a href=\"https://simonwillison.net/tags/vibe-coding\">vibe-coding</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a></p>",
       "time": "2026-09-27T18:41:44Z",
       "source_id": "simon-willison"
     },
@@ -7660,6 +7660,48 @@
       "description": "A Visual Guide to RNNs, CNNs, Transformers, and Calibration, with Hands-On Experiments on Accuracy and Efficiency",
       "time": "2026-09-29T10:50:25Z",
       "source_id": "sebastian-raschka"
+    },
+    {
+      "title": "Bliki: Sensible Default",
+      "link": "https://martinfowler.com/bliki/SensibleDefault.html",
+      "description": "<p>A Sensible Default is a practice that, absent some overriding context,\n  should be used when carrying out a certain kind of task. In software\n  development such sensible defaults might include things like “use version\n  control”, “separate UI logic from domain logic”, “automate deployment\n  pipelines”.</p>\n\n<p>The term “sensible default” is a deliberate contrast to “best practice”.\n  Folks dislike calling things “best practice” because that term implies a\n  general presumption that the best practice is something we should always\n  expect to do. A “sensible default”, however, is something that should be\n  reassessed in a new context, something that can (and should) be overridden\n  when circumstances change.</p>\n\n<p>I first heard the term when it was popularized within Thoughtworks by Evan\n  Bottcher. He got the name from talking to James Ross, and found the phrasing\n  appealing as carried the nuance he was seeking, a known-good starting\n  point.</p>\n\n<blockquote>\n<p>A sensible default is what we'd expect you to do, the practices to apply,\n    if there are no hard constraints in the environment. Do these practices, or\n    do better, and be prepared to explain why you've chosen some other way.</p>\n\n<p class=\"quote-attribution\">-- Evan Bottcher</p>\n</blockquote>\n\n<p>Thoughtworks has since made much of this concept, including <a href=\"https://www.thoughtworks.com/insights/topic/sensible-defaults\">publishing\n  a playbook</a> of the ones we use. We expect people to be familiar with these\n  defaults, ready to use them when starting any new piece of work. They are our\n  defaults because we've used them in many situations and found them to be\n  effective. But teams should also be familiar with their limitations, and able\n  to judge whether they should be changed depending on the particular\n  circumstances. As the <a href=\"https://agilemanifesto.org/principles.html\">twelfth agile principle</a>\n  says: “At regular intervals, the team reflects on how to become more\n  effective, then tunes and adjusts its behavior accordingly.” We also reassess\n  these defaults regularly - this is the heart of the <a href=\"https://www.thoughtworks.com/radar\">Thoughtworks Technology\n  Radar</a>.</p>\n\n<p class=\"p-sub\">Searching on the web led me to <a href=\"https://stevebennett.co/posts/the-power-of-sensible-defaults\">a post\n  from Steve Bennett on Sensible Defaults</a>. The post was written at about the\n  time Evan talked to James. I do not know whether it was where James got the\n  name from, or whether it appeared in parallel.</p>",
+      "time": "2026-09-29T13:43:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "OpenAI fights back",
+      "link": "https://www.youtube.com/watch?v=vu8X3YroB-w",
+      "description": "",
+      "time": "2026-09-29T17:44:20Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "Quoting Anthropic Frontier Red Team",
+      "link": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+      "description": "<blockquote cite=\"https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities\"><p>We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities\">Anthropic Frontier Red Team</a>, GLM-5.3 and the spread of advanced cyber capabilities</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a>, <a href=\"https://simonwillison.net/tags/glm\">glm</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+      "time": "2026-09-29T22:20:28Z",
+      "source_id": "simon-willison"
+    },
+    {
+      "title": "OpenAI DevDay 2026 live blog",
+      "link": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
+      "description": "<p>I'm at <a href=\"https://devday.openai.com/\">OpenAI DevDay</a> today, in Fort Mason, San Francisco. Same as <a href=\"https://simonwillison.net/2025/Oct/6/openai-devday-live-blog/\">last year</a> I'll be live blogging the keynote and some other notes during the day.</p>\n\n<p><em>OpenAI gave me a free ticket and a seat in the \"creator\" area for the keynote.</em></p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/live-blog\">live-blog</a>, <a href=\"https://simonwillison.net/tags/openai-devday\">openai-devday</a></p>",
+      "time": "2026-09-29T15:55:13Z",
+      "source_id": "simon-willison"
+    },
+    {
+      "title": "He Realized his Mistake",
+      "link": "https://www.youtube.com/watch?v=jF3W7EkXd4k",
+      "description": "",
+      "time": "2026-09-29T15:24:56Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "Getting A Date",
+      "link": "https://www.youtube.com/shorts/puF1i0162QU",
+      "description": "",
+      "time": "2026-09-29T13:06:48Z",
+      "source_id": "the-primetime"
     }
   ]
 }
