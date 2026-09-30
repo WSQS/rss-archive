@@ -350,7 +350,7 @@
       "title": "An Introduction To Plan Mode",
       "link": "https://www.aihero.dev/plan-mode-introduction",
       "description": "Learn how plan mode transforms AI coding agents. Iterate on requirements before writing code, build context, and get better results from tools like Claude Code.",
-      "time": "2026-01-09T12:55:21Z",
+      "time": "2026-09-30T15:55:01Z",
       "source_id": "matt-pocock-aihero"
     },
     {
@@ -7709,6 +7709,34 @@
       "description": "<p><a href=\"https://news.ycombinator.com/item?id=49896586#49898129\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49896586\">GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price</a> &mdash; Hacker News.</p><p>I'm a bit late with the pelicans because I was live-blogging the keynote: <a href=\"https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/\">https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv...</a></p>\n<p>Here they are for GPT-6.1-Sol: <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F4aa871683dae5c566129a6028fbc7f21\">https://tools.simonwillison.net/markdown-svg-renderer?url=ht...</a></p>\n<p>They're not notably different from the GPT-6 family pelicans: <a href=\"https://static.simonwillison.net/static/2026/gpt-pelicans-grid.html\">https://static.simonwillison.net/static/2026/gpt-pelicans-gr...</a></p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/gpt\">gpt</a></p>",
       "time": "2026-09-29T18:27:48Z",
       "source_id": "simon-willison"
+    },
+    {
+      "title": "Principles for effective slides",
+      "link": "https://martinfowler.com/articles/never-send-slides/slide-principles.html",
+      "description": "<div class = 'img-link'><a href = 'https://martinfowler.com/articles/never-send-slides/slide-principles.html'><img src = 'https://martinfowler.com/articles/never-send-slides/index/card.png' width = ''></img></a></div>\n\n<p>Not every presentation needs slides, but when they earn their place,\n      they work as a visual channel that complements the speaker rather than\n      replacing them. <b class = 'author'>Sumeet Gayathri Moghe</b> sets out the\n      principles that follow from that idea &#x2014; control over the rate of knowledge\n      exposition, tight coupling between slides and speaker, minimalism by\n      default, visuals that say more than words can, and never sending your\n      slides out in advance.</p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/never-send-slides/slide-principles.html'>more…</a></p>",
+      "time": "2026-09-30T14:14:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "He Built This City",
+      "link": "https://simonwillison.net/2026/Sep/30/he-built-this-city/",
+      "description": "<p>I visited the Museum of the City of New York today and got to see <a href=\"https://www.mcny.org/exhibition/he-built-city\">He Built This City: Joe Macken’s Model</a>, the 50 x27 feet model of the city built over a 21 year period from balsa wood and cardboard.</p>\n<p>It exceeded my already high expectations. The exhibition closes on 12th October so you should absolutely make a priority to see it if you get the chance.</p>\n<p><img alt=\"A wide shot of the model of the island of Manhattan, plus the edge of Brooklyn. It looks so great!\" src=\"https://static.simonwillison.net/static/2026-09-30/image_crop_4853x3640_w2427_q0.3.jpg\" /></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/museums\">museums</a>, <a href=\"https://simonwillison.net/tags/new-york\">new-york</a></p>",
+      "time": "2026-09-30T21:54:19Z",
+      "source_id": "simon-willison"
+    },
+    {
+      "title": "Photo Scrubber — local face blur & metadata removal",
+      "link": "https://simonwillison.net/2026/Sep/29/photo-scrubber/",
+      "description": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/photo-scrubber\">Photo Scrubber — local face blur &amp; metadata removal</a></p>\n        <p>I took a photograph of some protesters, then thought about how I don't like sharing photographs of strangers with identifiable faces. I <a href=\"https://github.com/simonw/tools/commit/aa733ecc3458d5703e3b40c84507ae362f5fb294\">had GPT-6 Astra build</a> this experimental tool that would identify faces and automatically blur them out.</p>\n<p>It uses Google's <a href=\"https://developers.google.com/edge/mediapipe/solutions/guide\">MediaPipe</a> C++ library, compiled to WebAssembly via <a href=\"https://www.npmjs.com/package/@mediapipe/tasks-vision\">@mediapipe/tasks-vision</a>, plus the <a href=\"https://sites.google.com/view/perception-cv4arvr/blazeface\">BlazeFace</a> face detection model.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/photography\">photography</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a></p>",
+      "time": "2026-09-29T16:45:27Z",
+      "source_id": "simon-willison"
+    },
+    {
+      "title": "We use MCP wrong",
+      "link": "https://www.youtube.com/shorts/GFCxdGd1emE",
+      "description": "",
+      "time": "2026-09-30T13:04:37Z",
+      "source_id": "the-primetime"
     }
   ]
 }
