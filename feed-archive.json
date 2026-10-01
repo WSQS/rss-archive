@@ -7720,7 +7720,7 @@
     {
       "title": "He Built This City",
       "link": "https://simonwillison.net/2026/Sep/30/he-built-this-city/",
-      "description": "<p>I visited the Museum of the City of New York today and got to see <a href=\"https://www.mcny.org/exhibition/he-built-city\">He Built This City: Joe Macken’s Model</a>, the 50 x27 feet model of the city built over a 21 year period from balsa wood and cardboard.</p>\n<p>It exceeded my already high expectations. The exhibition closes on 12th October so you should absolutely make a priority to see it if you get the chance.</p>\n<p><img alt=\"A wide shot of the model of the island of Manhattan, plus the edge of Brooklyn. It looks so great!\" src=\"https://static.simonwillison.net/static/2026-09-30/image_crop_4853x3640_w2427_q0.3.jpg\" /></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/museums\">museums</a>, <a href=\"https://simonwillison.net/tags/new-york\">new-york</a></p>",
+      "description": "<p>I visited the Museum of the City of New York today and got to see <a href=\"https://www.mcny.org/exhibition/he-built-city\">He Built This City: Joe Macken’s Model</a>, the 50 x27 feet model of the city built over a 21 year period from balsa wood and cardboard.</p>\n<p>It exceeded my already high expectations. The exhibition closes on 12th October so you should absolutely make a priority to see it if you get the chance.</p>\n<p><video\n  src=\"https://static.simonwillison.net/static/2026-10-01/He-built-this-city-medium.mp4\"\n  poster=\"https://static.simonwillison.net/static/2026-10-01/IMG_8545.jpeg\"\n  preload=\"none\"\n  loop controls\n  playsinline muted\n  width=\"1280\"\n  height=\"720\"\n  style=\"display: block; width: 100%; height: auto;\"\n></video>\n</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/museums\">museums</a>, <a href=\"https://simonwillison.net/tags/new-york\">new-york</a></p>",
       "time": "2026-09-30T21:54:19Z",
       "source_id": "simon-willison"
     },
@@ -7751,6 +7751,13 @@
       "description": "",
       "time": "2026-10-01T13:09:06Z",
       "source_id": "the-primetime"
+    },
+    {
+      "title": "I tried GameMaker and instantly got GOTY",
+      "link": "https://www.youtube.com/watch?v=BUCOT7Bt0F0",
+      "description": "",
+      "time": "2026-10-01T16:30:10Z",
+      "source_id": "tsoding-daily"
     }
   ]
 }
