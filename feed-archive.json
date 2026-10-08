@@ -8024,6 +8024,13 @@
       "description": "<blockquote cite=\"https://www.youtube.com/watch?v=HzraLR2VkNM&amp;t=2259s\"><p>I've always been kind of into computers since I was young. And then when film started to move from analog film to digital, I became more interested in that aspect of it. And the visual effects workflow for many years has included machine learning.</p>\n<p>So I can write like pretty shitty Python scripts and stuff like that because with convolutional neural networks, which were the sort of precursors to what the transformer can do, which is just much more computation simultaneously, you would do things like look at what's called a tensor, which is just the numerical translation of a visual image in numbers — like the batch number, the frame number, the red, green, and blue values of each pixel in each frame. </p>\n<p>And a tensor, you use a convolutional neural network to identify patterns in that that would reveal what's called edge detection or feature extraction, which is just identifying patterns enough to know like this is where the window ledge is, so we can more easily take the green screen image out and replace it with something.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.youtube.com/watch?v=HzraLR2VkNM&amp;t=2259s\">Ben Affleck</a>, Pythonista</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/machine-learning\">machine-learning</a>, <a href=\"https://simonwillison.net/tags/python\">python</a></p>",
       "time": "2026-10-07T23:14:58Z",
       "source_id": "simon-willison"
+    },
+    {
+      "title": "Quoting Carson Gross",
+      "link": "https://simonwillison.net/2026/Oct/8/carson-gross/",
+      "description": "<blockquote cite=\"https://htmx.org/essays/yes-and/\"><p>Computer programming is, fundamentally, about two things:</p>\n<ul>\n<li>Problem-solving using computers</li>\n<li>Learning to control complexity while solving these problems</li>\n</ul>\n<p>I have a hard time imagining a future where knowing how to solve problems with computers and how to control the complexity of those solutions is <em>less</em> valuable than it is today, so I think it will continue to be a viable career even with the advent of AI tools.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://htmx.org/essays/yes-and/\">Carson Gross</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/computer-science\">computer-science</a>, <a href=\"https://simonwillison.net/tags/carson-gross\">carson-gross</a>, <a href=\"https://simonwillison.net/tags/careers\">careers</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a></p>",
+      "time": "2026-10-08T21:05:44Z",
+      "source_id": "simon-willison"
     }
   ]
 }
