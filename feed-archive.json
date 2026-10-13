@@ -8171,6 +8171,34 @@
       "description": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-ports/releases/tag/0.4\">datasette-ports 0.4</a></p>\n        <p>My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PID makes it easier to <a href=\"https://simonwillison.net/2026/Oct/12/python-3-15/#a-sampling-profiler\">attach the new Python 3.15 profiler</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
       "time": "2026-10-12T04:57:07Z",
       "source_id": "simon-willison"
+    },
+    {
+      "title": "The Craft of Practitioner Voice",
+      "link": "https://martinfowler.com/articles/practitioner-voice.html#TheCraftOfPractitionerVoice",
+      "description": "<p>A couple of months ago <b class = 'author'>Jim Highsmith</b> explained how\n      practitioners writing for each other forms a distinct style of writing. He\n      now adds a section to the article with more detail on the craft of how we\n      write in this style. How the writer shows up in the prose, its four\n      principles, the role of story, how to sensibly use AI, three levels of\n      editing, and clarity of the audience.</p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/practitioner-voice.html#TheCraftOfPractitionerVoice'>more…</a></p>",
+      "time": "2026-10-13T14:06:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Are Harnesses Worth the Cost?",
+      "link": "https://martinfowler.com/articles/are-harnesses-worth-the-cost.html",
+      "description": "<div class = 'img-link'><a href = 'https://martinfowler.com/articles/are-harnesses-worth-the-cost.html'><img src = 'https://martinfowler.com/articles/exploring-gen-ai/donkey-card.png' width = ''></img></a></div>\n\n<p><b class = 'author'>Naresh Jain</b> compares coding agents building the same\n      API service with and without a behavioral harness. A frontier model, GPT-6\n      Sol, passed every external evaluation either way. But a cost-optimized\n      model, GPT-6 Luna, succeeded in only 3 of 10 unharnessed runs and all 10\n      with the harness. While adding the harness increased token usage and\n      runtime for Luna, the harnessed Luna runs achieved the same 10-for-10\n      reliability as GPT-6 Sol while costing 33% less per run ($0.273 vs\n      $0.406). This experiment suggests a behavioral harness might be a\n      practical way to get dependable results from smaller, cost-optimized\n      models.</p>\n\n<p><a class = 'more' href = 'https://martinfowler.com/articles/are-harnesses-worth-the-cost.html'>more…</a></p>",
+      "time": "2026-10-13T13:35:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Meta just caught up with Anthropic",
+      "link": "https://www.youtube.com/watch?v=DbWL6Zs2j_g",
+      "description": "",
+      "time": "2026-10-13T11:01:13Z",
+      "source_id": "theo"
+    },
+    {
+      "title": "Quoting Geoffrey Huntley",
+      "link": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+      "description": "<blockquote cite=\"https://ghuntley.com/agency/\"><p>If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail the commit, inject a prompt telling the agent to use the diagnostics library. All of a sudden it's ten out of ten.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://ghuntley.com/agency/\">Geoffrey Huntley</a>, nobody should type code by hand anymore. here's what's left.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/git\">git</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/geoffrey-huntley\">geoffrey-huntley</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+      "time": "2026-10-13T13:32:00Z",
+      "source_id": "simon-willison"
     }
   ]
 }
