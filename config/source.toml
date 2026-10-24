@@ -49,3 +49,7 @@ feed_url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCUyeluBRhGPCW4r
 [[source]]
 id = "jonhoo"
 feed_url = "https://www.youtube.com/feeds/videos.xml?channel_id=UC_iD0xppBwwsrM9DegC5cQQ"
+
+[[source]]
+id = "engineering-enablement"
+feed_url = "https://newsletter.getdx.com/feed"
