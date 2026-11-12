@@ -720,441 +720,441 @@
       "title": "AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary",
       "description": "The vocabulary of AI coding, translated into plain English for engineers.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Model | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/model",
       "description": "The parameters. Stateless — does next-token prediction and nothing else. Cannot do anything agentic on its own.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Parameters | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/parameters",
       "description": "The numbers inside a model — often billions — tuned during training. Everything the model knows lives in them. Also called weights.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Training | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/training",
       "description": "The process that sets a model's parameters by exposing it to vast amounts of text and adjusting to improve next-token prediction.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Inference | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/inference",
       "description": "Running a trained model to generate output — what happens on every model provider request. Parameters stay fixed.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Token | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/token",
       "description": "The atomic unit a model reads and writes. Roughly word-sized but not exactly. Context window size, cost, and latency all count tokens.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Next-token prediction | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/next-token-prediction",
       "description": "What the model actually does. Samples one next token from the context, appends it, and runs again. Its only mode of operation.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Non-determinism | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/non-determinism",
       "description": "The same input can produce different output. A property of how models generate text and how providers serve requests.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Model provider | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/model-provider",
       "description": "Whatever serves a model for inference. Usually remote (Anthropic, OpenAI, Google), but can also be local (Ollama, llama.cpp).",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Harness | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/harness",
       "description": "Everything around the model that turns it into an agent: tools, system prompt, context-window management, permissions, hooks.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Model provider request | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/model-provider-request",
       "description": "One round-trip from the harness to the model provider. The harness sends context; the provider returns one response.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Input tokens | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/input-tokens",
       "description": "Tokens the harness sends on each model provider request. Billed at a lower rate than output tokens.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Output tokens | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/output-tokens",
       "description": "Tokens the model generates back. Billed at a higher rate than input tokens, since they cost more compute to produce.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Prefix cache | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/prefix-cache",
       "description": "The provider-side store that lets consecutive requests skip re-processing a shared prefix, billing those tokens at a lower rate.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Cache tokens | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/cache-tokens",
       "description": "Input tokens the provider has cached from a previous request via its prefix cache, billed at a much lower rate.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Stateless | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/stateless",
       "description": "Carries no information forward. The model is stateless across requests; an agent is stateless across sessions by default.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Context | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/context",
       "description": "The relevant information the agent has access to right now — what the agent knows that's pertinent to the task.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Context window | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/context-window",
       "description": "Everything the model sees on each model provider request. Finite, model-specific, the only surface through which the model perceives.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Stateful | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/stateful",
       "description": "Carries information forward. Sessions are stateful across turns; agents can be made stateful across sessions via a memory system.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Agent | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/agent",
       "description": "A model harnessed with tools, a system prompt, and a context window, that takes turns with a user. The model in motion.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "System prompt | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/system-prompt",
       "description": "The instructions the harness prepends to every model provider request — the agent's standing brief. Usually stable across a session.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Session | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/session",
       "description": "One bounded run of interaction with an agent. Starts empty, accumulates, ends when cleared, closed, or compacted into a fresh session.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Turn | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/turn",
       "description": "One user message plus everything the agent does in response, up until it yields back to the user. Contains one or more provider requests.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Environment | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/environment",
       "description": "The world the agent acts on — anything outside the harness that the agent perceives via tool results and changes via tool calls.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Filesystem | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/filesystem",
       "description": "A tree of files and directories the agent reads from, writes to, and executes within — the default environment for a coding agent.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Tool | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/tool",
       "description": "A function the harness exposes for the agent to call — Read, Write, Bash, Search. How an agent perceives and acts on the environment.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Tool call | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/tool-call",
       "description": "The model's output naming a tool and its arguments — just structured text. The harness has to read it and execute.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Tool result | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/tool-result",
       "description": "What the harness sends back after executing a tool call — file contents, output, or error. The agent's only view of the environment.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "MCP | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/mcp",
       "description": "A protocol for plugging external tool servers into a harness — how an agent gets tools beyond what the harness ships with.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Permission request | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/permission-request",
       "description": "What the harness shows the user before executing a tool call that isn't pre-approved. The mechanism for putting a human in the loop.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Permission mode | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/permission-mode",
       "description": "The permission-gating slice of an agent mode — which tool calls trigger a permission request and which run automatically.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Agent mode | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/agent-mode",
       "description": "A preset bundling a permission mode with behavioral instructions injected into the system prompt. Can flip mid-session.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Sandbox | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/sandbox",
       "description": "An isolated environment the agent runs inside — container, VM, or restricted shell. Limits the blast radius of agent actions.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Sycophancy | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/sycophancy",
       "description": "Confidently agreeable model output. Caused by training that shaped the model to favor answers humans liked — including agreement.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Hallucination | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/hallucination",
       "description": "Confidently-wrong model output. Two flavors: factuality (invented facts) and faithfulness (drift from loaded context).",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Parametric knowledge | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/parametric-knowledge",
       "description": "What the model knows from training, stored in its parameters. Frozen at training time. Counterpart to contextual knowledge.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Knowledge cutoff | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/knowledge-cutoff",
       "description": "The date past which a model has no parametric knowledge. Post-cutoff libraries and APIs are fabrication traps unless docs are loaded.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Contextual knowledge | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/contextual-knowledge",
       "description": "Facts the agent can read directly from the context right now. Counterpart to parametric knowledge.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Attention relationship | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/attention-relationship",
       "description": "The pairing between two tokens — meaningful pairs influence each other more than unrelated ones. A context of N tokens has ~N² of these.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Attention budget | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/attention-budget",
       "description": "Each token has a finite amount of influence to distribute across the rest of the context. Per-token, doesn't grow when context does.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Attention degradation | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/attention-degradation",
       "description": "As a session grows, each token's attention budget spreads across more competitors; signal on meaningful relationships shrinks.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Smart zone | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/smart-zone",
       "description": "Early in a session the agent is sharp and focused. As the session grows it drifts into a dumb zone: sloppier, forgetful, more mistakes.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Clearing | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/clearing",
       "description": "Ending the current session and starting a fresh one. The next message begins with an empty session and an empty context window.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Handoff | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/handoff",
       "description": "Transferring agent context from one session to another, with no return path. Carry mechanism varies — artifact, compaction, others.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Handoff artifact | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/handoff-artifact",
       "description": "A document used as the carry mechanism for a handoff — written by one session to be read by another.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Spec | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/spec",
       "description": "A handoff artifact describing a multi-session piece of work — what's being built, not how each session does its share. Made of tickets.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Ticket | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/ticket",
       "description": "A handoff artifact scoping one session of work. Stands alone or hangs off a spec. Can block or be blocked by sibling tickets.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Compaction | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/compaction",
       "description": "A handoff done in-memory: the previous session's history is summarised and seeds a fresh session. Lossy — detail traded for headroom.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Autocompact | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/autocompact",
       "description": "Compaction triggered automatically by the harness when the context window approaches full.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Memory system | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/memory-system",
       "description": "A system that attempts to make an agent stateful across sessions by persisting to the environment and reloading at session start.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "AGENTS.md | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/agents-md",
       "description": "A file in the environment that the harness loads into the context window at session start — the project's standing brief to the agent.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Progressive disclosure | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/progressive-disclosure",
       "description": "Loading only the context an agent needs right now, with context pointers to the rest. Borrowed from UI design.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Context pointer | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/context-pointer",
       "description": "A mention in one document that points to another, so the agent can pull it into context only when the task calls for it.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Skill | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/skill",
       "description": "A teachable capability bundled as a unit — kept out of the context window until a context pointer pulls it in for the task at hand.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Subagent | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/subagent",
       "description": "An agent spawned by another agent via a tool call. Runs in its own session, reports a single tool result. Cannot spawn further subagents.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Human-in-the-loop | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/human-in-the-loop",
       "description": "A working pattern where one or more humans pair with the agent during a session — reviewing, redirecting, or collaborating in real time.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "AFK | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/afk",
       "description": "A working pattern where the user kicks off a session and leaves the agent to run unattended (away from keyboard).",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Automated check | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/automated-check",
       "description": "A deterministic verification that runs in the environment — tests, type checks, lints, build, pre-commit hooks. Pass/fail, no judgement.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Automated review | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/automated-review",
       "description": "An agent reviewing another agent's work, often with a different model or system prompt. Non-deterministic: it forms a judgement.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Human review | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/human-review",
       "description": "The user reading the code the agent produced and forming a judgement on it. Reading the diff counts; reading the summary doesn't.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Vibe coding | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/vibe-coding",
       "description": "A working pattern where the user accepts the agent's code without human review. The diff is treated as opaque.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Design concept | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/design-concept",
       "description": "The shared understanding of what's being built, held in common between user and agent but separate from any asset.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Grilling | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/grilling",
       "description": "A technique for developing a design concept: the agent interviews the user Socratically, one decision at a time.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
@@ -1497,42 +1497,42 @@
       "title": "AI | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/ai",
       "description": "A moving label, not a technology. Points at whatever computers can newly, impressively do — right now, large language models.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Primary source | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/primary-source",
       "description": "The thing itself — code, transcripts, raw data. Complete and authoritative, but expensive to load into context.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Secondary source | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/secondary-source",
       "description": "An account of a primary source, one step removed — summaries, docs, compaction summaries. Cheap to load, lossy by construction.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Prototyping | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/prototyping",
       "description": "Having the agent build a quick, rough version when conversation is too low-fidelity and you need a real artifact to talk about.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "DX | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/dx",
       "description": "Developer experience: how easy a codebase and its toolchain make it for humans to do good work — docs, feedback speed, errors.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "AX | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/ax",
       "description": "Agent experience: how well the environment is set up for an agent to do good work — checks, architecture, and free context.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
@@ -1994,7 +1994,7 @@
       "title": "Effort | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/effort",
       "description": "A dial for how much reasoning the model does before it answers. More effort spends more output tokens for a better shot at hard problems.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
@@ -7440,14 +7440,14 @@
       "title": "Software factory | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/software-factory",
       "description": "A system of work where triggers, not humans, start agent sessions, so more work runs AFK and HITL time is saved for what needs it.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
       "title": "Dark factory | AI Coding Dictionary",
       "link": "https://www.aihero.dev/ai-coding-dictionary/dark-factory",
       "description": "A codebase, or part of one, where a software factory writes the code and no human ever reviews it.",
-      "time": "2026-09-24T11:59:36Z",
+      "time": "2026-11-12T11:10:20Z",
       "source_id": "matt-pocock-aihero"
     },
     {
@@ -9222,7 +9222,7 @@
       "source_id": "martin-fowler"
     },
     {
-      "title": "Gemini 4 Still Isn't What I Need (Yet)",
+      "title": "Progress?",
       "link": "https://www.youtube.com/watch?v=OBNVzWYMKbE",
       "description": "",
       "time": "2026-11-11T15:50:36Z",
@@ -9269,6 +9269,41 @@
       "description": "<p><strong><a href=\"https://github.com/aws/aws-emulator\">aws-emulator</a></strong></p>\nFinally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so.</p>\n<p>It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about <a href=\"https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html\">how it came to be</a> in a guest post on Werner Vogels' blog.</p>\n<p>It currently requires Docker to run on macOS or Windows. I'm hoping they fix that in the future - it would be great if you could download a single binary and use that as part of a standard test suite in other languages and on other platforms.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/amazon\">amazon</a>, <a href=\"https://simonwillison.net/tags/amazon-web-services\">amazon-web-services</a>, <a href=\"https://simonwillison.net/tags/testing\">testing</a>, <a href=\"https://simonwillison.net/tags/werner-vogels\">werner-vogels</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/rust\">rust</a>, <a href=\"https://simonwillison.net/tags/docker\">docker</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a></p>",
       "time": "2026-11-11T21:18:30Z",
       "source_id": "simon-willison"
+    },
+    {
+      "title": "The Home Repo Pattern",
+      "link": "https://www.aihero.dev/the-home-repo-pattern",
+      "description": "One repo for your skills, AGENTS.md and shared docs, with pointers to your other repos. A reference, with a setup prompt you can copy.",
+      "time": "2026-11-12T11:17:27Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Home Repo | AI Coding Dictionary",
+      "link": "https://www.aihero.dev/ai-coding-dictionary/home-repo",
+      "description": "One repo that holds your skills, AGENTS.md and shared docs, and points at your other repos. You run your agent from it.",
+      "time": "2026-11-12T11:10:20Z",
+      "source_id": "matt-pocock-aihero"
+    },
+    {
+      "title": "Bliki: Generated Glossary",
+      "link": "https://martinfowler.com/bliki/GeneratedGlossary.html",
+      "description": "<p>When we use LLMs in a specialized domain, such as the operations of any\n  reasonably-large organization, there is a lot of specialized vocabulary. Such\n  words and specialized meanings will be foreign to an LLM because they aren't\n  in its training set, making it harder for the LLM to be effective when doing\n  tasks in that domain. One technique to aid this is to use an LLM to generate a\n  glossary of the terminology in that domain, and make this glossary available\n  for any LLMs doing work in those circumstances.</p>\n\n<p>The sources for the LLM can be any material within the organization\n  concerned such as documents, emails, and chat logs. In some cases getting\n  transcripts of audio or video may be helpful, although most organizations\n  generate enough text to do the job.</p>\n\n<p>The glossary-generating LLM should look for single words, and phrases of\n  several words that regularly hang out together to form a meaningful term. The\n  generator should be asked to identify terms that are new to it, but also known\n  terms that are being used in unfamiliar ways. The latter can often cause the\n  most confusion.</p>\n\n<p>Once we have a list of specialized vocabulary we can ask the agent to\n  produce a glossary, with definitions for each term. Some terms may\n  be used in different ways, in which case the LLM should provide alternative\n  definitions, with a note as to what context the differences appear in. The LLM\n  can be asked to follow the output format of a dictionary, with a focus on\n  precision and conciseness.</p>\n\n<p>Once we have a draft glossary, then  human experts in that domain should\n  review it, and amend it for cases where the LLM has got the wrong ends of\n  sticks.</p>\n\n<p>We then put the glossary somewhere where any other LLM can use it. It\n  should be in a form that's easy for the LLM to consult, and minimize the\n  tokens the LLM should consume in order to find meaning. We should set up a\n  schedule to review and refresh the glossary at regular intervals, by agents\n  and humans. We should keep it in version control, so we can see how it changes\n  over time.</p>\n\n<p>Large organizations often have subtly different definitions in different\n  places, essentially following the <a href=\"/bliki/DomainDrivenDesign.html\">Domain Driven Design</a> notion\n  of <a href=\"/bliki/BoundedContext.html\">Bounded Context</a>. Source code can be a particularly\n  interesting bounded context, allowing folks to understand how terminology is\n  used within a code base. Sometimes a single glossary can span several of\n  bounded contexts, but at other times it's better to have separate glossaries\n  for each one, allowing LLMs to consult whichever glossaries that are relevant\n  to what they are doing. I'd urge everyone to resist any temptation to create a\n  single, standard, glossary - I've yet to see that work. Often the value of a\n  glossary isn't to nail down a single definition of a term, but instead to\n  highlight its different usage in different contexts.</p>\n\n<p>When there are different bounded contexts it can be interesting to compare\n  different glossaries, or to get LLMs to compare glossaries and describe\n  differences in usage. Comparing a source-code derived glossary to a human text\n  can be particularly instructive.</p>\n\n<p>If the glossary is large, it can be worthwhile to only include the terms\n  and links to definitions as part of the initial context. The model can then\n  use the links for only the full definitions it needs while working.</p>\n\n<p>A glossary can be used in several ways within <a href=\"/bliki/AgenticEngineering.html\">Agentic Engineering</a>. Glossaries can inform generation of code, so that\n  names within the generated software fit the particular vocabulary of the\n  enterprise. <a href=\"/articles/harness-engineering.html\">Sensors in a\n  harness</a> can check for this usage, both in the internals of the software\n  and in the user-interface.</p>\n\n<p>When generating code or documents, we may introduce new bounded contexts.\n  For example, internal names that may be used within an organization should not\n  be exposed in a customer-facing UI, because such internal terms are likely to be\n  only confuse a customer. In this case a customer has a different bounded\n  context to the part of the enterprise serving them.</p>\n\n<p>It's often useful for glossaries to include terms that should not be used,\n  in which case it includes advice on what other term to use instead. Terms that\n  are deprecated can be handled in this way, with glossary entries that indicate\n  what period of time a term should be in effect.</p>\n\n<p>In my conversations with people working with agents in large organizations,\n  a common theme is the difficulty of specialized language. This encourages the\n  activities of domain modeling, building ontologies, and constructing explicit\n  <a href=\"/articles/making-data-ready-for-agentic-ai.html#context-layer\">context\n  layers in enterprise data</a>. Getting LLMs to generate a glossary is a\n  simple, but useful, part of this work.</p>\n\n<div class=\"acknowledgements\">\n<h2>Acknowledgements</h2>\n\n<p>Eric Nagler and Unmesh Joshi related their experiences doing this\n    activity and thus inspired this post. Amy Pellegrini, Annie Luxton, Arun Srinivasan, Chris Ford, Daniel\n    Terhorst-North, Dave Farley, Eric Nagler, James Shore, Jason Yip, Jimmy Nilsson, Matteo Vaccari, Michaël Le Barbier, Pete Hodgson, Pramod\n    Sadalage, Ravi Vats, Unmesh Joshi, and Valentyn Logvynskyi commented on drafts.\n    </p>\n</div>",
+      "time": "2026-11-12T14:15:00Z",
+      "source_id": "martin-fowler"
+    },
+    {
+      "title": "Finally AI is making new Jobs",
+      "link": "https://www.youtube.com/watch?v=kUBTjJehO34",
+      "description": "",
+      "time": "2026-11-12T17:36:47Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "Inside the DevEx Metrics Compass with André Meyer",
+      "link": "https://newsletter.getdx.com/p/inside-the-devex-metrics-compass",
+      "description": "Researcher Andr&#233; Meyer shares how teams can measure AI&#8217;s impact beyond adoption, choose meaningful productivity metrics, and understand what makes developers&#8217; work rewarding.",
+      "time": "2026-11-12T16:49:03Z",
+      "source_id": "engineering-enablement"
     }
   ]
 }
