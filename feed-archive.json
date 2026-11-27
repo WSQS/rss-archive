@@ -9738,6 +9738,20 @@
       "description": "<p><a href=\"https://news.ycombinator.com/item?id=50647673#50651685\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=50647673\">The New York Times warns photographers not to update Photoshop over AI features</a> &mdash; Hacker News.</p><p>I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my shirt and they said absolutely not - they present photographs as they were taken, with cropping and balancing applied but no edits beyond that.</p>\n<p>He did spend a bunch of time trying to find the best possible natural lighting for the shots he wanted.</p>\n<p>The photo at the top of <a href=\"https://www.nytimes.com/2026/02/02/technology/moltbook-ai-social-media.html\">https://www.nytimes.com/2026/02/02/technology/moltbook-ai-so...</a> is my laptop, taken in my garden, after hunting around for the best spot that didn't have too much glare on the screen. You can see how dirty my screen is, too!</p>\n<p>Photography for a newspaper is photo journalism, and they take it seriously.</p>\n<p>(Thankfully I did not have a visible stain on my shirt.)</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/photography\">photography</a>, <a href=\"https://simonwillison.net/tags/new-york-times\">new-york-times</a>, <a href=\"https://simonwillison.net/tags/hacker-news\">hacker-news</a>, <a href=\"https://simonwillison.net/tags/journalism\">journalism</a></p>",
       "time": "2026-11-26T05:08:46Z",
       "source_id": "simon-willison"
+    },
+    {
+      "title": "Scaling Slop",
+      "link": "https://www.youtube.com/watch?v=a08FsiUbXqI",
+      "description": "",
+      "time": "2026-11-27T14:00:29Z",
+      "source_id": "the-primetime"
+    },
+    {
+      "title": "Where does the time gained from using AI really go? | Nathan Hunt (Snowflake) ",
+      "link": "https://newsletter.getdx.com/p/where-does-the-time-gained-from-using",
+      "description": "Snowflake&#8217;s Nathan Hunt explains where the time developers save with AI goes, why code review is becoming a bottleneck, and how teams can use those gains to make room for innovation.",
+      "time": "2026-11-27T15:37:58Z",
+      "source_id": "engineering-enablement"
     }
   ]
 }
